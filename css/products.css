@@ -15,7 +15,7 @@ body{background:rgb(225,222,222);
 		overflow:auto;
 	}
 	
-b{font-weight:normal;}
+b{font-weight:normal !important;}
 
 
 #mobilenav{display:none;}
