@@ -1,0 +1,1167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin:0; padding:0;}
+a img {border:0;}
+a {outline:0;text-decoration:none;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+em {font-style:normal;
+	font-weight:normal;} 
+.clearfix {clear:both;}
+
+body{background:rgb(225,222,222);
+		min-width:305px;
+		min-height:400px;
+		overflow:auto;
+	}
+	
+nav p{color:#fff;}
+
+h1#mobile{display:none;}
+
+#mobilenav{display:none;}
+	
+#mobilelogo{display:none;}
+
+
+body{background:rgb(225,222,222);
+		min-width:305px;
+		min-height:480px;
+		}
+		
+@media (min-width:1200px){
+	
+#container{width:1150px;
+			margin:0 auto;}
+	
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:1150px;
+			min-height:480px;
+			margin:0 auto;
+			
+		}
+		
+#benefits{background:#fff;
+			width:1150px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:2.5em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:40px;
+			line-height:2em;
+			font-size:1.5em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:1150px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					line-height:2em;
+					font-size:1.5em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					font-size:1em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.5em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:1150px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					line-height:2em;
+					font-size:1.5em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+		
+
+
+/*#########################content_end#####################*/
+
+
+
+}
+		
+@media (min-width:975px) and (max-width:1199px){
+	
+#container{width:940px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:940px;
+			min-height:480px;
+			margin:0 auto;
+			}
+		
+
+
+		
+#benefits{background:#fff;
+			width:940px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:2.3em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:40px;
+			line-height:2em;
+			font-size:1.5em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:940px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					line-height:2em;
+					font-size:1.5em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					font-size:1em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.5em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:940px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					line-height:2em;
+					font-size:1.2em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+		
+		
+/*#########################content_end#####################*/
+
+
+}
+
+
+@media (min-width:900px) and (max-width:974px){
+	
+#container{width:850px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:850px;
+			min-height:480px;
+			margin:0 auto;
+			}
+		
+#benefits{background:#fff;
+			width:850px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:2.1em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:40px;
+			line-height:2em;
+			font-size:1.5em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:850px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					line-height:2em;
+					font-size:1.5em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					font-size:1em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.5em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:850px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					line-height:2em;
+					font-size:1.2em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+		
+/*#########################content_end#####################*/
+
+}
+
+
+@media (min-width:769px) and (max-width:899px){
+	
+#container{width:730px;
+			margin:0 auto;}
+	
+/*#########################header_start#####################*/
+		
+header{background:#fff;
+		height:72px;
+		margin-top:10px;
+		margin-bottom:1px;
+		position:relative;}
+		
+#usgslogo{	width:178px;
+			height:72px;
+			position:absolute;
+			left:0;}
+			
+#banner{float:left;
+		height:72px;
+		width:90%;
+		background:#000;}
+			
+#banner img{position:absolute;
+			left:175px;}
+		
+#headernav{background:#000;
+			width:124px;
+			height:62px;
+			position:absolute;
+			right:0;
+			color:#fff;
+			padding:5px 10px;
+			line-height:1.2em;
+			}
+			
+#headernav ul{ list-style-type:none;
+				font-family:"PT Sans Narrow";
+				padding-top:2px;
+				}
+				
+#headernav a{color:#fff;
+			font-size:1.1em;
+			-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;}
+			
+#headernav a:hover{color:rgb(15,65,111); }
+			
+/*#########################header_end#####################*/
+
+/*#########################nav_start#####################*/
+
+nav{background:rgb(15,65,111);
+	height:58px;
+	font-family:"PT Sans Narrow";
+	color:#fff;
+	position:relative;
+	margin-bottom:10px;
+		}
+		
+nav p{padding: 12px 10px;
+		font-size:1.6em;
+		float:left;}
+		
+nav ul{display:block;
+	list-style-type:none;
+	padding-top:15px;
+	position:absolute;
+	right:0;
+	}
+
+nav ul li{float:left;
+			
+			}
+
+nav ul li a{color:#fff;
+			margin-right:3px;
+			font-size:1.4em;
+			-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;
+			padding:16px 10px;
+			}
+			
+
+				
+nav ul li a:hover{color:rgb(15,65,111);
+					background:#fff;}
+					
+nav ul li ul{display:none;
+			z-index:5000;
+			text-align:left;
+			}
+			
+
+			
+nav ul li:hover ul{/*hovering over parents affects the child*/
+			display:block;/*makes sub items visible*/
+			position:absolute;/*prevents content from shifting*/
+			z-index:5000;		
+			right:167px
+			}
+			
+nav ul li:hover ul li{	
+						float:none;/*forces subitems to stack*/
+						height:30px;
+						
+												
+						
+						}
+						
+nav ul li:hover ul li a{font-weight:normal;
+						background:rgba(50,50,50,.9);
+						width:115px;
+						padding: 0 5px;
+						display:block;
+						height:30px;
+						
+						
+						}
+						
+nav ul li:hover ul li a:hover{
+								background:rgb(15,65,111);
+								color:#fff;
+								}
+			
+			
+/*#########################nav_end#####################*/
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:730px;
+			min-height:480px;
+			margin:0 auto;
+			
+			
+		
+		}
+		
+		
+#benefits{background:#fff;
+			width:730px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:1.8em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:40px;
+			line-height:2em;
+			font-size:1.4em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:730px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					line-height:2em;
+					font-size:1.5em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					font-size:1em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.4em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:730px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1.1em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+		
+/*#########################content_end#####################*/
+
+}
+
+@media (min-width:686px) and (max-width:768px){
+	
+#container{width:650px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:650px;
+			min-height:480px;
+			margin:0 auto;
+			}
+		
+#benefits{background:#fff;
+			width:650px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:1.6em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:40px;
+			line-height:2em;
+			font-size:1.3em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:650px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					line-height:2em;
+					font-size:1.5em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:40px;
+					font-size:.9em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.4em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:650px;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1.1em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+/*#########################content_end#####################*/
+
+}
+
+/*################mobile##############*/
+
+/*################landscape###########*/
+
+/*################samsunggalaxy#######*/
+@media (min-width:569px) and (max-width:685px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#mobileheader{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+/*##############content###################*/	
+
+#benefits{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{display:none;}
+				
+#benefits h1#mobile{display:block !important;
+				font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:2.5em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:10px;
+			line-height:2em;
+			font-size:1.2em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1.2em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					font-size:.8em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.4em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1.1em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+					
+}
+
+/*###############Iphone5##############*/
+@media (min-width:481px) and (max-width:568px){
+	
+header{display:none;}
+
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+
+
+/*##############content###################*/	
+
+#benefits{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{display:none;}
+				
+#benefits h1#mobile{display:block !important;
+				font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:2.5em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:10px;
+			line-height:2em;
+			font-size:1.2em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					font-size:.8em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.4em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1.1em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+					
+
+	
+	}
+
+/*###############Iphone4#############*/
+@media (min-width:381px) and (max-width:480px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+
+/*##############content###################*/	
+
+#benefits{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{display:none;}
+				
+#benefits h1#mobile{display:block !important;
+				font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:2.5em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:10px;
+			line-height:2em;
+			font-size:1em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					font-size:.8em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.4em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1.1em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+
+	}
+	
+
+/*#################portrait##############*/
+
+
+/*###############samsunggalaxy##########*/
+@media (min-width:321px) and (max-width:380px){
+
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+
+
+/*##############content###################*/	
+
+#benefits{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{display:none;}
+				
+#benefits h1#mobile{display:block !important;
+				font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:2.5em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:10px;
+			line-height:1.5em;
+			font-size:.9em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:.8em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					font-size:.8em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.4em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1.1em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+					
+
+
+}
+
+/*################iphone5&4############*/
+@media (max-width:320px) {
+	
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+
+
+/*##############content###################*/	
+
+#benefits{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#benefits h1{display:none;}
+				
+#benefits h1#mobile{display:block !important;
+				font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				padding-top:10px;
+				padding-left:10px;
+				font-size:2.2em;}
+				
+#benefits p{font-family:"PT Sans Narrow";
+			color:rgb(59,59,59);
+			padding-left:10px;
+			line-height:1.5em;
+			font-size:.9em;}
+			
+#benefits a{color:rgb(15,65,111);}
+
+#benefits a:hover{text-decoration:underline;}
+			
+#finding_jobs{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#finding_jobs h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#finding_jobs p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:.8em;}
+					
+#finding_jobs p.small{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					font-size:.8em;}
+					
+#finding_jobs a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1.4em;
+					}
+					
+#finding_jobs a:hover{text-decoration:underline;}
+			
+#interns{background:#fff;
+			width:100%;
+			min-height:50px;
+			margin-bottom:10px;}
+			
+#interns h2{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					padding-left:10px;
+					padding-top:10px;
+					font-size:2em;}
+					
+#interns p{font-family:"PT Sans Narrow";
+					color:rgb(59,59,59);
+					padding-left:10px;
+					line-height:2em;
+					font-size:1.1em;}
+					
+#interns a{font-family:"PT Sans Narrow";
+					color:rgb(15,65,111);
+					font-size:1em;
+					}
+					
+#interns a:hover{text-decoration:underline;}
+					
+	
+		
+		
+		}

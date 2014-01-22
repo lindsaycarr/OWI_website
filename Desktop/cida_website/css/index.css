@@ -1,0 +1,1486 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin:0; padding:0;}
+a img {border:0;}
+a {outline:0;text-decoration:none;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+em {font-style:normal;
+	font-weight:normal;} 
+.clearfix {clear:both;}
+
+body{background:rgb(225,222,222);
+		min-width:305px;
+		height:100%;
+		overflow:auto;
+	}
+	
+#mobileheadline{display:none;}
+
+#mission ul{display:none;}
+	
+#small{display:none;}
+	
+#picture{display:none;}
+
+#mobilelinks{display:none;}
+	
+#mobilenav{display:none;}
+	
+#mobilelogo{display:none;}
+
+ul#responsive{display:none;}
+
+#mobile_newsfeed{display:none;}
+
+#mission img#large{display:none;}
+		
+@media (min-width:1200px){
+	
+#mission img#large{display:block;}
+
+#mission img#main{display:none;}
+	
+#container{width:1150px;
+			margin:0 auto;}
+	
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:1150px;
+			min-height:480px;
+			margin:0 auto;
+			text-align:center;
+		}
+		
+		
+
+		
+#mission{background:#fff;
+		width:743px;
+		height:412px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;			
+					}
+					
+#newsfeed{
+		width:397px;
+		height:410px;
+		float:left;
+					}
+					
+#newsfeed #topbar{background:rgb(15,65,111);
+					width:100%;
+					height:27px;
+					color:#fff;
+					text-align:left;
+					font-family:"PT Sans Narrow";
+					font-size:1.2em;
+					margin-bottom:5px;
+					}
+					
+#newsfeed #topbar p{float:left;
+					padding:3px 5px;
+					
+					}
+					
+#holder{
+		width:100%;
+		height:380px;
+		overflow:scroll;}
+		
+#scroll{background:rgb(200,200,200);
+		width:100%;
+		height:125px;}
+		
+#newsarea{background:#fff;
+			width:100%;
+			height:120px;
+			}
+			
+#newsarea p#story{text-align:left;
+					padding:2px;
+					font-family:"PT Sans Narrow";
+					font-size:1em;}
+			
+#date{background:rgb(15,65,111);
+		width:50px;
+		height:79%;
+		color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.8em;
+		padding-top:25px;
+		float:left;
+		text-align:center !important;
+		margin-right:4px;}
+		
+#people{background:#fff;
+		width:372px;
+		height:372px;
+		margin-right:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+		position:relative;
+		}
+		
+#people img{width:100%;
+			height:90%;}
+		
+#products{background:#fff;
+		width:362px;
+		height:372px;
+		margin-right:10px;
+		float:left;
+		position:relative;
+		}
+		
+#products img{width:100%;
+			height:90%;}
+		
+#partners{background:#fff;
+		width:396px;
+		height:372px;
+		float:left;
+		position:relative;
+		}
+		
+#partners img{width:100%;
+			height:90%;}
+		
+#stripe{background:rgb(15,65,111);
+		width:100%;
+		height:58px;
+		position:absolute;
+		bottom:0;}
+		
+#stripe a{color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:2.7em;
+			display:inline-block;
+			width:100%;
+			height:100%;
+			-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;}
+			
+#stripe a:hover{color:rgb(15,65,111);
+					background:#fff;}
+		
+
+/*#########################content_end#####################*/
+
+
+
+}
+		
+@media (min-width:975px) and (max-width:1199px){
+	
+#container{width:940px;
+			margin:0 auto;}
+	
+/*#########################content_start#####################*/
+
+#content{	
+			width:940px;
+			min-height:480px;
+			margin:0 auto;
+			text-align:center;
+		
+		}
+		
+#mission{background:#fff;
+		width:620px;
+		height:412px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;
+					
+					}
+					
+#mission img{width:100%;
+				height:100%;}
+					
+#newsfeed{
+		width:310px;
+		height:412px;
+		float:left;
+					}
+#newsfeed #topbar{background:rgb(15,65,111);
+					width:100%;
+					height:30px;
+					color:#fff;
+					text-align:left;
+					font-family:"PT Sans Narrow";
+					font-size:1.2em;
+					}
+					
+#newsfeed #topbar p{float:left;
+					padding:3px 5px;
+					
+					}
+					
+#holder{
+		width:100%;
+		height:380px;
+		overflow:scroll;}
+		
+#scroll{background:rgb(200,200,200);
+		width:100%;
+		height:125px;}
+		
+#newsarea{background:#fff;
+			width:100%;
+			height:120px;
+			}
+			
+#newsarea p#story{text-align:left;
+					padding:2px;
+					font-family:"PT Sans Narrow";
+					font-size:1em;}
+			
+#date{background:rgb(15,65,111);
+		width:50px;
+		height:83%;
+		color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.8em;
+		padding-top:20px;
+		float:left;
+		text-align:center !important;
+		margin-right:4px;}
+					
+					
+#people{background:#fff;
+		width:310px;
+		height:330px;
+		margin-right:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+		position:relative;
+		}
+		
+#people img{width:100%;
+			height:90%;}
+		
+#products{background:#fff;
+		width:300px;
+		height:330px;
+		margin-right:10px;
+		float:left;
+		position:relative;
+		}
+		
+#products img{width:100%;
+			height:90%;}
+		
+#partners{background:#fff;
+		width:310px;
+		height:330px;
+		float:left;
+		position:relative;
+		}
+		
+#partners img{width:100%;
+			height:90%;}
+		
+#stripe{background:rgb(15,65,111);
+		width:100%;
+		height:58px;
+		position:absolute;
+		bottom:0;}
+		
+#stripe a{color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:2.7em;
+			display:inline-block;
+			width:100%;
+			height:100%;
+			-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;}
+			
+#stripe a:hover{color:rgb(15,65,111);
+					background:#fff;}
+					
+/*#########################content_end#####################*/
+
+
+
+}
+
+
+@media (min-width:900px) and (max-width:974px){
+	
+#container{width:850px;
+			margin:0 auto;}	
+	
+/*#########################content_start#####################*/
+
+#content{	
+			width:850px;
+			min-height:480px;
+			margin:0 auto;
+			text-align:center;
+		
+		}
+		
+#mission{background:#fff;
+		width:564px;
+		height:412px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;		
+					}
+					
+#mission img{width:100%;
+				height:100%;}
+					
+#newsfeed{
+		width:274px;
+		height:412px;
+		float:left;
+					}
+					
+#newsfeed #topbar{background:rgb(15,65,111);
+					width:100%;
+					height:30px;
+					color:#fff;
+					text-align:left;
+					font-family:"PT Sans Narrow";
+					font-size:1.2em;
+					}
+					
+#newsfeed #topbar p{float:left;
+					padding:3px 5px;
+					
+					}
+					
+#holder{
+		width:100%;
+		height:380px;
+		overflow:scroll;}
+		
+#scroll{background:rgb(200,200,200);
+		width:100%;
+		height:125px;}
+		
+#newsarea{background:#fff;
+			width:100%;
+			height:120px;
+			}
+			
+#newsarea p#story{text-align:left;
+					padding:2px;
+					font-family:"PT Sans Narrow";
+					font-size:.92em;}
+			
+#date{background:rgb(15,65,111);
+		width:50px;
+		height:83%;
+		color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.8em;
+		padding-top:20px;
+		float:left;
+		text-align:center !important;
+		margin-right:4px;}
+					
+				
+#people{background:#fff;
+		width:272px;
+		height:290px;
+		margin-right:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+		position:relative;
+		}
+		
+#people img{width:100%;
+			height:90%;}
+		
+#products{background:#fff;
+		width:282px;
+		height:290px;
+		margin-right:10px;
+		float:left;
+		position:relative;
+		}
+		
+#products img{width:100%;
+			height:90%;}
+		
+#partners{background:#fff;
+		width:274px;
+		height:290px;
+		float:left;
+		position:relative;
+		}
+		
+#partners img{width:100%;
+			height:90%;}
+		
+#stripe{background:rgb(15,65,111);
+		width:100%;
+		height:48px;
+		position:absolute;
+		bottom:0;}
+		
+#stripe a{color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:2.3em;
+			display:inline-block;
+			width:100%;
+			height:100%;
+			-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;}
+			
+#stripe a:hover{color:rgb(15,65,111);
+					background:#fff;}
+		
+/*#########################content_end#####################*/
+
+
+
+}
+
+
+@media (min-width:769px) and (max-width:899px){
+	
+#container{width:730px;
+			margin:0 auto;}
+	
+/*#########################content_start#####################*/
+
+#content{	
+			width:730px;
+			min-height:480px;
+			margin:0 auto;
+			text-align:center;
+		
+		}
+		
+#mission{background:#fff;
+		width:485px;
+		height:412px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;			
+					}
+					
+#small{display:block;}
+					
+#main{display:none;}
+					
+#newsfeed{
+		width:235px;
+		height:412px;
+		float:left;
+					}
+					
+#newsfeed #topbar{background:rgb(15,65,111);
+					width:100%;
+					height:30px;
+					color:#fff;
+					text-align:left;
+					font-family:"PT Sans Narrow";
+					font-size:1.2em;
+					}
+					
+#newsfeed #topbar p{float:left;
+					padding:3px 5px;
+					
+					}
+					
+#holder{
+		width:100%;
+		height:380px;
+		overflow:scroll;}
+		
+#scroll{background:rgb(200,200,200);
+		width:100%;
+		height:125px;}
+		
+#newsarea{background:#fff;
+			width:100%;
+			height:120px;
+			}
+			
+#newsarea p#story{text-align:left;
+					padding:2px;
+					font-family:"PT Sans Narrow";
+					font-size:.90em;}
+			
+
+			
+#date{background:rgb(15,65,111);
+		width:25px;
+		height:79%;
+		color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1em;
+		padding-top:25px;
+		float:left;
+		text-align:center !important;
+		margin-right:4px;}
+					
+#people{background:#fff;
+		width:233px;
+		height:250px;
+		margin-right:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+		position:relative;
+		}
+		
+#people img{width:100%;
+			height:90%;}
+		
+#products{background:#fff;
+		width:243px;
+		height:250px;
+		margin-right:10px;
+		float:left;
+		position:relative;
+		}
+		
+#products img{width:100%;
+			height:90%;}
+		
+#partners{background:#fff;
+		width:233px;
+		height:250px;
+		float:left;
+		position:relative;
+		}
+		
+#partners img{width:100%;
+			height:90%;}
+		
+#stripe{background:rgb(15,65,111);
+		width:100%;
+		height:42px;
+		position:absolute;
+		bottom:0;}
+		
+#stripe a{color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:2.1em;
+			display:inline-block;
+			width:100%;
+			height:100%;
+			-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;}
+			
+#stripe a:hover{color:rgb(15,65,111);
+					background:#fff;}
+		
+/*#########################content_end#####################*/
+
+
+}
+
+@media (min-width:686px) and (max-width:768px){
+	
+#container{width:650px;
+			margin:0 auto;}
+	
+/*#########################content_start#####################*/
+
+#content{	width:650px;
+			min-height:480px;
+			margin:0 auto;
+			text-align:center;
+		
+		}
+		
+#mission{background:#fff;
+		width:430px;
+		height:412px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;		
+					}
+					
+#small{display:block;}
+					
+#main{display:none;}
+					
+#mission img{width:100%;
+				height:100%;}
+					
+#newsfeed{
+		width:210px;
+		height:412px;
+		float:left;
+					}
+					
+#newsfeed #topbar{background:rgb(15,65,111);
+					width:100%;
+					height:30px;
+					color:#fff;
+					text-align:left;
+					font-family:"PT Sans Narrow";
+					font-size:1.2em;
+					}
+					
+#newsfeed #topbar p{float:left;
+					padding:3px 5px;
+					
+					}
+					
+#holder{
+		width:100%;
+		height:380px;
+		overflow:scroll;}
+		
+#scroll{background:rgb(200,200,200);
+		width:100%;
+		height:125px;}
+		
+#newsarea{background:#fff;
+			width:100%;
+			height:120px;
+			}
+			
+#newsarea p#story{text-align:left;
+					padding:2px;
+					font-family:"PT Sans Narrow";
+					font-size:.84em;}
+			
+#date{background:rgb(15,65,111);
+		width:20px;
+		height:71%;
+		color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:.8em;
+		padding-top:35px;
+		float:left;
+		text-align:center !important;
+		margin-right:4px;}
+					
+#people{background:#fff;
+		width:205px;
+		height:220px;
+		margin-right:10px;
+		margin-bottom:10px;
+		float:left;
+		clear:both;
+		position:relative;
+		}
+		
+#people img{width:100%;
+			height:90%;}
+		
+#products{background:#fff;
+		width:215px;
+		height:220px;
+		margin-right:10px;
+		float:left;
+		position:relative;
+		}
+		
+#products img{width:100%;
+			height:90%;}
+		
+#partners{background:#fff;
+		width:210px;
+		height:220px;
+		float:left;
+		position:relative;
+		}
+		
+#partners img{width:100%;
+			height:90%;}		
+		
+#stripe{background:rgb(15,65,111);
+		width:100%;
+		height:38px;
+		position:absolute;
+		bottom:0;}
+		
+#stripe a{color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:2em;
+			display:inline-block;
+			width:100%;
+			height:100%;
+			-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;}
+			
+#stripe a:hover{color:rgb(15,65,111);
+					background:#fff;}
+		
+/*#########################content_end#####################*/
+
+
+
+}
+
+/*#####################mobile################*/
+
+/*####################landscape##############*/
+
+/*###################samsung################*/
+
+@media (min-width:569px) and (max-width:685px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#main{display:none;}
+
+#small{display:none;}
+
+#footerbar{display:none;}
+
+#newsfeed{display:none;}
+
+#mobile_newsfeed{display:block;}
+
+
+
+/*###################content_start################*/			
+
+		
+#mission{background:#fff;
+		width:100%;
+		min-height:200px;
+		
+		margin-right:10px;
+		margin-bottom:10px;
+		margin-top:10px;		
+					}
+					
+#mobileheadline{display:block;
+				text-align:center;
+				padding:10px 10px;
+				font-family:"PT Sans Narrow";
+				font-size:1.5em;
+				color:#fff;
+				background:rgb(90,90,90);
+				text-shadow:0 -1px rgba(0,0,0,.3);
+			}
+			
+#mission ul{display:block;
+				text-align:center;
+				padding:10px 40px;
+				font-family:"PT Sans Narrow";
+				font-size:1.7em;
+				color:rgb(50,50,50);
+				list-style-type:disc;
+				
+			}
+			
+#mission ul li{margin-bottom:20px;}
+					
+#mobile_newsfeed{
+		width:100%;
+		height:200px;
+		margin-bottom:10px;
+		overflow:scroll;
+					}
+					
+#mobile_holder{background:rgb(200,200,200);
+				height:100%;
+				width:1206px;
+				float:left;
+				margin-right:1px;}
+			
+#mobile_newsarea{background:#fff;
+				height:100%;
+				width:200px;
+				margin-right:1px;
+				float:left;}
+				
+#mobile_newsarea p{font-family:"PT Sans Narrow";
+					padding:0 3px;}
+				
+#mobile_date{background:rgb(15,65,111);
+			width:100%;
+			height:29px;
+			text-align:center;
+			color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:1.5em;
+			padding-top:1px;}
+					
+#people{background:#fff;
+		width:100%;
+		height:220px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#people img{display:none;}
+		
+#products{background:#fff;
+		width:100%;
+		height:200px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#products img{display:none;}
+		
+#partners{background:#fff;
+		width:100%;
+		height:220px;
+		position:relative;
+		}
+		
+#partners img{display:none;}
+		
+#picture{display:block !important;
+		background:#eee;
+		width:200px;
+		height:100%;
+		float:left;}
+		
+#picture img{display:block;
+			width:100%;
+			height:100%;}
+		
+#mobilelinks{	display:block !important;
+				text-align:center;
+				padding:0px 0;}
+		
+#mobilelinks a{color:rgb(15,65,111);
+				font-family:"PT Sans Narrow";
+				font-size:4.5em;
+				display:block;
+				width:100%;
+				cursor:pointer;
+				padding:63px 0;
+				-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;
+				}
+				
+#mobilelinks a:hover{background:rgb(15,65,111);
+						color:#fff;}
+		
+#stripe{display:none;}
+		
+/*###################content_end################*/
+
+		}
+		
+/*###################iphone5################*/
+		
+@media (min-width:481px) and (max-width:568px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#main{display:none;}
+
+#small{display:none;}
+
+#footerbar{display:none;}
+
+#newsfeed{display:none;}
+
+#mobile_newsfeed{display:block;}
+
+
+			
+/*###################content_start################*/			
+
+		
+#mission{background:#fff;
+		width:100%;
+		min-height:200px;
+		
+		margin-right:10px;
+		margin-bottom:10px;
+		margin-top:10px;		
+					}
+					
+#mobileheadline{display:block;
+				text-align:center;
+				padding:10px 10px;
+				font-family:"PT Sans Narrow";
+				font-size:1.5em;
+				color:#fff;
+				background:rgb(90,90,90);
+				text-shadow:0 -1px rgba(0,0,0,.3);
+			}
+			
+#mission ul{display:block;
+				text-align:center;
+				padding:10px 40px;
+				font-family:"PT Sans Narrow";
+				font-size:1.4em;
+				color:rgb(50,50,50);
+				list-style-type:disc;
+				
+			}
+			
+#mission ul li{margin-bottom:20px;}
+					
+#mobile_newsfeed{
+		width:100%;
+		height:200px;
+		margin-bottom:10px;
+		overflow:scroll;
+					}
+					
+#mobile_holder{background:rgb(200,200,200);
+				height:100%;
+				width:1206px;
+				float:left;
+				margin-right:1px;}
+			
+#mobile_newsarea{background:#fff;
+				height:100%;
+				width:200px;
+				margin-right:1px;
+				float:left;}
+				
+#mobile_newsarea p{font-family:"PT Sans Narrow";
+					padding:0 3px;}
+				
+#mobile_date{background:rgb(15,65,111);
+			width:100%;
+			height:29px;
+			text-align:center;
+			color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:1.5em;
+			padding-top:1px;}
+					
+#people{background:#fff;
+		width:100%;
+		height:180px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#people img{display:none;}
+		
+#products{background:#fff;
+		width:100%;
+		height:180px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#products img{display:none;}
+		
+#partners{background:#fff;
+		width:100%;
+		height:180px;
+		position:relative;
+		}
+		
+#partners img{display:none;}
+		
+#picture{display:block !important;
+		background:#eee;
+		width:200px;
+		height:100%;
+		float:left;}
+		
+#picture img{display:block;
+			width:100%;
+			height:100%;}
+		
+#mobilelinks{	display:block !important;
+				text-align:center;
+				padding:0px 0;}
+		
+#mobilelinks a{color:rgb(15,65,111);
+				font-family:"PT Sans Narrow";
+				font-size:3.5em;
+				display:block;
+				width:100%;
+				cursor:pointer;
+				padding:53px 0;
+				-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;
+				}
+				
+#mobilelinks a:hover{background:rgb(15,65,111);
+						color:#fff;}
+		
+#stripe{display:none;}
+		
+/*###################content_end################*/
+	
+}
+
+/*###################iphone4################*/
+
+
+@media (min-width:381px) and (max-width:480px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#main{display:none;}
+
+#small{display:none;}
+
+#footerbar{display:none;}
+
+#newsfeed{display:none;}
+
+#mobile_newsfeed{display:block;}
+
+
+			
+/*###################content_start################*/
+		
+#mission{background:#fff;
+		width:100%;
+		min-height:200px;
+		
+		margin-right:10px;
+		margin-bottom:10px;
+		margin-top:10px;		
+					}
+					
+#mobileheadline{display:block;
+				text-align:center;
+				padding:10px 10px;
+				font-family:"PT Sans Narrow";
+				font-size:1.1em;
+				color:#fff;
+				background:rgb(90,90,90);
+				text-shadow:0 -1px rgba(0,0,0,.3);
+			}
+			
+#mission ul{display:block;
+				text-align:center;
+				padding:10px 30px;
+				font-family:"PT Sans Narrow";
+				font-size:1.1em;
+				color:rgb(50,50,50);
+				list-style-type:disc;
+				
+			}
+			
+#mission ul li{margin-bottom:10px;}
+					
+#mobile_newsfeed{
+		width:100%;
+		height:200px;
+		margin-bottom:10px;
+		overflow:scroll;
+					}
+					
+#mobile_holder{background:rgb(200,200,200);
+				height:100%;
+				width:1206px;
+				float:left;
+				margin-right:1px;}
+			
+#mobile_newsarea{background:#fff;
+				height:100%;
+				width:200px;
+				margin-right:1px;
+				float:left;}
+				
+#mobile_newsarea p{font-family:"PT Sans Narrow";
+					padding:0 3px;}
+				
+#mobile_date{background:rgb(15,65,111);
+			width:100%;
+			height:29px;
+			text-align:center;
+			color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:1.5em;
+			padding-top:1px;}
+
+					
+#people{background:#fff;
+		width:100%;
+		height:150px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#people img{display:none;}
+		
+#products{background:#fff;
+		width:100%;
+		height:150px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#products img{display:none;}
+		
+#partners{background:#fff;
+		width:100%;
+		height:150px;
+		position:relative;
+		}
+
+#partners img{display:none;}
+		
+#picture{display:block !important;
+		background:#eee;
+		width:160px;
+		height:100%;
+		float:left;}
+		
+#picture img{display:block;
+			width:100%;
+			height:100%;}
+		
+#mobilelinks{	display:block !important;
+				text-align:center;
+				padding:0px 0;}
+		
+#mobilelinks a{color:rgb(15,65,111);
+				font-family:"PT Sans Narrow";
+				font-size:2.7em;
+				display:block;
+				width:100%;
+				cursor:pointer;
+				padding:47px 0;
+				-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;
+				}
+				
+#mobilelinks a:hover{background:rgb(15,65,111);
+						color:#fff;}
+		
+#stripe{display:none;}
+
+/*###################content_end################*/
+		
+}
+
+
+/*###################portrait################*/
+
+/*###################samsung################*/
+@media (min-width:321px) and (max-width:380px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#main{display:none;}
+
+#small{display:none;}
+
+#footerbar{display:none;}
+
+#newsfeed{display:none;}
+
+#mobile_newsfeed{display:block;}
+
+
+			
+			
+/*###################content_start################*/
+		
+#mission{background:#fff;
+		width:100%;
+		min-height:200px;
+		margin-bottom:10px;
+		margin-top:10px;		
+					}
+					
+#mobileheadline{display:block;
+				text-align:center;
+				padding:10px 10px;
+				font-family:"PT Sans Narrow";
+				font-size:1.1em;
+				color:#fff;
+				background:rgb(90,90,90);
+				text-shadow:0 -1px rgba(0,0,0,.3);
+			}
+			
+#mission ul{display:block;
+				text-align:left;
+				padding:10px 20px;
+				font-family:"PT Sans Narrow";
+				font-size:1.1em;
+				color:rgb(50,50,50);
+				list-style-type:disc;
+				
+			}
+			
+#mission ul li{margin-bottom:10px;}
+					
+#mobile_newsfeed{
+		width:100%;
+		height:200px;
+		margin-bottom:10px;
+		overflow:scroll;
+					}
+					
+#mobile_holder{background:rgb(200,200,200);
+				height:100%;
+				width:1206px;
+				float:left;
+				margin-right:1px;}
+			
+#mobile_newsarea{background:#fff;
+				height:100%;
+				width:200px;
+				margin-right:1px;
+				float:left;}
+				
+#mobile_newsarea p{font-family:"PT Sans Narrow";
+					padding:0 3px;}
+				
+#mobile_date{background:rgb(15,65,111);
+			width:100%;
+			height:29px;
+			text-align:center;
+			color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:1.5em;
+			padding-top:1px;}
+			
+
+					
+#people{background:#fff;
+		width:100%;
+		height:150px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#people img{display:none;}
+		
+#products{background:#fff;
+		width:100%;
+		height:150px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#products img{display:none;}
+		
+#partners{background:#fff;
+		width:100%;
+		height:150px;
+		position:relative;
+		}
+		
+#partners img{display:none;}
+		
+#picture{display:block !important;
+		background:#eee;
+		width:140px;
+		height:100%;
+		float:left;}
+		
+#picture img{display:block;
+			width:100%;
+			height:100%;}
+		
+#mobilelinks{	display:block !important;
+				text-align:center;
+				padding:0px 0;}
+		
+#mobilelinks a{color:rgb(15,65,111);
+				font-family:"PT Sans Narrow";
+				font-size:2em;
+				display:block;
+				width:100%;
+				cursor:pointer;
+				padding:54px 0;
+				-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;
+				}
+				
+#mobilelinks a:hover{background:rgb(15,65,111);
+						color:#fff;}
+		
+#stripe{display:none;}
+		
+/*###################content_end################*/
+					
+					
+
+	
+	}
+/*###################iphone5&4################*/
+
+@media (max-width:320px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#main{display:none;}
+
+#small{display:none;}
+
+#footerbar{display:none;}
+
+#newsfeed{display:none;}
+
+#mobile_newsfeed{display:block;}
+
+
+
+/*###################content_start################*/			
+
+		
+#mission{background:#fff;
+		width:100%;
+		min-height:200px;
+		margin-bottom:10px;
+		margin-top:10px;		
+					}
+					
+#mobileheadline{display:block;
+				text-align:center;
+				padding:10px 10px;
+				font-family:"PT Sans Narrow";
+				font-size:1.1em;
+				color:#fff;
+				background:rgb(90,90,90);
+				text-shadow:0 -1px rgba(0,0,0,.3);
+			}
+			
+#mission ul{display:block;
+				text-align:left;
+				padding:10px 20px;
+				font-family:"PT Sans Narrow";
+				font-size:1.1em;
+				color:rgb(50,50,50);
+				list-style-type:disc;
+				
+			}
+			
+#mission ul li{margin-bottom:10px;}
+					
+#mobile_newsfeed{
+		width:100%;
+		height:200px;
+		margin-bottom:10px;
+		overflow:scroll;
+					}
+					
+#mobile_holder{background:rgb(200,200,200);
+				height:100%;
+				width:1206px;
+				float:left;
+				margin-right:1px;}
+			
+#mobile_newsarea{background:#fff;
+				height:100%;
+				width:200px;
+				margin-right:1px;
+				float:left;}
+				
+#mobile_newsarea p{font-family:"PT Sans Narrow";
+					padding:0 3px;}
+				
+#mobile_date{background:rgb(15,65,111);
+			width:100%;
+			height:29px;
+			text-align:center;
+			color:#fff;
+			font-family:"PT Sans Narrow";
+			font-size:1.5em;
+			padding-top:1px;}
+					
+#people{background:#fff;
+		width:100%;
+		height:150px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#people img{display:none;}
+		
+#products{background:#fff;
+		width:100%;
+		height:150px;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#products img{display:none;}
+		
+#partners{background:#fff;
+		width:100%;
+		height:150px;
+		position:relative;
+		}
+		
+#partners img{display:none;}
+		
+#picture{display:block !important;
+		background:#eee;
+		width:140px;
+		height:100%;
+		float:left;}
+		
+#picture img{display:block;
+			width:100%;
+			height:100%;}
+		
+#mobilelinks{	display:block !important;
+				text-align:center;
+				padding:0px 0;}
+		
+#mobilelinks a{color:rgb(15,65,111);
+				font-family:"PT Sans Narrow";
+				font-size:2em;
+				display:block;
+				width:100%;
+				cursor:pointer;
+				padding:54px 0;
+				-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;
+				}
+				
+#mobilelinks a:hover{background:rgb(15,65,111);
+						color:#fff;}
+		
+#stripe{display:none;}
+		
+/*###################content_end################*/
+					
+					
+
+	
+	}
