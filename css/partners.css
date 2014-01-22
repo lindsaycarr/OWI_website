@@ -1,0 +1,1061 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin:0; padding:0;}
+a img {border:0;}
+a {outline:0;text-decoration:none;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+em {font-style:normal;
+	font-weight:normal;} 
+.clearfix {clear:both;}
+
+b{font-weight:normal;}
+
+em#ipad{display:none;}
+
+h1.mobile{display:none !important;}
+
+nav p{color:#fff;}
+
+body{background:rgb(225,222,222);
+		min-width:305px;
+		min-height:400px;
+		overflow:auto;
+	}
+	
+
+
+
+
+#mobilenav{display:none;}
+	
+#mobilelogo{display:none;}
+
+
+#mobilesocial{display:none;}
+
+#mobilecontacth1{display:none;}
+
+
+
+body{background:rgb(225,222,222);
+		min-width:305px;
+		min-height:480px;
+		}
+		
+@media (min-width:1200px){
+	
+#container{width:1150px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:1150px;
+			min-height:480px;
+			margin:0 auto;
+			
+		}
+		
+#partner_logo{background:#fff;
+			width:207.5px;
+			height:207.5px;
+			float:left;
+			margin-right:10px;
+			margin-bottom:10px;}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+			
+#description{background:#fff;
+				width:932.5px;
+				height:207.5px;
+				float:left;
+				position:relative;
+				margin-bottom:10px;}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:2.1em;}
+				
+#description p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.4em;
+				margin-bottom:5px;
+				text-indent:1em;}
+				
+#projects_worked{clear:both;
+					background:#fff;
+					width:100%;
+					min-height:50px;
+					margin-bottom:10px;
+					}
+				
+#projects_worked h2{font-family:"PT Sans Narrow";
+					font-size:1.3em;
+					margin-left:10px;
+					color:rgb(90,90,90);
+					}
+					
+#projects_worked p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.4em;
+				margin-bottom:5px;
+				}
+				
+#view{background:rgb(15,65,111);
+		width:80px;
+		height:25px;
+		text-align:center;
+		position:absolute;
+		right:10px;
+		bottom:10px;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:92%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:hover{color:rgb(15,65,111);
+				background:rgb(200,200,200);}
+
+/*#########################content_end#####################*/
+
+
+
+}
+		
+@media (min-width:975px) and (max-width:1199px){
+	
+#container{width:940px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:940px;
+			min-height:480px;
+			margin:0 auto;
+			
+			
+		
+		}
+		
+#partner_logo{background:#fff;
+			width:207.5px;
+			height:207.5px;
+			float:left;
+			margin-right:10px;
+			margin-bottom:10px;}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+			
+#description{background:#fff;
+				width:722.5px;
+				height:207.5px;
+				float:left;
+				position:relative;
+				margin-bottom:10px;}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:2.1em;}
+				
+#description p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.25em;
+				margin-bottom:5px;
+				text-indent:1em;}
+				
+#projects_worked{clear:both;
+					background:#fff;
+					width:100%;
+					min-height:50px;
+					margin-bottom:10px;
+					}
+				
+#projects_worked h2{font-family:"PT Sans Narrow";
+					font-size:1.3em;
+					margin-left:10px;
+					color:rgb(90,90,90);
+					}
+					
+#projects_worked p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.4em;
+				margin-bottom:5px;
+				}
+				
+#view{background:rgb(15,65,111);
+		width:80px;
+		height:23px;
+		text-align:center;
+		position:absolute;
+		right:5px;
+		bottom:5px;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:92%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:hover{color:rgb(15,65,111);
+				background:rgb(200,200,200);}
+
+		
+
+		
+/*#########################content_end#####################*/
+
+
+
+}
+
+
+@media (min-width:900px) and (max-width:974px){
+	
+#container{width:850px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:850px;
+			min-height:480px;
+			margin:0 auto;
+			
+			
+		
+		}
+		
+#partner_logo{background:#fff;
+			width:207.5px;
+			height:207.5px;
+			float:left;
+			margin-right:10px;
+			margin-bottom:10px;}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+			
+#description{background:#fff;
+				width:632.5px;
+				height:207.5px;
+				float:left;
+				position:relative;
+				margin-bottom:10px;}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:1.7em;}
+				
+#description p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.25em;
+				margin-bottom:5px;
+				text-indent:1em;}
+				
+#projects_worked{clear:both;
+					background:#fff;
+					width:100%;
+					min-height:50px;
+					margin-bottom:10px;
+					}
+				
+#projects_worked h2{font-family:"PT Sans Narrow";
+					font-size:1.3em;
+					margin-left:10px;
+					color:rgb(90,90,90);
+					}
+					
+#projects_worked p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.25em;
+				margin-bottom:5px;
+				}
+				
+#view{background:rgb(15,65,111);
+		width:80px;
+		height:23px;
+		text-align:center;
+		position:absolute;
+		right:5px;
+		bottom:5px;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:92%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:hover{color:rgb(15,65,111);
+				background:rgb(200,200,200);}
+
+		
+/*#########################content_end#####################*/
+
+
+
+}
+
+
+@media (min-width:769px) and (max-width:899px){
+	
+#container{width:730px;
+			margin:0 auto;}
+	
+/*#########################content_start#####################*/
+
+i{display:none;}
+
+#content{	
+			width:730px;
+			min-height:480px;
+			margin:0 auto;
+			
+			
+		
+		}
+		
+#partner_logo{background:#fff;
+			width:207.5px;
+			height:207.5px;
+			float:left;
+			margin-right:10px;
+			margin-bottom:10px;}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+			
+#description{background:#fff;
+				width:512.5px;
+				height:207.5px;
+				float:left;
+				position:relative;
+				margin-bottom:10px;}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:1.5em;}
+				
+#description p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.1em;
+				margin-bottom:5px;
+				text-indent:1em;}
+				
+#projects_worked{clear:both;
+					background:#fff;
+					width:100%;
+					min-height:50px;
+					margin-bottom:10px;
+					}
+				
+#projects_worked h2{font-family:"PT Sans Narrow";
+					font-size:1.3em;
+					margin-left:10px;
+					color:rgb(90,90,90);
+					}
+					
+#projects_worked p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.1em;
+				margin-bottom:5px;
+				}
+				
+#view{background:rgb(15,65,111);
+		width:80px;
+		height:23px;
+		text-align:center;
+		position:absolute;
+		right:5px;
+		bottom:5px;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:92%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:hover{color:rgb(15,65,111);
+				background:rgb(200,200,200);}
+
+		
+
+		
+/*#########################content_end#####################*/
+
+
+
+}
+
+@media (min-width:686px) and (max-width:768px){
+	
+#container{width:650px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+i{display:none;}
+
+.longname{display:none;}
+
+em#ipad{display:inline;}
+
+#content{	
+			width:650px;
+			min-height:480px;
+			margin:0 auto;
+			
+			
+		
+		}
+		
+#partner_logo{background:#fff;
+			width:207.5px;
+			height:207.5px;
+			float:left;
+			margin-right:10px;
+			margin-bottom:10px;}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+			
+#description{background:#fff;
+				width:432.5px;
+				height:207.5px;
+				float:left;
+				position:relative;
+				margin-bottom:10px;}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:1.3em;}
+				
+#description p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.01em;
+				margin-bottom:5px;
+				text-indent:1em;}
+				
+#projects_worked{clear:both;
+					background:#fff;
+					width:100%;
+					min-height:50px;
+					margin-bottom:10px;
+					}
+				
+#projects_worked h2{font-family:"PT Sans Narrow";
+					font-size:1.3em;
+					margin-left:10px;
+					color:rgb(90,90,90);
+					}
+					
+#projects_worked p{color:rgb(59,59,59);
+				font-family:"PT Sans Narrow";
+				margin-left:10px;
+				margin-right:10px;
+				font-size:1.01em;
+				margin-bottom:5px;
+				}
+				
+#view{background:rgb(15,65,111);
+		width:80px;
+		height:23px;
+		text-align:center;
+		position:absolute;
+		right:5px;
+		bottom:5px;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:92%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:hover{color:rgb(15,65,111);
+				background:rgb(200,200,200);}
+
+		
+		
+
+		
+/*#########################content_end#####################*/
+
+}
+
+/*################mobile##############*/
+
+/*################landscape###########*/
+
+/*################samsunggalaxy#######*/
+@media (min-width:569px) and (max-width:685px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#mobileheader{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+
+
+/*##############content###################*/
+
+i{display:none;}
+
+.longname{display:none;}
+
+em#ipad{display:inline;}	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;
+				}
+				
+
+
+		
+#partner_logo{background:#fff;
+			width:250px;
+			height:250px;
+			margin: 0 auto;
+			}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+			
+#description{background:#fff;
+				width:410px;
+				position:relative;
+				margin:0 auto;
+				font-family:"PT Sans Narrow";}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:1.3em;}
+				
+#description p{margin-bottom:3px;
+				text-align:justify;}
+				
+#projects_worked{display:none;
+					}
+				
+
+				
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:30px;
+		text-align:center;
+		margin:0 auto;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:94%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1.2em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:active{color:rgb(15,65,111);
+				background:rgb(200,200,200);}
+
+}
+
+/*###############Iphone5##############*/
+@media (min-width:481px) and (max-width:568px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+
+
+/*##############content###################*/	
+
+i{display:none;}
+
+.longname{display:none;}
+
+em#ipad{display:inline;}	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;
+				}
+				
+
+
+		
+#partner_logo{background:#fff;
+			width:250px;
+			height:250px;
+			margin: 0 auto;
+			}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+			
+#description{background:#fff;
+				width:410px;
+				position:relative;
+				margin:0 auto;
+				font-family:"PT Sans Narrow";}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:1.3em;}
+				
+#description p{margin-bottom:3px;
+				text-align:justify;}
+				
+#projects_worked{display:none;
+					}
+				
+
+				
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:30px;
+		text-align:center;
+		margin:0 auto;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:94%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1.2em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:active{color:rgb(15,65,111);
+				background:rgb(200,200,200);}
+					
+					
+
+	}
+
+/*###############Iphone4#############*/
+@media (min-width:381px) and (max-width:480px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+
+/*##############content###################*/	
+
+i{display:none;}
+
+.longname{display:none;}
+
+em#ipad{display:inline;}	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;
+				}
+				
+
+
+		
+#partner_logo{background:#fff;
+			width:250px;
+			height:250px;
+			margin: 0 auto;
+			}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+			
+	
+				
+#description{background:#fff;
+				width:360px;
+				position:relative;
+				margin:0 auto;
+				font-family:"PT Sans Narrow";}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:1.3em;}
+				
+#description p{margin-bottom:3px;
+				text-align:justify;}
+				
+#projects_worked{display:none;
+					}
+				
+
+				
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:30px;
+		text-align:center;
+		margin:0 auto;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:94%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1.2em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:active{color:rgb(15,65,111);
+				background:rgb(200,200,200);}
+					
+
+	}
+	
+/*#################portrait##############*/
+
+
+/*###############samsunggalaxy##########*/
+@media (min-width:321px) and (max-width:380px){
+
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+
+
+/*##############content###################*/	
+
+i{display:none;}
+
+.longname{display:none;}
+
+em#ipad{display:inline;}
+
+h1{display:none !important;}
+
+h1.mobile{display:block !important;}	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;
+				}
+				
+
+
+		
+#partner_logo{background:#fff;
+			width:250px;
+			height:250px;
+			margin: 0 auto;
+			}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+			
+#partner_info{background:#fff;
+				width:300px;
+				
+				
+				position:relative;
+				margin:0 auto;}
+				
+#description{background:#fff;
+				width:300px;
+				position:relative;
+				margin:0 auto;
+				font-family:"PT Sans Narrow";}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:1.3em;}
+				
+#description p{margin-bottom:3px;
+				text-align:justify;}
+				
+#projects_worked{display:none;
+					}
+				
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:30px;
+		text-align:center;
+		margin:0 auto;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:94%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1.2em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:active{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+					
+
+
+}
+
+/*################iphone5&4############*/
+@media (max-width:320px) {
+	
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+
+
+/*##############content###################*/	
+
+i{display:none;}
+
+.longname{display:none;}
+
+em#ipad{display:inline;}
+
+h1{display:none !important;}
+
+h1.mobile{display:block !important;}	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;
+				}
+				
+
+
+		
+#partner_logo{background:#fff;
+			width:250px;
+			height:250px;
+			margin: 0 auto;
+			}
+			
+#partner_logo img{width:100%;
+					height:100%;}
+				
+#description{background:#fff;
+				width:290px;
+				position:relative;
+				margin:0 auto;
+				font-family:"PT Sans Narrow";}
+				
+#description h1{font-family:"PT Sans Narrow";
+				color:rgb(15,65,111);
+				margin-left:10px;
+				margin-top:5px;
+				font-size:1.3em;}
+				
+#description p{margin-bottom:3px;
+				text-align:justify;}
+				
+#projects_worked{display:none;
+					}
+				
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:30px;
+		text-align:center;
+		margin:0 auto;
+		}
+		
+#view a{color:#fff;
+		display:inline-block;
+		width:100%;
+		height:94%;
+		padding-top:2px;
+		font-family:"PT Sans Narrow";
+		font-size:1.2em;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;}
+		
+#view a:active{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+					
+					
+	
+		
+		
+		}

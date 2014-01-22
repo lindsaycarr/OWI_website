@@ -1,0 +1,1042 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin:0; padding:0;}
+a img {border:0;}
+a {outline:0;text-decoration:none;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+em {font-style:normal;
+	font-weight:normal;} 
+.clearfix {clear:both;}
+
+body{background:rgb(225,222,222);
+		min-width:305px;
+		min-height:400px;
+		overflow:auto;
+	}
+	
+
+
+
+#mobilenav{display:none;}
+	
+#mobilelogo{display:none;}
+
+
+#mobilesocial{display:none;}
+
+#mobilecontacth1{display:none;}
+
+nav p{color:#fff;}
+
+body{background:rgb(225,222,222);
+		min-width:305px;
+		min-height:480px;
+		}
+		
+@media (min-width:1200px){
+	
+#container{width:1150px;
+			margin:0 auto;}
+	
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:1150px;
+			min-height:480px;
+			margin:0 auto;
+			
+		}
+		
+
+		
+#headshot{
+			width:230px;
+			height:230px;
+			float:left;
+			margin-right:10px;
+			
+			margin-bottom:10px;
+			}
+			
+#headshot img{width:100%;
+				height:100%;}
+			
+#quote{background:#fff;
+		width:330px;
+		height:230px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;}
+		
+#quote h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.8em;
+			margin-bottom:-5px;}
+			
+#quote h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.2em;}
+			
+.quote_top{position:absolute;
+			left:10px;
+			top:65px;
+			opacity:.5;}
+
+.quote_bottom{position:absolute;
+				right:10px;
+				bottom:50px;
+				opacity:.5;}
+		
+#quote_end{background:#fff;
+		width:330px;
+		height:230px;
+		float:left;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#quote_end h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.8em;
+			margin-bottom:-5px;}
+			
+#quote_end h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.2em;}
+			
+#quotes{padding:0 5px;
+		height:100px;
+		margin-top:40px;
+		text-align:center;}
+		
+#quotes p{color:rgb(90,90,90);
+			font-family:"PT Sans Narrow";
+			font-size:1.9em;}
+		
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:30px;
+		position:absolute;
+		right:10px;
+		bottom:10px;
+		text-align:center;
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.3em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		padding-top:2px;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;
+		}
+		
+#view a:hover{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+		
+
+/*#########################content_end#####################*/
+
+
+
+}
+		
+@media (min-width:975px) and (max-width:1199px){
+	
+#container{width:940px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:940px;
+			min-height:480px;
+			margin:0 auto;
+			
+			
+		
+		}
+		
+#headshot{
+			width:200px;
+			height:200px;
+			float:left;
+			margin-right:10px;
+			
+			margin-bottom:10px;
+			}
+			
+#headshot img{width:100%;
+				height:100%;}
+			
+#quote{background:#fff;
+		width:255px;
+		height:200px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;}
+		
+#quote h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.7em;
+			margin-bottom:-5px;}
+			
+#quote h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.2em;}
+			
+.quote_top{position:absolute;
+			left:10px;
+			top:65px;
+			opacity:.5;}
+
+.quote_bottom{position:absolute;
+				right:10px;
+				bottom:50px;
+				opacity:.5;}
+		
+#quote_end{background:#fff;
+		width:255px;
+		height:200px;
+		float:left;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#quote_end h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.7em;
+			margin-bottom:-5px;}
+			
+#quote_end h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.2em;}
+			
+#quotes{padding:0 5px;
+		height:100px;
+		margin-top:40px;
+		text-align:center;}
+		
+#quotes p{color:rgb(90,90,90);
+			font-family:"PT Sans Narrow";
+			font-size:1.5em;}
+		
+#view{background:rgb(15,65,111);
+		width:80px;
+		height:25px;
+		position:absolute;
+		right:10px;
+		bottom:10px;
+		text-align:center;
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		padding-top:2px;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;
+		}
+		
+#view a:hover{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+		
+		
+
+		
+/*#########################content_end#####################*/
+
+
+}
+
+
+@media (min-width:900px) and (max-width:974px){
+	
+#container{width:850px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:850px;
+			min-height:480px;
+			margin:0 auto;
+			
+			
+		
+		}
+		
+#headshot{
+			width:180px;
+			height:180px;
+			float:left;
+			margin-right:10px;
+			
+			margin-bottom:10px;
+			}
+			
+#headshot img{width:100%;
+				height:100%;}
+			
+#quote{background:#fff;
+		width:230px;
+		height:180px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;}
+		
+#quote h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.5em;
+			margin-bottom:-5px;}
+			
+#quote h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.1em;}
+			
+.quote_top{position:absolute;
+			left:5px;
+			top:65px;
+			opacity:.5;}
+
+.quote_bottom{position:absolute;
+				right:5px;
+				bottom:50px;
+				opacity:.5;}
+		
+#quote_end{background:#fff;
+		width:230px;
+		height:180px;
+		float:left;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#quote_end h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.5em;
+			margin-bottom:-5px;}
+			
+#quote_end h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.1em;}
+		
+#quotes{padding:0 5px;
+		height:100px;
+		margin-top:35px;
+		text-align:center;}
+		
+#quotes p{color:rgb(90,90,90);
+			font-family:"PT Sans Narrow";
+			font-size:1.3em;}
+		
+#view{background:rgb(15,65,111);
+		width:70px;
+		height:25px;
+		position:absolute;
+		right:10px;
+		bottom:10px;
+		text-align:center;
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:.95em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		padding-top:2px;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;
+		}
+		
+#view a:hover{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+		
+/*#########################content_end#####################*/
+
+
+
+}
+
+
+@media (min-width:769px) and (max-width:899px){
+	
+#container{width:730px;
+			margin:0 auto;}
+	
+
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:730px;
+			min-height:480px;
+			margin:0 auto;
+			
+			
+		
+		}
+		
+#headshot{
+			width:150px;
+			height:150px;
+			float:left;
+			margin-right:10px;
+			
+			margin-bottom:10px;
+			}
+			
+#headshot img{width:100%;
+				height:100%;}
+			
+#quote{background:#fff;
+		width:200px;
+		height:150px;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;
+		position:relative;}
+		
+#quote h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.3em;
+			margin-bottom:-5px;}
+			
+#quote h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:.95em;}
+			
+.quote_top{position:absolute;
+			left:5px;
+			top:50px;
+			opacity:.5;}
+
+.quote_bottom{position:absolute;
+				right:5px;
+				bottom:40px;
+				opacity:.5;}
+		
+#quote_end{background:#fff;
+		width:200px;
+		height:150px;
+		float:left;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#quote_end h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.3em;
+			margin-bottom:-5px;}
+			
+#quote_end h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:.95em;}
+		
+#quotes{padding: 0 5px;
+		height:100px;
+		margin-top:30px;
+		text-align:center;}
+		
+#quotes p{color:rgb(90,90,90);
+			font-family:"PT Sans Narrow";
+			font-size:1.1em;}
+		
+#view{background:rgb(15,65,111);
+		width:50px;
+		height:20px;
+		position:absolute;
+		right:5px;
+		bottom:5px;
+		text-align:center;
+		overflow:hidden;
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:.95em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		padding-top:1px;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;
+		}
+		
+#view a:hover{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+		
+		
+
+		
+/*#########################content_end#####################*/
+
+
+
+
+}
+
+@media (min-width:686px) and (max-width:768px){
+	
+#container{width:650px;
+			margin:0 auto;}
+	
+
+/*#########################content_start#####################*/
+
+#content{	
+			width:650px;
+			min-height:480px;
+			margin:0 auto;
+			
+			
+		
+		}
+		
+#headshot{
+			width:290px;
+			height:290px;
+			float:left;
+			margin-right:10px;
+			margin-bottom:10px;
+			}
+			
+#headshot img{width:100%;
+				height:100%;}
+			
+#quote{background:#fff;
+		width:350px;
+		height:290px;
+		float:left;
+		margin-bottom:10px;
+		position:relative;}
+		
+#quote h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:2.3em;
+			margin-bottom:-5px;}
+			
+#quote h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.7em;}
+			
+.quote_top{position:absolute;
+			left:10px;
+			top:90px;
+			opacity:.5;}
+
+.quote_bottom{position:absolute;
+				right:10px;
+				bottom:50px;
+				opacity:.5;}
+		
+#quote_end{background:#fff;
+		width:350px;
+		height:290px;
+		float:left;
+		margin-bottom:10px;
+		position:relative;
+		}
+		
+#quote_end h1{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:2.3em;
+			margin-bottom:-5px;}
+			
+#quote_end h2{font-family:"PT Sans Narrow";
+			color:rgb(90,90,90);
+			padding-left:5px;
+			font-size:1.7em;}
+			
+#quotes{
+		height:100px;
+		margin-top:45px;
+		text-align:center;}
+		
+#quotes p{color:rgb(90,90,90);
+			font-family:"PT Sans Narrow";
+			font-size:2em;}
+		
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:30px;
+		position:absolute;
+		right:10px;
+		bottom:10px;
+		text-align:center;
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.3em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		padding-top:2px;
+		-moz-transition:all .6s ease;
+		-webkit-transition:all .6s ease;
+		-ms-transition:all .6s ease;
+		transition:all .6s ease;
+		}
+		
+#view a:hover{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+		
+/*#########################content_end#####################*/
+
+
+
+}
+
+/*################mobile##############*/
+
+/*################landscape###########*/
+
+/*################samsunggalaxy#######*/
+@media (min-width:569px) and (max-width:685px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#mobileheader{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+#quotes{display:none;}
+
+
+
+/*##############content###################*/	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;}
+				
+#headshot{width:290px;
+			height:290px;
+			margin:0 auto;
+			}
+
+#headshot img{width:100%;
+				height:100%}
+				
+#quote{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote h1{margin-bottom:-5px;
+			font-size:2em;}
+
+#quote h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#quote_end{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote_end h1{margin-bottom:-5px;
+				font-size:2em;}
+
+#quote_end h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:28px;
+		margin:0 auto;
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.3em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		}
+		
+#view a:active{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+	
+	}
+
+/*###############Iphone5##############*/
+@media (min-width:481px) and (max-width:568px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+#quotes{display:none;}
+
+
+
+/*##############content###################*/	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;}
+				
+#headshot{width:290px;
+			height:290px;
+			margin:0 auto;
+			}
+
+#headshot img{width:100%;
+				height:100%}
+				
+#quote{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote h1{margin-bottom:-5px;
+			font-size:2em;}
+
+#quote h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#quote_end{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote_end h1{margin-bottom:-5px;
+				font-size:2em;}
+
+#quote_end h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:28px;
+		margin:0 auto;
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.3em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		}
+		
+#view a:active{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+					
+	}
+
+/*###############Iphone4#############*/
+@media (min-width:381px) and (max-width:480px){
+	
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+#quotes{display:none;}
+
+
+/*##############content###################*/	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;}
+				
+#headshot{width:290px;
+			height:290px;
+			margin:0 auto;
+			}
+
+#headshot img{width:100%;
+				height:100%}
+				
+#quote{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote h1{margin-bottom:-5px;
+			font-size:2em;}
+
+#quote h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#quote_end{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote_end h1{margin-bottom:-5px;
+				font-size:2em;}
+
+#quote_end h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:28px;
+		margin:0 auto;
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.3em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		}
+		
+#view a:active{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+					
+					
+
+	}
+	
+
+/*#################portrait##############*/
+
+
+/*###############samsunggalaxy##########*/
+@media (min-width:321px) and (max-width:380px){
+
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+#quotes{display:none;}
+
+
+
+/*##############content###################*/	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;}
+				
+#headshot{width:290px;
+			height:290px;
+			margin:0 auto;
+			}
+
+#headshot img{width:100%;
+				height:100%}
+				
+#quote{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote h1{margin-bottom:-5px;
+			font-size:2em;}
+
+#quote h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#quote_end{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote_end h1{margin-bottom:-5px;
+				font-size:2em;}
+
+#quote_end h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:28px;
+		margin:0 auto;
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.3em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		}
+		
+#view a:active{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+					
+
+
+}
+
+/*################iphone5&4############*/
+@media (max-width:320px) {
+	
+header{display:none;}
+
+nav{display:none;}
+
+#bigpic{display:none;}
+
+#mobilecontacth1{display:block;}
+
+#pic{display:block;}
+
+#mobileholder h1{display:block;}
+
+#mobileholder h2{display:block;}
+
+#mobilesocial{display:block;}
+
+.quote_top{display:none;}
+
+.quote_bottom{display:none;}
+
+#quotes{display:none;}
+
+
+
+/*##############content###################*/	
+
+#mobileholder{background:#fff;
+				width:100%;
+				text-align:center;
+				padding-top:10px;
+				padding-bottom:10px;
+				margin-bottom:10px;}
+				
+#headshot{width:290px;
+			height:290px;
+			margin:0 auto;
+			}
+
+#headshot img{width:100%;
+				height:100%}
+				
+#quote{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote h1{margin-bottom:-5px;
+			font-size:2em;}
+
+#quote h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#quote_end{color:rgb(90,90,90);
+		font-family:"PT Sans Narrow";}
+		
+#quote_end h1{margin-bottom:-5px;
+				font-size:2em;}
+
+#quote_end h2{margin-bottom:5px;
+			font-size:1.2em;}
+		
+#view{background:rgb(15,65,111);
+		width:100px;
+		height:28px;
+		margin:0 auto;
+		
+		}
+		
+#view a{color:#fff;
+		font-family:"PT Sans Narrow";
+		font-size:1.3em;
+		display:inline-block;
+		width:100%;
+		height:100%;
+		}
+		
+#view a:active{background:rgb(200,200,200);
+				color:rgb(15,65,111);}
+					
+					
+				
+		
+		
+		}
