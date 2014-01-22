@@ -619,11 +619,10 @@ em{display:none;}
 		transition:all .6s ease;
 		}
 		
-#view a:hover{background:rgb(200,200,200);
-				color:rgb(15,65,111);}
-					
+#view a:active{	color:rgb(15,65,111);
+				background:rgb(200,200,200);}
 }
-
+	
 /*###############Iphone5##############*/
 @media (min-width:481px) and (max-width:568px){
 	
