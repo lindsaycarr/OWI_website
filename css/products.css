@@ -15,7 +15,7 @@ body{background:rgb(225,222,222);
 		overflow:auto;
 	}
 	
-b{font-weight:normal !important;}
+i{font-style:normal !important;}
 
 
 #mobilenav{display:none;}
@@ -373,7 +373,7 @@ body{background:rgb(225,222,222);
 #product_info h1.longname{color:rgb(15,65,111);
 					margin-left:10px;
 					margin-bottom:1px;
-					font-size:1em;
+					font-size:1.4em;
 					font-family:"PT Sans Narrow"}
 					
 #product_info h1 b{display:none;}
@@ -431,7 +431,7 @@ body{background:rgb(225,222,222);
 #container{width:650px;
 			margin:0 auto;}	
 	
-
+i{display:none;}
 
 /*#########################content_start#####################*/
 
@@ -468,7 +468,7 @@ body{background:rgb(225,222,222);
 #product_info h1.longname{color:rgb(15,65,111);
 					margin-left:10px;
 					margin-bottom:2px;
-					font-size:.90em;
+					font-size:1.2em;
 					font-family:"PT Sans Narrow"}
 					
 #product_info h1 b{display:none;}
@@ -476,7 +476,7 @@ body{background:rgb(225,222,222);
 #product_info p{color:rgb(59,59,59);
 					margin-left:10px;
 					margin-bottom:5px;
-					font-size:.85em;
+					font-size:1em;
 					font-family:"PT Sans Narrow";
 					}
 					
@@ -535,7 +535,7 @@ nav{display:none;}
 
 .quote_bottom{display:none;}
 
-em{display:none;}
+i{display:none;}
 
 
 
@@ -629,7 +629,7 @@ em{display:none;}
 	
 header{display:none;}
 
-em{display:none;}
+i{display:none;}
 
 nav{display:none;}
 
@@ -742,7 +742,7 @@ header{display:none;}
 
 nav{display:none;}
 
-em{display:none;}
+i{display:none;}
 
 #bigpic{display:none;}
 
@@ -857,7 +857,7 @@ header{display:none;}
 
 nav{display:none;}
 
-em{display:none;}
+i{display:none;}
 
 #bigpic{display:none;}
 
@@ -966,7 +966,7 @@ header{display:none;}
 
 nav{display:none;}
 
-em{display:none;}
+i{display:none;}
 
 #bigpic{display:none;}
 
