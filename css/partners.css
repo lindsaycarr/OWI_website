@@ -111,6 +111,8 @@ body{background:rgb(225,222,222);
 				margin-bottom:5px;
 				}
 				
+#projects_worked a{color:rgb(59,59,59);}
+				
 #view{background:rgb(15,65,111);
 		width:80px;
 		height:25px;
@@ -210,6 +212,8 @@ body{background:rgb(225,222,222);
 				font-size:1.4em;
 				margin-bottom:5px;
 				}
+				
+#projects_worked a{color:rgb(59,59,59);}
 				
 #view{background:rgb(15,65,111);
 		width:80px;
@@ -315,6 +319,8 @@ body{background:rgb(225,222,222);
 				margin-bottom:5px;
 				}
 				
+#projects_worked a{color:rgb(59,59,59);}
+				
 #view{background:rgb(15,65,111);
 		width:80px;
 		height:23px;
@@ -416,6 +422,8 @@ i{display:none;}
 				font-size:1.1em;
 				margin-bottom:5px;
 				}
+				
+#projects_worked a{color:rgb(59,59,59);}
 				
 #view{background:rgb(15,65,111);
 		width:80px;
@@ -524,6 +532,8 @@ em#ipad{display:inline;}
 				font-size:1.01em;
 				margin-bottom:5px;
 				}
+				
+#projects_worked a{color:rgb(59,59,59);}
 				
 #view{background:rgb(15,65,111);
 		width:80px;
