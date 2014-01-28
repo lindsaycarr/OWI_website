@@ -21,7 +21,7 @@ body{background:rgb(225,222,222);
 	
 #small{display:none;}
 	
-#picture{display:none;}
+.picture{display:none;}
 
 #mobilelinks{display:none;}
 	
@@ -86,26 +86,27 @@ ul#responsive{display:none;}
 					
 					}
 					
-#holder{
+.holder{
 		width:100%;
 		height:380px;
 		overflow:scroll;}
 		
-#scroll{background:rgb(200,200,200);
+.scroll{background:rgb(200,200,200);
 		width:100%;
 		height:125px;}
 		
-#newsarea{background:#fff;
+.newsarea{background:#fff;
 			width:100%;
 			height:120px;
+			
 			}
 			
-#newsarea p#story{text-align:left;
+.newsarea p.story{text-align:left;
 					padding:2px;
 					font-family:"PT Sans Narrow";
 					font-size:1em;}
 			
-#date{background:rgb(15,65,111);
+.date{background:rgb(15,65,111);
 		width:50px;
 		height:79%;
 		color:#fff;
@@ -150,13 +151,13 @@ ul#responsive{display:none;}
 #partners img{width:100%;
 			height:90%;}
 		
-#stripe{background:rgb(15,65,111);
+.stripe{background:rgb(15,65,111);
 		width:100%;
 		height:58px;
 		position:absolute;
 		bottom:0;}
 		
-#stripe a{color:#fff;
+.stripe a{color:#fff;
 			font-family:"PT Sans Narrow";
 			font-size:2.7em;
 			display:inline-block;
@@ -167,7 +168,7 @@ ul#responsive{display:none;}
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;}
 			
-#stripe a:hover{color:rgb(15,65,111);
+.stripe a:hover{color:rgb(15,65,111);
 					background:#fff;}
 		
 
@@ -216,6 +217,7 @@ ul#responsive{display:none;}
 					text-align:left;
 					font-family:"PT Sans Narrow";
 					font-size:1.2em;
+					margin-bottom:5px;
 					}
 					
 #newsfeed #topbar p{float:left;
@@ -223,26 +225,26 @@ ul#responsive{display:none;}
 					
 					}
 					
-#holder{
+.holder{
 		width:100%;
 		height:380px;
 		overflow:scroll;}
 		
-#scroll{background:rgb(200,200,200);
+.scroll{background:rgb(200,200,200);
 		width:100%;
 		height:125px;}
 		
-#newsarea{background:#fff;
+.newsarea{background:#fff;
 			width:100%;
 			height:120px;
 			}
 			
-#newsarea p#story{text-align:left;
+.newsarea p.story{text-align:left;
 					padding:2px;
 					font-family:"PT Sans Narrow";
 					font-size:1em;}
 			
-#date{background:rgb(15,65,111);
+.date{background:rgb(15,65,111);
 		width:50px;
 		height:83%;
 		color:#fff;
@@ -288,13 +290,13 @@ ul#responsive{display:none;}
 #partners img{width:100%;
 			height:90%;}
 		
-#stripe{background:rgb(15,65,111);
+.stripe{background:rgb(15,65,111);
 		width:100%;
 		height:58px;
 		position:absolute;
 		bottom:0;}
 		
-#stripe a{color:#fff;
+.stripe a{color:#fff;
 			font-family:"PT Sans Narrow";
 			font-size:2.7em;
 			display:inline-block;
@@ -305,7 +307,7 @@ ul#responsive{display:none;}
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;}
 			
-#stripe a:hover{color:rgb(15,65,111);
+.stripe a:hover{color:rgb(15,65,111);
 					background:#fff;}
 					
 /*#########################content_end#####################*/
@@ -354,6 +356,7 @@ ul#responsive{display:none;}
 					text-align:left;
 					font-family:"PT Sans Narrow";
 					font-size:1.2em;
+					margin-bottom:5px;
 					}
 					
 #newsfeed #topbar p{float:left;
@@ -361,26 +364,26 @@ ul#responsive{display:none;}
 					
 					}
 					
-#holder{
+.holder{
 		width:100%;
 		height:380px;
 		overflow:scroll;}
 		
-#scroll{background:rgb(200,200,200);
+.scroll{background:rgb(200,200,200);
 		width:100%;
 		height:125px;}
 		
-#newsarea{background:#fff;
+.newsarea{background:#fff;
 			width:100%;
 			height:120px;
 			}
 			
-#newsarea p#story{text-align:left;
+.newsarea p.story{text-align:left;
 					padding:2px;
 					font-family:"PT Sans Narrow";
 					font-size:.92em;}
 			
-#date{background:rgb(15,65,111);
+.date{background:rgb(15,65,111);
 		width:50px;
 		height:83%;
 		color:#fff;
@@ -426,13 +429,13 @@ ul#responsive{display:none;}
 #partners img{width:100%;
 			height:90%;}
 		
-#stripe{background:rgb(15,65,111);
+.stripe{background:rgb(15,65,111);
 		width:100%;
 		height:48px;
 		position:absolute;
 		bottom:0;}
 		
-#stripe a{color:#fff;
+.stripe a{color:#fff;
 			font-family:"PT Sans Narrow";
 			font-size:2.3em;
 			display:inline-block;
@@ -443,7 +446,7 @@ ul#responsive{display:none;}
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;}
 			
-#stripe a:hover{color:rgb(15,65,111);
+.stripe a:hover{color:rgb(15,65,111);
 					background:#fff;}
 		
 /*#########################content_end#####################*/
@@ -493,6 +496,7 @@ ul#responsive{display:none;}
 					text-align:left;
 					font-family:"PT Sans Narrow";
 					font-size:1.2em;
+					margin-bottom:5px;
 					}
 					
 #newsfeed #topbar p{float:left;
@@ -500,28 +504,28 @@ ul#responsive{display:none;}
 					
 					}
 					
-#holder{
+.holder{
 		width:100%;
 		height:380px;
 		overflow:scroll;}
 		
-#scroll{background:rgb(200,200,200);
+.scroll{background:rgb(200,200,200);
 		width:100%;
 		height:125px;}
 		
-#newsarea{background:#fff;
+.newsarea{background:#fff;
 			width:100%;
 			height:120px;
 			}
 			
-#newsarea p#story{text-align:left;
+.newsarea p.story{text-align:left;
 					padding:2px;
 					font-family:"PT Sans Narrow";
 					font-size:.90em;}
 			
 
 			
-#date{background:rgb(15,65,111);
+.date{background:rgb(15,65,111);
 		width:25px;
 		height:79%;
 		color:#fff;
@@ -566,13 +570,13 @@ ul#responsive{display:none;}
 #partners img{width:100%;
 			height:90%;}
 		
-#stripe{background:rgb(15,65,111);
+.stripe{background:rgb(15,65,111);
 		width:100%;
 		height:42px;
 		position:absolute;
 		bottom:0;}
 		
-#stripe a{color:#fff;
+.stripe a{color:#fff;
 			font-family:"PT Sans Narrow";
 			font-size:2.1em;
 			display:inline-block;
@@ -583,7 +587,7 @@ ul#responsive{display:none;}
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;}
 			
-#stripe a:hover{color:rgb(15,65,111);
+.stripe a:hover{color:rgb(15,65,111);
 					background:#fff;}
 		
 /*#########################content_end#####################*/
@@ -633,6 +637,7 @@ ul#responsive{display:none;}
 					text-align:left;
 					font-family:"PT Sans Narrow";
 					font-size:1.2em;
+					margin-bottom:5px;
 					}
 					
 #newsfeed #topbar p{float:left;
@@ -640,26 +645,26 @@ ul#responsive{display:none;}
 					
 					}
 					
-#holder{
+.holder{
 		width:100%;
 		height:380px;
 		overflow:scroll;}
 		
-#scroll{background:rgb(200,200,200);
+.scroll{background:rgb(200,200,200);
 		width:100%;
 		height:125px;}
 		
-#newsarea{background:#fff;
+.newsarea{background:#fff;
 			width:100%;
 			height:120px;
 			}
 			
-#newsarea p#story{text-align:left;
+.newsarea p.story{text-align:left;
 					padding:2px;
 					font-family:"PT Sans Narrow";
 					font-size:.84em;}
 			
-#date{background:rgb(15,65,111);
+.date{background:rgb(15,65,111);
 		width:20px;
 		height:71%;
 		color:#fff;
@@ -704,13 +709,13 @@ ul#responsive{display:none;}
 #partners img{width:100%;
 			height:90%;}		
 		
-#stripe{background:rgb(15,65,111);
+.stripe{background:rgb(15,65,111);
 		width:100%;
 		height:38px;
 		position:absolute;
 		bottom:0;}
 		
-#stripe a{color:#fff;
+.stripe a{color:#fff;
 			font-family:"PT Sans Narrow";
 			font-size:2em;
 			display:inline-block;
@@ -721,7 +726,7 @@ ul#responsive{display:none;}
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;}
 			
-#stripe a:hover{color:rgb(15,65,111);
+.stripe a:hover{color:rgb(15,65,111);
 					background:#fff;}
 		
 /*#########################content_end#####################*/
@@ -801,16 +806,16 @@ nav{display:none;}
 				float:left;
 				margin-right:1px;}
 			
-#mobile_newsarea{background:#fff;
+.mobile_newsarea{background:#fff;
 				height:100%;
 				width:200px;
 				margin-right:1px;
 				float:left;}
 				
-#mobile_newsarea p{font-family:"PT Sans Narrow";
+.mobile_newsarea p{font-family:"PT Sans Narrow";
 					padding:0 3px;}
 				
-#mobile_date{background:rgb(15,65,111);
+.mobile_date{background:rgb(15,65,111);
 			width:100%;
 			height:29px;
 			text-align:center;
@@ -831,7 +836,7 @@ nav{display:none;}
 		
 #products{background:#fff;
 		width:100%;
-		height:200px;
+		height:220px;
 		margin-right:10px;
 		margin-bottom:10px;
 		position:relative;
@@ -847,21 +852,21 @@ nav{display:none;}
 		
 #partners img{display:none;}
 		
-#picture{display:block !important;
+.picture{display:block !important;
 		background:#eee;
 		width:200px;
 		height:100%;
 		float:left;}
 		
-#picture img{display:block;
+.picture img{display:block !important;
 			width:100%;
 			height:100%;}
 		
-#mobilelinks{	display:block !important;
+.mobilelinks{	display:block !important;
 				text-align:center;
 				padding:0px 0;}
 		
-#mobilelinks a{color:rgb(15,65,111);
+.mobilelinks a{color:rgb(15,65,111);
 				font-family:"PT Sans Narrow";
 				font-size:4.5em;
 				display:block;
@@ -874,10 +879,10 @@ nav{display:none;}
 			transition:all .6s ease;
 				}
 				
-#mobilelinks a:hover{background:rgb(15,65,111);
+.mobilelinks a:hover{background:rgb(15,65,111);
 						color:#fff;}
 		
-#stripe{display:none;}
+.stripe{display:none;}
 		
 /*###################content_end################*/
 
@@ -950,16 +955,16 @@ nav{display:none;}
 				float:left;
 				margin-right:1px;}
 			
-#mobile_newsarea{background:#fff;
+.mobile_newsarea{background:#fff;
 				height:100%;
 				width:200px;
 				margin-right:1px;
 				float:left;}
 				
-#mobile_newsarea p{font-family:"PT Sans Narrow";
+.mobile_newsarea p{font-family:"PT Sans Narrow";
 					padding:0 3px;}
 				
-#mobile_date{background:rgb(15,65,111);
+.mobile_date{background:rgb(15,65,111);
 			width:100%;
 			height:29px;
 			text-align:center;
@@ -996,21 +1001,21 @@ nav{display:none;}
 		
 #partners img{display:none;}
 		
-#picture{display:block !important;
+.picture{display:block !important;
 		background:#eee;
 		width:200px;
 		height:100%;
 		float:left;}
 		
-#picture img{display:block;
+.picture img{display:block !important;
 			width:100%;
 			height:100%;}
 		
-#mobilelinks{	display:block !important;
+.mobilelinks{	display:block !important;
 				text-align:center;
 				padding:0px 0;}
 		
-#mobilelinks a{color:rgb(15,65,111);
+.mobilelinks a{color:rgb(15,65,111);
 				font-family:"PT Sans Narrow";
 				font-size:3.5em;
 				display:block;
@@ -1023,10 +1028,10 @@ nav{display:none;}
 			transition:all .6s ease;
 				}
 				
-#mobilelinks a:hover{background:rgb(15,65,111);
+.mobilelinks a:hover{background:rgb(15,65,111);
 						color:#fff;}
 		
-#stripe{display:none;}
+.stripe{display:none;}
 		
 /*###################content_end################*/
 	
@@ -1099,16 +1104,16 @@ nav{display:none;}
 				float:left;
 				margin-right:1px;}
 			
-#mobile_newsarea{background:#fff;
+.mobile_newsarea{background:#fff;
 				height:100%;
 				width:200px;
 				margin-right:1px;
 				float:left;}
 				
-#mobile_newsarea p{font-family:"PT Sans Narrow";
+.mobile_newsarea p{font-family:"PT Sans Narrow";
 					padding:0 3px;}
 				
-#mobile_date{background:rgb(15,65,111);
+.mobile_date{background:rgb(15,65,111);
 			width:100%;
 			height:29px;
 			text-align:center;
@@ -1146,21 +1151,21 @@ nav{display:none;}
 
 #partners img{display:none;}
 		
-#picture{display:block !important;
+.picture{display:block !important;
 		background:#eee;
 		width:160px;
 		height:100%;
 		float:left;}
 		
-#picture img{display:block;
+.picture img{display:block !important;
 			width:100%;
 			height:100%;}
 		
-#mobilelinks{	display:block !important;
+.mobilelinks{	display:block !important;
 				text-align:center;
 				padding:0px 0;}
 		
-#mobilelinks a{color:rgb(15,65,111);
+.mobilelinks a{color:rgb(15,65,111);
 				font-family:"PT Sans Narrow";
 				font-size:2.7em;
 				display:block;
@@ -1173,10 +1178,10 @@ nav{display:none;}
 			transition:all .6s ease;
 				}
 				
-#mobilelinks a:hover{background:rgb(15,65,111);
+.mobilelinks a:hover{background:rgb(15,65,111);
 						color:#fff;}
 		
-#stripe{display:none;}
+.stripe{display:none;}
 
 /*###################content_end################*/
 		
@@ -1249,16 +1254,16 @@ nav{display:none;}
 				float:left;
 				margin-right:1px;}
 			
-#mobile_newsarea{background:#fff;
+.mobile_newsarea{background:#fff;
 				height:100%;
 				width:200px;
 				margin-right:1px;
 				float:left;}
 				
-#mobile_newsarea p{font-family:"PT Sans Narrow";
+.mobile_newsarea p{font-family:"PT Sans Narrow";
 					padding:0 3px;}
 				
-#mobile_date{background:rgb(15,65,111);
+.mobile_date{background:rgb(15,65,111);
 			width:100%;
 			height:29px;
 			text-align:center;
@@ -1297,21 +1302,21 @@ nav{display:none;}
 		
 #partners img{display:none;}
 		
-#picture{display:block !important;
+.picture{display:block !important;
 		background:#eee;
 		width:140px;
 		height:100%;
 		float:left;}
 		
-#picture img{display:block;
+.picture img{display:block !important;
 			width:100%;
 			height:100%;}
 		
-#mobilelinks{	display:block !important;
+.mobilelinks{	display:block !important;
 				text-align:center;
 				padding:0px 0;}
 		
-#mobilelinks a{color:rgb(15,65,111);
+.mobilelinks a{color:rgb(15,65,111);
 				font-family:"PT Sans Narrow";
 				font-size:2em;
 				display:block;
@@ -1324,10 +1329,10 @@ nav{display:none;}
 			transition:all .6s ease;
 				}
 				
-#mobilelinks a:hover{background:rgb(15,65,111);
+.mobilelinks a:hover{background:rgb(15,65,111);
 						color:#fff;}
 		
-#stripe{display:none;}
+.stripe{display:none;}
 		
 /*###################content_end################*/
 					
@@ -1400,16 +1405,16 @@ nav{display:none;}
 				float:left;
 				margin-right:1px;}
 			
-#mobile_newsarea{background:#fff;
+.mobile_newsarea{background:#fff;
 				height:100%;
 				width:200px;
 				margin-right:1px;
 				float:left;}
 				
-#mobile_newsarea p{font-family:"PT Sans Narrow";
+.mobile_newsarea p{font-family:"PT Sans Narrow";
 					padding:0 3px;}
 				
-#mobile_date{background:rgb(15,65,111);
+.mobile_date{background:rgb(15,65,111);
 			width:100%;
 			height:29px;
 			text-align:center;
@@ -1446,21 +1451,21 @@ nav{display:none;}
 		
 #partners img{display:none;}
 		
-#picture{display:block !important;
+.picture{display:block !important;
 		background:#eee;
 		width:140px;
 		height:100%;
 		float:left;}
 		
-#picture img{display:block;
+.picture img{display:block !important;
 			width:100%;
 			height:100%;}
 		
-#mobilelinks{	display:block !important;
+.mobilelinks{	display:block !important;
 				text-align:center;
 				padding:0px 0;}
 		
-#mobilelinks a{color:rgb(15,65,111);
+.mobilelinks a{color:rgb(15,65,111);
 				font-family:"PT Sans Narrow";
 				font-size:2em;
 				display:block;
@@ -1473,10 +1478,10 @@ nav{display:none;}
 			transition:all .6s ease;
 				}
 				
-#mobilelinks a:hover{background:rgb(15,65,111);
+.mobilelinks a:hover{background:rgb(15,65,111);
 						color:#fff;}
 		
-#stripe{display:none;}
+.stripe{display:none;}
 		
 /*###################content_end################*/
 					
