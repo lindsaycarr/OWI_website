@@ -59,30 +59,30 @@ body{background:rgb(225,222,222);
 			
 		}
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:207.5px;
 			height:207.5px;
 			float:left;
 			margin-right:10px;
 			margin-bottom:10px;}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 			
-#description{background:#fff;
+.description{background:#fff;
 				width:932.5px;
 				height:207.5px;
 				float:left;
 				position:relative;
 				margin-bottom:10px;}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:2.1em;}
 				
-#description p{color:rgb(59,59,59);
+.description p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -90,20 +90,20 @@ body{background:rgb(225,222,222);
 				margin-bottom:5px;
 				text-indent:1em;}
 				
-#projects_worked{clear:both;
+.projects_worked{clear:both;
 					background:#fff;
 					width:100%;
 					min-height:50px;
 					margin-bottom:10px;
 					}
 				
-#projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:"PT Sans Narrow";
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(90,90,90);
 					}
 					
-#projects_worked p{color:rgb(59,59,59);
+.projects_worked p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -111,9 +111,9 @@ body{background:rgb(225,222,222);
 				margin-bottom:5px;
 				}
 				
-#projects_worked a{color:rgb(59,59,59);}
+.projects_worked a{color:rgb(59,59,59);}
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:80px;
 		height:25px;
 		text-align:center;
@@ -122,7 +122,7 @@ body{background:rgb(225,222,222);
 		bottom:10px;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:92%;
@@ -134,7 +134,7 @@ body{background:rgb(225,222,222);
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:hover{color:rgb(15,65,111);
+.view a:hover{color:rgb(15,65,111);
 				background:rgb(200,200,200);}
 
 /*#########################content_end#####################*/
@@ -161,30 +161,30 @@ body{background:rgb(225,222,222);
 		
 		}
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:207.5px;
 			height:207.5px;
 			float:left;
 			margin-right:10px;
 			margin-bottom:10px;}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 			
-#description{background:#fff;
+.description{background:#fff;
 				width:722.5px;
 				height:207.5px;
 				float:left;
 				position:relative;
 				margin-bottom:10px;}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:2.1em;}
 				
-#description p{color:rgb(59,59,59);
+.description p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -192,20 +192,20 @@ body{background:rgb(225,222,222);
 				margin-bottom:5px;
 				text-indent:1em;}
 				
-#projects_worked{clear:both;
+.projects_worked{clear:both;
 					background:#fff;
 					width:100%;
 					min-height:50px;
 					margin-bottom:10px;
 					}
 				
-#projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:"PT Sans Narrow";
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(90,90,90);
 					}
 					
-#projects_worked p{color:rgb(59,59,59);
+.projects_worked p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -213,9 +213,9 @@ body{background:rgb(225,222,222);
 				margin-bottom:5px;
 				}
 				
-#projects_worked a{color:rgb(59,59,59);}
+.projects_worked a{color:rgb(59,59,59);}
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:80px;
 		height:23px;
 		text-align:center;
@@ -224,7 +224,7 @@ body{background:rgb(225,222,222);
 		bottom:5px;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:92%;
@@ -236,7 +236,7 @@ body{background:rgb(225,222,222);
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:hover{color:rgb(15,65,111);
+.view a:hover{color:rgb(15,65,111);
 				background:rgb(200,200,200);}
 
 		
@@ -267,30 +267,30 @@ body{background:rgb(225,222,222);
 		
 		}
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:207.5px;
 			height:207.5px;
 			float:left;
 			margin-right:10px;
 			margin-bottom:10px;}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 			
-#description{background:#fff;
+.description{background:#fff;
 				width:632.5px;
 				height:207.5px;
 				float:left;
 				position:relative;
 				margin-bottom:10px;}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.7em;}
 				
-#description p{color:rgb(59,59,59);
+.description p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -298,20 +298,20 @@ body{background:rgb(225,222,222);
 				margin-bottom:5px;
 				text-indent:1em;}
 				
-#projects_worked{clear:both;
+.projects_worked{clear:both;
 					background:#fff;
 					width:100%;
 					min-height:50px;
 					margin-bottom:10px;
 					}
 				
-#projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:"PT Sans Narrow";
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(90,90,90);
 					}
 					
-#projects_worked p{color:rgb(59,59,59);
+.projects_worked p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -319,9 +319,9 @@ body{background:rgb(225,222,222);
 				margin-bottom:5px;
 				}
 				
-#projects_worked a{color:rgb(59,59,59);}
+.projects_worked a{color:rgb(59,59,59);}
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:80px;
 		height:23px;
 		text-align:center;
@@ -330,7 +330,7 @@ body{background:rgb(225,222,222);
 		bottom:5px;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:92%;
@@ -342,7 +342,7 @@ body{background:rgb(225,222,222);
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:hover{color:rgb(15,65,111);
+.view a:hover{color:rgb(15,65,111);
 				background:rgb(200,200,200);}
 
 		
@@ -371,30 +371,30 @@ i{display:none;}
 		
 		}
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:207.5px;
 			height:207.5px;
 			float:left;
 			margin-right:10px;
 			margin-bottom:10px;}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 			
-#description{background:#fff;
+.description{background:#fff;
 				width:512.5px;
 				height:207.5px;
 				float:left;
 				position:relative;
 				margin-bottom:10px;}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.5em;}
 				
-#description p{color:rgb(59,59,59);
+.description p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -402,20 +402,20 @@ i{display:none;}
 				margin-bottom:5px;
 				text-indent:1em;}
 				
-#projects_worked{clear:both;
+.projects_worked{clear:both;
 					background:#fff;
 					width:100%;
 					min-height:50px;
 					margin-bottom:10px;
 					}
 				
-#projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:"PT Sans Narrow";
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(90,90,90);
 					}
 					
-#projects_worked p{color:rgb(59,59,59);
+.projects_worked p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -423,9 +423,9 @@ i{display:none;}
 				margin-bottom:5px;
 				}
 				
-#projects_worked a{color:rgb(59,59,59);}
+.projects_worked a{color:rgb(59,59,59);}
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:80px;
 		height:23px;
 		text-align:center;
@@ -434,7 +434,7 @@ i{display:none;}
 		bottom:5px;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:92%;
@@ -446,7 +446,7 @@ i{display:none;}
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:hover{color:rgb(15,65,111);
+.view a:hover{color:rgb(15,65,111);
 				background:rgb(200,200,200);}
 
 		
@@ -481,30 +481,30 @@ em#ipad{display:inline;}
 		
 		}
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:207.5px;
 			height:207.5px;
 			float:left;
 			margin-right:10px;
 			margin-bottom:10px;}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 			
-#description{background:#fff;
+.description{background:#fff;
 				width:432.5px;
 				height:207.5px;
 				float:left;
 				position:relative;
 				margin-bottom:10px;}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.3em;}
 				
-#description p{color:rgb(59,59,59);
+.description p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -512,20 +512,20 @@ em#ipad{display:inline;}
 				margin-bottom:5px;
 				text-indent:1em;}
 				
-#projects_worked{clear:both;
+.projects_worked{clear:both;
 					background:#fff;
 					width:100%;
 					min-height:50px;
 					margin-bottom:10px;
 					}
 				
-#projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:"PT Sans Narrow";
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(90,90,90);
 					}
 					
-#projects_worked p{color:rgb(59,59,59);
+.projects_worked p{color:rgb(59,59,59);
 				font-family:"PT Sans Narrow";
 				margin-left:10px;
 				margin-right:10px;
@@ -533,9 +533,9 @@ em#ipad{display:inline;}
 				margin-bottom:5px;
 				}
 				
-#projects_worked a{color:rgb(59,59,59);}
+.projects_worked a{color:rgb(59,59,59);}
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:80px;
 		height:23px;
 		text-align:center;
@@ -544,7 +544,7 @@ em#ipad{display:inline;}
 		bottom:5px;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:92%;
@@ -556,7 +556,7 @@ em#ipad{display:inline;}
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:hover{color:rgb(15,65,111);
+.view a:hover{color:rgb(15,65,111);
 				background:rgb(200,200,200);}
 
 		
@@ -594,7 +594,7 @@ i{display:none;}
 
 em#ipad{display:inline;}	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
@@ -605,43 +605,43 @@ em#ipad{display:inline;}
 
 
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:250px;
 			height:250px;
 			margin: 0 auto;
 			}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 			
-#description{background:#fff;
+.description{background:#fff;
 				width:410px;
 				position:relative;
 				margin:0 auto;
 				font-family:"PT Sans Narrow";}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.3em;}
 				
-#description p{margin-bottom:3px;
+.description p{margin-bottom:3px;
 				text-align:justify;}
 				
-#projects_worked{display:none;
+.projects_worked{display:none;
 					}
 				
 
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:30px;
 		text-align:center;
 		margin:0 auto;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:94%;
@@ -653,7 +653,7 @@ em#ipad{display:inline;}
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:active{color:rgb(15,65,111);
+.view a:active{color:rgb(15,65,111);
 				background:rgb(200,200,200);}
 
 }
@@ -691,7 +691,7 @@ i{display:none;}
 
 em#ipad{display:inline;}	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
@@ -702,43 +702,43 @@ em#ipad{display:inline;}
 
 
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:250px;
 			height:250px;
 			margin: 0 auto;
 			}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 			
-#description{background:#fff;
+.description{background:#fff;
 				width:410px;
 				position:relative;
 				margin:0 auto;
 				font-family:"PT Sans Narrow";}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.3em;}
 				
-#description p{margin-bottom:3px;
+.description p{margin-bottom:3px;
 				text-align:justify;}
 				
-#projects_worked{display:none;
+.projects_worked{display:none;
 					}
 				
 
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:30px;
 		text-align:center;
 		margin:0 auto;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:94%;
@@ -750,7 +750,7 @@ em#ipad{display:inline;}
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:active{color:rgb(15,65,111);
+.view a:active{color:rgb(15,65,111);
 				background:rgb(200,200,200);}
 					
 					
@@ -789,7 +789,7 @@ i{display:none;}
 
 em#ipad{display:inline;}	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
@@ -800,45 +800,45 @@ em#ipad{display:inline;}
 
 
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:250px;
 			height:250px;
 			margin: 0 auto;
 			}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 			
 	
 				
-#description{background:#fff;
+.description{background:#fff;
 				width:360px;
 				position:relative;
 				margin:0 auto;
 				font-family:"PT Sans Narrow";}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.3em;}
 				
-#description p{margin-bottom:3px;
+.description p{margin-bottom:3px;
 				text-align:justify;}
 				
-#projects_worked{display:none;
+.projects_worked{display:none;
 					}
 				
 
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:30px;
 		text-align:center;
 		margin:0 auto;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:94%;
@@ -850,7 +850,7 @@ em#ipad{display:inline;}
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:active{color:rgb(15,65,111);
+.view a:active{color:rgb(15,65,111);
 				background:rgb(200,200,200);}
 					
 
@@ -896,7 +896,7 @@ h1{display:none !important;}
 
 h1.mobile{display:block !important;}	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
@@ -907,48 +907,48 @@ h1.mobile{display:block !important;}
 
 
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:250px;
 			height:250px;
 			margin: 0 auto;
 			}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 			
-#partner_info{background:#fff;
+.partner_info{background:#fff;
 				width:300px;
 				
 				
 				position:relative;
 				margin:0 auto;}
 				
-#description{background:#fff;
+.description{background:#fff;
 				width:300px;
 				position:relative;
 				margin:0 auto;
 				font-family:"PT Sans Narrow";}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.3em;}
 				
-#description p{margin-bottom:3px;
+.description p{margin-bottom:3px;
 				text-align:justify;}
 				
-#projects_worked{display:none;
+.projects_worked{display:none;
 					}
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:30px;
 		text-align:center;
 		margin:0 auto;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:94%;
@@ -960,7 +960,7 @@ h1.mobile{display:block !important;}
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:active{background:rgb(200,200,200);
+.view a:active{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 					
 
@@ -1004,7 +1004,7 @@ h1{display:none !important;}
 
 h1.mobile{display:block !important;}	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
@@ -1015,41 +1015,41 @@ h1.mobile{display:block !important;}
 
 
 		
-#partner_logo{background:#fff;
+.partner_logo{background:#fff;
 			width:250px;
 			height:250px;
 			margin: 0 auto;
 			}
 			
-#partner_logo img{width:100%;
+.partner_logo img{width:100%;
 					height:100%;}
 				
-#description{background:#fff;
+.description{background:#fff;
 				width:290px;
 				position:relative;
 				margin:0 auto;
 				font-family:"PT Sans Narrow";}
 				
-#description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:"PT Sans Narrow";
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.3em;}
 				
-#description p{margin-bottom:3px;
+.description p{margin-bottom:3px;
 				text-align:justify;}
 				
-#projects_worked{display:none;
+.projects_worked{display:none;
 					}
 				
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:30px;
 		text-align:center;
 		margin:0 auto;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		display:inline-block;
 		width:100%;
 		height:94%;
@@ -1061,7 +1061,7 @@ h1.mobile{display:block !important;}
 		-ms-transition:all .6s ease;
 		transition:all .6s ease;}
 		
-#view a:active{background:rgb(200,200,200);
+.view a:active{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 					
 					
