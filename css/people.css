@@ -51,7 +51,7 @@ body{background:rgb(225,222,222);
 		
 
 		
-#headshot{
+.headshot{
 			width:230px;
 			height:230px;
 			float:left;
@@ -60,10 +60,10 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}
 			
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%;}
 			
-#quote{background:#fff;
+.quote{background:#fff;
 		width:330px;
 		height:230px;
 		float:left;
@@ -71,13 +71,13 @@ body{background:rgb(225,222,222);
 		margin-bottom:10px;
 		position:relative;}
 		
-#quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.8em;
 			margin-bottom:-5px;}
 			
-#quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.2em;}
@@ -92,7 +92,7 @@ body{background:rgb(225,222,222);
 				bottom:50px;
 				opacity:.5;}
 		
-#quote_end{background:#fff;
+.quote_end{background:#fff;
 		width:330px;
 		height:230px;
 		float:left;
@@ -100,27 +100,27 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-#quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.8em;
 			margin-bottom:-5px;}
 			
-#quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.2em;}
 			
-#quotes{padding:0 5px;
+.quotes{padding:0 5px;
 		height:100px;
 		margin-top:40px;
 		text-align:center;}
 		
-#quotes p{color:rgb(90,90,90);
+.quotes p{color:rgb(90,90,90);
 			font-family:"PT Sans Narrow";
 			font-size:1.9em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:30px;
 		position:absolute;
@@ -129,7 +129,7 @@ body{background:rgb(225,222,222);
 		text-align:center;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:1.3em;
 		display:inline-block;
@@ -142,7 +142,7 @@ body{background:rgb(225,222,222);
 		transition:all .6s ease;
 		}
 		
-#view a:hover{background:rgb(200,200,200);
+.view a:hover{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 		
 
@@ -170,7 +170,7 @@ body{background:rgb(225,222,222);
 		
 		}
 		
-#headshot{
+.headshot{
 			width:200px;
 			height:200px;
 			float:left;
@@ -179,10 +179,10 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}
 			
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%;}
 			
-#quote{background:#fff;
+.quote{background:#fff;
 		width:255px;
 		height:200px;
 		float:left;
@@ -190,13 +190,13 @@ body{background:rgb(225,222,222);
 		margin-bottom:10px;
 		position:relative;}
 		
-#quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.7em;
 			margin-bottom:-5px;}
 			
-#quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.2em;}
@@ -211,7 +211,7 @@ body{background:rgb(225,222,222);
 				bottom:50px;
 				opacity:.5;}
 		
-#quote_end{background:#fff;
+.quote_end{background:#fff;
 		width:255px;
 		height:200px;
 		float:left;
@@ -219,27 +219,27 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-#quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.7em;
 			margin-bottom:-5px;}
 			
-#quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.2em;}
 			
-#quotes{padding:0 5px;
+.quotes{padding:0 5px;
 		height:100px;
 		margin-top:40px;
 		text-align:center;}
 		
-#quotes p{color:rgb(90,90,90);
+.quotes p{color:rgb(90,90,90);
 			font-family:"PT Sans Narrow";
 			font-size:1.5em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:80px;
 		height:25px;
 		position:absolute;
@@ -248,7 +248,7 @@ body{background:rgb(225,222,222);
 		text-align:center;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:1em;
 		display:inline-block;
@@ -261,7 +261,7 @@ body{background:rgb(225,222,222);
 		transition:all .6s ease;
 		}
 		
-#view a:hover{background:rgb(200,200,200);
+.view a:hover{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 		
 		
@@ -291,7 +291,7 @@ body{background:rgb(225,222,222);
 		
 		}
 		
-#headshot{
+.headshot{
 			width:180px;
 			height:180px;
 			float:left;
@@ -300,10 +300,10 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}
 			
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%;}
 			
-#quote{background:#fff;
+.quote{background:#fff;
 		width:230px;
 		height:180px;
 		float:left;
@@ -311,13 +311,13 @@ body{background:rgb(225,222,222);
 		margin-bottom:10px;
 		position:relative;}
 		
-#quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.5em;
 			margin-bottom:-5px;}
 			
-#quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.1em;}
@@ -332,7 +332,7 @@ body{background:rgb(225,222,222);
 				bottom:50px;
 				opacity:.5;}
 		
-#quote_end{background:#fff;
+.quote_end{background:#fff;
 		width:230px;
 		height:180px;
 		float:left;
@@ -340,27 +340,27 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-#quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.5em;
 			margin-bottom:-5px;}
 			
-#quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.1em;}
 		
-#quotes{padding:0 5px;
+.quotes{padding:0 5px;
 		height:100px;
 		margin-top:35px;
 		text-align:center;}
 		
-#quotes p{color:rgb(90,90,90);
+.quotes p{color:rgb(90,90,90);
 			font-family:"PT Sans Narrow";
 			font-size:1.3em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:70px;
 		height:25px;
 		position:absolute;
@@ -369,7 +369,7 @@ body{background:rgb(225,222,222);
 		text-align:center;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:.95em;
 		display:inline-block;
@@ -382,7 +382,7 @@ body{background:rgb(225,222,222);
 		transition:all .6s ease;
 		}
 		
-#view a:hover{background:rgb(200,200,200);
+.view a:hover{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 		
 /*#########################content_end#####################*/
@@ -410,7 +410,7 @@ body{background:rgb(225,222,222);
 		
 		}
 		
-#headshot{
+.headshot{
 			width:150px;
 			height:150px;
 			float:left;
@@ -419,10 +419,10 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}
 			
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%;}
 			
-#quote{background:#fff;
+.quote{background:#fff;
 		width:200px;
 		height:150px;
 		float:left;
@@ -430,13 +430,13 @@ body{background:rgb(225,222,222);
 		margin-bottom:10px;
 		position:relative;}
 		
-#quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.3em;
 			margin-bottom:-5px;}
 			
-#quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:.95em;}
@@ -451,7 +451,7 @@ body{background:rgb(225,222,222);
 				bottom:40px;
 				opacity:.5;}
 		
-#quote_end{background:#fff;
+.quote_end{background:#fff;
 		width:200px;
 		height:150px;
 		float:left;
@@ -459,27 +459,27 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-#quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.3em;
 			margin-bottom:-5px;}
 			
-#quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:.95em;}
 		
-#quotes{padding: 0 5px;
+.quotes{padding: 0 5px;
 		height:100px;
 		margin-top:30px;
 		text-align:center;}
 		
-#quotes p{color:rgb(90,90,90);
+.quotes p{color:rgb(90,90,90);
 			font-family:"PT Sans Narrow";
 			font-size:1.1em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:50px;
 		height:20px;
 		position:absolute;
@@ -489,7 +489,7 @@ body{background:rgb(225,222,222);
 		overflow:hidden;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:.95em;
 		display:inline-block;
@@ -502,7 +502,7 @@ body{background:rgb(225,222,222);
 		transition:all .6s ease;
 		}
 		
-#view a:hover{background:rgb(200,200,200);
+.view a:hover{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 		
 		
@@ -532,7 +532,7 @@ body{background:rgb(225,222,222);
 		
 		}
 		
-#headshot{
+.headshot{
 			width:290px;
 			height:290px;
 			float:left;
@@ -540,23 +540,23 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}
 			
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%;}
 			
-#quote{background:#fff;
+.quote{background:#fff;
 		width:350px;
 		height:290px;
 		float:left;
 		margin-bottom:10px;
 		position:relative;}
 		
-#quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:2.3em;
 			margin-bottom:-5px;}
 			
-#quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.7em;}
@@ -571,7 +571,7 @@ body{background:rgb(225,222,222);
 				bottom:50px;
 				opacity:.5;}
 		
-#quote_end{background:#fff;
+.quote_end{background:#fff;
 		width:350px;
 		height:290px;
 		float:left;
@@ -579,27 +579,27 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-#quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:2.3em;
 			margin-bottom:-5px;}
 			
-#quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:"PT Sans Narrow";
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.7em;}
 			
-#quotes{
+.quotes{
 		height:100px;
 		margin-top:45px;
 		text-align:center;}
 		
-#quotes p{color:rgb(90,90,90);
+.quotes p{color:rgb(90,90,90);
 			font-family:"PT Sans Narrow";
 			font-size:2em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:30px;
 		position:absolute;
@@ -608,7 +608,7 @@ body{background:rgb(225,222,222);
 		text-align:center;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:1.3em;
 		display:inline-block;
@@ -621,7 +621,7 @@ body{background:rgb(225,222,222);
 		transition:all .6s ease;
 		}
 		
-#view a:hover{background:rgb(200,200,200);
+.view a:hover{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 		
 /*#########################content_end#####################*/
@@ -653,46 +653,46 @@ nav{display:none;}
 
 /*##############content###################*/	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
 				padding-bottom:10px;
 				margin-bottom:10px;}
 				
-#headshot{width:290px;
+.headshot{width:290px;
 			height:290px;
 			margin:0 auto;
 			}
 
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%}
 				
-#quote{color:rgb(90,90,90);
+.quote{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote h1{margin-bottom:1px;
+.quote h1{margin-bottom:1px;
 			font-size:2em;}
 
-#quote h2{margin-bottom:5px;
+.quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#quote_end{color:rgb(90,90,90);
+.quote_end{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote_end h1{margin-bottom:1px;
+.quote_end h1{margin-bottom:1px;
 				font-size:2em;}
 
-#quote_end h2{margin-bottom:5px;
+.quote_end h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:28px;
 		margin:0 auto;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:1.3em;
 		display:inline-block;
@@ -700,7 +700,7 @@ nav{display:none;}
 		height:100%;
 		}
 		
-#view a:active{background:rgb(200,200,200);
+.view a:active{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 	
 	}
@@ -734,46 +734,46 @@ nav{display:none;}
 
 /*##############content###################*/	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
 				padding-bottom:10px;
 				margin-bottom:10px;}
 				
-#headshot{width:290px;
+.headshot{width:290px;
 			height:290px;
 			margin:0 auto;
 			}
 
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%}
 				
-#quote{color:rgb(90,90,90);
+.quote{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote h1{margin-bottom:1px;
+.quote h1{margin-bottom:1px;
 			font-size:2em;}
 
-#quote h2{margin-bottom:5px;
+.quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#quote_end{color:rgb(90,90,90);
+.quote_end{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote_end h1{margin-bottom:1px;
+.quote_end h1{margin-bottom:1px;
 				font-size:2em;}
 
-#quote_end h2{margin-bottom:5px;
+.quote_end h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:28px;
 		margin:0 auto;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:1.3em;
 		display:inline-block;
@@ -781,7 +781,7 @@ nav{display:none;}
 		height:100%;
 		}
 		
-#view a:active{background:rgb(200,200,200);
+.view a:active{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 					
 	}
@@ -814,46 +814,46 @@ nav{display:none;}
 
 /*##############content###################*/	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
 				padding-bottom:10px;
 				margin-bottom:10px;}
 				
-#headshot{width:290px;
+.headshot{width:290px;
 			height:290px;
 			margin:0 auto;
 			}
 
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%}
 				
-#quote{color:rgb(90,90,90);
+.quote{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote h1{margin-bottom:1px;
+.quote h1{margin-bottom:1px;
 			font-size:2em;}
 
-#quote h2{margin-bottom:5px;
+.quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#quote_end{color:rgb(90,90,90);
+.quote_end{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote_end h1{margin-bottom:1px;
+.quote_end h1{margin-bottom:1px;
 				font-size:2em;}
 
-#quote_end h2{margin-bottom:5px;
+.quote_end h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:28px;
 		margin:0 auto;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:1.3em;
 		display:inline-block;
@@ -861,7 +861,7 @@ nav{display:none;}
 		height:100%;
 		}
 		
-#view a:active{background:rgb(200,200,200);
+.view a:active{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 					
 					
@@ -901,46 +901,46 @@ nav{display:none;}
 
 /*##############content###################*/	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
 				padding-bottom:10px;
 				margin-bottom:10px;}
 				
-#headshot{width:290px;
+.headshot{width:290px;
 			height:290px;
 			margin:0 auto;
 			}
 
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%}
 				
-#quote{color:rgb(90,90,90);
+.quote{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote h1{margin-bottom:1px;
+.quote h1{margin-bottom:1px;
 			font-size:2em;}
 
-#quote h2{margin-bottom:5px;
+.quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#quote_end{color:rgb(90,90,90);
+.quote_end{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote_end h1{margin-bottom:1px;
+.quote_end h1{margin-bottom:1px;
 				font-size:2em;}
 
-#quote_end h2{margin-bottom:5px;
+.quote_end h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:28px;
 		margin:0 auto;
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:1.3em;
 		display:inline-block;
@@ -948,7 +948,7 @@ nav{display:none;}
 		height:100%;
 		}
 		
-#view a:active{background:rgb(200,200,200);
+.view a:active{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 					
 
@@ -984,47 +984,47 @@ nav{display:none;}
 
 /*##############content###################*/	
 
-#mobileholder{background:#fff;
+.mobileholder{background:#fff;
 				width:100%;
 				text-align:center;
 				padding-top:10px;
 				padding-bottom:10px;
 				margin-bottom:10px;}
 				
-#headshot{width:290px;
+.headshot{width:290px;
 			height:290px;
 			margin:0 auto;
 			}
 
-#headshot img{width:100%;
+.headshot img{width:100%;
 				height:100%}
 				
-#quote{color:rgb(90,90,90);
+.quote{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote h1{margin-bottom:1px;
+.quote h1{margin-bottom:1px;
 			font-size:2em;}
 
-#quote h2{margin-bottom:5px;
+.quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#quote_end{color:rgb(90,90,90);
+.quote_end{color:rgb(90,90,90);
 		font-family:"PT Sans Narrow";}
 		
-#quote_end h1{margin-bottom:1px;
+.quote_end h1{margin-bottom:1px;
 				font-size:2em;}
 
-#quote_end h2{margin-bottom:5px;
+.quote_end h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
-#view{background:rgb(15,65,111);
+.view{background:rgb(15,65,111);
 		width:100px;
 		height:28px;
 		margin:0 auto;
 		
 		}
 		
-#view a{color:#fff;
+.view a{color:#fff;
 		font-family:"PT Sans Narrow";
 		font-size:1.3em;
 		display:inline-block;
@@ -1032,7 +1032,7 @@ nav{display:none;}
 		height:100%;
 		}
 		
-#view a:active{background:rgb(200,200,200);
+.view a:active{background:rgb(200,200,200);
 				color:rgb(15,65,111);}
 					
 					
