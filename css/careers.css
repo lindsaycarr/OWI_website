@@ -49,17 +49,17 @@ body{background:rgb(225,222,222);
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#benefits h1{font-family:"PT Sans Narrow";
+#benefits h1{font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
-				font-size:2.5em;}
+				font-size:1.5em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
-			padding-left:40px;
+			padding-left:30px;
 			line-height:2em;
-			font-size:1.5em;}
+			font-size:1.3em;}
 			
 #benefits a{color:rgb(15,65,111);}
 
@@ -70,26 +70,26 @@ body{background:rgb(225,222,222);
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
-					
-#finding_jobs p{font-family:"PT Sans Narrow";
-					color:rgb(59,59,59);
-					padding-left:40px;
-					line-height:2em;
 					font-size:1.5em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
-					padding-left:40px;
+					padding-left:30px;
+					line-height:2em;
+					font-size:1.3em;}
+					
+#finding_jobs p.small{font-family:Scada;
+					color:rgb(59,59,59);
+					padding-left:30px;
 					font-size:1em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.5em;
+					font-size:1.3em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -99,19 +99,19 @@ body{background:rgb(225,222,222);
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
-					
-#interns p{font-family:"PT Sans Narrow";
-					color:rgb(59,59,59);
-					padding-left:40px;
-					line-height:2em;
 					font-size:1.5em;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
+					color:rgb(59,59,59);
+					padding-left:30px;
+					line-height:2em;
+					font-size:1.3em;}
+					
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
@@ -149,17 +149,17 @@ body{background:rgb(225,222,222);
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#benefits h1{font-family:"PT Sans Narrow";
+#benefits h1{font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
-				font-size:2.3em;}
+				font-size:1.5em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
-			padding-left:40px;
+			padding-left:30px;
 			line-height:2em;
-			font-size:1.5em;}
+			font-size:1.3em;}
 			
 #benefits a{color:rgb(15,65,111);}
 
@@ -170,26 +170,26 @@ body{background:rgb(225,222,222);
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
-					
-#finding_jobs p{font-family:"PT Sans Narrow";
-					color:rgb(59,59,59);
-					padding-left:40px;
-					line-height:2em;
 					font-size:1.5em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
-					padding-left:40px;
+					padding-left:30px;
+					line-height:2em;
+					font-size:1.3em;}
+					
+#finding_jobs p.small{font-family:Scada;
+					color:rgb(59,59,59);
+					padding-left:30px;
 					font-size:1em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.5em;
+					font-size:1.3em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -199,19 +199,19 @@ body{background:rgb(225,222,222);
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
+					font-size:1.5em;}
 					
-#interns p{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
 					color:rgb(59,59,59);
-					padding-left:40px;
+					padding-left:30px;
 					line-height:2em;
 					font-size:1.2em;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
@@ -245,17 +245,17 @@ body{background:rgb(225,222,222);
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#benefits h1{font-family:"PT Sans Narrow";
+#benefits h1{font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
-				font-size:2.1em;}
+				font-size:1.5em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
-			padding-left:40px;
+			padding-left:30px;
 			line-height:2em;
-			font-size:1.5em;}
+			font-size:1.3em;}
 			
 #benefits a{color:rgb(15,65,111);}
 
@@ -266,26 +266,26 @@ body{background:rgb(225,222,222);
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
-					
-#finding_jobs p{font-family:"PT Sans Narrow";
-					color:rgb(59,59,59);
-					padding-left:40px;
-					line-height:2em;
 					font-size:1.5em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
-					padding-left:40px;
+					padding-left:30px;
+					line-height:2em;
+					font-size:1.3em;}
+					
+#finding_jobs p.small{font-family:Scada;
+					color:rgb(59,59,59);
+					padding-left:30px;
 					font-size:1em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.5em;
+					font-size:1.3em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -295,19 +295,19 @@ body{background:rgb(225,222,222);
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
+					font-size:1.5em;}
 					
-#interns p{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
 					color:rgb(59,59,59);
-					padding-left:40px;
+					padding-left:30px;
 					line-height:2em;
 					font-size:1.2em;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
@@ -356,7 +356,7 @@ header{background:#fff;
 			}
 			
 #headernav ul{ list-style-type:none;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				padding-top:2px;
 				}
 				
@@ -375,7 +375,7 @@ header{background:#fff;
 
 nav{background:rgb(15,65,111);
 	height:58px;
-	font-family:"PT Sans Narrow";
+	font-family:Scada;
 	color:#fff;
 	position:relative;
 	margin-bottom:10px;
@@ -468,17 +468,17 @@ nav ul li:hover ul li a:hover{
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#benefits h1{font-family:"PT Sans Narrow";
+#benefits h1{font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
-				font-size:1.8em;}
+				font-size:1.4em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
-			padding-left:40px;
+			padding-left:30px;
 			line-height:2em;
-			font-size:1.4em;}
+			font-size:1.1em;}
 			
 #benefits a{color:rgb(15,65,111);}
 
@@ -489,26 +489,26 @@ nav ul li:hover ul li a:hover{
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
-					
-#finding_jobs p{font-family:"PT Sans Narrow";
-					color:rgb(59,59,59);
-					padding-left:40px;
-					line-height:2em;
 					font-size:1.5em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
-					padding-left:40px;
+					padding-left:30px;
+					line-height:2em;
+					font-size:1.1em;}
+					
+#finding_jobs p.small{font-family:Scada;
+					color:rgb(59,59,59);
+					padding-left:30px;
 					font-size:1em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.4em;
+					font-size:1.1em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -518,19 +518,20 @@ nav ul li:hover ul li a:hover{
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
+					font-size:1.5em;}
 					
-#interns p{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
-					font-size:1.1em;}
+					font-size:1.1em;
+					padding-left:30px;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
@@ -561,17 +562,17 @@ nav ul li:hover ul li a:hover{
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#benefits h1{font-family:"PT Sans Narrow";
+#benefits h1{font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
-				font-size:1.6em;}
+				font-size:1.2em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
-			padding-left:40px;
+			padding-left:20px;
 			line-height:2em;
-			font-size:1.3em;}
+			font-size:1em;}
 			
 #benefits a{color:rgb(15,65,111);}
 
@@ -582,26 +583,26 @@ nav ul li:hover ul li a:hover{
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
+					font-size:1.2em;}
 					
-#finding_jobs p{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
-					padding-left:40px;
+					padding-left:20px;
 					line-height:2em;
-					font-size:1.5em;}
+					font-size:1em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p.small{font-family:Scada;
 					color:rgb(59,59,59);
-					padding-left:40px;
+					padding-left:20px;
 					font-size:.9em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.4em;
+					font-size:1em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -611,19 +612,20 @@ nav ul li:hover ul li a:hover{
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
-					font-size:2em;}
+					font-size:1.2em;}
 					
-#interns p{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
-					font-size:1.1em;}
+					font-size:1em;
+					padding-left:20px;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
@@ -660,17 +662,17 @@ nav{display:none;}
 #benefits h1{display:none;}
 				
 #benefits h1#mobile{display:block !important;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
 				font-size:2.5em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
 			padding-left:10px;
 			line-height:2em;
-			font-size:1.2em;}
+			font-size:1.1em;}
 			
 #benefits a{color:rgb(15,65,111);}
 
@@ -681,26 +683,26 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#finding_jobs p{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
-					font-size:1.2em;}
+					font-size:1.1em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p.small{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					font-size:.8em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.4em;
+					font-size:1.1em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -710,19 +712,19 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#interns p{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
 					font-size:1.1em;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
@@ -767,17 +769,17 @@ nav{display:none;}
 #benefits h1{display:none;}
 				
 #benefits h1#mobile{display:block !important;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
 				font-size:2.5em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
 			padding-left:10px;
 			line-height:2em;
-			font-size:1.2em;}
+			font-size:1em;}
 			
 #benefits a{color:rgb(15,65,111);}
 
@@ -788,26 +790,26 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#finding_jobs p{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
 					font-size:1em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p.small{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					font-size:.8em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.4em;
+					font-size:1em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -817,19 +819,19 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#interns p{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
-					font-size:1.1em;}
+					font-size:1em;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
@@ -874,13 +876,13 @@ nav{display:none;}
 #benefits h1{display:none;}
 				
 #benefits h1#mobile{display:block !important;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
-				font-size:2.5em;}
+				font-size:2em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
 			padding-left:10px;
 			line-height:2em;
@@ -895,26 +897,26 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#finding_jobs p{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
 					font-size:1em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p.small{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					font-size:.8em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.4em;
+					font-size:1em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -924,19 +926,19 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#interns p{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
-					font-size:1.1em;}
+					font-size:1em;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
@@ -984,13 +986,13 @@ nav{display:none;}
 #benefits h1{display:none;}
 				
 #benefits h1#mobile{display:block !important;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
-				font-size:2.5em;}
+				font-size:1.8em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
 			padding-left:10px;
 			line-height:1.5em;
@@ -1005,26 +1007,26 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#finding_jobs p{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
 					font-size:.8em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p.small{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					font-size:.8em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.4em;
+					font-size:1em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -1034,19 +1036,19 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#interns p{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
-					font-size:1.1em;}
+					font-size:1em;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
@@ -1092,13 +1094,13 @@ nav{display:none;}
 #benefits h1{display:none;}
 				
 #benefits h1#mobile{display:block !important;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				color:rgb(15,65,111);
 				padding-top:10px;
 				padding-left:10px;
-				font-size:2.2em;}
+				font-size:1.8em;}
 				
-#benefits p{font-family:"PT Sans Narrow";
+#benefits p{font-family:Scada;
 			color:rgb(59,59,59);
 			padding-left:10px;
 			line-height:1.5em;
@@ -1113,26 +1115,26 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#finding_jobs h2{font-family:"PT Sans Narrow";
+#finding_jobs h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#finding_jobs p{font-family:"PT Sans Narrow";
+#finding_jobs p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
 					font-size:.8em;}
 					
-#finding_jobs p.small{font-family:"PT Sans Narrow";
+#finding_jobs p.small{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					font-size:.8em;}
 					
-#finding_jobs a{font-family:"PT Sans Narrow";
+#finding_jobs a{font-family:Scada;
 					color:rgb(15,65,111);
-					font-size:1.4em;
+					font-size:1em;
 					}
 					
 #finding_jobs a:hover{text-decoration:underline;}
@@ -1142,19 +1144,19 @@ nav{display:none;}
 			min-height:50px;
 			margin-bottom:10px;}
 			
-#interns h2{font-family:"PT Sans Narrow";
+#interns h2{font-family:Scada;
 					color:rgb(15,65,111);
 					padding-left:10px;
 					padding-top:10px;
 					font-size:2em;}
 					
-#interns p{font-family:"PT Sans Narrow";
+#interns p{font-family:Scada;
 					color:rgb(59,59,59);
 					padding-left:10px;
 					line-height:2em;
-					font-size:1.1em;}
+					font-size:.9em;}
 					
-#interns a{font-family:"PT Sans Narrow";
+#interns a{font-family:Scada;
 					color:rgb(15,65,111);
 					font-size:1em;
 					}
