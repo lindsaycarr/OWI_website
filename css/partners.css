@@ -76,17 +76,17 @@ body{background:rgb(225,222,222);
 				position:relative;
 				margin-bottom:10px;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:2.1em;}
 				
 .description p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.4em;
+				font-size:1.2em;
 				margin-bottom:5px;
 				text-indent:1em;}
 				
@@ -97,7 +97,7 @@ body{background:rgb(225,222,222);
 					margin-bottom:10px;
 					}
 				
-.projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:Scada;
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(15,65,111);
@@ -106,10 +106,10 @@ body{background:rgb(225,222,222);
 					}
 					
 .projects_worked p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.4em;
+				font-size:1.1em;
 				margin-bottom:5px;
 				padding-bottom:5px;
 				}
@@ -128,10 +128,10 @@ body{background:rgb(225,222,222);
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:92%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:.75em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -181,17 +181,17 @@ body{background:rgb(225,222,222);
 				position:relative;
 				margin-bottom:10px;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
-				font-size:2.1em;}
+				font-size:1.9em;}
 				
 .description p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.25em;
+				font-size:1.1em;
 				margin-bottom:5px;
 				text-indent:1em;}
 				
@@ -202,7 +202,7 @@ body{background:rgb(225,222,222);
 					margin-bottom:10px;
 					}
 				
-.projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:Scada;
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(15,65,111);
@@ -211,10 +211,10 @@ body{background:rgb(225,222,222);
 					}
 					
 .projects_worked p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.4em;
+				font-size:1.1em;
 				margin-bottom:5px;
 				padding-bottom:5px;
 				}
@@ -233,10 +233,10 @@ body{background:rgb(225,222,222);
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:92%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:.8em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -290,17 +290,17 @@ body{background:rgb(225,222,222);
 				position:relative;
 				margin-bottom:10px;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
-				font-size:1.7em;}
+				font-size:1.6em;}
 				
 .description p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.25em;
+				font-size:1.1em;
 				margin-bottom:5px;
 				text-indent:1em;}
 				
@@ -311,7 +311,7 @@ body{background:rgb(225,222,222);
 					margin-bottom:10px;
 					}
 				
-.projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:Scada;
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(15,65,111);
@@ -320,10 +320,10 @@ body{background:rgb(225,222,222);
 					}
 					
 .projects_worked p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.25em;
+				font-size:1.1em;
 				margin-bottom:5px;
 				padding-bottom:5px;
 				}
@@ -342,10 +342,10 @@ body{background:rgb(225,222,222);
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:92%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:.8em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -397,17 +397,17 @@ i{display:none;}
 				position:relative;
 				margin-bottom:10px;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.5em;}
 				
 .description p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.1em;
+				font-size:1em;
 				margin-bottom:5px;
 				text-indent:1em;}
 				
@@ -418,7 +418,7 @@ i{display:none;}
 					margin-bottom:10px;
 					}
 				
-.projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:Scada;
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(15,65,111);
@@ -427,10 +427,10 @@ i{display:none;}
 					}
 					
 .projects_worked p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.1em;
+				font-size:1em;
 				margin-bottom:5px;
 				padding-bottom:5px;
 				}
@@ -449,10 +449,10 @@ i{display:none;}
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:92%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:.8em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -510,17 +510,17 @@ em#ipad{display:inline;}
 				position:relative;
 				margin-bottom:10px;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
-				font-size:1.3em;}
+				font-size:1.2em;}
 				
 .description p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.01em;
+				font-size:.95em;
 				margin-bottom:5px;
 				text-indent:1em;}
 				
@@ -531,7 +531,7 @@ em#ipad{display:inline;}
 					margin-bottom:10px;
 					}
 				
-.projects_worked h2{font-family:"PT Sans Narrow";
+.projects_worked h2{font-family:Scada;
 					font-size:1.3em;
 					margin-left:10px;
 					color:rgb(15,65,111);
@@ -540,10 +540,10 @@ em#ipad{display:inline;}
 					}
 					
 .projects_worked p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:10px;
 				margin-right:10px;
-				font-size:1.01em;
+				font-size:.95em;
 				margin-bottom:5px;
 				padding-bottom:5px;
 				}
@@ -562,10 +562,10 @@ em#ipad{display:inline;}
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:92%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:.8em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -633,13 +633,13 @@ em#ipad{display:inline;}
 				width:410px;
 				position:relative;
 				margin:0 auto;
-				font-family:"PT Sans Narrow";}
+				font-family:Scada;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
-				font-size:1.3em;}
+				font-size:1.2em;}
 				
 .description p{margin-bottom:3px;
 				text-align:justify;}
@@ -659,10 +659,10 @@ em#ipad{display:inline;}
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:94%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1.2em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:1em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -730,13 +730,13 @@ em#ipad{display:inline;}
 				width:410px;
 				position:relative;
 				margin:0 auto;
-				font-family:"PT Sans Narrow";}
+				font-family:Scada;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
-				font-size:1.3em;}
+				font-size:1.2em;}
 				
 .description p{margin-bottom:3px;
 				text-align:justify;}
@@ -756,10 +756,10 @@ em#ipad{display:inline;}
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:94%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1.2em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:1em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -830,16 +830,17 @@ em#ipad{display:inline;}
 				width:360px;
 				position:relative;
 				margin:0 auto;
-				font-family:"PT Sans Narrow";}
+				font-family:Scada;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
-				font-size:1.3em;}
+				font-size:1em;}
 				
 .description p{margin-bottom:3px;
-				text-align:justify;}
+				text-align:justify;
+				font-size:.9em;}
 				
 .projects_worked{display:none;
 					}
@@ -856,10 +857,10 @@ em#ipad{display:inline;}
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:94%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1.2em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:1em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -942,9 +943,9 @@ h1.mobile{display:block !important;}
 				width:300px;
 				position:relative;
 				margin:0 auto;
-				font-family:"PT Sans Narrow";}
+				font-family:Scada;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
@@ -966,10 +967,10 @@ h1.mobile{display:block !important;}
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:94%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1.2em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:1em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -1043,16 +1044,17 @@ h1.mobile{display:block !important;}
 				width:290px;
 				position:relative;
 				margin:0 auto;
-				font-family:"PT Sans Narrow";}
+				font-family:Scada;}
 				
-.description h1{font-family:"PT Sans Narrow";
+.description h1{font-family:Scada;
 				color:rgb(15,65,111);
 				margin-left:10px;
 				margin-top:5px;
 				font-size:1.3em;}
 				
 .description p{margin-bottom:3px;
-				text-align:justify;}
+				text-align:justify;
+				font-size:.9em;}
 				
 .projects_worked{display:none;
 					}
@@ -1067,10 +1069,10 @@ h1.mobile{display:block !important;}
 .view a{color:#fff;
 		display:inline-block;
 		width:100%;
-		height:94%;
-		padding-top:2px;
-		font-family:"PT Sans Narrow";
-		font-size:1.2em;
+		height:84%;
+		padding-top:5px;
+		font-family:Scada;
+		font-size:1em;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
