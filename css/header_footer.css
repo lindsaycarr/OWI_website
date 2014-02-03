@@ -44,7 +44,7 @@ header{background:#fff;
 			}
 			
 #headernav ul{ list-style-type:none;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				padding-top:2px;
 				}
 				
@@ -63,19 +63,19 @@ header{background:#fff;
 
 nav{background:rgb(15,65,111);
 	height:58px;
-	font-family:"PT Sans Narrow";
+	font-family:Scada;
 	color:#fff;
 	position:relative;
 	margin-bottom:10px;
 		}
 		
-nav p{padding: 12px 10px;
-		font-size:1.6em;
+nav p{padding: 13px 10px;
+		font-size:1.5em;
 		float:left;}
 		
 nav ul{display:block;
 	list-style-type:none;
-	padding-top:15px;
+	padding-top:17px;
 	position:absolute;
 	right:0;
 	}
@@ -86,12 +86,12 @@ nav ul li{float:left;
 
 nav ul li a{color:#fff;
 			margin-right:10px;
-			font-size:1.4em;
+			font-size:1.2em;
 			-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;
-			padding:16px 10px;
+			padding:18px 10px;
 			}
 			
 
@@ -110,7 +110,7 @@ nav ul li:hover ul{/*hovering over parents affects the child*/
 			display:block;/*makes sub items visible*/
 			position:absolute;/*prevents content from shifting*/
 			z-index:5000;		
-			right:183px
+			right:187px
 			}
 			
 nav ul li:hover ul li{	
@@ -122,6 +122,7 @@ nav ul li:hover ul li{
 						}
 						
 nav ul li:hover ul li a{font-weight:normal;
+						font-size:1em;
 						background:rgba(50,50,50,.9);
 						width:115px;
 						padding: 0 5px;
@@ -151,7 +152,7 @@ footer{background:#fff;
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:40px;
 		}
@@ -163,7 +164,7 @@ footer{background:#fff;
 		height:20px;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:45px;}
 		
@@ -230,7 +231,7 @@ header{background:#fff;
 			left:175px;}
 			
 #headernav ul{ list-style-type:none;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				padding-top:2px;
 				}
 				
@@ -249,19 +250,20 @@ header{background:#fff;
 
 nav{background:rgb(15,65,111);
 	height:58px;
-	font-family:"PT Sans Narrow";
+	font-family:Scada;
 	color:#fff;
 	position:relative;
 	margin-bottom:10px;
 		}
 		
 nav p{padding: 12px 10px;
-		font-size:1.6em;
-		float:left;}
+		font-size:1.5em;
+		float:left;
+		padding-top:13px;}
 		
 nav ul{display:block;
 	list-style-type:none;
-	padding-top:15px;
+	padding-top:18px;
 	position:absolute;
 	right:0;
 	}
@@ -272,12 +274,12 @@ nav ul li{float:left;
 
 nav ul li a{color:#fff;
 			margin-right:10px;
-			font-size:1.4em;
+			font-size:1.1em;
 			-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;
-			padding:16px 10px;
+			padding:19px 10px;
 			}
 			
 
@@ -296,7 +298,7 @@ nav ul li:hover ul{/*hovering over parents affects the child*/
 			display:block;/*makes sub items visible*/
 			position:absolute;/*prevents content from shifting*/
 			z-index:5000;		
-			right:183px
+			right:172px
 			}
 			
 nav ul li:hover ul li{	
@@ -310,6 +312,7 @@ nav ul li:hover ul li{
 nav ul li:hover ul li a{font-weight:normal;
 						background:rgba(50,50,50,.9);
 						width:115px;
+						font-size:1em;
 						padding: 0 5px;
 						display:block;
 						height:30px;
@@ -336,9 +339,10 @@ footer{background:#fff;
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:40px;
+		font-size:.9em;
 		}
 		
 #top a:hover{text-decoration:underline;}
@@ -348,9 +352,10 @@ footer{background:#fff;
 		height:20px;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
-		margin-right:45px;}
+		margin-right:45px;
+		font-size:.9em;}
 		
 #middle a:hover{text-decoration:underline;}
 	
@@ -361,12 +366,14 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:.9em;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:.9em;}
 
 #bottom img#footerbar{position:absolute;
 						right:10px;
@@ -415,7 +422,7 @@ header{background:#fff;
 			}
 			
 #headernav ul{ list-style-type:none;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				padding-top:2px;
 				}
 				
@@ -434,19 +441,19 @@ header{background:#fff;
 
 nav{background:rgb(15,65,111);
 	height:58px;
-	font-family:"PT Sans Narrow";
+	font-family:Scada;
 	color:#fff;
 	position:relative;
 	margin-bottom:10px;
 		}
 		
-nav p{padding: 12px 10px;
-		font-size:1.6em;
+nav p{padding: 15px 10px;
+		font-size:1.4em;
 		float:left;}
 		
 nav ul{display:block;
 	list-style-type:none;
-	padding-top:15px;
+	padding-top:18px;
 	position:absolute;
 	right:0;
 	}
@@ -457,12 +464,12 @@ nav ul li{float:left;
 
 nav ul li a{color:#fff;
 			margin-right:10px;
-			font-size:1.4em;
+			font-size:1.1em;
 			-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;
-			padding:16px 10px;
+			padding:18px 10px;
 			}
 			
 
@@ -481,7 +488,7 @@ nav ul li:hover ul{/*hovering over parents affects the child*/
 			display:block;/*makes sub items visible*/
 			position:absolute;/*prevents content from shifting*/
 			z-index:5000;		
-			right:183px
+			right:171px
 			}
 			
 nav ul li:hover ul li{	
@@ -498,7 +505,7 @@ nav ul li:hover ul li a{font-weight:normal;
 						padding: 0 5px;
 						display:block;
 						height:30px;
-						
+						font-size:1em;
 						
 						}
 						
@@ -522,9 +529,10 @@ footer{background:#fff;
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:40px;
+		font-size:.9em;
 		}
 		
 #top a:hover{text-decoration:underline;}
@@ -534,9 +542,10 @@ footer{background:#fff;
 		height:20px;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
-		margin-right:45px;}
+		margin-right:45px;
+		font-size:.9em;}
 		
 #middle a:hover{text-decoration:underline;}
 	
@@ -547,7 +556,8 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:.9em;}
 			
 #bottom a:hover{text-decoration:underline;}
 
@@ -600,7 +610,7 @@ header{background:#fff;
 			}
 			
 #headernav ul{ list-style-type:none;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				padding-top:2px;
 				}
 				
@@ -619,19 +629,19 @@ header{background:#fff;
 
 nav{background:rgb(15,65,111);
 	height:58px;
-	font-family:"PT Sans Narrow";
+	font-family:Scada;
 	color:#fff;
 	position:relative;
 	margin-bottom:10px;
 		}
 		
-nav p{padding: 12px 10px;
-		font-size:1.6em;
+nav p{padding: 16px 10px;
+		font-size:1.2em;
 		float:left;}
 		
 nav ul{display:block;
 	list-style-type:none;
-	padding-top:15px;
+	padding-top:19px;
 	position:absolute;
 	right:0;
 	}
@@ -642,12 +652,12 @@ nav ul li{float:left;
 
 nav ul li a{color:#fff;
 			margin-right:3px;
-			font-size:1.4em;
+			font-size:1em;
 			-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;
-			padding:16px 10px;
+			padding:20px 10px;
 			}
 			
 
@@ -666,7 +676,7 @@ nav ul li:hover ul{/*hovering over parents affects the child*/
 			display:block;/*makes sub items visible*/
 			position:absolute;/*prevents content from shifting*/
 			z-index:5000;		
-			right:167px
+			right:135px
 			}
 			
 nav ul li:hover ul li{	
@@ -680,6 +690,7 @@ nav ul li:hover ul li{
 nav ul li:hover ul li a{font-weight:normal;
 						background:rgba(50,50,50,.9);
 						width:115px;
+						font-size:.95em;
 						padding: 0 5px;
 						display:block;
 						height:30px;
@@ -707,7 +718,8 @@ footer{background:#fff;
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
+		font-size:.8em;
 		padding: 0 5px;
 		margin-right:40px;
 		}
@@ -719,7 +731,8 @@ footer{background:#fff;
 		height:20px;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
+		font-size:.8em;
 		padding: 0 5px;
 		margin-right:45px;}
 		
@@ -785,7 +798,7 @@ header{background:#fff;
 			}
 			
 #headernav ul{ list-style-type:none;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				padding-top:2px;
 				}
 				
@@ -804,19 +817,19 @@ header{background:#fff;
 
 nav{background:rgb(15,65,111);
 	height:58px;
-	font-family:"PT Sans Narrow";
+	font-family:Scada;
 	color:#fff;
 	position:relative;
 	margin-bottom:10px;
 		}
 		
-nav p{padding: 15px 10px;
-		font-size:1.4em;
+nav p{padding: 17px 10px;
+		font-size:1.1em;
 		float:left;}
 		
 nav ul{display:block;
 	list-style-type:none;
-	padding-top:17px;
+	padding-top:19px;
 	position:absolute;
 	right:0;
 	}
@@ -827,12 +840,12 @@ nav ul li{float:left;
 
 nav ul li a{color:#fff;
 			margin-right:3px;
-			font-size:1.2em;
+			font-size:.95em;
 			-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
 			transition:all .6s ease;
-			padding:18px 10px;
+			padding:20px 10px;
 			}
 			
 
@@ -851,7 +864,7 @@ nav ul li:hover ul{/*hovering over parents affects the child*/
 			display:block;/*makes sub items visible*/
 			position:absolute;/*prevents content from shifting*/
 			z-index:5000;		
-			right:137px
+			right:123px
 			}
 			
 nav ul li:hover ul li{	
@@ -865,6 +878,7 @@ nav ul li:hover ul li{
 nav ul li:hover ul li a{font-weight:normal;
 						background:rgba(50,50,50,.9);
 						width:115px;
+						font-size:.95em;
 						padding: 0 5px;
 						display:block;
 						height:30px;
@@ -888,12 +902,14 @@ footer{background:#fff;
 #top{background:rgb(204,204,204);
 		width:100%;
 		height:20px;
+		
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:30px;
+		font-size:.7em;
 		}
 		
 #top a:hover{text-decoration:underline;}
@@ -903,9 +919,10 @@ footer{background:#fff;
 		height:20px;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
-		margin-right:45px;}
+		margin-right:45px;
+		font-size:.7em;}
 		
 #middle a:hover{text-decoration:underline;}
 	
@@ -997,7 +1014,7 @@ color:rgb(15,65,111);
 						padding: 0 5px;
 						display:block;
 						height:30px;
-						font-family:"PT Sans Narrow";
+						font-family:Scada;
 						color:#fff;
 						}
 						
@@ -1021,7 +1038,7 @@ footer{background:#fff;
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:40px;
 		}
@@ -1033,7 +1050,7 @@ footer{background:#fff;
 		height:15px;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:45px;}
 		
@@ -1117,7 +1134,7 @@ color:rgb(15,65,111);}
 						padding: 0 5px;
 						display:block;
 						height:30px;
-						font-family:"PT Sans Narrow";
+						font-family:Scada;
 						color:#fff;
 						}
 						
@@ -1144,7 +1161,7 @@ footer{background:#fff;
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:10px;
 		}
@@ -1157,7 +1174,7 @@ footer{background:#fff;
 		padding:3px 0;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:45px;}
 		
@@ -1244,7 +1261,7 @@ color:rgb(15,65,111);}
 						padding: 0 5px;
 						display:block;
 						height:30px;
-						font-family:"PT Sans Narrow";
+						font-family:Scada;
 						color:#fff;
 						}
 						
@@ -1260,7 +1277,7 @@ color:rgb(15,65,111);}
 footer{background:#fff;
 		margin-top:10px;
 		clear:both;
-		font-size:.6em;}
+		font-size:.5em;}
 		
 #top{background:rgb(204,204,204);
 		width:100%;
@@ -1269,9 +1286,10 @@ footer{background:#fff;
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
-		padding: 0 5px;
+		font-family:Scada;
+		padding: 0 2px;
 		margin-right:10px;
+		font-size:.5em;
 		}
 		
 #top a:hover{text-decoration:underline;}
@@ -1282,7 +1300,7 @@ footer{background:#fff;
 		padding:2px 0;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
 		margin-right:10px;}
 		
@@ -1371,7 +1389,7 @@ color:rgb(15,65,111);}
 						padding: 0 5px;
 						display:block;
 						height:30px;
-						font-family:"PT Sans Narrow";
+						font-family:Scada;
 						color:#fff;
 						}
 						
@@ -1387,7 +1405,9 @@ color:rgb(15,65,111);}
 footer{background:#fff;
 		margin-top:10px;
 		clear:both;
-		font-size:.5em;}
+		font-size:.3em;
+
+		}
 		
 #top{background:rgb(204,204,204);
 		width:100%;
@@ -1395,9 +1415,10 @@ footer{background:#fff;
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
-		margin-right:10px;
+		
+		font-size:8px;
 		}
 		
 #top a:hover{text-decoration:underline;}
@@ -1407,9 +1428,10 @@ footer{background:#fff;
 		height:10px;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
-		margin-right:10px;}
+		margin-right:10px;
+		font-size:8px;}
 		
 #middle a:hover{text-decoration:underline;}
 	
@@ -1496,7 +1518,7 @@ color:rgb(15,65,111);}
 						padding: 0 5px;
 						display:block;
 						height:30px;
-						font-family:"PT Sans Narrow";
+						font-family:Scada;
 						color:#fff;
 						}
 						
@@ -1520,9 +1542,10 @@ footer{background:#fff;
 		}
 	
 #top a{color:#000;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 20px 5px;
-		margin-right:5px;
+		margin-right:1px;
+		font-size:8px;
 		}
 		
 #top a:hover{text-decoration:underline;}
@@ -1532,9 +1555,10 @@ footer{background:#fff;
 		height:10px;}
 	
 #middle a{color:#fff;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		padding: 0 5px;
-		margin-right:10px;}
+		margin-right:10px;
+		font-size:8px;}
 		
 #middle a:hover{text-decoration:underline;}
 	

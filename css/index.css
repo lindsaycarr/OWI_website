@@ -23,7 +23,7 @@ body{background:rgb(225,222,222);
 	
 .picture{display:none;}
 
-#mobilelinks{display:none;}
+.mobilelinks{display:none;}
 	
 #mobilenav{display:none;}
 	
@@ -35,68 +35,88 @@ ul#responsive{display:none;}
 
 #mission img#large{display:none;}
 
+#ribbon_medium{display:none;}
+
+#ribbon{display:none;}
 
 		
 @media (min-width:1200px){
 	
 #mission img#large{display:block;}
 
+#mission #ribbon{display:block;}
+
 #mission img#main{display:none;}
+
+#ribbon_small{display:none;}
+
+#people{display:none;}
+
+#products{display:none;}
+
+#partners{display:none;}
 	
 #container{width:1150px;
-			margin:0 auto;}
+			margin:0 auto;
+			}
 	
 
 /*#########################content_start#####################*/
 
 #content{	
 			width:1150px;
-			min-height:480px;
+			min-height:580px;
 			margin:0 auto;
 			text-align:center;
+			overflow:hidden;
 		}
 		
 		
 
 		
 #mission{background:#fff;
-		width:743px;
-		height:412px;
-		float:left;
+		width:840px;
+		height:430px;
 		margin-right:10px;
-		margin-bottom:10px;	
-		position:relative;		
+		float:left;
+		margin-bottom:10px;
+		position:relative;
+		text-align:center;	
 					}
 					
 #mission_area{background:rgba(15,65,111,.6);
-				width:290px;
+				width:385px;
 				height:100%;
 				position:absolute;
 				right:0;}
 				
 #mission_area h1{color:#fff;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
-					padding-top:10px;
+					font-family:Scada;
+					font-size:.98em;
+					padding-top:20px;
 					padding-right:5px;
 					padding-left:5px;
-					margin-bottom:20px;}
+					margin-bottom:30px;}
 					
 #mission_area p{color:#fff;
-				font-family:"PT Sans Narrow";
-				font-size:.95em;
-				margin-bottom:43px;
+				font-family:Scada;
+				font-size:1em;
+				margin-bottom:58px;
 				position:relative;
-				z-index:3000;}
+				z-index:3000;
+				padding-left:5px;
+				padding-right:5px;}
 				
 #ribbon{position:absolute;
 					right:0;
-					top:110px;}
+					top:35px;}
 					
 #newsfeed{
-		width:397px;
-		height:410px;
+		width:300px;
+		height:715px;
 		float:left;
+		float:right;
+		margin-bottom:10px;
 					}
 					
 #newsfeed #topbar{background:rgb(15,65,111);
@@ -104,19 +124,19 @@ ul#responsive{display:none;}
 					height:27px;
 					color:#fff;
 					text-align:left;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
+					font-family:Scada;
+					font-size:1em;
 					margin-bottom:5px;
+					float:left;
 					}
 					
-#newsfeed #topbar p{float:left;
-					padding:3px 5px;
+#newsfeed #topbar p{padding:4px 5px;
 					
 					}
 					
 .holder{
 		width:100%;
-		height:380px;
+		height:681px;
 		overflow:scroll;}
 		
 .scroll{background:rgb(200,200,200);
@@ -131,64 +151,46 @@ ul#responsive{display:none;}
 			
 .newsarea p.story{text-align:left;
 					padding:2px;
-					font-family:"PT Sans Narrow";
-					font-size:1em;}
+					font-family:Scada;
+					font-size:.9em;}
+			
 			
 .date{background:rgb(15,65,111);
-		width:50px;
-		height:79%;
+		width:30px;
+		height:62.5%;
 		color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.8em;
-		padding-top:25px;
+		font-family:Scada;
+		font-size:.8em;
+		padding-top:45px;
 		float:left;
 		text-align:center !important;
 		margin-right:4px;}
 		
-#people{background:#fff;
-		width:372px;
-		height:372px;
+.box{
+		width:273px;
+		height:273px;
+		float:left;
 		margin-right:10px;
-		margin-bottom:10px;
-		float:left;
-		clear:both;
+		margin_bottom:10px;
 		position:relative;
+		text-align:center;
+		
 		}
 		
-#people img{width:100%;
-			height:90%;}
-		
-#products{background:#fff;
-		width:362px;
-		height:372px;
-		margin-right:10px;
-		float:left;
-		position:relative;
-		}
-		
-#products img{width:100%;
-			height:90%;}
-		
-#partners{background:#fff;
-		width:396px;
-		height:372px;
-		float:left;
-		position:relative;
-		}
-		
-#partners img{width:100%;
-			height:90%;}
+.box img{width:100%;
+			height:100%;}
 		
 .stripe{background:rgb(15,65,111);
 		width:100%;
-		height:58px;
+		height:38px;
 		position:absolute;
 		bottom:0;}
 		
 .stripe a{color:#fff;
-			font-family:"PT Sans Narrow";
-			font-size:2.7em;
+			font-family:Scada;
+			font-size:1.5em;
 			display:inline-block;
+			padding-top:4px;
 			width:100%;
 			height:100%;
 			-moz-transition:all .6s ease;
@@ -208,8 +210,21 @@ ul#responsive{display:none;}
 		
 @media (min-width:975px) and (max-width:1199px){
 	
+#ribbon{display:none;}
+
+#ribbon_small{display:none;}
+
+#ribbon_medium{display:block;}
+
+#people{display:none;}
+
+#products{display:none;}
+
+#partners{display:none;}
+	
 #container{width:940px;
 			margin:0 auto;}
+			
 	
 /*#########################content_start#####################*/
 
@@ -222,7 +237,7 @@ ul#responsive{display:none;}
 		}
 		
 #mission{background:#fff;
-		width:620px;
+		width:660px;
 		height:412px;
 		float:left;
 		margin-right:10px;
@@ -230,56 +245,64 @@ ul#responsive{display:none;}
 		position:relative;		
 					}
 					
+#mission #main{width:100%;
+				height:100%;}
+					
 #mission_area{background:rgba(15,65,111,.6);
-				width:290px;
+				width:325px;
 				height:100%;
 				position:absolute;
 				right:0;}
 				
 #mission_area h1{color:#fff;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
+					font-family:Scada;
+					font-size:1em;
 					padding-top:10px;
 					padding-right:5px;
 					padding-left:5px;
 					margin-bottom:20px;}
 					
 #mission_area p{color:#fff;
-				font-family:"PT Sans Narrow";
-				font-size:.95em;
-				margin-bottom:43px;
+				font-family:Scada;
+				font-size:.8em;
+				padding-right:5px;
+				padding-left:5px;
+				margin-bottom:62px;
 				position:relative;
 				z-index:3000;}
 				
-#ribbon{position:absolute;
+#ribbon_medium{position:absolute;
 					right:0;
-					top:110px;}
+					top:30px;}
 					
 
 					
 #newsfeed{
-		width:310px;
-		height:412px;
+		width:270px;
+		height:635px;
 		float:left;
-					}
-#newsfeed #topbar{background:rgb(15,65,111);
-					width:100%;
-					height:30px;
-					color:#fff;
-					text-align:left;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
-					margin-bottom:5px;
+		float:right;
+		margin-bottom:10px;
 					}
 					
-#newsfeed #topbar p{float:left;
-					padding:3px 5px;
+#newsfeed #topbar{background:rgb(15,65,111);
+					width:100%;
+					height:27px;
+					color:#fff;
+					text-align:left;
+					font-family:Scada;
+					font-size:.9em;
+					margin-bottom:5px;
+					float:left;
+					}
+					
+#newsfeed #topbar p{padding:6px 5px;
 					
 					}
 					
 .holder{
 		width:100%;
-		height:380px;
+		height:602px;
 		overflow:scroll;}
 		
 .scroll{background:rgb(200,200,200);
@@ -289,69 +312,53 @@ ul#responsive{display:none;}
 .newsarea{background:#fff;
 			width:100%;
 			height:120px;
+			
 			}
 			
 .newsarea p.story{text-align:left;
 					padding:2px;
-					font-family:"PT Sans Narrow";
-					font-size:1em;}
+					font-family:Scada;
+					font-size:.9em;}
+			
 			
 .date{background:rgb(15,65,111);
-		width:50px;
-		height:83%;
+		width:30px;
+		height:62.5%;
 		color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.8em;
-		padding-top:20px;
+		font-family:Scada;
+		font-size:.8em;
+		padding-top:45px;
 		float:left;
 		text-align:center !important;
 		margin-right:4px;}
+			
 					
 					
-#people{background:#fff;
-		width:310px;
-		height:330px;
+.box{
+		width:213px;
+		height:213px;
+		float:left;
 		margin-right:10px;
-		margin-bottom:10px;
-		float:left;
-		clear:both;
+		margin_bottom:10px;
 		position:relative;
+		text-align:center;
+		
 		}
 		
-#people img{width:100%;
-			height:90%;}
-		
-#products{background:#fff;
-		width:300px;
-		height:330px;
-		margin-right:10px;
-		float:left;
-		position:relative;
-		}
-		
-#products img{width:100%;
-			height:90%;}
-		
-#partners{background:#fff;
-		width:310px;
-		height:330px;
-		float:left;
-		position:relative;
-		}
-		
-#partners img{width:100%;
-			height:90%;}
+.box img{width:100%;
+			height:100%;}
 		
 .stripe{background:rgb(15,65,111);
 		width:100%;
-		height:58px;
+		height:38px;
 		position:absolute;
 		bottom:0;}
 		
 .stripe a{color:#fff;
-			font-family:"PT Sans Narrow";
-			font-size:2.7em;
+			font-family:Scada;
+			font-size:1.3em;
 			display:inline-block;
+			padding-top:6px;
 			width:100%;
 			height:100%;
 			-moz-transition:all .6s ease;
@@ -373,6 +380,8 @@ ul#responsive{display:none;}
 	
 #container{width:850px;
 			margin:0 auto;}	
+			
+.box{display:none;}
 	
 /*#########################content_start#####################*/
 
@@ -400,21 +409,21 @@ ul#responsive{display:none;}
 				right:0;}
 				
 #mission_area h1{color:#fff;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
+					font-family:Scada;
+					font-size:1em;
 					padding-top:10px;
 					padding-right:5px;
 					padding-left:5px;
-					margin-bottom:20px;}
+					margin-bottom:15px;}
 					
 #mission_area p{color:#fff;
-				font-family:"PT Sans Narrow";
-				font-size:.95em;
-				margin-bottom:43px;
+				font-family:Scada;
+				font-size:.75em;
+				margin-bottom:51px;
 				position:relative;
 				z-index:3000;}
 				
-#ribbon{position:absolute;
+#ribbon_small{position:absolute;
 		right:0;
 		top:110px;
 		}
@@ -433,19 +442,19 @@ ul#responsive{display:none;}
 					height:30px;
 					color:#fff;
 					text-align:left;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
+					font-family:Scada;
+					font-size:.9em;
 					margin-bottom:5px;
 					}
 					
 #newsfeed #topbar p{float:left;
-					padding:3px 5px;
+					padding:6px 5px;
 					
 					}
 					
 .holder{
 		width:100%;
-		height:380px;
+		height:377px;
 		overflow:scroll;}
 		
 .scroll{background:rgb(200,200,200);
@@ -459,24 +468,26 @@ ul#responsive{display:none;}
 			
 .newsarea p.story{text-align:left;
 					padding:2px;
-					font-family:"PT Sans Narrow";
-					font-size:.92em;}
+					font-family:Scada;
+					font-size:.90em;}
+			
+
 			
 .date{background:rgb(15,65,111);
-		width:50px;
-		height:83%;
+		width:25px;
+		height:67%;
 		color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.8em;
-		padding-top:20px;
+		font-family:Scada;
+		font-size:.75em;
+		padding-top:40px;
 		float:left;
 		text-align:center !important;
 		margin-right:4px;}
 					
 				
 #people{background:#fff;
-		width:272px;
-		height:290px;
+		width:273px;
+		height:270px;
 		margin-right:10px;
 		margin-bottom:10px;
 		float:left;
@@ -488,8 +499,8 @@ ul#responsive{display:none;}
 			height:90%;}
 		
 #products{background:#fff;
-		width:282px;
-		height:290px;
+		width:281px;
+		height:270px;
 		margin-right:10px;
 		float:left;
 		position:relative;
@@ -499,8 +510,8 @@ ul#responsive{display:none;}
 			height:90%;}
 		
 #partners{background:#fff;
-		width:274px;
-		height:290px;
+		width:273px;
+		height:270px;
 		float:left;
 		position:relative;
 		}
@@ -510,14 +521,15 @@ ul#responsive{display:none;}
 		
 .stripe{background:rgb(15,65,111);
 		width:100%;
-		height:48px;
+		height:38px;
 		position:absolute;
 		bottom:0;}
 		
 .stripe a{color:#fff;
-			font-family:"PT Sans Narrow";
-			font-size:2.3em;
+			font-family:Scada;
+			font-size:1.3em;
 			display:inline-block;
+			padding-top:6px;
 			width:100%;
 			height:100%;
 			-moz-transition:all .6s ease;
@@ -536,6 +548,8 @@ ul#responsive{display:none;}
 
 
 @media (min-width:769px) and (max-width:899px){
+	
+.box{display:none;}
 	
 #container{width:730px;
 			margin:0 auto;}
@@ -566,21 +580,21 @@ ul#responsive{display:none;}
 				right:0;}
 				
 #mission_area h1{color:#fff;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
+					font-family:Scada;
+					font-size:1em;
 					padding-top:10px;
 					padding-right:5px;
 					padding-left:5px;
-					margin-bottom:20px;}
+					margin-bottom:18px;}
 					
 #mission_area p{color:#fff;
-				font-family:"PT Sans Narrow";
-				font-size:.95em;
-				margin-bottom:43px;
+				font-family:Scada;
+				font-size:.75em;
+				margin-bottom:49px;
 				position:relative;
 				z-index:3000;}
 				
-#ribbon{position:absolute;
+#ribbon_small{position:absolute;
 		right:0;
 		top:110px;
 		}
@@ -600,13 +614,13 @@ ul#responsive{display:none;}
 					height:30px;
 					color:#fff;
 					text-align:left;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
+					font-family:Scada;
+					font-size:.9em;
 					margin-bottom:5px;
 					}
 					
 #newsfeed #topbar p{float:left;
-					padding:3px 5px;
+					padding:6px 5px;
 					
 					}
 					
@@ -626,18 +640,18 @@ ul#responsive{display:none;}
 			
 .newsarea p.story{text-align:left;
 					padding:2px;
-					font-family:"PT Sans Narrow";
-					font-size:.90em;}
+					font-family:Scada;
+					font-size:.8em;}
 			
 
 			
 .date{background:rgb(15,65,111);
 		width:25px;
-		height:79%;
+		height:67%;
 		color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1em;
-		padding-top:25px;
+		font-family:Scada;
+		font-size:.8em;
+		padding-top:40px;
 		float:left;
 		text-align:center !important;
 		margin-right:4px;}
@@ -678,14 +692,15 @@ ul#responsive{display:none;}
 		
 .stripe{background:rgb(15,65,111);
 		width:100%;
-		height:42px;
+		height:38px;
 		position:absolute;
 		bottom:0;}
 		
 .stripe a{color:#fff;
-			font-family:"PT Sans Narrow";
-			font-size:2.1em;
+			font-family:Scada;
+			font-size:1.3em;
 			display:inline-block;
+			padding-top:6px;
 			width:100%;
 			height:100%;
 			-moz-transition:all .6s ease;
@@ -702,6 +717,8 @@ ul#responsive{display:none;}
 }
 
 @media (min-width:686px) and (max-width:768px){
+	
+.box{display:none;}
 	
 #container{width:650px;
 			margin:0 auto;}
@@ -731,21 +748,21 @@ ul#responsive{display:none;}
 				right:0;}
 				
 #mission_area h1{color:#fff;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
+					font-family:Scada;
+					font-size:1em;
 					padding-top:10px;
 					padding-right:5px;
 					padding-left:5px;
 					margin-bottom:20px;}
 					
 #mission_area p{color:#fff;
-				font-family:"PT Sans Narrow";
-				font-size:.95em;
-				margin-bottom:43px;
+				font-family:Scada;
+				font-size:.75em;
+				margin-bottom:49px;
 				position:relative;
 				z-index:3000;}
 				
-#ribbon{position:absolute;
+#ribbon_small{position:absolute;
 		right:0;
 		top:110px;
 		}
@@ -770,13 +787,13 @@ ul#responsive{display:none;}
 					height:30px;
 					color:#fff;
 					text-align:left;
-					font-family:"PT Sans Narrow";
-					font-size:1.2em;
+					font-family:Scada;
+					font-size:.9em;
 					margin-bottom:5px;
 					}
 					
 #newsfeed #topbar p{float:left;
-					padding:3px 5px;
+					padding:6px 5px;
 					
 					}
 					
@@ -796,16 +813,16 @@ ul#responsive{display:none;}
 			
 .newsarea p.story{text-align:left;
 					padding:2px;
-					font-family:"PT Sans Narrow";
-					font-size:.84em;}
+					font-family:Scada;
+					font-size:.75em;}
 			
 .date{background:rgb(15,65,111);
 		width:20px;
-		height:71%;
+		height:63%;
 		color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:.8em;
-		padding-top:35px;
+		font-family:Scada;
+		font-size:.6em;
+		padding-top:45px;
 		float:left;
 		text-align:center !important;
 		margin-right:4px;}
@@ -851,9 +868,10 @@ ul#responsive{display:none;}
 		bottom:0;}
 		
 .stripe a{color:#fff;
-			font-family:"PT Sans Narrow";
-			font-size:2em;
+			font-family:Scada;
+			font-size:1.2em;
 			display:inline-block;
+			padding-top:7px;
 			width:100%;
 			height:100%;
 			-moz-transition:all .6s ease;
@@ -896,7 +914,9 @@ nav{display:none;}
 
 #ribbon{display:none;}
 
+#ribbon_small{display:none;}
 
+.box{display:none;}
 
 /*###################content_start################*/			
 
@@ -913,8 +933,8 @@ nav{display:none;}
 #mobileheadline{display:block;
 				text-align:center;
 				padding:10px 10px;
-				font-family:"PT Sans Narrow";
-				font-size:1.5em;
+				font-family:Scada;
+				font-size:1.3em;
 				color:#fff;
 				background:rgb(90,90,90);
 				text-shadow:0 -1px rgba(0,0,0,.3);
@@ -923,8 +943,8 @@ nav{display:none;}
 #mission ul{display:block;
 				text-align:left;
 				padding:10px 40px;
-				font-family:"PT Sans Narrow";
-				font-size:1.7em;
+				font-family:Scada;
+				font-size:1.3em;
 				color:rgb(50,50,50);
 				list-style-type:disc;
 				
@@ -951,7 +971,8 @@ nav{display:none;}
 				margin-right:1px;
 				float:left;}
 				
-.mobile_newsarea p{font-family:"PT Sans Narrow";
+.mobile_newsarea p{font-family:Scada;
+					font-size:.9em;
 					padding:0 3px;}
 				
 .mobile_date{background:rgb(15,65,111);
@@ -959,7 +980,7 @@ nav{display:none;}
 			height:29px;
 			text-align:center;
 			color:#fff;
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			font-size:1.5em;
 			padding-top:1px;}
 					
@@ -1006,12 +1027,12 @@ nav{display:none;}
 				padding:0px 0;}
 		
 .mobilelinks a{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
-				font-size:4.5em;
+				font-family:Scada;
+				font-size:3em;
 				display:block;
 				width:100%;
 				cursor:pointer;
-				padding:63px 0;
+				padding:80px 0;
 				-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
@@ -1049,6 +1070,9 @@ nav{display:none;}
 
 #ribbon{display:none;}
 
+#ribbon_small{display:none;}
+
+.box{display:none;}
 
 
 			
@@ -1067,8 +1091,8 @@ nav{display:none;}
 #mobileheadline{display:block;
 				text-align:center;
 				padding:10px 10px;
-				font-family:"PT Sans Narrow";
-				font-size:1.5em;
+				font-family:Scada;
+				font-size:1.3em;
 				color:#fff;
 				background:rgb(90,90,90);
 				text-shadow:0 -1px rgba(0,0,0,.3);
@@ -1077,8 +1101,8 @@ nav{display:none;}
 #mission ul{display:block;
 				text-align:left;
 				padding:10px 40px;
-				font-family:"PT Sans Narrow";
-				font-size:1.4em;
+				font-family:Scada;
+				font-size:1.2em;
 				color:rgb(50,50,50);
 				list-style-type:disc;
 				
@@ -1105,15 +1129,16 @@ nav{display:none;}
 				margin-right:1px;
 				float:left;}
 				
-.mobile_newsarea p{font-family:"PT Sans Narrow";
-					padding:0 3px;}
+.mobile_newsarea p{font-family:Scada;
+					padding:0 3px;
+					font-size:.9em;}
 				
 .mobile_date{background:rgb(15,65,111);
 			width:100%;
 			height:29px;
 			text-align:center;
 			color:#fff;
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			font-size:1.5em;
 			padding-top:1px;}
 					
@@ -1160,12 +1185,12 @@ nav{display:none;}
 				padding:0px 0;}
 		
 .mobilelinks a{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
-				font-size:3.5em;
+				font-family:Scada;
+				font-size:2.5em;
 				display:block;
 				width:100%;
 				cursor:pointer;
-				padding:53px 0;
+				padding:65px 0;
 				-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
@@ -1204,6 +1229,10 @@ nav{display:none;}
 
 #ribbon{display:none;}
 
+#ribbon_small{display:none;}
+
+.box{display:none;}
+
 			
 /*###################content_start################*/
 		
@@ -1219,7 +1248,7 @@ nav{display:none;}
 #mobileheadline{display:block;
 				text-align:center;
 				padding:10px 10px;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:1.1em;
 				color:#fff;
 				background:rgb(90,90,90);
@@ -1229,7 +1258,7 @@ nav{display:none;}
 #mission ul{display:block;
 				text-align:left;
 				padding:10px 30px;
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:1.1em;
 				color:rgb(50,50,50);
 				list-style-type:disc;
@@ -1257,15 +1286,16 @@ nav{display:none;}
 				margin-right:1px;
 				float:left;}
 				
-.mobile_newsarea p{font-family:"PT Sans Narrow";
-					padding:0 3px;}
+.mobile_newsarea p{font-family:Scada;
+					padding:0 3px;
+					font-size:.9em;}
 				
 .mobile_date{background:rgb(15,65,111);
 			width:100%;
 			height:29px;
 			text-align:center;
 			color:#fff;
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			font-size:1.5em;
 			padding-top:1px;}
 
@@ -1313,12 +1343,12 @@ nav{display:none;}
 				padding:0px 0;}
 		
 .mobilelinks a{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
-				font-size:2.7em;
+				font-family:Scada;
+				font-size:2em;
 				display:block;
 				width:100%;
 				cursor:pointer;
-				padding:47px 0;
+				padding:55px 0;
 				-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
@@ -1358,6 +1388,10 @@ nav{display:none;}
 
 #ribbon{display:none;}
 
+#ribbon_small{display:none;}
+
+.box{display:none;}
+
 			
 			
 /*###################content_start################*/
@@ -1372,8 +1406,8 @@ nav{display:none;}
 #mobileheadline{display:block;
 				text-align:center;
 				padding:10px 10px;
-				font-family:"PT Sans Narrow";
-				font-size:1.1em;
+				font-family:Scada;
+				font-size:1em;
 				color:#fff;
 				background:rgb(90,90,90);
 				text-shadow:0 -1px rgba(0,0,0,.3);
@@ -1382,8 +1416,8 @@ nav{display:none;}
 #mission ul{display:block;
 				text-align:left;
 				padding:10px 20px;
-				font-family:"PT Sans Narrow";
-				font-size:1.1em;
+				font-family:Scada;
+				font-size:1em;
 				color:rgb(50,50,50);
 				list-style-type:disc;
 				
@@ -1410,15 +1444,16 @@ nav{display:none;}
 				margin-right:1px;
 				float:left;}
 				
-.mobile_newsarea p{font-family:"PT Sans Narrow";
-					padding:0 3px;}
+.mobile_newsarea p{font-family:Scada;
+					padding:0 3px;
+					font-size:.9em;}
 				
 .mobile_date{background:rgb(15,65,111);
 			width:100%;
 			height:29px;
 			text-align:center;
 			color:#fff;
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			font-size:1.5em;
 			padding-top:1px;}
 			
@@ -1467,12 +1502,12 @@ nav{display:none;}
 				padding:0px 0;}
 		
 .mobilelinks a{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
-				font-size:2em;
+				font-family:Scada;
+				font-size:1.5em;
 				display:block;
 				width:100%;
 				cursor:pointer;
-				padding:54px 0;
+				padding:60px 0;
 				-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
@@ -1512,6 +1547,10 @@ nav{display:none;}
 
 #ribbon{display:none;}
 
+#ribbon_small{display:none;}
+
+.box{display:none;}
+
 
 /*###################content_start################*/			
 
@@ -1526,8 +1565,8 @@ nav{display:none;}
 #mobileheadline{display:block;
 				text-align:center;
 				padding:10px 10px;
-				font-family:"PT Sans Narrow";
-				font-size:1.1em;
+				font-family:Scada;
+				font-size:1em;
 				color:#fff;
 				background:rgb(90,90,90);
 				text-shadow:0 -1px rgba(0,0,0,.3);
@@ -1536,8 +1575,8 @@ nav{display:none;}
 #mission ul{display:block;
 				text-align:left;
 				padding:10px 20px;
-				font-family:"PT Sans Narrow";
-				font-size:1.1em;
+				font-family:Scada;
+				font-size:1em;
 				color:rgb(50,50,50);
 				list-style-type:disc;
 				
@@ -1564,15 +1603,16 @@ nav{display:none;}
 				margin-right:1px;
 				float:left;}
 				
-.mobile_newsarea p{font-family:"PT Sans Narrow";
-					padding:0 3px;}
+.mobile_newsarea p{font-family:Scada;
+					padding:0 3px;
+					font-size:.9em;}
 				
 .mobile_date{background:rgb(15,65,111);
 			width:100%;
 			height:29px;
 			text-align:center;
 			color:#fff;
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			font-size:1.5em;
 			padding-top:1px;}
 					
@@ -1619,12 +1659,12 @@ nav{display:none;}
 				padding:0px 0;}
 		
 .mobilelinks a{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
-				font-size:2em;
+				font-family:Scada;
+				font-size:1.5em;
 				display:block;
 				width:100%;
 				cursor:pointer;
-				padding:54px 0;
+				padding:60px 0;
 				-moz-transition:all .6s ease;
 			-webkit-transition:all .6s ease;
 			-ms-transition:all .6s ease;
