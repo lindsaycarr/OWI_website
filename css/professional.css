@@ -63,8 +63,8 @@ body{background:rgb(225,222,222);
 			}
 		
 #headshot{background:#fff;
-		width:450px;
-		height:450px;
+		width:350px;
+		height:350px;
 		float:left;
 		margin-right:10px;
 		margin-bottom:10px;
@@ -77,8 +77,8 @@ body{background:rgb(225,222,222);
 	
 		
 #contact{background:#fff;
-		width:670px;
-		height:430px;
+		width:770px;
+		height:330px;
 		float:left;
 		padding:10px;
 		text-align:center;
@@ -86,24 +86,24 @@ body{background:rgb(225,222,222);
 		}
 		
 #contact h1{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:320%;
+			font-family:Scada;
+			font-size:200%;
 			line-height:.9em;
 			margin-bottom:5px;
 			
 			}
 			
 #contact h1.longname{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:320% !important;
+			font-family:Scada;
+			font-size:200% !important;
 			line-height:.9em;
-			margin-bottom:5px;
+			margin-bottom:4px;
 			
 			}
 			
 #contact h2{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:1.8em;
+			font-family:Scada;
+			font-size:1.4em;
 			margin-bottom:-10px;}
 			
 #h1h2{text-align:center;
@@ -113,9 +113,9 @@ body{background:rgb(225,222,222);
 #info{margin-top:40px;}
 			
 #contact p{color:rgb(59,59,59);
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			text-align:left;
-			font-size:1.9em;
+			font-size:1.4em;
 			line-height:1.7em;}	
 			
 #social{margin-top:5px;
@@ -144,13 +144,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}		
 #education h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #education p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.4em;}	
 				
@@ -164,13 +164,13 @@ body{background:rgb(225,222,222);
 			}	
 			
 #areas h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #areas p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -182,13 +182,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #currentwork h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #currentwork p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;}		
 				
@@ -208,13 +208,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #publications h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #publications p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;
 				}
@@ -225,7 +225,7 @@ body{background:rgb(225,222,222);
 
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -240,13 +240,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #professional h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #professional p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -258,13 +258,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #presentations h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #presentations p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.5em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.4em;
 				}
@@ -275,7 +275,7 @@ body{background:rgb(225,222,222);
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
@@ -303,18 +303,19 @@ body{background:rgb(225,222,222);
 		}
 		
 #headshot{background:#fff;
-		width:415px;
-		height:415px;
+		width:315px;
+		height:315px;
 		float:left;
 		margin-right:10px;
 		
 		}
 		
-	
+#headshot img{	width:100%;
+				height:100%;}	
 		
 #contact{background:#fff;
-		width:495px;
-		height:395px;
+		width:595px;
+		height:295px;
 		float:left;
 		padding:10px;
 		text-align:center;
@@ -322,36 +323,36 @@ body{background:rgb(225,222,222);
 		}
 		
 #contact h1{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:320%;
+			font-family:Scada;
+			font-size:200%;
 			line-height:.9em;
 			margin-bottom:5px;
 			
 			}
 			
 #contact h1.longname{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:320% !important;
+			font-family:Scada;
+			font-size:200% !important;
 			line-height:.9em;
 			margin-bottom:5px;
 			
 			}
 			
 #contact h2{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:1.8em;
+			font-family:Scada;
+			font-size:1.4em;
 			margin-bottom:-10px;}
 			
 #h1h2{text-align:center;
 		}			
 			
 			
-#info{margin-top:40px;}
+#info{margin-top:35px;}
 			
 #contact p{color:rgb(59,59,59);
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			text-align:left;
-			font-size:1.6em;
+			font-size:1.2em;
 			line-height:1.7em;}	
 			
 #social{margin-top:5px;
@@ -380,15 +381,15 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}		
 #education h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #education p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
-				line-height:1.4em;}	
+				line-height:1.5em;}	
 				
 				
 #areas{background:#fff;
@@ -400,13 +401,13 @@ body{background:rgb(225,222,222);
 			}	
 			
 #areas h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #areas p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -418,13 +419,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #currentwork h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #currentwork p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;}		
 				
@@ -444,13 +445,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #publications h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #publications p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;
 				}
@@ -461,7 +462,7 @@ body{background:rgb(225,222,222);
 
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -476,13 +477,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #professional h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #professional p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -494,13 +495,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #presentations h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #presentations p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;
 				}
@@ -511,7 +512,7 @@ body{background:rgb(225,222,222);
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
@@ -546,8 +547,8 @@ body{background:rgb(225,222,222);
 		}
 		
 #headshot{background:#fff;
-		width:400px;
-		height:400px;
+		width:300px;
+		height:300px;
 		float:left;
 		margin-right:10px;
 		}
@@ -558,8 +559,8 @@ body{background:rgb(225,222,222);
 	
 		
 #contact{background:#fff;
-		width:420px;
-		height:380px;
+		width:520px;
+		height:280px;
 		float:left;
 		padding:10px;
 		text-align:center;
@@ -567,36 +568,36 @@ body{background:rgb(225,222,222);
 		}
 		
 #contact h1{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:320%;
+			font-family:Scada;
+			font-size:190%;
 			line-height:.9em;
 			margin-bottom:5px;
 			
 			}
 			
 #contact h1.longname{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:280% !important;
+			font-family:Scada;
+			font-size:190% !important;
 			line-height:.9em;
 			margin-bottom:5px;
 			
 			}
 			
 #contact h2{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:1.8em;
+			font-family:Scada;
+			font-size:1.4em;
 			margin-bottom:-10px;}
 			
 #h1h2{text-align:center;
 		}			
 			
 			
-#info{margin-top:50px;}
+#info{margin-top:40px;}
 			
 #contact p{color:rgb(59,59,59);
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			text-align:left;
-			font-size:1.6em;
+			font-size:1.2em;
 			line-height:1.5em;}	
 			
 #social{margin-top:5px;
@@ -625,13 +626,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}		
 #education h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #education p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.4em;}	
 				
@@ -645,13 +646,13 @@ body{background:rgb(225,222,222);
 			}	
 			
 #areas h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #areas p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -663,13 +664,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #currentwork h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #currentwork p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;}		
 				
@@ -689,13 +690,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #publications h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #publications p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;
 				}
@@ -706,7 +707,7 @@ body{background:rgb(225,222,222);
 
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -721,13 +722,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #professional h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #professional p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -739,13 +740,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #presentations h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #presentations p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.2em	;
 				margin-left:10px;
 				line-height:1.5em;
 				}
@@ -756,7 +757,7 @@ body{background:rgb(225,222,222);
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
@@ -787,8 +788,8 @@ body{background:rgb(225,222,222);
 		
 	
 #headshot{background:#fff;
-		width:360px;
-		height:360px;
+		width:260px;
+		height:260px;
 		float:left;
 		margin-right:10px;
 		}
@@ -799,8 +800,8 @@ body{background:rgb(225,222,222);
 	
 		
 #contact{background:#fff;
-		width:340px;
-		height:340px;
+		width:440px;
+		height:240px;
 		float:left;
 		padding:10px;
 		text-align:center;
@@ -808,36 +809,37 @@ body{background:rgb(225,222,222);
 		}
 		
 #contact h1{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:300%;
+			font-family:Scada;
+			font-size:190%;
 			line-height:.9em;
 			margin-bottom:5px;
 			
 			}
 			
 #contact h1.longname{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:235% !important;
+			font-family:Scada;
+			font-size:190% !important;
 			line-height:.9em;
 			margin-bottom:5px;
 			
 			}
 			
 #contact h2{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:1.7em;
+			font-family:Scada;
+			font-size:1.3em;
 			margin-bottom:-10px;}
 			
 #h1h2{text-align:center;
 		}			
 			
 			
-#info{margin-top:60px;}
+#info{margin-top:25px;}
 			
 #contact p{color:rgb(59,59,59);
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			text-align:left;
-			font-size:1.4em;}	
+			font-size:1em;
+			line-height:1.5em;}	
 			
 #social{margin-top:5px;
 		text-align:left;}	
@@ -865,13 +867,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}		
 #education h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #education p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.33em	;
+				font-family:Scada;
+				font-size:1.1em	;
 				margin-left:10px;
 				line-height:1.4em;}	
 				
@@ -885,13 +887,13 @@ body{background:rgb(225,222,222);
 			}	
 			
 #areas h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #areas p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.1em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -903,13 +905,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #currentwork h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #currentwork p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.1em	;
 				margin-left:10px;
 				line-height:1.5em;}		
 				
@@ -929,13 +931,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #publications h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #publications p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.1em	;
 				margin-left:10px;
 				line-height:1.5em;
 				}
@@ -946,7 +948,7 @@ body{background:rgb(225,222,222);
 
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -961,13 +963,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #professional h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #professional p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.1em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -979,13 +981,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #presentations h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #presentations p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1.1em	;
 				margin-left:10px;
 				line-height:1.5em;
 				}
@@ -996,7 +998,7 @@ body{background:rgb(225,222,222);
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
@@ -1025,8 +1027,8 @@ body{background:rgb(225,222,222);
 		}
 		
 #headshot{background:#fff;
-		width:320px;
-		height:320px;
+		width:260px;
+		height:260px;
 		float:left;
 		margin-right:10px;
 		
@@ -1038,8 +1040,8 @@ body{background:rgb(225,222,222);
 	
 		
 #contact{background:#fff;
-		width:300px;
-		height:300px;
+		width:360px;
+		height:240px;
 		float:left;
 		padding:10px;
 		text-align:center;
@@ -1047,36 +1049,37 @@ body{background:rgb(225,222,222);
 		}
 		
 #contact h1{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:270%;
+			font-family:Scada;
+			font-size:180%;
 			line-height:.9em;
 			margin-bottom:5px;
 			
 			}
 			
 #contact h1.longname{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:205% !important;
+			font-family:Scada;
+			font-size:180% !important;
 			line-height:.9em;
 			margin-bottom:5px;
 			
 			}
 			
 #contact h2{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:1.4em;
+			font-family:Scada;
+			font-size:1.2em;
 			margin-bottom:-10px;}
 			
 #h1h2{text-align:center;
 		}			
 			
 			
-#info{margin-top:50px;}
+#info{margin-top:35px;}
 			
 #contact p{color:rgb(59,59,59);
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			text-align:left;
-			font-size:1.25em;}	
+			font-size:1em;
+			line-height:1.4em;}	
 			
 #social{margin-top:5px;
 		text-align:left;}	
@@ -1104,13 +1107,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;
 			}		
 #education h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #education p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.18em	;
+				font-family:Scada;
+				font-size:1em	;
 				margin-left:10px;
 				line-height:1.4em;}	
 				
@@ -1124,13 +1127,13 @@ body{background:rgb(225,222,222);
 			}	
 			
 #areas h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #areas p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -1142,13 +1145,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #currentwork h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #currentwork p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1em	;
 				margin-left:10px;
 				line-height:1.5em;}		
 				
@@ -1168,13 +1171,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #publications h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #publications p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1em	;
 				margin-left:10px;
 				line-height:1.3em;
 				}
@@ -1185,7 +1188,7 @@ body{background:rgb(225,222,222);
 
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -1200,13 +1203,13 @@ body{background:rgb(225,222,222);
 			}
 			
 #professional h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #professional p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1em	;
 				margin-left:10px;
 				line-height:1.5em;}
 				
@@ -1218,13 +1221,13 @@ body{background:rgb(225,222,222);
 			margin-bottom:10px;}
 			
 #presentations h1{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				font-size:30px;
 				line-height:1em;}
 				
 #presentations p{color:rgb(59,59,59);
-				font-family:"PT Sans Narrow";
-				font-size:1.4em	;
+				font-family:Scada;
+				font-size:1em	;
 				margin-left:10px;
 				line-height:1.3em;
 				}
@@ -1235,7 +1238,7 @@ body{background:rgb(225,222,222);
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
@@ -1311,34 +1314,35 @@ nav{display:none;}
 #mobilesocial a:hover{opacity:1;}
 							
 #mobileholder h1{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:2.25em;
+			font-size:1.5em;
 			line-height:.8em;
 			padding-top:10px;
 			}
 			
 #mobileholder h1.mobilelongname{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:2em;
+			font-size:1.5em;
 			line-height:.8em;
 			padding-top:10px;
 			}
 			
 #mobileholder h2{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
 			font-size:1.2em;
+			padding-top:5px;
 			}
 			
 
 							
 #contact{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.4em;
+		font-size:1.3em;
 		}
 		
 #mobilecontacth1{color:rgb(15,65,111);
@@ -1359,9 +1363,9 @@ nav{display:none;}
 
 #education{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.4em;}
+		font-size:1.3em;}
 		
 #education h1{color:rgb(15,65,111);
 					
@@ -1369,18 +1373,18 @@ nav{display:none;}
 					margin-left:3px;
 					}							
 
-#education p{font-family:"PT Sans Narrow";
+#education p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);}
 		
 #areas{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.3em;
 		}
 		
-#areas p{font-family:"PT Sans Narrow";
+#areas p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
@@ -1394,15 +1398,15 @@ nav{display:none;}
 					
 #currentwork{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.3em;
 		}
 		
-#currentwork p{font-family:"PT Sans Narrow";
+#currentwork p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #currentwork h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1412,11 +1416,11 @@ nav{display:none;}
 					
 #publications{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.3em;
 		}
 		
-#publications p{font-family:"PT Sans Narrow";
+#publications p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
@@ -1433,7 +1437,7 @@ nav{display:none;}
 #publications a:hover{text-decoration:underline;}
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -1441,11 +1445,11 @@ nav{display:none;}
 
 #professional{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.3em;
 		}
 		
-#professional p{font-family:"PT Sans Narrow";
+#professional p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
@@ -1460,11 +1464,11 @@ nav{display:none;}
 					
 #presentations{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.3em;
 		}
 		
-#presentations p{font-family:"PT Sans Narrow";
+#presentations p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
@@ -1483,7 +1487,7 @@ nav{display:none;}
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
@@ -1552,33 +1556,34 @@ nav{display:none;}
 #mobilesocial a:hover{opacity:1;}
 							
 #mobileholder h1{padding-top:10px;
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:2.25em;
+			font-size:1.5em;
 			line-height:.8em;
 			}
 			
 #mobileholder h1.mobilelongname{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:2em;
+			font-size:1.5em;
 			line-height:.8em;
 			padding-top:10px;
 			}
 			
 #mobileholder h2{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
 			font-size:1.2em;
+			padding-top:5px;
 			}
 			
 
 							
 #contact{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.4em;
+		font-size:1.2em;
 		}
 		
 #mobilecontacth1{color:rgb(15,65,111);
@@ -1599,9 +1604,9 @@ nav{display:none;}
 
 #education{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.4em;}
+		font-size:1.2em;}
 		
 #education h1{color:rgb(15,65,111);
 					
@@ -1609,18 +1614,18 @@ nav{display:none;}
 					margin-left:3px;
 					}							
 
-#education p{font-family:"PT Sans Narrow";
+#education p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);}
 		
 #areas{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.2em;
 		}
 		
-#areas p{font-family:"PT Sans Narrow";
+#areas p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
@@ -1634,15 +1639,15 @@ nav{display:none;}
 					
 #currentwork{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.2em;
 		}
 		
-#currentwork p{font-family:"PT Sans Narrow";
+#currentwork p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #currentwork h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1652,15 +1657,15 @@ nav{display:none;}
 					
 #publications{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.2em;
 		}
 		
-#publications p{font-family:"PT Sans Narrow";
+#publications p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #publications h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1673,7 +1678,7 @@ nav{display:none;}
 #publications a:hover{text-decoration:underline;}
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -1681,15 +1686,15 @@ nav{display:none;}
 
 #professional{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.2em;
 		}
 		
-#professional p{font-family:"PT Sans Narrow";
+#professional p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #professional h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1699,15 +1704,15 @@ nav{display:none;}
 					
 #presentations{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.2em;
 		}
 		
-#presentations p{font-family:"PT Sans Narrow";
+#presentations p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #presentations h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1722,7 +1727,7 @@ nav{display:none;}
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
@@ -1794,32 +1799,33 @@ nav{display:none;}
 #mobilesocial a:hover{opacity:1;}
 							
 #mobileholder h1{padding-top:10px;
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:2.25em;
+			font-size:1.5em;
 			line-height:.8em;
 			}
 			
 #mobileholder h1.mobilelongname{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:2em;
+			font-size:1.5;
 			line-height:.8em;
 			padding-top:10px;
 			}
 			
 #mobileholder h2{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
 			font-size:1.2em;
+			padding-top:5px;
 			}
 			
 							
 #contact{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.4em;
+		font-size:1.1em;
 		}
 		
 #mobilecontacth1{color:rgb(15,65,111);
@@ -1840,9 +1846,9 @@ nav{display:none;}
 
 #education{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.4em;}
+		font-size:1.1em;}
 		
 #education h1{color:rgb(15,65,111);
 					
@@ -1850,18 +1856,18 @@ nav{display:none;}
 					margin-left:3px;
 					}							
 
-#education p{font-family:"PT Sans Narrow";
+#education p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);}
 		
 #areas{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.1em;
 		}
 		
-#areas p{font-family:"PT Sans Narrow";
+#areas p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
@@ -1875,15 +1881,15 @@ nav{display:none;}
 					
 #currentwork{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.1em;
 		}
 		
-#currentwork p{font-family:"PT Sans Narrow";
+#currentwork p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #currentwork h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1893,15 +1899,15 @@ nav{display:none;}
 					
 #publications{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.1em;
 		}
 		
-#publications p{font-family:"PT Sans Narrow";
+#publications p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #publications h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1914,7 +1920,7 @@ nav{display:none;}
 #publications a:hover{text-decoration:underline;}
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -1923,15 +1929,15 @@ nav{display:none;}
 
 #professional{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.1em;
 		}
 		
-#professional p{font-family:"PT Sans Narrow";
+#professional p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #professional h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1941,15 +1947,15 @@ nav{display:none;}
 					
 #presentations{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1.1em;
 		}
 		
-#presentations p{font-family:"PT Sans Narrow";
+#presentations p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #presentations h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1964,7 +1970,7 @@ nav{display:none;}
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
@@ -2037,31 +2043,32 @@ nav{display:none;}
 #mobilesocial a:hover{opacity:1;}
 							
 #mobileholder h1{padding-top:10px;
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:2.25em;
+			font-size:1.5em;
 			line-height:.8em;
 			}
 			
 #mobileholder h1.mobilelongname{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:1.95em;
+			font-size:1.5em;
 			line-height:.8em;
 			padding-top:10px;
 			}
 			
 #mobileholder h2{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
 			font-size:1.2em;
+			padding-top:5px;
 			}
 							
 #contact{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.3em;
+		font-size:1em;
 		}
 		
 #mobilecontacth1{color:rgb(15,65,111);
@@ -2082,9 +2089,9 @@ nav{display:none;}
 
 #education{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.4em;}
+		font-size:1em;}
 		
 #education h1{color:rgb(15,65,111);
 					
@@ -2092,18 +2099,18 @@ nav{display:none;}
 					margin-left:3px;
 					}							
 
-#education p{font-family:"PT Sans Narrow";
+#education p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);}
 		
 #areas{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.35em;
+		font-family:Scada;
+		font-size:1em;
 		}
 		
-#areas p{font-family:"PT Sans Narrow";
+#areas p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
@@ -2117,15 +2124,15 @@ nav{display:none;}
 					
 #currentwork{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1em;
 		}
 		
-#currentwork p{font-family:"PT Sans Narrow";
+#currentwork p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #currentwork h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -2136,15 +2143,15 @@ nav{display:none;}
 					
 #publications{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1em;
 		}
 		
-#publications p{font-family:"PT Sans Narrow";
+#publications p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #publications h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -2157,7 +2164,7 @@ nav{display:none;}
 #publications a:hover{text-decoration:underline;}
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -2166,15 +2173,15 @@ nav{display:none;}
 
 #professional{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1em;
 		}
 		
-#professional p{font-family:"PT Sans Narrow";
+#professional p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #professional h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -2184,15 +2191,15 @@ nav{display:none;}
 					
 #presentations{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:1em;
 		}
 		
-#presentations p{font-family:"PT Sans Narrow";
+#presentations p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #presentations h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -2207,7 +2214,7 @@ nav{display:none;}
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
@@ -2276,33 +2283,34 @@ nav{display:none;}
 #mobilesocial a:hover{opacity:1;}
 							
 #mobileholder h1{padding-top:10px;
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:2.25em;
+			font-size:1.5em;
 			line-height:.8em;
 			}
 			
 #mobileholder h1.mobilelongname{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
-			font-size:2em;
+			font-size:1.5em;
 			line-height:.8em;
 			padding-top:10px;
 			}
 			
 #mobileholder h2{
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			color:rgb(70,70,70);
 			font-size:1.2em;
+			padding-top:5px;
 			}
 			
 
 							
 #contact{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.2em;
+		font-size:.9em;
 		}
 		
 #mobilecontacth1{color:rgb(15,65,111);
@@ -2323,9 +2331,9 @@ nav{display:none;}
 
 #education{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
+		font-family:Scada;
 		
-		font-size:1.2em;}
+		font-size:.9em;}
 		
 #education h1{color:rgb(15,65,111);
 					
@@ -2333,22 +2341,22 @@ nav{display:none;}
 					margin-left:3px;
 					}							
 
-#education p{font-family:"PT Sans Narrow";
+#education p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);}
 		
 #areas{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.2em;
+		font-family:Scada;
+		font-size:.9em;
 		}
 		
-#areas p{font-family:"PT Sans Narrow";
+#areas p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.95em;}
+		}
 		
 #areas h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -2358,15 +2366,15 @@ nav{display:none;}
 					
 #currentwork{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.2em;
+		font-family:Scada;
+		font-size:.9em;
 		}
 		
-#currentwork p{font-family:"PT Sans Narrow";
+#currentwork p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #currentwork h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -2376,15 +2384,15 @@ nav{display:none;}
 					
 #publications{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:.9em;
 		}
 		
-#publications p{font-family:"PT Sans Narrow";
+#publications p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #publications h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -2397,7 +2405,7 @@ nav{display:none;}
 #publications a:hover{text-decoration:underline;}
 
 #publications h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #publications b{color:rgb(0,0,0);
@@ -2406,15 +2414,15 @@ nav{display:none;}
 
 #professional{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.2em;
+		font-family:Scada;
+		font-size:.9em;
 		}
 		
-#professional p{font-family:"PT Sans Narrow";
+#professional p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #professional h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -2425,15 +2433,15 @@ nav{display:none;}
 					
 #presentations{background:#fff;
 		margin-top:10px;
-		font-family:"PT Sans Narrow";
-		font-size:1.4em;
+		font-family:Scada;
+		font-size:.9em;
 		}
 		
-#presentations p{font-family:"PT Sans Narrow";
+#presentations p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.8em;}
+		}
 		
 #presentations h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -2448,7 +2456,7 @@ nav{display:none;}
 
 
 #presentations h3{color:rgb(15,65,111);
-				font-family:"PT Sans Narrow";
+				font-family:Scada;
 				margin-left:5px;}
 				
 #presentations b{color:rgb(0,0,0);}
