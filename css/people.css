@@ -71,13 +71,14 @@ body{background:rgb(225,222,222);
 		margin-bottom:10px;
 		position:relative;}
 		
-.quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:Scada;
 			color:rgb(90,90,90);
-			padding-left:5px;
-			font-size:1.8em;
+			padding-left:10px;
+			padding-top:5px;
+			font-size:1.5em;
 			margin-bottom:-5px;}
 			
-.quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.2em;}
@@ -100,13 +101,14 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-.quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:Scada;
 			color:rgb(90,90,90);
-			padding-left:5px;
-			font-size:1.8em;
+			padding-left:10px;
+			padding-top:5px;
+			font-size:1.5em;
 			margin-bottom:-5px;}
 			
-.quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.2em;}
@@ -117,8 +119,8 @@ body{background:rgb(225,222,222);
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:1.9em;}
+			font-family:Scada;
+			font-size:1.5em;}
 		
 .view{background:rgb(15,65,111);
 		width:100px;
@@ -130,12 +132,12 @@ body{background:rgb(225,222,222);
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.3em;
+		font-family:Scada;
+		font-size:1em;
 		display:inline-block;
 		width:100%;
-		height:100%;
-		padding-top:2px;
+		height:86%;
+		padding-top:5px;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -190,13 +192,14 @@ body{background:rgb(225,222,222);
 		margin-bottom:10px;
 		position:relative;}
 		
-.quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
-			font-size:1.7em;
+			padding-top:5px;
+			font-size:1.2em;
 			margin-bottom:-5px;}
 			
-.quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.2em;}
@@ -219,25 +222,26 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-.quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
-			font-size:1.7em;
+			padding-top:5px;
+			font-size:1.2em;
 			margin-bottom:-5px;}
 			
-.quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.2em;}
 			
 .quotes{padding:0 5px;
 		height:100px;
-		margin-top:40px;
+		margin-top:50px;
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:1.5em;}
+			font-family:Scada;
+			font-size:1.3em;}
 		
 .view{background:rgb(15,65,111);
 		width:80px;
@@ -249,12 +253,12 @@ body{background:rgb(225,222,222);
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1em;
+		font-family:Scada;
+		font-size:.8em;
 		display:inline-block;
 		width:100%;
-		height:100%;
-		padding-top:2px;
+		height:84%;
+		padding-top:5px;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -311,13 +315,14 @@ body{background:rgb(225,222,222);
 		margin-bottom:10px;
 		position:relative;}
 		
-.quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
-			font-size:1.5em;
+			padding-top:5px;
+			font-size:1.1em;
 			margin-bottom:-5px;}
 			
-.quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.1em;}
@@ -340,24 +345,25 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-.quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
-			font-size:1.5em;
+			padding-top:5px;
+			font-size:1.1em;
 			margin-bottom:-5px;}
 			
-.quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.1em;}
 		
 .quotes{padding:0 5px;
 		height:100px;
-		margin-top:35px;
+		margin-top:45px;
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
+			font-family:Scada;
 			font-size:1.3em;}
 		
 .view{background:rgb(15,65,111);
@@ -370,12 +376,12 @@ body{background:rgb(225,222,222);
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:.95em;
+		font-family:Scada;
+		font-size:.75em;
 		display:inline-block;
 		width:100%;
-		height:100%;
-		padding-top:2px;
+		height:84%;
+		padding-top:5px;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -430,13 +436,14 @@ body{background:rgb(225,222,222);
 		margin-bottom:10px;
 		position:relative;}
 		
-.quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
-			font-size:1.3em;
+			padding-top:5px;
+			font-size:1em;
 			margin-bottom:-5px;}
 			
-.quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:.95em;}
@@ -459,28 +466,29 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-.quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
-			font-size:1.3em;
+			padding-top:5px;
+			font-size:1em;
 			margin-bottom:-5px;}
 			
-.quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:.95em;}
 		
 .quotes{padding: 0 5px;
 		height:100px;
-		margin-top:30px;
+		margin-top:40px;
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:1.1em;}
+			font-family:Scada;
+			font-size:1em;}
 		
 .view{background:rgb(15,65,111);
-		width:50px;
+		width:60px;
 		height:20px;
 		position:absolute;
 		right:5px;
@@ -490,12 +498,12 @@ body{background:rgb(225,222,222);
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:.95em;
-		display:inline-block;
+		font-family:Scada;
+		font-size:10px;
+		display:block;
 		width:100%;
 		height:100%;
-		padding-top:1px;
+		padding-top:3px;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -550,13 +558,14 @@ body{background:rgb(225,222,222);
 		margin-bottom:10px;
 		position:relative;}
 		
-.quote h1{font-family:"PT Sans Narrow";
+.quote h1{font-family:Scada;
 			color:rgb(90,90,90);
-			padding-left:5px;
-			font-size:2.3em;
+			padding-left:10px;
+			padding-top:5px;
+			font-size:1.7em;
 			margin-bottom:-5px;}
 			
-.quote h2{font-family:"PT Sans Narrow";
+.quote h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.7em;}
@@ -579,25 +588,26 @@ body{background:rgb(225,222,222);
 		position:relative;
 		}
 		
-.quote_end h1{font-family:"PT Sans Narrow";
+.quote_end h1{font-family:Scada;
 			color:rgb(90,90,90);
-			padding-left:5px;
-			font-size:2.3em;
+			padding-left:10px;
+			padding-top:5px;
+			font-size:1.7em;
 			margin-bottom:-5px;}
 			
-.quote_end h2{font-family:"PT Sans Narrow";
+.quote_end h2{font-family:Scada;
 			color:rgb(90,90,90);
 			padding-left:5px;
 			font-size:1.7em;}
 			
 .quotes{
 		height:100px;
-		margin-top:45px;
+		margin-top:55px;
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);
-			font-family:"PT Sans Narrow";
-			font-size:2em;}
+			font-family:Scada;
+			font-size:1.5em;}
 		
 .view{background:rgb(15,65,111);
 		width:100px;
@@ -609,12 +619,12 @@ body{background:rgb(225,222,222);
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.3em;
+		font-family:Scada;
+		font-size:1em;
 		display:inline-block;
 		width:100%;
-		height:100%;
-		padding-top:2px;
+		height:84%;
+		padding-top:5px;
 		-moz-transition:all .6s ease;
 		-webkit-transition:all .6s ease;
 		-ms-transition:all .6s ease;
@@ -669,16 +679,16 @@ nav{display:none;}
 				height:100%}
 				
 .quote{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote h1{margin-bottom:1px;
-			font-size:2em;}
+			font-size:1.6em;}
 
 .quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
 .quote_end{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote_end h1{margin-bottom:1px;
 				font-size:2em;}
@@ -693,11 +703,12 @@ nav{display:none;}
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.3em;
+		font-family:Scada;
+		font-size:1em;
 		display:inline-block;
 		width:100%;
-		height:100%;
+		height:85%;
+		padding-top:4px;
 		}
 		
 .view a:active{background:rgb(200,200,200);
@@ -750,16 +761,16 @@ nav{display:none;}
 				height:100%}
 				
 .quote{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote h1{margin-bottom:1px;
-			font-size:2em;}
+			font-size:1.6em;}
 
 .quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
 .quote_end{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote_end h1{margin-bottom:1px;
 				font-size:2em;}
@@ -774,11 +785,12 @@ nav{display:none;}
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.3em;
+		font-family:Scada;
+		font-size:1em;
 		display:inline-block;
 		width:100%;
-		height:100%;
+		height:85%;
+		padding-top:4px;
 		}
 		
 .view a:active{background:rgb(200,200,200);
@@ -830,16 +842,16 @@ nav{display:none;}
 				height:100%}
 				
 .quote{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote h1{margin-bottom:1px;
-			font-size:2em;}
+			font-size:1.6em;}
 
 .quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
 .quote_end{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote_end h1{margin-bottom:1px;
 				font-size:2em;}
@@ -854,11 +866,12 @@ nav{display:none;}
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.3em;
+		font-family:Scada;
+		font-size:1em;
 		display:inline-block;
 		width:100%;
-		height:100%;
+		height:85%;
+		padding-top:4px;
 		}
 		
 .view a:active{background:rgb(200,200,200);
@@ -917,16 +930,16 @@ nav{display:none;}
 				height:100%}
 				
 .quote{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote h1{margin-bottom:1px;
-			font-size:2em;}
+			font-size:1.6em;}
 
 .quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
 .quote_end{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote_end h1{margin-bottom:1px;
 				font-size:2em;}
@@ -941,11 +954,12 @@ nav{display:none;}
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.3em;
+		font-family:Scada;
+		font-size:1em;
 		display:inline-block;
 		width:100%;
-		height:100%;
+		height:85%;
+		padding-top:4px;
 		}
 		
 .view a:active{background:rgb(200,200,200);
@@ -1000,16 +1014,16 @@ nav{display:none;}
 				height:100%}
 				
 .quote{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote h1{margin-bottom:1px;
-			font-size:2em;}
+			font-size:1.6em;}
 
 .quote h2{margin-bottom:5px;
 			font-size:1.2em;}
 		
 .quote_end{color:rgb(90,90,90);
-		font-family:"PT Sans Narrow";}
+		font-family:Scada;}
 		
 .quote_end h1{margin-bottom:1px;
 				font-size:2em;}
@@ -1025,11 +1039,12 @@ nav{display:none;}
 		}
 		
 .view a{color:#fff;
-		font-family:"PT Sans Narrow";
-		font-size:1.3em;
+		font-family:Scada;
+		font-size:1em;
 		display:inline-block;
 		width:100%;
-		height:100%;
+		height:85%;
+		padding-top:4px;
 		}
 		
 .view a:active{background:rgb(200,200,200);
