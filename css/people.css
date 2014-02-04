@@ -71,6 +71,9 @@ body{background:rgb(225,222,222);
 				font-family:Scada;
 				padding-top:15px;
 				}
+				
+#cida_contact p a{color:#000;
+				}
 		
 .headshot{
 			width:230px;
@@ -224,6 +227,9 @@ h1.mananger{color:#fff;
 #cida_contact p{float:left;
 				font-family:Scada;
 				padding-top:15px;
+				}
+				
+#cida_contact p a{color:#000;
 				}
 		
 .headshot{
@@ -381,6 +387,9 @@ h1.mananger{color:#fff;
 				font-family:Scada;
 				padding-top:15px;
 				}
+				
+#cida_contact p a{color:#000;
+				}
 		
 .headshot{
 			width:180px;
@@ -534,6 +543,9 @@ h1.mananger{color:#fff;
 #cida_contact p{float:left;
 				font-family:Scada;
 				padding-top:15px;
+				}
+				
+#cida_contact p a{color:#000;
 				}
 		
 .headshot{
@@ -692,6 +704,9 @@ h1.mananger{color:#fff;
 				font-family:Scada;
 				padding-top:16px;
 				font-size:.9em;
+				}
+				
+#cida_contact p a{color:#000;
 				}
 		
 .headshot{
@@ -866,6 +881,9 @@ nav{display:none;}
 				font-size:1em;
 				}
 				
+#cida_contact_mobile p a{color:#000;
+				}
+				
 .headshot{width:290px;
 			height:290px;
 			margin:0 auto;
@@ -981,6 +999,9 @@ nav{display:none;}
 				font-size:1em;
 				}
 				
+#cida_contact_mobile p a{color:#000;
+				}
+				
 .headshot{width:290px;
 			height:290px;
 			margin:0 auto;
@@ -1091,6 +1112,9 @@ nav{display:none;}
 				padding-left:10px;
 				padding-bottom:5px;
 				font-size:1em;
+				}
+				
+#cida_contact_mobile p a{color:#000;
 				}
 				
 .headshot{width:290px;
@@ -1211,6 +1235,9 @@ nav{display:none;}
 				font-size:1em;
 				}
 				
+#cida_contact_mobile p a{color:#000;
+				}
+				
 .headshot{width:290px;
 			height:290px;
 			margin:0 auto;
@@ -1326,6 +1353,9 @@ nav{display:none;}
 				font-size:1em;
 				}
 				
+#cida_contact_mobile p a{color:#000;
+				}				
+
 .headshot{width:290px;
 			height:290px;
 			margin:0 auto;
