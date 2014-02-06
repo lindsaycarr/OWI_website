@@ -144,6 +144,7 @@ nav ul li:hover ul li a:hover{
 footer{background:#fff;
 		clear:both;
 		position:relative;
+		font-family:Scada;
 		}
 		
 #top{background:rgb(204,204,204);
@@ -177,12 +178,12 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Scada;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Scada;}
 
 #bottom img#footerbar{position:absolute;
 						right:10px;
@@ -366,13 +367,13 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;
+			font-family:Scada;
 			font-size:.9em;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;
+			font-family:Scada;
 			font-size:.9em;}
 
 #bottom img#footerbar{position:absolute;
@@ -556,13 +557,13 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;
+			font-family:Scada;
 			font-size:.9em;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;
+			font-family:Scada;
 			font-size:.9em;}
 
 #bottom img#footerbar{position:absolute;
@@ -745,14 +746,14 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;
+			font-family:Scada;
 			font-size:.75em;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;
-			font-size:.75em;}
+			font-family:Scada;
+			font-size:.85em;}
 			
 b{font-weight:bold;
 color:rgb(15,65,111);
@@ -933,14 +934,14 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;
-			font-size:.7em;}
+			font-family:Scada;
+			font-size:.9em;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;
-			font-size:.7em;}
+			font-family:Scada;
+			font-size:.8em;}
 
 #bottom img#footerbar{position:absolute;
 						right:10px;
@@ -1063,12 +1064,13 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Scada;
+			}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Scada;}
 			
 b{font-weight:bold;
 color:rgb(15,65,111);}
@@ -1187,12 +1189,12 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Scada;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;
+			font-family:Scada;
 			font-size:.65em;}
 
 #bottom img#footerbar{}
@@ -1313,12 +1315,12 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Scada;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;
+			font-family:Scada;
 			font-size:.8em;}
 
 #bottom img#footerbar{}
@@ -1442,12 +1444,12 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Scada;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;
+			font-family:Scada;
 			}
 
 #bottom img#footerbar{}
@@ -1569,12 +1571,12 @@ footer{background:#fff;
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
-			font-family:Verdana, Geneva, sans-serif;}
+			font-family:Scada;}
 			
 #bottom a:hover{text-decoration:underline;}
 
 #bottom p{padding: 0 5px;
-			font-family:Verdana, Geneva, sans-serif;
+			font-family:Scada;
 			font-size:.5em;}
 
 #bottom img#footerbar{}
