@@ -1108,7 +1108,7 @@ nav{display:none;}
 		
 #mission{background:#fff;
 		width:100%;
-		min-height:200px;
+		min-height:100px;
 		
 		margin-right:10px;
 		margin-bottom:10px;
@@ -1116,26 +1116,16 @@ nav{display:none;}
 					}
 					
 #mobileheadline{display:block;
-				text-align:center;
+				text-align:left;
 				padding:10px 10px;
 				font-family:Scada;
 				font-size:1.3em;
 				color:#fff;
-				background:rgb(90,90,90);
+				background:rgb(15,65,111);
 				text-shadow:0 -1px rgba(0,0,0,.3);
 			}
 			
-#mission ul{display:block;
-				text-align:left;
-				padding:10px 40px;
-				font-family:Scada;
-				font-size:1.3em;
-				color:rgb(50,50,50);
-				list-style-type:disc;
-				
-			}
-			
-#mission ul li{margin-bottom:20px;}
+
 					
 #mobile_newsfeed{
 		width:100%;
@@ -1274,26 +1264,16 @@ nav{display:none;}
 					}
 					
 #mobileheadline{display:block;
-				text-align:center;
+				text-align:left;
 				padding:10px 10px;
 				font-family:Scada;
 				font-size:1.3em;
 				color:#fff;
-				background:rgb(90,90,90);
+				background:rgb(15,65,111);
 				text-shadow:0 -1px rgba(0,0,0,.3);
 			}
 			
-#mission ul{display:block;
-				text-align:left;
-				padding:10px 40px;
-				font-family:Scada;
-				font-size:1.2em;
-				color:rgb(50,50,50);
-				list-style-type:disc;
-				
-			}
-			
-#mission ul li{margin-bottom:20px;}
+
 					
 #mobile_newsfeed{
 		width:100%;
@@ -1423,7 +1403,7 @@ nav{display:none;}
 		
 #mission{background:#fff;
 		width:100%;
-		min-height:200px;
+		min-height:100px;
 		
 		margin-right:10px;
 		margin-bottom:10px;
@@ -1431,26 +1411,16 @@ nav{display:none;}
 					}
 					
 #mobileheadline{display:block;
-				text-align:center;
+				text-align:left;
 				padding:10px 10px;
 				font-family:Scada;
 				font-size:1.1em;
 				color:#fff;
-				background:rgb(90,90,90);
+				background:rgb(15,65,111);
 				text-shadow:0 -1px rgba(0,0,0,.3);
 			}
 			
-#mission ul{display:block;
-				text-align:left;
-				padding:10px 30px;
-				font-family:Scada;
-				font-size:1.1em;
-				color:rgb(50,50,50);
-				list-style-type:disc;
-				
-			}
-			
-#mission ul li{margin-bottom:10px;}
+
 					
 #mobile_newsfeed{
 		width:100%;
@@ -1583,29 +1553,19 @@ nav{display:none;}
 		
 #mission{background:#fff;
 		width:100%;
-		min-height:200px;
+		min-height:100px;
 		margin-bottom:10px;
 		margin-top:10px;		
 					}
 					
 #mobileheadline{display:block;
-				text-align:center;
+				text-align:left;
 				padding:10px 10px;
 				font-family:Scada;
-				font-size:1em;
+				font-size:.9em;
 				color:#fff;
-				background:rgb(90,90,90);
+				background:rgb(15,65,111);
 				text-shadow:0 -1px rgba(0,0,0,.3);
-			}
-			
-#mission ul{display:block;
-				text-align:left;
-				padding:10px 20px;
-				font-family:Scada;
-				font-size:1em;
-				color:rgb(50,50,50);
-				list-style-type:disc;
-				
 			}
 			
 #mission ul li{margin-bottom:10px;}
@@ -1742,32 +1702,22 @@ nav{display:none;}
 		
 #mission{background:#fff;
 		width:100%;
-		min-height:200px;
+		min-height:100px;
 		margin-bottom:10px;
 		margin-top:10px;		
 					}
 					
 #mobileheadline{display:block;
-				text-align:center;
+				text-align:left;
 				padding:10px 10px;
 				font-family:Scada;
-				font-size:1em;
+				font-size:.9em;
 				color:#fff;
-				background:rgb(90,90,90);
+				background:rgb(15,65,111);
 				text-shadow:0 -1px rgba(0,0,0,.3);
 			}
 			
-#mission ul{display:block;
-				text-align:left;
-				padding:10px 20px;
-				font-family:Scada;
-				font-size:1em;
-				color:rgb(50,50,50);
-				list-style-type:disc;
-				
-			}
-			
-#mission ul li{margin-bottom:10px;}
+
 					
 #mobile_newsfeed{
 		width:100%;
