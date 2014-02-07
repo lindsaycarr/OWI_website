@@ -107,7 +107,7 @@ body{background:rgb(225,222,222);
 			padding-left:5px;
 			font-size:1.2em;}
 			
-.quote_top{position:absolute;
+/*.quote_top{position:absolute;
 			left:10px;
 			top:65px;
 			opacity:.5;}
@@ -115,7 +115,7 @@ body{background:rgb(225,222,222);
 .quote_bottom{position:absolute;
 				right:10px;
 				bottom:50px;
-				opacity:.5;}
+				opacity:.5;}*/
 		
 .quote_end{background:#fff;
 		width:330px;
@@ -139,7 +139,8 @@ body{background:rgb(225,222,222);
 			
 .quotes{padding:0 5px;
 		height:100px;
-		margin-top:40px;
+		margin:0 auto;
+		padding-top:70px;
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);
@@ -296,7 +297,8 @@ h1.mananger{color:#fff;
 			
 .quotes{padding:0 5px;
 		height:100px;
-		margin-top:50px;
+		margin:0 auto;
+		padding-top:60px;
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);
@@ -455,12 +457,13 @@ h1.mananger{color:#fff;
 		
 .quotes{padding:0 5px;
 		height:100px;
-		margin-top:45px;
+		margin:0 auto;
+		padding-top:50px;
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);
 			font-family:Scada;
-			font-size:1.3em;}
+			font-size:1.2em;}
 			
 .highlight{background:rgb(15,65,111);
 			width:100%;
@@ -612,7 +615,8 @@ h1.mananger{color:#fff;
 		
 .quotes{padding: 0 5px;
 		height:100px;
-		margin-top:40px;
+		margin:0 auto;
+		padding-top:40px;
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);
@@ -710,8 +714,8 @@ h1.mananger{color:#fff;
 				}
 		
 .headshot{
-			width:290px;
-			height:290px;
+			width:250px;
+			height:250px;
 			float:left;
 			margin-right:10px;
 			margin-bottom:10px;
@@ -721,8 +725,8 @@ h1.mananger{color:#fff;
 				height:100%;}
 			
 .quote{background:#fff;
-		width:350px;
-		height:290px;
+		width:390px;
+		height:250px;
 		float:left;
 		margin-bottom:10px;
 		position:relative;}
@@ -750,8 +754,8 @@ h1.mananger{color:#fff;
 				opacity:.5;}
 		
 .quote_end{background:#fff;
-		width:350px;
-		height:290px;
+		width:390px;
+		height:250px;
 		float:left;
 		margin-bottom:10px;
 		position:relative;
@@ -771,7 +775,10 @@ h1.mananger{color:#fff;
 			
 .quotes{
 		height:100px;
-		margin-top:55px;
+		margin:0 auto;
+		padding-top:70px;
+		padding-right:5px;
+		padding-left:5px;
 		text-align:center;}
 		
 .quotes p{color:rgb(90,90,90);

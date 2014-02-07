@@ -70,8 +70,8 @@ body{background:rgb(225,222,222);
 
 		
 .product_picture{background:#fff;
-					width:320px;
-					height:320px;
+					width:290px;
+					height:290px;
 					float:left;
 					margin-right:10px;
 					margin-bottom:10px;}
@@ -80,8 +80,8 @@ body{background:rgb(225,222,222);
 						height:100%;}
 
 .product_info{background:#fff;
-				width:800px;
-				height:300px;
+				width:830px;
+				height:270px;
 				float:left;
 				position:relative;
 				padding:10px;
