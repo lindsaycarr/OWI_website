@@ -4,10 +4,16 @@
 * {margin:0; padding:0;}
 a img {border:0;}
 a {outline:0;text-decoration:none;}
-h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;
+					font-size:100%;}
 em {font-style:normal;
 	font-weight:normal;} 
 .clearfix {clear:both;}
+
+p{font-size:100%;
+	padding:0;
+	margin:0;
+	}
 
 body{background:rgb(225,222,222);
 		min-width:305px;
@@ -258,13 +264,13 @@ ul#responsive{display:none;}
 				position:absolute;
 				right:0;}
 				
-#mission_area h1{color:#fff;
+#mission_area h1{color:#eee;
 					font-family:Scada;
-					font-size:1em;
+					font-size:.9em;
 					padding-top:10px;
 					padding-right:5px;
 					padding-left:5px;
-					margin-bottom:20px;}
+					margin-bottom:43px;}
 					
 #mission_area p{color:#fff;
 				font-family:Scada;
@@ -587,11 +593,11 @@ ul#responsive{display:none;}
 				
 #mission_area h1{color:#fff;
 					font-family:Scada;
-					font-size:1em;
+					font-size:.9em;
 					padding-top:10px;
 					padding-right:5px;
 					padding-left:5px;
-					margin-bottom:15px;}
+					margin-bottom:47px;}
 					
 #mission_area p{color:#fff;
 				font-family:Scada;
@@ -758,11 +764,11 @@ ul#responsive{display:none;}
 				
 #mission_area h1{color:#fff;
 					font-family:Scada;
-					font-size:1em;
+					font-size:.9em;
 					padding-top:10px;
 					padding-right:5px;
 					padding-left:5px;
-					margin-bottom:18px;}
+					margin-bottom:50px;}
 					
 #mission_area p{color:#fff;
 				font-family:Scada;
@@ -926,11 +932,11 @@ ul#responsive{display:none;}
 				
 #mission_area h1{color:#fff;
 					font-family:Scada;
-					font-size:1em;
+					font-size:.9em;
 					padding-top:10px;
 					padding-right:5px;
 					padding-left:5px;
-					margin-bottom:20px;}
+					margin-bottom:50px;}
 					
 #mission_area p{color:#fff;
 				font-family:Scada;
