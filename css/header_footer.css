@@ -100,7 +100,6 @@ nav ul li a:hover{color:rgb(15,65,111);
 					background:#fff;}
 					
 nav ul li ul{display:none;
-			z-index:5000;
 			text-align:left;
 			}
 			
