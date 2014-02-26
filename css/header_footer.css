@@ -173,7 +173,8 @@ footer{background:#fff;
 #bottom{background:#fff;
 		width:100%;
 		min-height:70px;
-		padding-top:5px}
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
@@ -184,9 +185,34 @@ footer{background:#fff;
 #bottom p{padding: 0 5px;
 			font-family:Scada;}
 
-#bottom img#footerbar{position:absolute;
-						right:10px;
-						top:50px;}
+#usa_gov{background:none;
+			width:92px;
+			min-height:28px;
+			position:absolute;
+			right:80px;
+			top:10px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:60px;
+			min-height:62px;
+			position:absolute;
+			right:15px;
+			top:10px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
+					
+
 
 b{font-weight:bold;
 color:rgb(15,65,111);}
@@ -362,12 +388,14 @@ footer{background:#fff;
 #bottom{background:#fff;
 		width:100%;
 		min-height:70px;
-		padding-top:5px}
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
 			font-family:Scada;
-			font-size:.9em;}
+			font-size:.9em;
+			}
 			
 #bottom a:hover{text-decoration:underline;}
 
@@ -381,6 +409,34 @@ footer{background:#fff;
 						
 b{font-weight:bold;
 color:rgb(15,65,111);}
+
+#usa_gov{background:none;
+			width:92px;
+			min-height:28px;
+			position:absolute;
+			right:80px;
+			top:10px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:60px;
+			min-height:62px;
+			position:absolute;
+			right:15px;
+			top:10px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
+
 
 
 		
@@ -552,7 +608,8 @@ footer{background:#fff;
 #bottom{background:#fff;
 		width:100%;
 		min-height:70px;
-		padding-top:5px}
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
@@ -571,6 +628,33 @@ footer{background:#fff;
 						
 b{font-weight:bold;
 color:rgb(15,65,111);}
+
+#usa_gov{background:none;
+			width:92px;
+			min-height:28px;
+			position:absolute;
+			right:80px;
+			top:10px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:60px;
+			min-height:62px;
+			position:absolute;
+			right:15px;
+			top:10px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
 		
 /*#########################footer_end#####################*/ /*####footer###*/
 	
@@ -741,7 +825,8 @@ footer{background:#fff;
 #bottom{background:#fff;
 		width:100%;
 		min-height:70px;
-		padding-top:5px}
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
@@ -757,6 +842,33 @@ footer{background:#fff;
 b{font-weight:bold;
 color:rgb(15,65,111);
 }
+
+#usa_gov{background:none;
+			width:92px;
+			min-height:28px;
+			position:absolute;
+			right:80px;
+			top:10px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:60px;
+			min-height:62px;
+			position:absolute;
+			right:15px;
+			top:10px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
 
 		
 /*#########################footer_end#####################*/ /*####footer###*/
@@ -929,7 +1041,8 @@ footer{background:#fff;
 #bottom{background:#fff;
 		width:100%;
 		min-height:70px;
-		padding-top:5px}
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
@@ -949,6 +1062,33 @@ footer{background:#fff;
 b{font-weight:bold;
 color:rgb(15,65,111);
 }
+
+#usa_gov{background:none;
+			width:92px;
+			min-height:28px;
+			position:absolute;
+			right:80px;
+			top:10px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:60px;
+			min-height:62px;
+			position:absolute;
+			right:15px;
+			top:10px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
 		
 /*#########################footer_end#####################*/ /*####footer###*/
 } 
@@ -1059,7 +1199,8 @@ footer{background:#fff;
 #bottom{background:#fff;
 		width:100%;
 		height:70px;
-		padding-top:5px}
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
@@ -1073,6 +1214,33 @@ footer{background:#fff;
 			
 b{font-weight:bold;
 color:rgb(15,65,111);}
+
+#usa_gov{background:none;
+			width:80px;
+			min-height:16px;
+			position:absolute;
+			right:60px;
+			top:5px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:55px;
+			min-height:57px;
+			position:absolute;
+			right:5px;
+			top:5px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
 
 
 		
@@ -1151,7 +1319,7 @@ color:rgb(15,65,111);}
 footer{background:#fff;
 		margin-top:10px;
 		clear:both;
-		font-size:.5em;
+		font-size:.6em;
 		
 		}
 		
@@ -1171,8 +1339,8 @@ footer{background:#fff;
 	
 #middle{background:rgb(102,102,102);
 		width:100%;
-		height:9px;
-		padding:3px 0;}
+		height:12px;
+		padding:0px 0;}
 	
 #middle a{color:#fff;
 		font-family:Scada;
@@ -1184,7 +1352,8 @@ footer{background:#fff;
 #bottom{background:#fff;
 		width:100%;
 		height:70px;
-		padding-top:5px}
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
@@ -1194,7 +1363,7 @@ footer{background:#fff;
 
 #bottom p{padding: 0 5px;
 			font-family:Scada;
-			font-size:.65em;}
+			}
 
 #bottom img#footerbar{}
 					
@@ -1202,6 +1371,33 @@ footer{background:#fff;
 
 b{font-weight:bold;
 color:rgb(15,65,111);}
+
+#usa_gov{background:none;
+			width:80px;
+			min-height:16px;
+			position:absolute;
+			right:60px;
+			top:5px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:55px;
+			min-height:57px;
+			position:absolute;
+			right:5px;
+			top:5px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
 		
 /*#########################footer_end#####################*/ /*####footer###*/
 
@@ -1278,7 +1474,7 @@ color:rgb(15,65,111);}
 footer{background:#fff;
 		margin-top:10px;
 		clear:both;
-		font-size:.5em;}
+		font-size:.6em;}
 		
 #top{background:rgb(204,204,204);
 		width:100%;
@@ -1309,8 +1505,9 @@ footer{background:#fff;
 	
 #bottom{background:#fff;
 		width:100%;
-		height:70px;
-		padding-top:5px}
+		min-height:70px;
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
@@ -1320,7 +1517,7 @@ footer{background:#fff;
 
 #bottom p{padding: 0 5px;
 			font-family:Scada;
-			font-size:.8em;}
+			}
 
 #bottom img#footerbar{}
 					
@@ -1328,6 +1525,33 @@ footer{background:#fff;
 
 b{font-weight:bold;
 color:rgb(15,65,111);}
+
+#usa_gov{background:none;
+			width:80px;
+			min-height:16px;
+			position:absolute;
+			right:60px;
+			top:5px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:55px;
+			min-height:57px;
+			position:absolute;
+			right:5px;
+			top:5px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
 		
 /*#########################footer_end#####################*/ /*####footer###*/
 }
@@ -1406,7 +1630,7 @@ color:rgb(15,65,111);}
 footer{background:#fff;
 		margin-top:10px;
 		clear:both;
-		font-size:.3em;
+		font-size:.5em;
 
 		}
 		
@@ -1438,8 +1662,9 @@ footer{background:#fff;
 	
 #bottom{background:#fff;
 		width:100%;
-		height:70px;
-		padding-top:5px}
+		min-height:30px;
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
@@ -1457,6 +1682,33 @@ footer{background:#fff;
 
 b{font-weight:bold;
 color:rgb(15,65,111);}
+
+#usa_gov{background:none;
+			width:65px;
+			min-height:1px;
+			position:absolute;
+			right:40px;
+			top:5px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:45px;
+			min-height:47px;
+			position:absolute;
+			right:0px;
+			top:5px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
 		
 /*#########################footer_end#####################*/	 /*####footer###*/
 	
@@ -1535,7 +1787,7 @@ color:rgb(15,65,111);}
 footer{background:#fff;
 		margin-top:10px;
 		clear:both;
-		font-size:.4em;}
+		font-size:.5em;}
 		
 #top{background:rgb(204,204,204);
 		width:100%;
@@ -1565,8 +1817,9 @@ footer{background:#fff;
 	
 #bottom{background:#fff;
 		width:100%;
-		height:70px;
-		padding-top:5px}
+		min-height:50px;
+		padding-top:5px;
+		position:relative;}
 	
 #bottom a{padding: 0 5px;
 			color:rgb(15,65,111);
@@ -1576,7 +1829,7 @@ footer{background:#fff;
 
 #bottom p{padding: 0 5px;
 			font-family:Scada;
-			font-size:.5em;}
+			}
 
 #bottom img#footerbar{}
 					
@@ -1584,6 +1837,33 @@ footer{background:#fff;
 
 b{font-weight:bold;
 color:rgb(15,65,111);}
+
+#usa_gov{background:none;
+			width:55px;
+			min-height:0;
+			position:absolute;
+			right:30px;
+			top:5px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:35px;
+			min-height:37px;
+			position:absolute;
+			right:0px;
+			top:5px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
 		
 /*#########################footer_end#####################*/	 /*####footer###*/
 	
