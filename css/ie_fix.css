@@ -1,6 +1,226 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
+/*#########################header_start#####################*/
+		
+header{background:#fff;
+		height:72px;
+		margin-top:10px;
+		margin-bottom:1px;
+		position:relative;}
+		
+#usgslogo{	width:178px;
+			height:72px;
+			position:absolute;
+			left:0;}
+		
+#headernav{background:#000;
+			width:124px;
+			height:62px;
+			position:absolute;
+			right:0;
+			color:#fff;
+			padding:5px 10px;
+			line-height:1.2em;
+			}
+			
+#banner{float:left;
+		height:72px;
+		width:90%;
+		background:#000;}
+			
+#banner img{position:absolute;
+			left:175px;}
+			
+#headernav ul{ list-style-type:none;
+				font-family:Scada;
+				padding-top:2px;
+				}
+				
+#headernav a{color:#fff;
+			font-size:1.1em;
+			-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;}
+			
+#headernav a:hover{color:rgb(15,65,111); }
+			
+/*#########################header_end#####################*/ /*####header###*/
+
+/*#########################nav_start#####################*/
+
+nav{background:rgb(15,65,111);
+	height:58px;
+	font-family:Scada;
+	color:#fff;
+	position:relative;
+	margin-bottom:10px;
+		}
+		
+nav p{padding: 12px 10px;
+		font-size:1.5em;
+		float:left;
+		padding-top:13px;}
+		
+nav ul{display:block;
+	list-style-type:none;
+	padding-top:18px;
+	position:absolute;
+	right:0;
+	}
+
+nav ul li{float:left;
+			
+			}
+
+nav ul li a{color:#fff;
+			margin-right:10px;
+			font-size:1.1em;
+			-moz-transition:all .6s ease;
+			-webkit-transition:all .6s ease;
+			-ms-transition:all .6s ease;
+			transition:all .6s ease;
+			padding:19px 10px;
+			}
+			
+
+				
+nav ul li a:hover{color:rgb(15,65,111);
+					background:#fff;}
+					
+nav ul li ul{display:none;
+			z-index:5000;
+			text-align:left;
+			}
+			
+
+			
+nav ul li:hover ul{/*hovering over parents affects the child*/
+			display:block;/*makes sub items visible*/
+			position:absolute;/*prevents content from shifting*/
+			z-index:5000;		
+			right:172px
+			}
+			
+nav ul li:hover ul li{	
+						float:none;/*forces subitems to stack*/
+						height:30px;
+						
+												
+						
+						}
+						
+nav ul li:hover ul li a{font-weight:normal;
+						background:rgba(50,50,50,.9);
+						width:115px;
+						font-size:1em;
+						padding: 0 5px;
+						display:block;
+						height:30px;
+						
+						
+						}
+						
+nav ul li:hover ul li a:hover{
+								background:rgb(15,65,111);
+								color:#fff;
+								}
+			
+/*#########################nav_end#####################*/ /*####nav###*/
+
+/*#########################footer_start#####################*/
+
+footer{background:#fff;
+		margin-top:10px;
+		clear:both;}
+		
+#top{background:rgb(204,204,204);
+		width:100%;
+		height:20px;
+		}
+	
+#top a{color:#000;
+		font-family:Scada;
+		padding: 0 5px;
+		margin-right:40px;
+		font-size:.9em;
+		}
+		
+#top a:hover{text-decoration:underline;}
+	
+#middle{background:rgb(102,102,102);
+		width:100%;
+		height:20px;}
+	
+#middle a{color:#fff;
+		font-family:Scada;
+		padding: 0 5px;
+		margin-right:45px;
+		font-size:.9em;}
+		
+#middle a:hover{text-decoration:underline;}
+	
+#bottom{background:#fff;
+		width:100%;
+		min-height:70px;
+		padding-top:5px;
+		position:relative;}
+	
+#bottom a{padding: 0 5px;
+			color:rgb(15,65,111);
+			font-family:Scada;
+			font-size:.9em;
+			}
+			
+#bottom a:hover{text-decoration:underline;}
+
+#bottom p{padding: 0 5px;
+			font-family:Scada;
+			font-size:.9em;}
+
+#bottom img#footerbar{position:absolute;
+						right:10px;
+						top:50px;}
+						
+b{font-weight:bold;
+color:rgb(15,65,111);}
+
+#usa_gov{background:none;
+			width:92px;
+			min-height:28px;
+			position:absolute;
+			right:80px;
+			top:10px;}
+			
+#usa_gov a{
+			float:left;}
+			
+#usa_gov img{float:left;
+				width:100%;
+				height:100%;
+					}
+					
+#take_pride{background:none;
+			width:60px;
+			min-height:62px;
+			position:absolute;
+			right:15px;
+			top:10px;}
+			
+#take_pride img{width:100%;
+				height:100%;}
+			
+#take_pride a{float:left;}
+
+
+
+		
+/*#########################footer_end#####################*/ /*####footer###*/
+
+
 #ribbon{display:none;}
 
 #ribbon_small{display:none;}
