@@ -92,6 +92,9 @@ ul#responsive{display:none;}
 		text-align:center;	
 					}
 					
+#mission img#large{width:100%;
+				height:100%;}
+					
 #mission_area{background:rgba(15,65,111,.6);
 				width:385px;
 				height:100%;
