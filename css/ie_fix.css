@@ -20,8 +20,9 @@ div#block h1{color:rgb(15,65,111);
 			padding-left:10px;
 			padding-top:10px;
 			font-family:Scada;
-			text-align:center;}
+			margin-bottom:10px;
+			}
 			
 div#block p{font-family:Scada;
 			font-size:1.5em;
-			text-align:center;}
+			}
