@@ -19,4 +19,9 @@ div#block h1{color:rgb(15,65,111);
 			font-size:2em;
 			padding-left:10px;
 			padding-top:10px;
-			font-family:Scada;}
+			font-family:Scada;
+			text-align:center;}
+			
+div#block p{font-family:Scada;
+			font-size:1.5em;
+			text-align:center;}
