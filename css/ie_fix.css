@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+img{dispaly:none;}
+
+#container{display:none;}
+
 
 body{rgb(213,213,213);}
 
