@@ -12,6 +12,10 @@ div#block{background:#fff;
 			width:800px;
 			height:400px;
 			margin:0 auto;
+			margin-top:10px;
 			}
 			
-div#block h1{color:rgb(15,65,111);}
+div#block h1{color:rgb(15,65,111);
+			font-size:3em;
+			padding-left:10px;
+			padding-top:10px;}
