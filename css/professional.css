@@ -1341,8 +1341,7 @@ nav{display:none;}
 #contact{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		
-		font-size:1.3em;
+		font-size:em;
 		}
 		
 #mobilecontacth1{color:rgb(15,65,111);
@@ -1365,7 +1364,7 @@ nav{display:none;}
 		margin-top:10px;
 		font-family:Scada;
 		
-		font-size:1.3em;}
+		font-size:1em;}
 		
 #education h1{color:rgb(15,65,111);
 					
@@ -1381,14 +1380,14 @@ nav{display:none;}
 #areas{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.3em;
+		font-size:1em;
 		}
 		
 #areas p{font-family:Scada;
 				margin-left:10px;
 		padding-bottom:5px;
 		color:rgb(59,59,59);
-		font-size:.95em;}
+		}
 		
 #areas h1{color:rgb(15,65,111);
 			margin-bottom:-5px;
@@ -1399,7 +1398,7 @@ nav{display:none;}
 #currentwork{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.3em;
+		font-size:1em;
 		}
 		
 #currentwork p{font-family:Scada;
@@ -1417,7 +1416,7 @@ nav{display:none;}
 #publications{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.3em;
+		font-size:1em;
 		}
 		
 #publications p{font-family:Scada;
@@ -1446,7 +1445,7 @@ nav{display:none;}
 #professional{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.3em;
+		font-size:1em;
 		}
 		
 #professional p{font-family:Scada;
@@ -1465,7 +1464,7 @@ nav{display:none;}
 #presentations{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.3em;
+		font-size:1em;
 		}
 		
 #presentations p{font-family:Scada;
@@ -1583,7 +1582,7 @@ nav{display:none;}
 		margin-top:10px;
 		font-family:Scada;
 		
-		font-size:1.2em;
+		font-size:1em;
 		}
 		
 #mobilecontacth1{color:rgb(15,65,111);
@@ -1606,7 +1605,7 @@ nav{display:none;}
 		margin-top:10px;
 		font-family:Scada;
 		
-		font-size:1.2em;}
+		font-size:1em;}
 		
 #education h1{color:rgb(15,65,111);
 					
@@ -1622,7 +1621,7 @@ nav{display:none;}
 #areas{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.2em;
+		font-size:1em;
 		}
 		
 #areas p{font-family:Scada;
@@ -1640,7 +1639,7 @@ nav{display:none;}
 #currentwork{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.2em;
+		font-size:1em;
 		}
 		
 #currentwork p{font-family:Scada;
@@ -1658,7 +1657,7 @@ nav{display:none;}
 #publications{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.2em;
+		font-size:1em;
 		}
 		
 #publications p{font-family:Scada;
@@ -1687,7 +1686,7 @@ nav{display:none;}
 #professional{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.2em;
+		font-size:1em;
 		}
 		
 #professional p{font-family:Scada;
@@ -1705,7 +1704,7 @@ nav{display:none;}
 #presentations{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.2em;
+		font-size:1em;
 		}
 		
 #presentations p{font-family:Scada;
@@ -1825,7 +1824,7 @@ nav{display:none;}
 		margin-top:10px;
 		font-family:Scada;
 		
-		font-size:1.1em;
+		font-size:1em;
 		}
 		
 #mobilecontacth1{color:rgb(15,65,111);
@@ -1848,7 +1847,7 @@ nav{display:none;}
 		margin-top:10px;
 		font-family:Scada;
 		
-		font-size:1.1em;}
+		font-size:1em;}
 		
 #education h1{color:rgb(15,65,111);
 					
@@ -1864,7 +1863,7 @@ nav{display:none;}
 #areas{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.1em;
+		font-size:1em;
 		}
 		
 #areas p{font-family:Scada;
@@ -1882,7 +1881,7 @@ nav{display:none;}
 #currentwork{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.1em;
+		font-size:1em;
 		}
 		
 #currentwork p{font-family:Scada;
@@ -1900,7 +1899,7 @@ nav{display:none;}
 #publications{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.1em;
+		font-size:1em;
 		}
 		
 #publications p{font-family:Scada;
@@ -1930,7 +1929,7 @@ nav{display:none;}
 #professional{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.1em;
+		font-size:1em;
 		}
 		
 #professional p{font-family:Scada;
@@ -1948,7 +1947,7 @@ nav{display:none;}
 #presentations{background:#fff;
 		margin-top:10px;
 		font-family:Scada;
-		font-size:1.1em;
+		font-size:1em;
 		}
 		
 #presentations p{font-family:Scada;
