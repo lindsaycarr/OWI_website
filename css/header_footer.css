@@ -9,6 +9,7 @@ em {font-style:normal;
 	font-weight:normal;} 
 .clearfix {clear:both;}
 
+header{margin-top:0 !important;}
 
 @media (min-width:1200px){
 
