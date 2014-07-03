@@ -176,6 +176,7 @@ body {
   min-height: 20px;
   margin: 10px 0 0 0;
   text-align: center;
+  margin-bottom: .5%;
 }
 #about_cida p {
   font-family: Scada;
@@ -187,17 +188,15 @@ body {
   background: #ffffff;
   width: 100%;
   min-height: 50px;
-  margin-top: 10px;
   text-align: center;
   padding: 0 0 10px 0;
 }
 .product_picture {
-  background: #ffffff;
   width: 50%;
   min-height: 50%;
   clear: both;
   margin: 0 auto;
-  margin-top: 1%;
+  margin-top: 10px;
   padding-top: 15px;
 }
 .product_picture img {
@@ -507,10 +506,11 @@ body {
   /*===========products_start============*/
   .mobileholder {
     background: none;
+    margin: 0;
   }
   .product_picture {
     width: 30%;
-    margin: 0 1% 10px 0;
+    margin: .5% 1% 0 0;
     float: left;
     padding-top: 0;
   }
@@ -518,7 +518,7 @@ body {
     background: #ffffff;
     width: 69%;
     float: right;
-    margin: 0 0 10px 0;
+    margin: .5% 0 0 0;
     position: relative;
   }
   .product_info h1,
@@ -548,21 +548,20 @@ body {
   .mobile_partner {
     background: none;
     padding: 0;
+    margin-top: 1%;
   }
   .partner_logo {
     float: left;
-    background: #ffffff;
     padding-top: 0;
     width: 30%;
     clear: both;
-    margin-bottom: 10px;
   }
   .description {
     float: right;
     background: #ffffff;
     width: 69%;
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
   }
   .description,
   .description p {
@@ -578,7 +577,6 @@ body {
   }
   .projects_worked {
     display: block;
-    margin-top: 10px;
     background: #ffffff;
     clear: both;
     font-family: Scada;
@@ -712,9 +710,6 @@ body {
   }
   /*===========professional_end===========*/
   /*===========product_start===========*/
-  .product_info {
-    height: 297px !important;
-  }
   .product_info p {
     font-size: 1.1em;
   }
