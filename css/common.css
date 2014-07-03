@@ -1,0 +1,246 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+* {
+  padding: 0;
+  margin: 0;
+}
+a img {
+  border: 0;
+}
+a {
+  outline: 0;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+em {
+  font-style: normal;
+  font-weight: normal;
+}
+.clearfix {
+  clear: both;
+}
+#container {
+  background: none;
+  width: 100%;
+  min-height: 400px;
+}
+header,
+nav {
+  display: none;
+}
+header {
+  background: #000;
+  width: 100%;
+  height: 72px;
+}
+#usgslogo {
+  float: left;
+}
+#banner {
+  float: left;
+}
+#usgslogo,
+#banner {
+  height: 72px;
+}
+#headernav {
+  float: right;
+  margin-top: 5px;
+}
+#headernav a {
+  color: #ffffff;
+  font-family: Scada;
+  padding-right: 10px;
+}
+#headernav a:hover {
+  text-decoration: underline;
+}
+/*==========mobilenav===========*/
+#mobileheader {
+  background: #0f416f;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+#mobilelogo {
+  padding: 3px 0 0 10px;
+  float: left;
+}
+#mobileicons {
+  float: right;
+}
+#mobileicons ul {
+  list-style: none;
+  margin: 12px 0 0 0;
+}
+#mobileicons ul li {
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  height: 38px;
+  padding: 0 5px;
+}
+#mobileicons ul li ul {
+  display: none;
+  position: absolute;
+  right: 110px;
+  top: 38px;
+  min-height: 40px;
+  width: 100px;
+  z-index: 2000;
+}
+#mobileicons ul li:hover ul {
+  display: block;
+  clear: both;
+  background: rgba(50, 50, 50, 0.9);
+}
+#mobileicons ul li:hover ul li {
+  float: none;
+  background: none;
+  width: 100px;
+  height: 30px;
+  padding: 0;
+}
+#mobileicons ul li:hover ul li a {
+  color: #ffffff;
+  display: inline-block;
+  height: 20px;
+  width: 90px;
+  padding: 5px;
+  font-family: Scada;
+}
+#mobileicons ul li:hover ul li a:hover {
+  background: #0f416f;
+}
+/*==========mobilenav_end===========*/
+/*==========footer===========*/
+footer {
+  background: #ffffff;
+  width: 100%;
+  min-height: 100px;
+  margin-top: 10px;
+  clear: both;
+}
+#middle {
+  width: 100%;
+  height: 20px;
+  background: #666666;
+}
+#middle a {
+  color: #ffffff;
+  font-family: Scada;
+  font-size: .8em;
+  margin-right: 15px;
+}
+#middle a:first-child {
+  margin-left: 5px;
+}
+#bottom {
+  font-family: Scada;
+  font-size: .9em;
+  padding: 5px 0 0 5px;
+  position: relative;
+}
+#bottom a {
+  color: #0f416f;
+}
+#bottom img {
+  display: none;
+}
+/*==========footer_end===========*/
+@media screen and (min-width: 768px) {
+  /*==========header===========*/
+  #mobileheader {
+    display: none;
+  }
+  header,
+  nav {
+    display: block;
+  }
+  /*==========header_end===========*/
+  /*==========nav===========*/
+  nav {
+    background: #0f416f;
+    width: 100%;
+    height: 50px;
+    margin-top: 1px;
+    font-family: Scada;
+    position: relative;
+  }
+  nav h1 {
+    float: left;
+    color: #fff;
+    padding: 12px 0 0 10px;
+    font-size: 1.3em;
+  }
+  nav ul {
+    float: right;
+    list-style: none;
+  }
+  nav ul li {
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+  }
+  nav ul li a {
+    color: #ffffff;
+    display: inline-block;
+    height: 34px;
+    width: 130%;
+    padding-top: 16px;
+  }
+  nav ul li a:hover {
+    background: #fff;
+    color: #0f416f;
+  }
+  nav ul li ul {
+    display: none;
+    background: rgba(50, 50, 50, 0.9);
+  }
+  nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    right: 183px;
+    width: 100px;
+    min-height: 60px;
+    z-index: 2000;
+  }
+  nav ul li:hover ul li {
+    float: none;
+    padding: 0;
+    text-align: left;
+  }
+  nav ul li:hover ul li a {
+    padding: 5px 0 0 5px;
+    height: 25px;
+    width: 95px;
+  }
+  /*==========footer===========*/
+  #bottom img {
+    display: block;
+  }
+  #usa_gov {
+    position: absolute;
+    right: 75px;
+    top: 7px;
+  }
+  #take_pride {
+    position: absolute;
+    right: 0px;
+    top: 7px;
+  }
+}
+/*media_query*/
+@media screen and (min-width: 1030px) {
+  #container {
+    width: 980px;
+    margin: 0 auto;
+  }
+}
+/*media_query*/
