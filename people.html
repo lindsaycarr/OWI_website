@@ -23,24 +23,15 @@
 
 <meta HTTP-EQUIV="expires" CONTENT="0"/>
 
+<link href="css/cida.css" rel="stylesheet" type="text/css">
 
-
-
-
-
-<link href="css/people.css" rel="stylesheet" type="text/css">
-
-<link href="css/header_footer.css" rel="stylesheet" type="text/css">
-
-
-
-
-
+<link href="css/common.css" rel="stylesheet" type="text/css">
 
 <link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
 
-
 <link rel="icon" type="image/ico" href="images/spike.ico"  />
+
+<script type="text/javascript" src="js/jquery.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -55,6 +46,20 @@
 
 <script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
 
+<script type="text/javascript" src="js/resize.js"></script>
+
+<script>
+
+//<page specific script>
+var sizeContent = makeSizeContentHandler(".picture", '.quote')
+
+//Initial load of page
+$(document).ready(sizeContent);
+
+//Every resize of window
+$(window).resize(sizeContent);
+
+</script>
 </head>
 
 <body>
@@ -85,7 +90,7 @@
 
 <nav><!--navstart-->
 
-	<a href="index.html"><p>Center for Integrated Data Analytics</p></a>
+	<a href="index.html"><h1>Center for Integrated Data Analytics</h1></a>
 	
     <ul>
     	<li><a href="index.html">HOME</a></li>
@@ -145,13 +150,15 @@
 
 <!--Morgan Schneider-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/moschnei.html"><img src="images/professional_pages/mschneider.jpg" alt="morgans picture"/></a>
-</div><!---headshot---->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/moschnei.html"><img class="picture" src="images/professional_pages/mschneider.jpg" alt="morgans picture"/></a>
+
+
+<li class="quote">
 
 	<div class="highlight"><h1 class="mananger">Morgan Schneider</h1> <p>Manager</p></div>
     
@@ -167,19 +174,23 @@
     
     <div class="view"><a href="people/moschnei.html">View Profile</a></div><!--view-->
 
-</div><!--quote-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+
 
 <!--Scott Lewein-->
 
-<div class="mobileholder">
 
-<div class="headshot">
-	<a href="people/srlewein.html"><img src="images/professional_pages/slewein.jpg" alt="scotts picture"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+<div class="people_holder">
+
+
+	<a href="people/srlewein.html"><img class="picture" src="images/professional_pages/slewein.jpg" alt="scotts picture"/></a>
+
+
+<li class="quote shift">
 
 	<div class="highlight"><h1 class="mananger">Scott Lewein</h1> <p>Manager</p></div>
     
@@ -195,19 +206,23 @@
 
 	<div class="view"><a href="people/srlewein.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--David Blodgett-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/dblodgett.html"><img src="images/professional_pages/dblodgett.jpg" alt="Blodgetts picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/dblodgett.html"><img  class="picture" src="images/professional_pages/dblodgett.jpg" alt="Blodgetts picture"/></a>
+
+
+<li class="quote">
 
 	<h1>David Blodgett</h1>
     
@@ -223,19 +238,23 @@
     
     <div class="view"><a href="people/dblodgett.html">View Profile</a></div><!--view-->
 
-</div><!--quote--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+
 
 <!--Bill Blondeau-->
 
-<div class="mobileholder">
 
-<div class="headshot">
-	<a href="people/wblondeau.html"><img src="images/professional_pages/wblondeau.jpg" alt="Bill's Picture" /></a>
-</div><!---headshot--->
 
-<div class="quote_end">
+<div class="people_holder">
+
+
+	<a href="people/wblondeau.html"><img class="picture" src="images/professional_pages/wblondeau.jpg" alt="Bill's Picture" /></a>
+
+
+<li class="quote shift">
 
 	<h1>Bill Blondeau</h1>
     
@@ -251,19 +270,23 @@
     
     <div class="view"><a href="people/wblondeau.html">View Profile</a></div><!---view--->
 
-</div><!--quote--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
+
+<ul class="people_ul">
 
 <!--Wes Bramhall-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/abramhall.html"><img src="images/professional_pages/wbramhall.jpg" alt="Wes Picture" /></a>
-</div><!---headshot--->
 
-<div class="quote">
+	<a href="people/abramhall.html"><img  class="picture" src="images/professional_pages/wbramhall.jpg" alt="Wes Picture" /></a>
+
+
+<li class="quote">
 
 	<h1>Wes Bramhall</h1>
     
@@ -279,19 +302,19 @@
     
     <div class="view"><a href="people/abramhall.html">View Profile</a></div><!--view-->
 
-</div><!--quote--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Mary Bucknell-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/mbucknell.html"><img src="images/professional_pages/mbucknell.jpg" alt="marys picture"/></a>
-</div><!---headshot--->
 
-<div class="quote_end">
+	<a href="people/mbucknell.html"><img class="picture" src="images/professional_pages/mbucknell.jpg" alt="marys picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Mary Bucknell</h1>
     
@@ -307,20 +330,24 @@
 
 	<div class="view"><a href="people/mbucknell.html">View Profile</a></div><!---view--->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
+
+<ul class="people_ul">
 
 <!--Laura DeCicco-->
 
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/ldecicco.html"><img src="images/professional_pages/ldecicco.jpg" alt="lauras photo"/></a>
-</div><!--headshot-->
 
-<div class="quote">
+	<a href="people/ldecicco.html"><img  class="picture" src="images/professional_pages/ldecicco.jpg" alt="lauras photo"/></a>
+
+
+<li class="quote">
 
 	<h1>Laura DeCicco</h1>
     
@@ -336,19 +363,19 @@
 
 	<div class="view"><a href="people/ldecicco.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Carolyn Emmanuelli-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/mccullou.html"><img src="images/professional_pages/cemanuelli.jpg" alt="carolyns picture"/></a>
-</div><!---headshot--->
 
-<div class="quote_end">
+	<a href="people/mccullou.html"><img class="picture" src="images/professional_pages/cemanuelli.jpg" alt="carolyns picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Carolyn Emmanuelli</h1>
     
@@ -365,19 +392,23 @@
     
     <div class="view"><a href="people/mccullou.html">View Profile</a></div><!--view-->
 
-</div><!--quote--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
+
+<ul class="people_ul">
 
 <!--Eric Everman-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/eeverman.html"><img src="images/professional_pages/eeverman.jpg" alt="erics picture"/></a>
-</div><!--headshot-->
 
-<div class="quote">
+	<a href="people/eeverman.html"><img  class="picture" src="images/professional_pages/eeverman.jpg" alt="erics picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Eric Everman</h1>
     
@@ -393,19 +424,19 @@
     
     <div class="view"><a href="people/eeverman.html">View Profile</a></div><!--view-->
 
-</div><!--quote--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Ben Feinstein-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/bfeinstein.html"><img src="images/professional_pages/bfeinstein.jpg" alt="bens picture"/></a>
-</div><!---headshot--->
 
-<div class="quote_end">
+	<a href="people/bfeinstein.html"><img class="picture" src="images/professional_pages/bfeinstein.jpg" alt="bens picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Ben Feinstein</h1>
     
@@ -421,19 +452,23 @@
     
     <div class="view"><a href="people/bfeinstein.html">View Profile</a></div><!--view-->
 
-</div><!--quote--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Megan Hines-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/mhines.html"><img src="images/professional_pages/mhines.jpg" alt="Megans picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/mhines.html"><img   class="picture" src="images/professional_pages/mhines.jpg" alt="Megans picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Megan Hines</h1>
     
@@ -449,19 +484,19 @@
 
 	<div class="view"><a href="people/mhines.html">View Profile</a></div><!---view--->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Barry Heck-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/bheck.html"><img src="images/professional_pages/bheck.jpg" alt="barrys picture"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/bheck.html"><img class="picture" src="images/professional_pages/bheck.jpg" alt="barrys picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Barry Heck</h1>
     
@@ -477,19 +512,23 @@
 
 	<div class="view"><a href="people/bheck.html">View Profile</a></div><!---view--->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Paul Janda-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/pjanda.html"><img src="images/professional_pages/pjanda.jpg" alt="pauls picture"/></a>
-</div><!---headshot--->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/pjanda.html"><img  class="picture" src="images/professional_pages/pjanda.jpg" alt="pauls picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Paul Janda</h1>
     
@@ -505,19 +544,19 @@
 
 	<div class="view"><a href="people/pjanda.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Daniel Kester-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/dkester.html"><img src="images/professional_pages/dkester.jpg" alt="Daniels picture"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/dkester.html"><img class="picture" src="images/professional_pages/dkester.jpg" alt="Daniels picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Daniel Kester</h1>
     
@@ -533,19 +572,23 @@
 
 	<div class="view"><a href="people/dkester.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Steve Kochaver-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/skochaver.html"><img src="images/professional_pages/skochaver.jpg" alt="missing picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/skochaver.html"><img  class="picture" src="images/professional_pages/skochaver.jpg" alt="missing picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Steve Kochaver</h1>
     
@@ -561,19 +604,19 @@
 
 	<div class="view"><a href="people/skochaver.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Jim Kreft-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/jkreft.html"><img src="images/professional_pages/jkreft.jpg" alt="Jim's Picture" /></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/jkreft.html"><img class="picture" src="images/professional_pages/jkreft.jpg" alt="Jim's Picture" /></a>
+
+
+<li class="quote shift">
 
 	<h1>Jim Kreft</h1>
     
@@ -589,19 +632,23 @@
 
 	<div class="view"><a href="people/jkreft.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Jessica Lucido-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/jlucido.html"><img src="images/professional_pages/jessicalucido.jpg" alt="jessicas picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/jlucido.html"><img  class="picture" src="images/professional_pages/jessicalucido.jpg" alt="jessicas picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Jessica Lucido</h1>
     
@@ -617,19 +664,19 @@
     
     <div class="view"><a href="people/jlucido.html">View Profile</a></div><!--view-->
 
-</div><!--quote--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Cris Marsh-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/cmarsh.html"><img src="images/professional_pages/cmarsh.jpg" alt="cris's pic"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/cmarsh.html"><img class="picture" src="images/professional_pages/cmarsh.jpg" alt="cris's pic"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Cris Marsh</h1>
     
@@ -645,19 +692,23 @@
     
     <div class="view"><a href="people/cmarsh.html">View Profile</a></div><!--view-->
 
-</div><!--quote--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Alice McCarthy-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/ajmccart.html"><img src="images/professional_pages/amccarthy.jpg" alt="Alices picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/ajmccart.html"><img  class="picture" src="images/professional_pages/amccarthy.jpg" alt="Alices picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Alice McCarthy</h1>
     
@@ -673,19 +724,19 @@
 
 	<div class="view"><a href="people/ajmccart.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Lorraine Murphy-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/lmurphy.html"><img src="images/professional_pages/lmurphy.jpg" alt="lorraines picture"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/lmurphy.html"><img class="picture" src="images/professional_pages/lmurphy.jpg" alt="lorraines picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Lorraine Murphy</h1>
     
@@ -701,19 +752,23 @@
     
     <div class="view"><a href="people/lmurphy.html">View Profile</a></div><!--view-->
 
-</div><!--quote--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Jordan Read-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/jread.html"><img src="images/professional_pages/jread.jpg" alt="reads picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/jread.html"><img  class="picture" src="images/professional_pages/jread.jpg" alt="reads picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Jordan Read</h1>
     
@@ -727,19 +782,19 @@
 
 	<div class="view"><a href="people/jread.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Phil Russo-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/prusso.html"><img src="images/professional_pages/missing.jpg" alt="missing pic" /></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/prusso.html"><img class="picture" src="images/professional_pages/missing.jpg" alt="missing pic" /></a>
+
+
+<li class="quote shift">
 
 	<h1>Phil Russo</h1>
     
@@ -755,19 +810,23 @@
 
 	<div class="view"><a href="people/prusso.html">View Profile</a></div><!--view-->
 
-</div><!--quote-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Kathryn Schoephoester-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/kmschoep.html"><img src="images/professional_pages/kschoephoester.jpg" alt="kathryns picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/kmschoep.html"><img  class="picture" src="images/professional_pages/kschoephoester.jpg" alt="kathryns picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Kathryn M. Schoephoester</h1>
     
@@ -783,19 +842,19 @@
     
     <div class="view"><a href="people/kmschoep.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--David Schmitt-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/dschmitt.html"><img src="images/professional_pages/missing.jpg" alt="missing pic" /></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/dschmitt.html"><img class="picture" src="images/professional_pages/missing.jpg" alt="missing pic" /></a>
+
+
+<li class="quote shift">
 
 	<h1>David Schmitt</h1>
     
@@ -811,19 +870,23 @@
     
     <div class="view"><a href="people/dschmitt.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Carl Schroedl-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/cschroedl.html"><img src="images/professional_pages/cschroedl.jpg" alt="carls picture"/></a>
-</div><!---headshot--->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/cschroedl.html"><img  class="picture" src="images/professional_pages/cschroedl.jpg" alt="carls picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Carl Schroedl</h1>
     
@@ -839,19 +902,19 @@
 
 	<div class="view"><a href="people/cschroedl.html">View Profile</a></div><!--view-->
 
-</div><!--quote-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--David Sibley-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/dmsibley.html"><img src="images/professional_pages/dsibley.jpg" alt="sibleys picture"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/dmsibley.html"><img  class="picture" src="images/professional_pages/dsibley.jpg" alt="sibleys picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>David M Sibley</h1>
     
@@ -867,19 +930,23 @@
     
     <div class="view"><a href="people/dmsibley.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--David Steinich-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/dsteinich.html"><img src="images/professional_pages/dsteinich.jpg" alt="steinichs picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/dsteinich.html"><img  class="picture" src="images/professional_pages/dsteinich.jpg" alt="steinichs picture"/></a>
+
+
+<li class="quote">
 
 	<h1>David Steinich</h1>
     
@@ -895,19 +962,19 @@
 
 	<div class="view"><a href="people/dsteinich.html">View Profile</a></div><!--view-->
 
-</div><!--quote-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Shirley Stephan-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/sstephan.html"><img src="images/professional_pages/sstephan.jpg" alt="shirley picture"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/sstephan.html"><img class="picture" src="images/professional_pages/sstephan.jpg" alt="shirley picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Shirley Stephan</h1>
     
@@ -923,19 +990,23 @@
 
 	<div class="view"><a href="people/sstephan.html">View Profile</a></div><!--view-->
 
-</div><!--quote-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Ivan Suftin-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/isuftin.html"><img src="images/professional_pages/isuftin.jpg" alt="ivans picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/isuftin.html"><img  class="picture" src="images/professional_pages/isuftin.jpg" alt="ivans picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Ivan Suftin</h1>
     
@@ -949,19 +1020,19 @@
     
     <div class="view"><a href="people/isuftin.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end--->
+</li><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Phethala Thongsavanh-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/thongsav.html"><img src="images/professional_pages/pt.jpg" alt="phethalas picture"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/thongsav.html"><img class="picture" src="images/professional_pages/pt.jpg" alt="phethalas picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Phethala Thongsavanh</h1>
     
@@ -977,19 +1048,23 @@
 
 	<div class="view"><a href="people/thongsav.html">View Profile</a></div><!--view-->
 
-</div><!---quote-->
+</li><!---quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--David Uselmann-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/duselmann.html"><img src="images/professional_pages/duselmann.jpg" alt="Uselmann's Picture" /></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/duselmann.html"><img  class="picture" src="images/professional_pages/duselmann.jpg" alt="Uselmann's Picture" /></a>
+
+
+<li class="quote">
 
 	<h1>David Uselmann</h1>
     
@@ -1005,19 +1080,19 @@
 
 	<div class="view"><a href="people/duselmann.html">View Profile</a></div><!--view-->
 
-</div><!--quote-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Jordan Walker-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/jiwalker.html"><img src="images/professional_pages/jwalker.jpg" alt="walkers picture"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/jiwalker.html"><img class="picture" src="images/professional_pages/jwalker.jpg" alt="walkers picture"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Jordan I. Walker</h1>
     
@@ -1031,19 +1106,23 @@
     
     <div class="view"><a href="people/jiwalker.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end--->
+</div><!--quote--->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Meredith Warren-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/mwarren.html"><img src="images/professional_pages/mwarren.jpg" alt="merediths picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/mwarren.html"><img  class="picture" src="images/professional_pages/mwarren.jpg" alt="merediths picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Meredith Warren</h1>
     
@@ -1059,19 +1138,19 @@
 
 	<div class="view"><a href="people/mwarren.html">View Profile</a></div><!--view-->
 
-</div><!--quote-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
 
 <!--Marty Wernimont-->
 
-<div class="mobileholder">
+<div class="people_holder">
 
-<div class="headshot">
-	<a href="people/mwernimont.html"><img src="images/professional_pages/mwernimont.jpg"alt="Martys Photo"/></a>
-</div><!--headshot-->
 
-<div class="quote_end">
+	<a href="people/mwernimont.html"><img class="picture" src="images/professional_pages/mwernimont.jpg"alt="Martys Photo"/></a>
+
+
+<li class="quote shift">
 
 	<h1>Marty Wernimont</h1>
     
@@ -1087,19 +1166,23 @@
 
 	<div class="view"><a href="people/mwernimont.html">View Profile</a></div><!--view-->
 
-</div><!--quote-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 <!--Andrew Yan-->
 
-<div class="mobileholder">
+<ul class="people_ul">
 
-<div class="headshot">
-	<a href="people/ayan.html"><img src="images/professional_pages/ayan.jpg" alt="andrews picture"/></a>
-</div><!--headshot-->
+<div class="people_holder">
 
-<div class="quote">
+
+	<a href="people/ayan.html"><img  class="picture" src="images/professional_pages/ayan.jpg" alt="andrews picture"/></a>
+
+
+<li class="quote">
 
 	<h1>Andrew Yan</h1>
     
@@ -1115,9 +1198,11 @@
     
     <div class="view"><a href="people/ayan.html">View Profile</a></div><!--view-->
 
-</div><!--quote_end-->
+</li><!--quote-->
 
-</div><!--mobileholder-->
+</div><!--people_holder-->
+
+</ul>
 
 
 
