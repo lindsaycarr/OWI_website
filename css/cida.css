@@ -397,6 +397,9 @@ body {
     clear: both;
     margin-bottom: 1%;
   }
+  #fix {
+    margin-bottom: 2px;
+  }
   .quote {
     background: #ffffff;
     width: 59%;
