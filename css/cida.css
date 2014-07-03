@@ -526,6 +526,9 @@ body {
     text-align: left;
     margin-bottom: 5px;
   }
+  .product_info p {
+    font-size: .9em;
+  }
   .product_info h1 {
     font-size: 1.4em;
     padding-top: 10px;
@@ -675,6 +678,9 @@ body {
   .quotes p {
     font-size: 80%;
     padding: 0 5px;
+  }
+  .product_info p {
+    font-size: 1em;
   }
 }
 /*media_query*/
