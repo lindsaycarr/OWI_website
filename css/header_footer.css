@@ -1740,7 +1740,8 @@ color:rgb(15,65,111);}
 			
 #mobilenav ul{list-style-type:none;}
 
-#mobilenav ul li{float:left;}
+#mobilenav ul li{float:left;
+				}
 
 #mobilenav ul li ul{display:none;
 			z-index:5000;
