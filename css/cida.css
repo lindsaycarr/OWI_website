@@ -67,7 +67,6 @@ body {
   padding-bottom: 10px;
 }
 .picture {
-  background: #ffffff;
   width: 50%;
   margin: 0 auto;
   padding-top: 15px;
@@ -397,6 +396,9 @@ body {
     float: left;
     clear: both;
     margin-bottom: 1%;
+  }
+  #fix {
+    margin-bottom: -4px;
   }
   .quote {
     background: #ffffff;
