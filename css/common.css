@@ -110,6 +110,9 @@ header {
   font-size: 1.2em;
   border-bottom: 1px solid #fff;
 }
+#mobileicons ul li:hover ul li:last-child {
+  border-bottom: none;
+}
 #mobileicons ul li:hover ul li a {
   color: #ffffff;
   display: inline-block;
