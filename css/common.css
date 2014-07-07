@@ -108,6 +108,7 @@ header {
   padding: 0;
   text-align: center;
   font-size: 1.2em;
+  border-bottom: 1px solid #fff;
 }
 #mobileicons ul li:hover ul li a {
   color: #ffffff;
