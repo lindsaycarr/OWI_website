@@ -398,8 +398,7 @@ p#mobile_statement{display:none;}
     margin-top:.5%;
     padding-bottom:0;}
     
-.col img{display:none;
-        width:100%;
+.col img{width:100%;
         padding:0;}
         
 .col a.color{background:@primaryColor;
@@ -651,9 +650,13 @@ p#mobile_statement{display:none;}
     
     }/*media_query*/
     
-@media screen and (min-width:769px){
+@media screen and (max-height:768px){ 
     
-.col img{display:block;}   
+.col img{display:none;}
+    
+    }/*media_query*/
+    
+@media screen and (min-width:769px){ 
     
 /*===========index_end===========*/
     
