@@ -756,12 +756,6 @@ body {
   /*===========careers_end===========*/
 }
 /*media_query*/
-@media screen and (max-height: 768px) {
-  .col img {
-    display: none;
-  }
-}
-/*media_query*/
 @media screen and (min-width: 769px) {
   /*===========index_end===========*/
   ul.people_ul {
