@@ -428,11 +428,6 @@ body {
 /*media_query*/
 @media screen and (min-width: 768px) {
   /*===========index_start===========*/
-  #gassy {
-    width: 100%;
-    background: red;
-    clear: both;
-  }
   p#mobile_statement {
     display: none;
   }
@@ -468,9 +463,11 @@ body {
     margin-top: 0;
     font-size: 1em;
     margin-bottom: 1%;
+    margin-top: .5%;
     padding-bottom: 0;
   }
   .col img {
+    display: none;
     width: 100%;
     padding: 0;
   }
@@ -761,6 +758,10 @@ body {
 }
 /*media_query*/
 @media screen and (min-width: 769px) {
+  .col img {
+    display: block;
+  }
+  /*===========index_end===========*/
   ul.people_ul {
     clear: both;
     list-style: none;

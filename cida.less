@@ -364,15 +364,12 @@ html,body{height:100%;}
     
 /*===========index_start===========*/
 
-#gassy{width:100%;
-        background:red;
-        clear:both;}
-
 p#mobile_statement{display:none;}
 
 #mission{width:69%;
             float:left;
-            padding:0;}
+            padding:0;
+}
 
 #mission img{display:block;
                 width:100%;
@@ -398,9 +395,11 @@ p#mobile_statement{display:none;}
     margin-top:0;
     font-size:1em;
     margin-bottom:1%;
+    margin-top:.5%;
     padding-bottom:0;}
     
-.col img{width:100%;
+.col img{display:none;
+        width:100%;
         padding:0;}
         
 .col a.color{background:@primaryColor;
@@ -653,6 +652,10 @@ p#mobile_statement{display:none;}
     }/*media_query*/
     
 @media screen and (min-width:769px){
+    
+.col img{display:block;}   
+    
+/*===========index_end===========*/
     
 ul.people_ul{clear:both;
             list-style:none;
