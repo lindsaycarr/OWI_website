@@ -24,21 +24,15 @@
 
 <meta HTTP-EQUIV="expires" CONTENT="0"/>
 
+<link href="../css/cida.css" rel="stylesheet" type="text/css"/>
 
-
-
-<link href="../css/professional.css" rel="stylesheet" type="text/css">
-
-
-<link href="../css/header_footer.css" rel="stylesheet" type="text/css">
-
-
-
+<link href="../css/common.css" rel="stylesheet" type="text/css"/>
 
 <link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
 
-
 <link rel="icon" type="image/ico" href="../images/spike.ico"  />
+
+<script type="text/javascript" src="../js/jquery.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -52,6 +46,21 @@
 </script>
 
 <script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+
+<script type="text/javascript" src="../js/resize.js"></script>
+
+<script>
+
+//<page specific script>
+var sizeContent = makeSizeContentHandler("#headshot", '#contact')
+
+//Initial load of page
+$(document).ready(sizeContent);
+
+//Every resize of window
+$(window).resize(sizeContent);
+
+</script>
 
 </head>
 
@@ -83,7 +92,7 @@
 
 <nav><!--navstart-->
 
-	<a href="../index.html"><p>Center for Integrated Data Analytics</p></a>
+	<a href="../index.html"><h1>Center for Integrated Data Analytics</h1></a>
 	
     <ul>
     	<li><a href="../index.html">HOME</a></li>
@@ -114,7 +123,7 @@
    <li> <a href="../index.html"><img src="../images/mobile_icons/homeicon.png" alt="home icon"/></a></li>
     
         	
-            	<li><a href="../people.html"><img src="../images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
+            	<li><a href="#"><img src="../images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
                 	<ul>
                     	<li><a href="../people.html">Employees</a></li>
                         <li><a href="../careers.html">Careers</a></li>
@@ -141,7 +150,7 @@
     
      <img id="bigpic" src="../images/professional_pages/jessicalucido.jpg" alt="jessicas pic"/>
     
-    	<div id="mobileholder">
+    	<div id="mobile_professional">
         	  
           <div id="mobilesocial">
         	<a href="mailto:jlucido@usgs.gov?Subject=Hello%20again" target="_top"><img src="../images/social_icons/emailicon_mobile.png" alt="email icon"/></a>
@@ -162,7 +171,7 @@
         
         
         
-        </div><!--mobileholder-->
+        </div><!--mobile_professional-->
   
        
         
@@ -175,7 +184,7 @@
         <div id="h1h2">
             <h1>Jessica Lucido</h1>
             
-            <h2>Civil Engineer, IT Specialist</h2>
+            <h2>Civil Engineer, Project Coordinator</h2>
         </div><!--h1h2-->
         
         <div id="mobilecontacth1"><h1>Contact</h1></div><!--mobilecontacth1-->
@@ -186,7 +195,7 @@
             <p>Middleton, Wisconsin 53562</p>
             <p>Phone: 608-821-3841</p>
             <p>Email: jlucido@usgs.gov</p>
-        </div><!--info-->
+        
         
         <div id="social">
         	<a href="mailto:jlucido@usgs.gov?Subject=Hello%20again" target="_top"><img src="../images/social_icons/emailicon.png" alt="email icon"/></a>
@@ -195,6 +204,8 @@
             
            <a href="https://twitter.com/JessicaMLucido" target="_blank"><img src="../images/social_icons/twittericon.png" alt="twitter icon"/></a>
         </div><!--social-->
+        
+        </div><!--info-->
        
      </div><!--contact-->
        
@@ -214,8 +225,8 @@
         
         	<h1>Areas of Expertise</h1>
             
-           		<p>Oracle | Informatica | Oracle Application Express | Database Management</p>
-            	<p>Agile Project Management | Service Oriented Architecture</p>
+           		<p>Project Management | Agile | ScrumMaster | Business Analysis</p>
+				<p>Oracle | PL/SQL | Oracle Application Express | PostGIS</p>
         
         </div><!--areas-->
         
@@ -223,17 +234,170 @@
         
         	<h1>Current Work</h1>
             
-            <p>National Groundwater Monitoring Network Data Portal</p>
+            <p>National Ground-Water Monitoring Network Data Portal</p>
+            
+            <p>Great Lakes Restoration Initiative Data Network</p>
             
             <p>Coastal Change Hazards Portal</p>
             
             <p>Digital Shoreline Analysis System Application</p>
             
-             <p>Great Lakes Restoration Initiative Data Network</p>
-             
-              <p>Great Lake Beach Health Database</p>
-             
-        </div>
+            <p>Great Lake Beach Health Database</p>
+            
+        </div><!--currentwork-->
+		
+		        <div id="publications">
+        
+		        <h1>Publications</h1>
+        
+		        <br/>
+						<h3>2013</h3>
+						
+						<br/>
+						
+						<p>Establishing a Collaborative National Ground-Water Monitoring Network Program for the United States. 2013. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/NGWMN_InfoSheet_final.pdf.</p>
+						
+						<br/>
+						
+            			<p>A National Framework for Ground-Water Monitoring in the United States. 2009, revised 2013. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/ngwmn_framework_report_july2013.pdf.</p>
+						
+						<br/>
+						
+						<p>U.S. Geological Survey, 2013, Tools for beach health data management, data processing, and predictive model implementation: U.S. Geological Survey Fact Sheet 2013–3068, 6 p., http://pubs.usgs.gov/fs/2013/3068/.</p>
+						
+						<br/>
+						
+						<h3>2012</h3>
+						
+						<br/>
+						
+						<p>Blodgett, D., N. Booth, T. Kunicki, J. Walker, and <strong>J. Lucido</strong>. 2012. “Description of the U.S. Geological Survey Geo Data Portal Data Integration Framework.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 5 (6): 1687–91. doi:10.1109/JSTARS.2012.2196759.</p>
+						
+						<br/>
+						
+		            	<h3>2011</h3>
+                
+		                <br/>
+                
+		                <p>National Ground-Water Monitoring Network -- Results of Pilot Studies. 2011. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/pubs/tr/pilot_results/NGWMN_pilot_studies.pdf.</p>
+						
+						<br/>
+						
+						<p>Booth, Nathaniel L., Boyan Brodaric, <strong>Jessica M. Lucido</strong>, I.-Lin Kuo, Eric Boisvert, and William L. Cunningham. 2011. “Development of an Interoperable Groundwater Data Exchange Network between the United States and Canada.” In GeoHydro 2011 Conference Proceedings Paper. http://acwi.gov/sogw/pubs/tr/pilot_results/Booth_etal_GeoHydro2011.pdf.</p>
+						
+						<br/>
+						
+						<h3>2010</h3>
+						
+						<br/>
+						
+						<p><strong>Lucido, Jessica M.</strong> 2010. “In-Situ Chlorine Generation and Microbial Inactivation by Photoelectrocatalytic Oxidation”. University of Wisconsin–Madison.</p>
+                
+		        </div><!--publications-->
+        
+		        <div id="presentations">
+        
+		        	<h1>Presentations</h1>
+            
+		            <br/>
+						<h3>2014</h3>
+						
+            			<br/>
+						
+						<p>Brodaric, Boyan, Nate Booth, Eric Boisvert, <strong>Jessica M. Lucido</strong>. 2014. “LEVELS OF DATA INTEROPERABILITY IN THE EMERGING NORTH AMERICAN GROUNDWATER DATA NETWORK”. presented at the 11th International Conference on Hydroinformatics, New York, NY, August 17. (accepted)</p>
+						
+						<br/>
+						
+						<p>Cunningham, William L., Robert P. Schreiber, <strong>Jessica M. Lucido</strong>. 2014. “National Ground Water Monitoring Network and Network Portal”. presented at the 9th National Monitoring Conference, Cincinnati, OH, May 1.</p>
+						
+						<br/>
+						
+						<p><strong>Lucido, Jessica M.</strong>, Robert P. Schreiber, Nathaniel Booth, Daryll Pope, and William L. Cunningham. 2014. “National Ground-Water Monitoring Network Data Portal: Continued Collaboration from Concept to Version 2.0.” In  Ngwa. https://ngwa.confex.com/ngwa/2014gws/webprogram/Paper9726.html.</p>
+						
+						<br/>
+						
+		            	<h3>2013</h3>
+						
+		                <br/>
+						
+		                <p><strong>Lucido, Jessica M.</strong> 2013. “Making USGS Great Lakes Scientific Data Discoverable and Accessible Through an Integrated, Standards-Based Data Network”. presented at the 56th Annual Conference on Great Lakes Research, West Lafayette, IN, June 3. http://iaglr.org/iaglr2013/.</p>
+						
+						</br>
+						
+						<p><strong>Lucido, Jessica M.</strong> 2013. “Best Practices for Making Scientific Data Discoverable and Accessible through Integrated, Standards-Based Data Portals”. presented at the AGU Fall Meeting, San Francisco, CA, December 11. http://fallmeeting.agu.org/2013/.</p>
+						
+						<br/>
+						
+						<p> <strong>Lucido, Jessica M.</strong> 2013. “The National Ground Water Monitoring Network Data Portal: From Pilot to Production”. presented at the GWPC 2013 Annual Forum, St. Louis, MO, September 24. http://www.gwpc.org/sites/default/files/event-sessions/Lucido_Jessica.pdf.</p>
+						
+		        		<br/>
+						
+						<p><strong>Lucido, Jessica M.</strong> 2013. “The National Ground Water Monitoring Network Data Portal: From Pilot to Production”. presented at the NGWA Groundwater Summit 2013, Denver, CO, April 30.</p>
+						
+						<br/>
+						
+						<p><strong>Lucido, Jessica M.</strong> 2013. “Monitoring Network Design, Implementation & Data Management”. Invited. Presented at the Developing a Coordinated National Soil Moisture Network Workshop, Kansas City, MO, November 13.</p>
+						
+						<br/>
+						
+		            	<h3>2012</h3>
+						
+		                <br/>
+						
+		                <p><strong>Lucido, Jessica M.</strong> 2012. “The National Ground Water Monitoring Network Data Portal: Innovation in Ground Water Data Exchange and Mediation”. presented at the NGWA Groundwater Summit 2012, Garden Grove, CA, May 8. https://ngwa.confex.com/ngwa/2012gws/webprogramsummit/meeting.html.</p>
+						
+						<br/>
+						
+		            	<h3>2011</h3>
+						
+		                <br/>
+		                <p>Booth, Nathaniel, Boyan Brodaric, <strong>Jessica M. Lucido</strong>, I.-Lin Kuo, and William L. CUNNINGHAM. 2011. “DEVELOPMENT OF A GROUNDWATER DATA EXCHANGE NETWORK FOR INTEROPERABLE DATA EXCHANGE AND MEDIATION BETWEEN THE U.S. AND CANADA”. presented at the GSA Annual Meeting, Minneapolis, MN, October 12. https://gsa.confex.com/gsa/2011AM/webprogram/Paper197350.html.</p>
+						
+						<br/>
+						
+		                <p><strong>Lucido, Jessica M.</strong>. 2011. “Development of a Ground Water Data Portal for Interoperable Data Exchange and Mediation within the National Ground Water Monitoring Network”. presented at the NGWA Groundwater Summit 2011, Baltimore, MD, May 3.</p>
+						<br/>
+						
+						<p><strong>Lucido, Jessica M.</strong>. 2011. “Development of a Ground Water Data Portal for Interoperable Data Exchange and Mediation within the NGWMN”. presented at the GWPC 2011 Annual Forum, Atlanta, GA, September 27. http://www.gwpc.org/sites/default/files/event-sessions/20d_Lucido_Jessica.pdf.</p>
+						
+						<br/>
+						
+						<p>Booth, Nathaniel L., Boyan Brodaric, <strong>Jessica M. Lucido</strong>, I-Lin Kuo, Eric Boisvert, and William L. Cunningham. 2011. “Development of an Interoperable Groundwater Data Exchange Network between the United States and Canada”. presented at the GeoHydro 2011, Quebec, Canada, August 30.</p>
+						
+						<br/>
+						
+		            	<h3>2010</h3>
+						
+		                <br/>
+						
+		                <p>Harrington, Gregory W., <strong>Jessica M. Lucido</strong>, 2010. “Escherichia Coli Inactivation By Photoelectrocatalytic Chlorine Production”. presented at the American Water Works Association’s (AWWA) 2010 Water Quality Technology Conference, Savannah, GA, November 14.</p>
+						
+						<br/>
+						
+						<p><strong>Lucido, Jessica M.</strong> 2010. “Photoelectrocatalytic Chlorine Production for Microbial Inactivation”. presented at the American Water Works Association Annual Conference and Exposition 2010, Chicago, IL, June 21.</p>
+						
+						<br/>
+						
+						<h3>2008</h3>
+						
+						</br>
+						
+						<p><strong>Lucido, Jessica M.</strong>, Bolutife Bambgoye, Ramesh Chandrasekharan, Nicholas Ndiege, Richard I. Masel, and Mark A. Shannon. 2008. “ENVR 42-Synthesis and Photocatalytic Activity of TaOxNy and Ta3N5.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.</p>
+						
+						<br/>
+						
+						<p>Bamgboye, Bolutife, <strong>Jessica M. Lucido</strong>, Ramesh Chandrasekharan, Nicholas Ndiege, Elizabeth Moscoso, Leslie Threatt, Mark A. Shannon, and Richard I. Masel. 2008. “ENVR 245-Synthesis, Characterization and Photoactivity Studies of Nitrogen-Doped Ta2O5 Decorated onto SiO2 Nanoparticles.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.</p>
+						
+						<br/>
+						
+						<p>Chandrasekharan, Ramesh, Nicholas Ndiege, Bolutife Bambgoye, William N. Harris III, <strong>Jessica M. Lucido</strong>, Adarsh Radadia, Mark A. Shannon, and Richard I. Masel. 2008. “ENVR 170-Photocatalytic Activity of Ta2O5 Photocatalysts Decorated on SiO2 Nanoparticles.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.</p>
+						
+						<br/>
+						
+						<p>Ndiege, Nicholas, Ramesh Chandrasekharan, William N. Harris III, Bolutife Bambgoye, <strong>Jessica M. Lucido</strong>, Richard I. Masel, and Mark A. Shannon. 2008. “ENVR 43-Synthesis and Characterization of Ta2O5-Grafted SiO2 Nanoparticles for Photocatalytic Applications.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.</p>
+						
+						<br/>
+		</div><!--presentations-->
         
 </div><!--contact-->
 

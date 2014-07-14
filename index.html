@@ -24,9 +24,9 @@
 <meta HTTP-EQUIV="expires" CONTENT="0"/>
 
 
-<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/cida.css" rel="stylesheet" type="text/css" />
 
-<link href="css/header_footer.css" rel="stylesheet" type="text/css" />
+<link href="css/common.css" rel="stylesheet" type="text/css" />
 
 <link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
 
@@ -40,6 +40,8 @@
 </div>
 <![endif]-->
 
+<script type="text/javascript" src="js/jquery.js"></script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -52,6 +54,21 @@
 </script>
 
 <script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+
+<script type="text/javascript" src="js/resize.js"></script>
+
+<script>
+
+//<page specific script>
+var sizeContent = makeSizeContentHandler("#tricky", '#newsfeed')
+
+//Initial load of page
+$(document).ready(sizeContent);
+
+//Every resize of window
+$(window).resize(sizeContent);
+
+</script>
 
 </head>
 
@@ -84,7 +101,7 @@
 
 <nav><!-- navstart -->
 
-	<p>Center for Integrated Data Analytics</p>
+	<h1>Center for Integrated Data Analytics</h1>
 	
     <ul>
     	<li><a href="index.html">HOME</a></li>
@@ -133,768 +150,292 @@
             
 </div><!-- mobilenav -->
 
-
-
-<!-- endmobilehtml -->
-
-
 </div><!-- mobileheader -->
 
 <!-- mobile_html_end -->
 
 
-
 <div id="content">
 
 
-    <div id="mission">
-    
-    	<div id="mission_area">
-        
-        	<h1>The USGS Center for Integrated Data Analytics is committed to advancing USGS science and a broader understanding of our changing world by:</h1>
-            <p>Integrating disparate data across scales and domains</p>
-            
-            <p>Improving access to data and research</p>
-            
-            <p>Developing tools for analysis and visualization</p>
-            
-            <p>Fostering collaboration in order to enable a new era of scientific investigation.</p>
-            
-        </div>
-        
-         <img id="ribbon" src="images/mission_ribbons_large.png" alt="mission ribbons"/>
-        <img id="ribbon_medium" src="images/mission_ribbons_medium.png" alt="mission ribbons"/>
-       <img id="ribbon_small" src="images/mission_ribbons.png" alt="mission ribbons"/>
-       
-       <img  id="large" src="images/missionstatement_large.jpg" alt="mission_pic_large"/>
-        
-    	<img id="main" src="images/missionstatement.jpg" alt="medium mission pic"/>
-        
-    	<img id="small" src="images/missionstatementsmall.jpg" alt="small mission pic"/>
-        
-        <p id="mobileheadline">The USGS Center for Integrated Data Analytics is committed to advancing USGS science and a broader understanding of our changing world by integrating disparate data across scales and domains, improving access to data and research, developing tools for analysis and visualization, and fostering collaboration with the international community.</p>
+<div id="mission">
 
+<p id="mobile_statement">The USGS Center for Integrated Data Analytics is committed to advancing USGS science and a broader understanding of our changing world by integrating disparate data across scales and domains, improving access to data and research, developing tools for analysis and visualization, and fostering collaboration with the international community.</p>
 
-        
-    </div><!--mission-->
-    
-	<div id="newsfeed">
+<img src="images/missionstatement_large.jpg" alt="mission pic"/>
 
-	<div id="topbar">
-        	<p>NEWS</p>
-        </div><!--topbar-->
+</div><!--mission-->
+
+<div id="newsfeed">
+
+	<div id="scroll">
+
+<!--============================story=======================-->
+   
+    	<div class="news_story">
         
-       <div class="holder">
-       
-       		<div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>30</p> 
-                    
-                    	<p>Apr</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Coastal Change Hazards Portal v1.1.7 released to the public.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
+        	<div class="date"> 5 May</div><!--date-->
             
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>29</p> 
-                    
-                    	<p>Apr</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    USGS Electrical Engineer Mary Bucknell demonstrated the latest updates to the National Environmental Methods Index web site (http://www.nemi.gov) at the NWQMC Conference in Cincinnati, OH.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>28</p> 
-                    
-                    	<p>Mar</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    NEMI users can now download WQP records collected using a specific URL directly from NEMI summary pages.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>24</p> 
-                    
-                    	<p>Mar</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    CIDA in cooperation with the NASA/USGS Land Processes Distributed Active Archive Center, the NASA Langley Reasearch Center, and the Unidata programming office has been awarded a cooperative agreement grant.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>4</p> 
-                    
-                    	<p>Mar</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    CIDA announces availability of the North American and Global Land Data Assimilation System datasets through the Geo Data Portal.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>3</p> 
-                    
-                    	<p>Mar</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    The technical implementation of assigning DOIs was designed and completed by the Publications Warehouse Team at CIDA.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-       
-           <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>6</p> 
-                    
-                    	<p>Feb</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Sediment mapper released to the public at cida.usgs.gov/sediment.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-       		<div class="scroll">
-            
-            	<div class="newsarea">
-                
-                	 <div class="date">
-                    
-                       <p>28</p> 
-                        
-                        <p>Jan</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">Jordan Read presented "Establishing a physical template for national-scale lake research" to the USGS Water Mission senior staff.</p>
-                    
-                </div><!--newsarea-->
-                
-           </div><!--scroll-->
-            
-       		<div class="scroll">
-            
-            	<div class="newsarea">
-                
-                	 <div class="date">
-                    
-                       <p>9</p> 
-                        
-                        <p>Jan</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">The Everglades Depth Estimation Network (EDEN) team has publicly announced the Explore and View EDEN (EVE) application.</p>
-                    
-                </div><!--newsarea-->
-                
-           </div><!--scroll-->
+            <p>Jessica Lucido participated in a meeting in Vienna on May 5th to continue work on the second version of the GWML data model. This model seeks to harmonize the GWML with the EU's INSPIRE models related to geology and hydrogeology.</p>
+        
+        </div><!--news_story-->
            
+<!--============================story=======================-->
+   
+    	<div class="news_story">
+        
+        	<div class="date"> 30 Apr</div><!--date-->
+            
+            <p>Coastal Change Hazards Portal v1.1.7 released to the public.</p>
+        
+        </div><!--news_story-->
+       
+<!--============================story=======================-->
+  
+	   	<div class="news_story">
+        
+        	<div class="date"> 29 Apr</div><!--date-->
+            
+            <p>USGS Electrical Engineer Mary Bucknell demonstrated the latest updates to the National Environmental Methods Index web site (http://www.nemi.gov) at the NWQMC Conference in Cincinnati, OH.</p>
+        
+        </div><!--news_story-->
+    
+<!--============================story=======================-->
+   
+    	<div class="news_story">
+        
+        	<div class="date"> 28 Mar</div><!--date-->
+            
+            <p> NEMI users can now download WQP records collected using a specific URL directly from NEMI summary pages.</p>
+        
+        </div><!--news_story-->
+    
+<!--============================story=======================-->
+    
+    	<div class="news_story">
+        
+        	<div class="date"> 24 Mar</div><!--date-->
+            
+            <p>CIDA in cooperation with the NASA/USGS Land Processes Distributed Active Archive Center, the NASA Langley Reasearch Center, and the Unidata programming office has been awarded a cooperative agreement grant.</p>
+        
+        </div><!--news_story-->
+       
+<!--============================story=======================-->
 
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>16</p> 
-                    
-                    	<p>Dec</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Jordan Read co-authored "Decadal oscillation of lakes and aquifers in the upper Great Lakes region of North America: Hydroclimatic Implications" in Geophysical Research Letters.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
+    	<div class="news_story">
+        
+        	<div class="date"> 4 Mar</div><!--date-->
             
+            <p>CIDA announces availability of the North American and Global Land Data Assimilation System datasets through the Geo Data Portal.</p>
+        
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
 
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>13</p> 
-                    
-                    	<p>Dec</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Laura DeCicco presented "Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages developed by the USGS" at the AGU fall meeting in California.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>11</p> 
-                    
-                    	<p>Dec</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">Jordan Walker presented "Progress on big data publication and documentation for machine-to-machine discovery, access, and processing" at the AGU fall meeting in California.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-             
-             <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>11</p> 
-                    
-                    	<p>Dec</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">Ivan Suftin presented "Taking advantage of HTML5 browsers to realize the concepts of session state and workflow sharing in web-tool applications" at the AGU fall meeting in California.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-             
-             
-              <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>11</p> 
-                    
-                    	<p>Dec</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">Jessica Lucido presented "Best Practices for Making Scientific Data Discoverable and Accessible through Integrated, Standards-Based Data Portals" at AGU's fall meeting in California.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-                         
-             
-              <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>9</p> 
-                    
-                    	<p>Dec</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">Jordan Read presented "Upscaling aquatic ecology: Pairing modern analytics with Big Data to simulate 2,500 U.S. lakes" at AGU's fall meeting in San Francisco.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-               
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>19</p> 
-                    
-                    	<p>Nov</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Jessica Lucido and Andrew Yan attended a ScrumMaster certification class. Scrum is an iterative and incremental Agile software development framework.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>11</p> 
-                    
-                    	<p>Nov</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Jessica Lucido attended a multi-agency meeting aimed at organizing a national soil moisture monitoring network to share data between agencies and academic groups.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>1</p> 
-                    
-                    	<p>Nov</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Jordan Read's session "Lakes and streams as engines in global processes: Insights from technical advances in limnology" was accepted for the 2014 Joint Aquatic Sciences Meeting.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>15</p> 
-                    
-                    	<p>Oct</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Jordan Read co-authored "Lake shoreline in the contiguous United States: Quantity, distribution and sensitivity to observation resolution" in Freshwater Biology.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>1</p> 
-                    
-                    	<p>Oct</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    An online, interactive, sediment data portal released which will improve the utility and accessibility of USGS suspended-sediment data to watershed managers, policy-makers, researchers, and the public.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>16</p> 
-                    
-                    	<p>Sep</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Laura DeCicco presented "Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages developed by the USGS" at the Open Water Symposium in Belgium.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-            
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>10</p> 
-                    
-                    	<p>Sep</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    Jordan Read co-authored "Evaluation of wireless sensor networks (WSNs) for remote wetland monitoring: design and initial results" in Environmental Monitoring and Assessment.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-           
-            <div class="scroll">
-            	<div class="newsarea">
-                
-                	<div class="date">
-                    
-                    	<p>1</p> 
-                    
-                    	<p>Sep</p>
-                    
-                    </div><!--date-->
-                    
-                    <p class="story">
-                    A team from the USGS Center for Integrated Data Analytics in collaboration with NRCAN developed a set of OGC web services to expose data from the National Ground Water Monitoring Network.</p>
-                    
-                </div><!--newsarea-->
-            </div><!--scroll-->
-               
-            
-		</div>
-</div>
-    
-    <div id="mobile_newsfeed">
-    	
-        <div id="mobile_holder">
+		<div class="news_story">
         
-        	<div class="mobile_newsarea">
+        	<div class="date"> 3 Mar</div><!--date-->
             
-            	<div class="mobile_date">30 Apr</div><!--mobile date-->
-                
-                <p>Coastal Change Hazards Portal v1.1.7 released to the public.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">29 Apr</div><!--mobile date-->
-                
-                <p> USGS Electrical Engineer Mary Bucknell demonstrated the latest updates to the National Enviromental Methods Index web site (http://www.nemi.gov) at the NWQMC Conference in Cincinnati, OH.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">28 Mar</div><!--mobile date-->
-                
-                <p> NEMI users can now download WQP records collected using a specific URL directly from NEMI summary pages.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">24 Mar</div><!--mobile date-->
-                
-                <p>CIDA in cooperation with the NASA/USGS Land Processes Distributed Active Archive Center, the NASA Langley Reasearch Center, and the Unidata programming office has been awarded a cooperative agreement grant.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">4 Mar</div><!--mobile date-->
-                
-                <p>CIDA announces availability of the North American and Global Land Data Assimilation System datasets through the Geo Data Portal.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">3 Mar</div><!--mobile date-->
-                
-                <p> The technical implementation of assigning DOIs was designed and completed by the Publications Warehouse Team at CIDA.</p>
-                
-            </div><!--mobile_newsarea-->
+            <p>The technical implementation of assigning DOIs was designed and completed by the Publications Warehouse Team at CIDA.</p>
         
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">6 Feb</div><!--mobile date-->
-                
-                <p>Sediment mapper released to the public at cida.usgs.gov/sediment.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            
-            
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">28 Jan</div><!--mobile date-->
-                
-                <p>Jordan Read presented "Establishing a physical template for national-scale lake research" to the USGS Water Mission senior staff.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">9 Jan</div><!--mobile date-->
-                
-                <p>The Everglades Depth Estimation Network (EDEN) team has publicly announced the Explore and View EDEN (EVE) application.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">16 Dec</div><!--mobile date-->
-                
-                <p>Jordan Read co-authored "Decadal oscillation of lakes and aquifers in the upper Great Lakes region of North America: Hydroclimatic Implications" in Geophysical Research Letters.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">13 Dec</div><!--mobile date-->
-                
-                <p>Laura DeCicco presented "Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages developed by the USGS" at the AGU fall meeting in California.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">11 Dec</div><!--mobile date-->
-                
-                <p>Jordan Walker presented "Progress on big data publication and documentation for machine-to-machine discovery, access, and processing" at the AGU fall meeting in California.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">11 Dec</div><!--mobile date-->
-                
-                <p>Ivan Suftin presented "Taking advantage of HTML5 browsers to realize the concepts of session state and workflow sharing in web-tool applications" at the AGU fall meeting in California.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">11 Dec</div><!--mobile date-->
-                
-                <p>Jessica Lucido presented "Best Practices for Making Scientific Data Discoverable and Accessible through Integrated, Standards-Based Data Portals" at AGU's fall meeting in California.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">9 Dec</div><!--mobile date-->
-                
-                <p>Jordan Read presented "Upscaling aquatic ecology: Pairing modern analytics with Big Data to simulate 2,500 U.S. lakes" at AGU's fall meeting in San Francisco.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">19 Nov</div><!--mobile date-->
-                
-                <p>Jessica Lucido and Andrew Yan attended a ScrumMaster certification class. Scrum is an iterative and incremental Agile software development framework.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">11 Nov</div><!--mobile date-->
-                
-                <p>Jessica Lucido attended a multi-agency meeting aimed at organizing a national soil moisture monitoring network to share data between agencies and academic groups.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">1 Nov</div><!--mobile date-->
-                
-                <p>Jordan Read's session "Lakes and streams as engines in global processes: Insights from technical advances in limnology" was accepted for the 2014 Joint Aquatic Sciences Meeting.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">15 Oct</div><!--mobile date-->
-                
-                <p>Jordan Read co-authored "Lake shoreline in the contiguous United States: Quantity, distribution and sensitivity to observation resolution" in Freshwater Biology.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">1 Oct</div><!--mobile date-->
-                
-                <p>An online, interactive, sediment data portal released which will improve the utility and accessibility of USGS suspended-sediment data to watershed managers, policy-makers, researchers, and the public.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">16 Sep</div><!--mobile date-->
-                
-                <p>Laura DeCicco presented "Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages developed by the USGS" at the Open Water Symposium in Belgium.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">10 Sep</div><!--mobile date-->
-                
-                <p>Jordan Read co-authored "Evaluation of wireless sensor networks (WSNs) for remote wetland monitoring: design and initial results" in Environmental Monitoring and Assessment.</p>
-                
-            </div><!--mobile_newsarea-->
-            <div class="mobile_newsarea">
-            
-            	<div class="mobile_date">1 Sep</div><!--mobile date-->
-                
-                <p>A team from the USGS Center for Integrated Data Analytics in collaboration with NRCAN developed a set of OGC web services to expose data from the National Ground Water Monitoring Network.</p>
-                
-            </div><!--mobile_newsarea-->
-            
-            
-        </div><!--mobile_holder-->
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-     </div><!--mobile_newsfeed-->
-    
-   <div class="box">
-    
-    	<a href="people.html"><img alt="People Image" src="images/people.jpg"/></a>
-    
-    	<div class="stripe">
+        	<div class="date"> 6 Feb</div><!--date-->
+            
+            <p>Sediment mapper released to the public at cida.usgs.gov/sediment.</p>
         
-        	<a href="people.html">Who We Are</a>
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        </div><!--stripe-->
+        	<div class="date"> 28 Jan</div><!--date-->
+            
+            <p>Jordan Read presented "Establishing a physical template for national-scale lake research" to the USGS Water Mission senior staff.</p>
         
-        <div class="picture">
-        	<a href="people.html"><img alt="People Image" src="images/people.jpg"/></a>
-        </div><!--picture-->
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        <div class="mobilelinks">
-        	<a href="people.html">Who We Are</a>
-        </div><!--mobilelinks-->
-    
-    </div><!--box-->
-    
-   <div class="box">
-    
-    <a href="products.html"><img alt="Products Image" src="images/products.jpg"/></a>
-    
-    	<div class="stripe">
+        	<div class="date"> 9 Jan</div><!--date-->
+            
+            <p>The Everglades Depth Estimation Network (EDEN) team has publicly announced the Explore and View EDEN (EVE) application.</p>
         
-        	<a href="products.html">What We Do</a>
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        </div><!--stripe-->
+        	<div class="date"> 16 Dec</div><!--date-->
+            
+            <p>Jordan Read co-authored "Decadal oscillation of lakes and aquifers in the upper Great Lakes region of North America: Hydroclimatic Implications" in Geophysical Research Letters.</p>
         
-        <div class="picture">
-        	<a href="products.html"><img alt="Products Image" src="images/products.jpg"/></a>
-        </div><!--picture-->
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        <div class="mobilelinks">
-        	<a href="products.html">What We Do</a>
-        </div><!--mobilelinks-->
-    
-    </div><!--box-->
-    
-    
-    <div class="box">
-    
-    <a href="partners.html"><img alt="Partners Image" src="images/partners.jpg"/></a>
-    
-    	<div class="stripe">
+        	<div class="date"> 13 Dec</div><!--date-->
+            
+            <p>Laura DeCicco presented "Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages developed by the USGS" at the AGU fall meeting in California.</p>
         
-        	<a href="partners.html">CIDA Partners</a>
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        </div><!--stripe-->
+        	<div class="date"> 11 Dec</div><!--date-->
+            
+            <p>Jordan Walker presented "Progress on big data publication and documentation for machine-to-machine discovery, access, and processing" at the AGU fall meeting in California.</p>
         
-        <div class="picture">
-        	<a href="partners.html"><img alt="Partners Image" src="images/partners.jpg"/></a>
-        </div><!--picure-->
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        <div class="mobilelinks">
-        	<a href="partners.html">CIDA Partners</a>
-        </div><!--mobilelinks-->
-    
-    </div><!--box-->
-    
-    <div id="people">
-    
-    	<a href="people.html"><img alt="People Image" src="images/people.jpg"/></a>
-    
-    	<div class="stripe">
+        	<div class="date"> 11 Dec</div><!--date-->
+            
+            <p>Ivan Suftin presented "Taking advantage of HTML5 browsers to realize the concepts of session state and workflow sharing in web-tool applications" at the AGU fall meeting in California.</p>
         
-        	<a href="people.html">Who We Are</a>
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        </div><!--stripe-->
+        	<div class="date"> 11 Dec</div><!--date-->
+            
+            <p>Jessica Lucido presented "Best Practices for Making Scientific Data Discoverable and Accessible through Integrated, Standards-Based Data Portals" at AGU's fall meeting in California.</p>
         
-        <div class="picture">
-        	<a href="people.html"><img alt="People Image" src="images/people.jpg"/></a>
-        </div><!--picture-->
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        <div class="mobilelinks">
-        	<a href="people.html">Who We Are</a>
-        </div><!--mobilelinks-->
-    
-    </div><!--box-->
-    
-   <div id="products">
-    
-    <a href="products.html"><img alt="Products Image" src="images/products.jpg"/></a>
-    
-    	<div class="stripe">
+        	<div class="date"> 9 Dec</div><!--date-->
+            
+            <p>Jordan Read presented "Upscaling aquatic ecology: Pairing modern analytics with Big Data to simulate 2,500 U.S. lakes" at AGU's fall meeting in San Francisco.</p>
         
-        	<a href="products.html">What We Do</a>
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        </div><!--stripe-->
+        	<div class="date"> 19 Nov</div><!--date-->
+            
+            <p>Jessica Lucido and Andrew Yan attended a ScrumMaster certification class. Scrum is an iterative and incremental Agile software development framework.</p>
         
-        <div class="picture">
-        	<a href="products.html"><img alt="Products Image" src="images/products.jpg"/></a>
-        </div><!--picture-->
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        <div class="mobilelinks">
-        	<a href="products.html">What We Do</a>
-        </div><!--mobilelinks-->
-    
-    </div><!--box-->
-    
-    
-    <div id="partners">
-    
-    <a href="partners.html"><img alt="Partners Image" src="images/partners.jpg"/></a>
-    
-    	<div class="stripe">
+        	<div class="date"> 11 Nov</div><!--date-->
+            
+            <p>Jessica Lucido attended a multi-agency meeting aimed at organizing a national soil moisture monitoring network to share data between agencies and academic groups.</p>
         
-        	<a href="partners.html">CIDA Partners</a>
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        </div><!--stripe-->
+        	<div class="date"> 1 Nov</div><!--date-->
+            
+            <p>Jordan Read's session "Lakes and streams as engines in global processes: Insights from technical advances in limnology" was accepted for the 2014 Joint Aquatic Sciences Meeting.</p>
         
-        <div class="picture">
-        	<a href="partners.html"><img alt="Partners Image" src="images/partners.jpg"/></a>
-        </div><!--picure-->
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
         
-        <div class="mobilelinks">
-        	<a href="partners.html">CIDA Partners</a>
-        </div><!--mobilelinks-->
-    
-    </div><!--box-->
-    
+        	<div class="date"> 15 Oct</div><!--date-->
+            
+            <p>Jordan Read co-authored "Lake shoreline in the contiguous United States: Quantity, distribution and sensitivity to observation resolution" in Freshwater Biology.</p>
+        
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
+        
+        	<div class="date"> 1 Oct</div><!--date-->
+            
+            <p>An online, interactive, sediment data portal released which will improve the utility and accessibility of USGS suspended-sediment data to watershed managers, policy-makers, researchers, and the public.</p>
+        
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
+        
+        	<div class="date"> 16 Sep</div><!--date-->
+            
+            <p>Laura DeCicco presented "Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages developed by the USGS" at the Open Water Symposium in Belgium.</p>
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+		<div class="news_story">
+        
+        	<div class="date"> 10 Sep</div><!--date-->
+            
+            <p>Jordan Read co-authored "Evaluation of wireless sensor networks (WSNs) for remote wetland monitoring: design and initial results" in Environmental Monitoring and Assessment.</p>
+        </div><!--news_story-->
+      
+<!--============================story=======================-->
+
+    </div><!--scroll-->
+
+</div><!--newsfeed-->
 
 
+<div id="who" class="col">
 
+	<a href="people.html"><img src="images/people.jpg" alt="people pic"/></a>
+    
+    <a class="color" href="people.html"><h2>Who We Are</h2></a>
+
+</div><!--col-->
+
+<div class="col">
+
+	<a  href="products.html"><img src="images/products.jpg" alt="product pic"/></a>
+    
+    <a class="color" href="products.html"><h2>What We Do</h2></a>
+
+</div><!--col-->
+
+<div id="cida_partners" class="col">
+
+	<a href="partners.html"><img src="images/partners.jpg" alt="partner pic"/></a>
+    
+    <a class="color" href="partners.html"><h2>CIDA Partners</h2></a>
+
+</div><!--col-->
+
+<div id="tricky"></div>
+    
 
 </div><!--content-->
+
+
+
 
 <footer>
 

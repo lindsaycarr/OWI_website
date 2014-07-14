@@ -24,22 +24,15 @@
 
 <meta HTTP-EQUIV="expires" CONTENT="0"/>
 
+<link href="../css/cida.css" rel="stylesheet" type="text/css"/>
 
-
-
-
-<link href="../css/professional.css" rel="stylesheet" type="text/css">
-
-
-<link href="../css/header_footer.css" rel="stylesheet" type="text/css">
-
-
-
+<link href="../css/common.css" rel="stylesheet" type="text/css"/>
 
 <link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
 
-
 <link rel="icon" type="image/ico" href="../images/spike.ico"  />
+
+<script type="text/javascript" src="../js/jquery.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,6 +46,21 @@
 </script>
 
 <script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+
+<script type="text/javascript" src="../js/resize.js"></script>
+
+<script>
+
+//<page specific script>
+var sizeContent = makeSizeContentHandler("#headshot", '#contact')
+
+//Initial load of page
+$(document).ready(sizeContent);
+
+//Every resize of window
+$(window).resize(sizeContent);
+
+</script>
 
 </head>
 
@@ -84,7 +92,7 @@
 
 <nav><!--navstart-->
 
-	<a href="../index.html"><p>Center for Integrated Data Analytics</p></a>
+	<a href="../index.html"><h1>Center for Integrated Data Analytics</h1></a>
 	
     <ul>
     	<li><a href="../index.html">HOME</a></li>
@@ -115,7 +123,7 @@
    <li> <a href="../index.html"><img src="../images/mobile_icons/homeicon.png" alt="home icon"/></a></li>
     
         	
-            	<li><a href="../people.html"><img src="../images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
+            	<li><a href="#"><img src="../images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
                 	<ul>
                     	<li><a href="../people.html">Employees</a></li>
                         <li><a href="../careers.html">Careers</a></li>
@@ -143,7 +151,7 @@
     
     <img id="bigpic" src="../images/professional_pages/missing.jpg"/>
     	
-        <div id="mobileholder">
+        <div id="mobile_professional">
     
     <div id="mobilesocial">
         	<a href="mailto:dschmitt@usgs.gov?Subject=Hello%20again" target="_top"><img src="../images/social_icons/emailicon_mobile.png" alt="email icon"/></a>
@@ -164,7 +172,7 @@
        
         
        
-        </div><!--mobileholder-->
+        </div><!--mobile_professional-->
         
         
     </div><!--headshot-->
@@ -188,7 +196,7 @@
             <p>Middleton, Wisconsin 53562</p>
             <p>Phone: 608-821-3890</p>
             <p>Email: dschmitt@usgs.gov</p>
-        </div><!--info-->
+       
         
         <div id="social">
         	<a href="mailto:dschmitt@usgs.gov?Subject=Hello%20again" target="_top"><img src="../images/social_icons/emailicon.png" alt="email icon"/></a>
@@ -197,6 +205,8 @@
             
             
         </div><!--social-->
+        
+         </div><!--info-->
        
      </div><!--contact-->
        

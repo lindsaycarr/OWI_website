@@ -23,22 +23,15 @@
 
 <meta HTTP-EQUIV="expires" CONTENT="0"/>
 
+<link href="css/cida.css" rel="stylesheet" type="text/css">
 
-
-
-
-
-<link href="css/products.css" rel="stylesheet" type="text/css">
-
-
-<link href="css/header_footer.css" rel="stylesheet" type="text/css">
-
-
-
+<link href="css/common.css" rel="stylesheet" type="text/css">
 
 <link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
 
 <link rel="icon" type="image/ico" href="images/spike.ico"  />
+
+<script type="text/javascript" src="js/jquery.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -52,6 +45,23 @@
 </script>
 
 <script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+
+<script type="text/javascript" src="js/resize.js"></script>
+
+<script>
+
+//<page specific script>
+var sizeContent = makeSizeContentHandler(".product_picture", '.product_info')
+
+//Initial load of page
+$(document).ready(sizeContent);
+
+//Every resize of window
+$(window).resize(sizeContent);
+
+</script>
+
+
 
 </head>
 
@@ -83,7 +93,7 @@
 
 <nav><!--navstart-->
 
-	<a href="index.html"><p>Center for Integrated Data Analytics</p></a>
+	<a href="index.html"><h1>Center for Integrated Data Analytics</h1></a>
 	
     <ul>
     	<li><a href="index.html">HOME</a></li>
@@ -114,7 +124,7 @@
    <li> <a href="index.html"><img src="images/mobile_icons/homeicon.png" alt="home icon"/></a></li>
     
         	
-            	<li><a href="people.html"><img src="images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
+            	<li><a href="#"><img src="images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
                 	<ul>
                     	<li><a href="people.html">Employees</a></li>
                         <li><a href="careers.html">Careers</a></li>
@@ -250,7 +260,7 @@
     
     <p>The U.S. Geological Survey's Grand Canyon Monitoring and Research Center (GCMRC) is the science provider for the Glen Canyon Dam Adaptive Management Program. In this role, the research center provides the public and decision makers with relevant scientific information about the status and trends of natural, cultural, and recreational resources found in those portions of Grand Canyon National Park and Glen Canyon National Recreation Area affected by Glen Canyon Dam operations.</p>
     
-    <p class="questions">For questions, contact Tracey Reinke <a href="mailto:treinke@usgs.gov?Subject=GCMRC" target="_top">(treinke@usgs.gov)</a>.</p>
+    <p class="questions">For questions, contact Megan Hines <a href="mailto:treinke@usgs.gov?Subject=GCMRC" target="_top">(mhines@usgs.gov)</a>.</p>
 		
     <div class="view"><a href="http://www.gcmrc.gov/discharge_qw_sediment/" target="_blank">View Project</a></div>
 
@@ -279,19 +289,43 @@
 
 </div><!--mobileholder-->
 
+<div class="mobileholder">
+
+<div class="product_picture"><a href="https://aquatic.biodata.usgs.gov/landing.action" target="_blank"><img src="images/products/bio_data.jpg" alt="BioData image"/></a></div>
+
+<div class="product_info">
+
+	<a href="https://aquatic.biodata.usgs.gov/landing.action" target="_blank"><h1>BioData</h1></a>
+    
+    <p>The USGS BioData project aims to provide tools for management and dispersal of USGS aquatic bioassessment data.</p>
+    
+    <p class="questions">For questions, about BioData, please contact Andrew Yan <a href="mailto:enddat@usgs.gov?Subject=Hello%20again" target="_top">(ayan@usgs.gov)</a>.</p>
+		
+    <div class="view"><a href="https://aquatic.biodata.usgs.gov/landing.action" target="_blank">View Project</a></div>
+
+</div><!--product_info-->
+
+</div><!--mobileholder-->
 
 
+<div class="mobileholder">
 
+<div class="product_picture"><a href="http://cida.usgs.gov/nwc/" target="_blank"><img src="images/products/nwc.jpg" alt="NWC image"/></a></div>
 
+<div class="product_info">
 
+	<a href="http://cida.usgs.gov/nwc/" target="_blank"><h1>National Water Census</h1></a>
+    
+    <p>A major component of the Water Census is the National Water Census Data Platform , which relies on new data management practices to enable integration and delivery of water budget information alongside other data of interest to managers, such as water use data or ecological assessment criteria. Eventually, end users of water budget data will be able to access an integrated online database in a form that will enable them to construct local and regional water budgets.</p>
+    
+    <p class="questions">For questions, about NWC, please contact David Blodgett<a href="mailto:enddat@usgs.gov?Subject=Hello%20again" target="_top"> (dblodgett@usgs.gov)</a>.</p>
+		
+    <div class="view"><a href="http://cida.usgs.gov/nwc/" target="_blank">View Project</a></div>
 
+</div><!--product_info-->
 
-
-
-
-
-	
-        
+</div><!--mobileholder-->
+       
 </div><!--content-->
 
 <footer>

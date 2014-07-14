@@ -24,13 +24,15 @@
 <meta HTTP-EQUIV="expires" CONTENT="0"/>
 
 
-<link href="css/partners.css" rel="stylesheet" type="text/css">
+<link href="css/cida.css" rel="stylesheet" type="text/css">
 
-<link href="css/header_footer.css" rel="stylesheet" type="text/css">
+<link href="css/common.css" rel="stylesheet" type="text/css">
 
 <link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
 
 <link rel="icon" type="image/ico" href="images/spike.ico"  />
+
+<script type="text/javascript" src="js/jquery.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -44,6 +46,21 @@
 </script>
 
 <script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+
+<script type="text/javascript" src="js/resize.js"></script>
+
+<script>
+
+//<page specific script>
+var sizeContent = makeSizeContentHandler(".partner_logo", '.description')
+
+//Initial load of page
+$(document).ready(sizeContent);
+
+//Every resize of window
+$(window).resize(sizeContent);
+
+</script>
 
 </head>
 
@@ -75,7 +92,7 @@
 
 <nav><!--navstart-->
 
-	<a href="index.html"><p>Center for Integrated Data Analytics</p></a>
+	<a href="index.html"><h1>Center for Integrated Data Analytics</h1></a>
 	
     <ul>
     	<li><a href="index.html">HOME</a></li>
@@ -106,7 +123,7 @@
    <li> <a href="index.html"><img src="images/mobile_icons/homeicon.png" alt="home icon"/></a></li>
     
         	
-            	<li><a href="people.html"><img src="images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
+            	<li><a href="#"><img src="images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
                 	<ul>
                     	<li><a href="people.html">Employees</a></li>
                         <li><a href="careers.html">Careers</a></li>
@@ -129,7 +146,7 @@
 
 <div id="content">
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     <a href="http://acwi.gov/" target="_blank"><img src="images/partners/acwi.png" alt="ACWI logo"/></a>
@@ -137,7 +154,7 @@
 
 	<div class="description">
 
-		<a href="http://acwi.gov/" target="_blank"><h1>Advisory Comittee on Water Information</h1></a>
+		<a href="http://acwi.gov/" target="_blank"><h1>Advisory Committee on Water Information</h1></a>
     
     	<h1 class="mobile">ACWI</h1>
     
@@ -154,16 +171,14 @@
     <div class="projects_worked">
     
     	<h2>CIDA Collaborations with ACWI</h2>
-    
-   
-    
+
     	<a href="http://cida.usgs.gov/ngwmn/" target="_blank"><p>National Ground-Water Monitoring Network Data Portal</p></a>
         
     </div><!--projects_worked-->
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
@@ -171,7 +186,7 @@
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     <a href="http://glos.us/" target="_blank"><img src="images/partners/glos.jpg" alt="GLOS logo"/></a>
@@ -205,13 +220,13 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
         <a href="http://www.ioos.noaa.gov/" target="_blank"><img src="images/partners/ioos.jpg" alt="IOOS logo"/></a>
@@ -243,13 +258,13 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
         <a href="http://acwi.gov/monitoring/" target="_blank"><img src="images/partners/nqmc.jpg" alt="NQMC logo"/></a>
@@ -281,11 +296,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://www.nrcan.gc.ca/home" target="_blank"><img src="images/partners/nrcan.jpg" alt="NRCan logo"/></a>
@@ -318,11 +333,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
         <a href="http://limnology.wisc.edu/" target="_blank"><img src="images/partners/uw.jpg" alt="cfl logo"/></a>
@@ -354,17 +369,17 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
 
 
-<div class="mobileholder">
+<!--<div class="mobile_partner">
 
 	<div class="partner_logo">
     	<a href="http://www.doi.gov/" target="_blank"><img src="images/partners/doi.png" alt="DOI Logo"/></a>
-	</div><!--partner_logo-->
+	</div>
 
 	<div class="description">
 
@@ -378,9 +393,9 @@
     
    	 <div class="view">
     	<a href="http://www.doi.gov/" target="_blank">View Partner</a>
-    </div><!--view-->
+    </div>
     
-    </div><!--description-->
+    </div>
     
     <div class="projects_worked">
     
@@ -388,15 +403,15 @@
     
    		<a href="https://www.rita.dot.gov/bts/" target="_blank"><p>BTS</p></a>
         
-    </div><!--projects_worked-->
+    </div>
     
 
 
-</div><!--mobileholder-->
+</div>-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://www.epa.gov/" target="_blank"><img src="images/partners/epa.jpg" alt="EPA logo"/></a>
@@ -428,13 +443,13 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://marine.usgs.gov/" target="_blank"><img src="images/partners/usgs_cmgp.jpg" alt="CMGP Picture"/></a>
@@ -466,11 +481,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="https://my.usgs.gov/confluence/display/cdi/Home" target="_blank"><img src="images/partners/cdi.jpg" alt="CDI logo"/></a>
@@ -500,11 +515,11 @@
         
     </div><!--projects_worked-->
     
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://www.gcmrc.gov/" target="_blank"><img src="images/products/gcmrc.jpg" alt="GCMRC Logo"/></a>
@@ -538,11 +553,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
    	 <a href="http://library.usgs.gov/" target="_blank"><img src="images/partners/usgsl.jpg" alt="USGSL picture"/></a>
@@ -574,11 +589,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="https://nccwsc.usgs.gov/" target="_blank"><img src="images/partners/usgs_nccwsc.jpg" alt="NCCWSC logo"/></a>
@@ -610,11 +625,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://water.usgs.gov/watercensus/" target="_blank"><img src="images/partners/usgs_nwc.jpg" alt="Watercensus pic"/></a>
@@ -646,11 +661,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://waterdata.usgs.gov/nwis" target="_blank"><img src="images/partners/nwis.jpg" alt="NWIS Photo"/></a>
@@ -682,11 +697,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://water.usgs.gov/nawqa/" target="_blank"><img src="images/partners/nawqa.jpg" alt="NAWQA logo"/></a>
@@ -718,11 +733,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://water.usgs.gov/ogw/" target="_blank"><img src="images/partners/ogw.jpg" alt="OGW Pic"/></a>
@@ -754,11 +769,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://water.usgs.gov/owq/" target="_blank"><img src="images/partners/owi.jpg" alt="OWI pic"/></a>
@@ -790,11 +805,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://wi.water.usgs.gov/" target="_blank"><img src="images/partners/wwsc.jpg" alt="WWSC pic"/></a>
@@ -828,11 +843,11 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 
-<div class="mobileholder">
+<div class="mobile_partner">
 
     <div class="partner_logo">
     	<a href="http://dnr.wi.gov/" target="_blank"><img src="images/partners/wdnr.jpg" alt="WDNR logo"/></a>
@@ -864,7 +879,7 @@
     
 
 
-</div><!--mobileholder-->
+</div><!--mobile_partner-->
 
 
 

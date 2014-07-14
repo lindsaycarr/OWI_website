@@ -24,20 +24,15 @@
 
 <meta HTTP-EQUIV="expires" CONTENT="0"/>
 
+<link href="../css/cida.css" rel="stylesheet" type="text/css"/>
 
-
-<link href="../css/professional.css" rel="stylesheet" type="text/css">
-
-
-<link href="../css/header_footer.css" rel="stylesheet" type="text/css">
-
-
-
+<link href="../css/common.css" rel="stylesheet" type="text/css"/>
 
 <link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
 
-
 <link rel="icon" type="image/ico" href="../images/spike.ico"  />
+
+<script type="text/javascript" src="../js/jquery.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -51,6 +46,21 @@
 </script>
 
 <script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+
+<script type="text/javascript" src="../js/resize.js"></script>
+
+<script>
+
+//<page specific script>
+var sizeContent = makeSizeContentHandler("#headshot", '#contact')
+
+//Initial load of page
+$(document).ready(sizeContent);
+
+//Every resize of window
+$(window).resize(sizeContent);
+
+</script>
 
 </head>
 
@@ -82,7 +92,7 @@
 
 <nav><!--navstart-->
 
-	<a href="../index.html"><p>Center for Integrated Data Analytics</p></a>
+	<a href="../index.html"><h1>Center for Integrated Data Analytics</h1></a>
 	
     <ul>
     	<li><a href="../index.html">HOME</a></li>
@@ -113,7 +123,7 @@
    <li> <a href="../index.html"><img src="../images/mobile_icons/homeicon.png" alt="home icon"/></a></li>
     
         	
-            	<li><a href="../people.html"><img src="../images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
+            	<li><a href="#"><img src="../images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
                 	<ul>
                     	<li><a href="../people.html">Employees</a></li>
                         <li><a href="../careers.html">Careers</a></li>
@@ -124,6 +134,7 @@
           <li> <a href="../products.html"><img src="../images/mobile_icons/products_icon01.png" alt="products icon"/></a></li>
            
             <li><a href="../partners.html"><img src="../images/mobile_icons/partners_icon.png" alt="partners icon"/></a></li>
+            
             </ul> 
             
         </div><!--mobileicons-->
@@ -140,12 +151,19 @@
     
     <img id="bigpic" src="../images/professional_pages/ldecicco.jpg" alt="lauras pic"/>
     	
-        <div id="mobileholder">
+        <div id="mobile_professional">
     
     <div id="mobilesocial">
         	<a href="mailto:ldecicco@usgs.gov?Subject=Hello%20again" target="_top"><img src="../images/social_icons/emailicon_mobile.png" alt="email icon"/></a>
             
-            <a href="ldecicco@usgs.gov" target="_blank"><img src="../images/social_icons/githubicon_mobile.png" alt="github icon"/></a>
+            <a href="https://github.com/ldecicco-USGS" target="_blank"><img src="../images/social_icons/githubicon_mobile.png" alt="github icon"/></a>
+            
+            <a href="http://scholar.google.com/citations?hl=en&user=jXd0feEAAAAJ" target="_blank"><img src="../images/social_icons/googlesholar_mobile_icon.png" alt="google scholar icon"/></a>
+            
+             <a href="https://www.researchgate.net/profile/Laura_De_Cicco" target="_blank"><img src="../images/social_icons/research_gate_mobile_icon.png" alt="RG"/></a>
+             
+               
+             
     </div><!---mobilesocial----->
         	
     	<img id="pic" src="../images/professional_pages/ldecicco_mobile.jpg" alt="lauras mobile icon"/>
@@ -160,7 +178,7 @@
        
         
        
-        </div><!--mobileholder-->
+        </div><!--mobile_professional-->
         
         
     </div><!--headshot-->
@@ -183,13 +201,19 @@
             <p>Middleton, Wisconsin 53562</p>
             <p>Phone: 608-821-3857</p>
             <p>Email: ldecicco@usgs.gov</p>
-        </div><!--info-->
+        
         
         <div id="social">
         	<a href="mailto:ldecicco@usgs.gov?Subject=Hello%20again" target="_top"><img src="../images/social_icons/emailicon.png" alt="email icon"/></a>
             
             <a href="https://github.com/ldecicco-USGS" target="_blank"><img src="../images/social_icons/githubicon.png" alt="github icon"/></a>
+            
+            <a href="http://scholar.google.com/citations?hl=en&user=jXd0feEAAAAJ" target="_blank"><img src="../images/social_icons/googlesholar_icon.png" alt="google scholar icon"/></a>
+            
+             <a href="https://www.researchgate.net/profile/Laura_De_Cicco" target="_blank"><img src="../images/social_icons/research_gate_icon.png" alt="RG"/></a>
         </div><!--social-->
+        
+        </div><!--info-->
        
      </div><!--contact-->
        
@@ -202,6 +226,7 @@
             <p>MS Biomedical Engineering<a id="school">, University of Wisconsin-Madison, 2001</a></p>
             
             <p>PhD Mechanical Engineering<a id="school">, University of Wisconsin-Madison, 2006</a></p>
+            <p>P.E. Professional Engineer License <a id="school"> (WI), 2011</a></p>
             
        </div><!--education-->
         
