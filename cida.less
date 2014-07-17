@@ -35,7 +35,10 @@ html,body{height:100%;}
                             font-size:1.2em;}
                             
 #newsfeed{  width:100%;
-            overflow:auto;}
+            overflow:auto;
+            position:relative;}
+            
+#news{display:none;}
             
 #scroll{width:5860px;}
         
@@ -379,6 +382,16 @@ p#mobile_statement{display:none;}
             float:right;
             margin-top:1%;
         }
+        
+#news{background:@primaryColor;
+        width:100%;
+        height:25px;
+        margin-bottom:5px;
+        display:block;}
+        
+#news p{color:#fff;
+        font-family:@fontFamily;
+        padding:3px 0 0 10px; }
         
 #scroll{width:100%;
         height:4945px;
