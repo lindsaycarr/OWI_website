@@ -231,12 +231,14 @@ body {
   padding: 10px 10px 0 15px;
 }
 #publications a,
-#presentations a {
+#presentations a,
+#currentwork a {
   color: #0f416f;
   font-weight: 700;
 }
 #publications a:hover,
-#presentations a:hover {
+#presentations a:hover,
+#currentwork a:hover {
   text-decoration: underline;
 }
 /*===========professional_end===========*/
