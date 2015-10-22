@@ -1,6 +1,6 @@
 @primaryColor:rgb(15,65,111);
 @divColor:#fff;
-@fontFamily:Scada;
+@fontFamily:Scada, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 @fontColor:rgb(50,50,50);
 @linkColor:#fff;
 @linkAlternate:rgb(120,120,120);
@@ -402,17 +402,48 @@ article{
 
 /*===========data scientists===========*/
 
+#dsContent{
+    padding:10px;
+    }
+
 .white-area{
     background:#fff;
     min-height:100px;
     padding:15px;
-    margin:15px 0 15px 0;}
+    margin:15px 0 15px 0;
+    font-family:@fontFamily;
+    border-radius:5px;
+    position:relative;}
+    
+.white-area a{
+    color:@primaryColor;
+    font-weight:bold;
+    }
     
 .white-area h1,
-.white-area h2,
 .white-area h3{
     font-family:@fontFamily;
     color:@primaryColor;
+    }
+    
+.white-area h2{
+    color:#fff;
+    }
+    
+.dsLabel{
+    position:absolute;
+    left:0;
+    top:0;
+    padding:5px 10px;
+    border-radius:5px 0 0 0;
+    }
+    
+#recentLabel{
+    background:#67ba2f;
+    }
+    
+#vizLabel{
+    background:@primaryColor;
     }
     
 #linkarea h1{
@@ -428,15 +459,76 @@ article{
     
 #linkarea p a{
     font-weight:bold;
-    color:@primaryColor;}
+    color:@primaryColor;
+    background:aqua}
     
 #linkarea p a:hover{
-    text-decoration:underline;}
-    
+    text-decoration:underline;}    
+
+#pubsarea,
+#vizarea{
+    padding-top:35px;
+    }
+
 #pubsarea p,
-#linkarea p{
-    font-family:@fontFamily;
+#linkarea p,
+#vizarea p{
+    font-family:@fontFamily !important;
     font-size:1.2em;
+    }
+    
+#vizarea{
+    clear:both;
+    }
+
+    
+.dsViz{
+    width:250px;
+    padding:10px;
+    border:@borderDark;
+    border-radius:5px;
+    margin:0 auto;
+    
+    p{
+        font-size:1em !important;
+        }
+    img{
+        width:100%;
+        }
+        
+    a:hover{
+        text-decoration:underline;
+        }
+    }
+    
+.DScolor{
+    padding:10px;
+    width:130px;
+    color:#fff !important;
+    font-weight:normal !important;
+    text-align:center;
+    border-radius:5px;
+    display:block;
+    margin-bottom:10px;
+    border:none;
+    font-size:1.1em;
+    margin:10px auto;
+    }
+    
+#dsResearch{
+    background:#67ba2f;
+    }
+    
+#dsTools{
+    background:#39b2eb;
+    }
+    
+#dsTraining{
+    background:#f47464;
+    }
+    
+#dsViz{
+    background:#003366;
     }
 
 
@@ -717,6 +809,17 @@ p#mobile_statement{display:none;}
                 margin-bottom:10px;
                 font-size:1.5em;}
 /*===========careers_end===========*/
+
+#colorHolder{
+    text-align:center;
+    }
+
+.DScolor{
+    display:inline-block;
+    }
+    
+.dsViz{
+    margin:0 15px 0 0;}
     
     }/*media_query*/
     
@@ -785,5 +888,25 @@ article{width:98%;}
 .projects_worked p{font-size:1.1em;}
                     
 /*===========partner_end===========*/
+
+#dsContent{
+    padding:0;
+    }
+
+#dsResearch:hover{
+    background:#4d8d22
+    }
+    
+#dsTools:hover{
+    background:#2b92c2
+    }
+    
+#dsTraining:hover{
+    background:#cd5e50;
+    }
+    
+#dsViz:hover{
+    background:#001a33;
+    }
                 
  }/*media_query*/
