@@ -155,25 +155,28 @@ $(window).resize(sizeContent);
 <!-- mobile_html_end -->
 
 
-<div id="content">
+<div id="dsContent">
 
 
 	<section class="white-area" id="linkarea">
     
     	<h1>Data Science Team</h1>
     
-        
-        <p><a href="#">Publications</a></p>
-        
-        <p><a href="#vizarea">Visualization Portfolio</a></p>
-        
-        <p><a href="#">USGS Office of Water Information R Website</a></p>
+        <div id="colorHolder">
+			<a class="DScolor" id="dsResearch" href="#pubsarea">Research</a>
+			
+			<a class="DScolor" id="dsTools" href="http://owi.usgs.gov/R/" target="blank">Tools</a>
+			
+			<a class="DScolor" id="dsTraining" href="http://usgs-r.github.io/introR/" target="_blank">Training</a>
+			
+			<a class="DScolor" id="dsViz" href="#vizarea">Visualizations</a>
+		</div>
     
     </section>
     
     <section class="white-area" id="pubsarea">
     	
-        <h2>Recent publications</h2>
+        <h2 class="dsLabel" id="recentLabel">Recent publications</h2>
         
 
           <br/>  
@@ -202,35 +205,27 @@ $(window).resize(sizeContent);
            <p>Corsi SR, <strong>LA DeCicco</strong>, MA Lutz, RM Hirsch. 2014. River chloride trends in snow-affected urban watersheds: increasing concentrations outpace urban growth rate and are common among all seasons. Science of the Total Environment. doi: 10.1016/j.scitotenv.2014.12.012</p>
            <br/>
         
-        
-        
-        
-        
     </section>
+	
+	<section class="white-area" id="vizarea">
+    
+    	<h2 class="dsLabel" id="vizLabel">Visualization Portfolio</h2>
+    
+    	<br/>
+		
+		<div class="dsViz" id="dsCaliDrought">
+				<img src="images/ds_images/ca_drought.jpg" alt="CAlifornia drought Vizzy image"/>
+		
+			<p> E Read, M Bucknell, M Hines, J Kreft, J Lucido, J Read, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, J Walker, M Wernimont, L Winslow, A Yan. 2014. California drought, visualized with open data. <a href="http://cida.usgs.gov/ca_drought/ " target="_blank"><br/>See it here</a></p>
+		</div>
+     
+	</section>
     
 
-</div><!--content-->
+	</div><!--content-->
 
 
-<section class="white-area" id="vizarea">
-    
-    <h2>Visualization Portfolio</h2>
-    
-    
-    <br/>
-    
-    <p> E Read, M Bucknell, M Hines, J Kreft, J Lucido, J Read, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, J Walker, M Wernimont, L Winslow, A Yan. 2014. California drought, visualized with open data. http://cida.usgs.gov/ca_drought/ </p>
-    <br/>
-    
-
-    
-    
-    
-    
-</section>
-
-
-</div><!--content-->
+</div><!--container-->
 
 
 <footer>
