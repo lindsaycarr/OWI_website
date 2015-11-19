@@ -173,6 +173,51 @@ $(window).resize(sizeContent);
 		</div>
     
     </section>
+	
+	<section class="white-area" id="teamFaces">
+		<div id="noMarginLeft" class="dataScienceFace">
+			<a href="people/jread.html">
+				<img src="images/professional_pages/jread.jpg" alt="Jordan Read"/>
+			</a>
+			<p>Jordan Read</p>
+			<p><a href="mailto:jread@usgs.gov">jread@usgs.gov</a></p>
+		</div>
+		<div class="dataScienceFace">
+			<a href="people/lcarr.html">
+				<img src="images/professional_pages/lcarr.jpg" alt="Lindsay Carr"/>
+			</a>
+			<p>Lindsay Carr</p>
+			<p><a href="mailto:lcarr@usgs.gov">lcarr@usgs.gov</a></p>
+		</div>
+		<div class="dataScienceFace">
+			<a href="people/jiwalker.html">
+				<img src="images/professional_pages/jwalker.jpg" alt="Jordan Walker"/>
+			</a>
+			<p>Jordan Walker</p>
+			<p><a href="mailto:jiwalker@usgs.gov">jiwalker@usgs.gov</a></p>
+		</div>
+		<div class="dataScienceFace">
+			<a href="people/lwinslow.html">
+				<img src="images/professional_pages/lwinslow.jpg" alt="Luke Winslow"/>
+			</a>
+			<p>Luke Winslow</p>
+			<p><a href="mailto:lwinslow@usgs.gov">lwinslow@usgs.gov</a></p>
+		</div>
+		<div class="dataScienceFace">
+			<a href="people/ldecicco.html">
+				<img src="images/professional_pages/ldecicco.jpg" alt="Laura DeCicco"/>
+			</a>
+			<p>Laura DeCicco</p>
+			<p><a href="mailto:ldecicco@usgs.gov">ldecicco@usgs.gov</a></p>
+		</div>
+		<div class="dataScienceFace">
+			<a href="people/aappling.html">
+				<img src="images/professional_pages/aappling.jpg" alt="Laura DeCicco"/>
+			</a>
+			<p>Alsion Appling</p>
+			<p><a href="mailto:aappling@usgs.gov">aappling@usgs.gov</a></p>
+		</div>
+	</section>
     
     <section class="white-area" id="pubsarea">
     	
@@ -195,7 +240,9 @@ $(window).resize(sizeContent);
            
            <p><strong>Read JS</strong>, <strong>EK Read</strong>, KC Rose, <strong>LA Winslow</strong>. In press. A method for estimating the diffuse attenuation coefficient (KdPAR) from paired temperature sensors. Limnology and Oceanography: Methods. doi:10.1002/lom3.2014.12.10006</p>
            <br/>
-           
+		   
+          <div id="hiddenPubs">
+		  
            <p><strong>Winslow LA</strong>, <strong>JS Read</strong>, GA Hansen, PC Hanson. 2015. Small lakes show muted climate change signal in deep-water temperatures. Geophysical Research Letters. doi:10.1002/2014GL062325</p>
            <br/>
            
@@ -204,6 +251,10 @@ $(window).resize(sizeContent);
            
            <p>Corsi SR, <strong>LA DeCicco</strong>, MA Lutz, RM Hirsch. 2014. River chloride trends in snow-affected urban watersheds: increasing concentrations outpace urban growth rate and are common among all seasons. Science of the Total Environment. doi: 10.1016/j.scitotenv.2014.12.012</p>
            <br/>
+		   
+		   </div>
+		   
+		   <p id="seeAll">See all publications >></p>
         
     </section>
 	
@@ -212,8 +263,69 @@ $(window).resize(sizeContent);
         <h2 class="dsLabel" id="toolsLabel">Tools</h2>
 		
 		</br>
-       
-	   	<p>Praesent vitae placerat justo. Curabitur ut leo arcu. Fusce ac mattis magna, rutrum volutpat tortor. Vestibulum euismod lacinia viverra. Nulla faucibus mattis nunc. Aliquam laoreet luctus rhoncus. Aliquam varius lorem a egestas tempus. Vivamus ornare velit a venenatis consectetur. Phasellus vitae dictum nunc, ac scelerisque quam. Ut nec aliquet augue, ac placerat lorem. Ut dictum velit eget urna luctus iaculis. Vestibulum diam ligula, ultricies ut arcu sed, pulvinar feugiat urna. Sed molestie lorem ut mi vestibulum ultricies.</p>
+		
+		<div id="packageHolder">
+       		<a href="https://github.com/USGS-R/dataRetrieval" target="_blank">
+				<div class="package">
+					<p>dataRetrieval</p>
+				</div>
+			</a>
+			
+			<a href="https://github.com/USGS-R/geoknife" target="_blank">
+				<div class="package">
+					<p>geoknife</p>
+				</div>
+			</a>
+			
+			<a href="https://github.com/USGS-R/sbtools" target="_blank">
+				<div class="package">
+					<p>sbtools</p>
+				</div>
+			</a>
+			
+			<a href="https://github.com/USGS-R/streamMetabolizer" target="_blank">
+				<div class="package">
+					<p>streamMetabolizer</p>
+				</div>
+			</a>
+			
+			<a href="https://github.com/USGS-R/EGRET" target="_blank">
+				<div class="package">
+					<p>EGRET</p>
+				</div>
+			</a>
+			
+			<a href="https://github.com/USGS-R/toxEval" target="_blank">
+				<div class="package">
+					<p>toxEval</p>
+				</div>
+			</a>
+			
+			<a href="https://github.com/USGS-R/netcdf.dsg" target="_blank">
+				<div class="package">
+					<p>netcdf.dsg</p>
+				</div>
+			</a>
+			
+			<a href="https://github.com/USGS-R/sensorQC" target="_blank">
+				<div class="package">
+					<p>sensorQC</p>
+				</div>
+			</a>
+			
+			<a href="https://github.com/USGS-R/glmtools" target="_blank">
+				<div class="package">
+					<p>glmtools</p>
+				</div>
+			</a>
+			
+			<a href="https://github.com/USGS-R/EGRETci" target="_blank">
+				<div class="package">
+					<p>EGRETci</p>
+				</div>
+			</a>
+		
+		</div>
         
     </section>
 	
@@ -236,6 +348,7 @@ $(window).resize(sizeContent);
     	<br/>
 		
 		<div class="dsViz" id="dsCaliDrought">
+			<a href="http://cida.usgs.gov/ca_drought/" target="_blank">
 				<img src="images/ds_images/ca_drought.jpg" alt="CAlifornia drought Vizzy image"/>
 		
 			<p> E Read, M Bucknell, M Hines, J Kreft, J Lucido, J Read, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, J Walker, M Wernimont, L Winslow, A Yan. 2014. California drought, visualized with open data. <a href="http://cida.usgs.gov/ca_drought/ " target="_blank"><br/>See it here</a></p>
@@ -307,6 +420,17 @@ document.write(document.lastModified);
 
 </div><!--container-->
 
+<script>
+	$('#seeAll').on('click', function(){
+		$('#hiddenPubs').slideToggle('slow');
+		if($(this).text() == 'See all publications >>'){
+			$(this).text('Hide publications');
+			}else{
+				$(this).text('See all publications >>');
+				}
+		});
+
+</script>
 
 </body>
 </html>

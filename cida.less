@@ -402,6 +402,16 @@ article{
 
 /*===========data scientists===========*/
 
+#hiddenPubs{
+    display:none;
+    }
+    
+#seeAll{
+    text-align:center;
+    color:@primaryColor;
+    font-weight:bold;
+    }
+
 #dsContent{
     padding:10px;
     }
@@ -430,6 +440,27 @@ article{
     color:#fff;
     }
     
+#teamFaces{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    }
+    
+#noMarginLeft{
+    margin-left:0;
+    }
+    
+.dataScienceFace{
+    width:148px;
+    padding:5px;
+    text-align:center;
+    }
+    
+.dataScienceFace img{
+    width:100%;
+    border-radius:5px;
+    }
+        
 .dsLabel{
     position:absolute;
     left:0;
@@ -440,11 +471,32 @@ article{
     
 #recentLabel{
     background:#67ba2f;
+    width:230px;
     }
     
 #toolsLabel{
     background:#39b2eb;
     width:230px;
+    }
+    
+#packageHolder{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    }
+    
+.package{
+    width:195px;
+    border:1px solid @primaryColor;
+    padding:15px;
+    text-align:center;
+    margin:0 10px 10px 0;
+    border-radius:5px;
+    }
+    
+.package:hover{
+    background:@primaryColor;
+    color:#fff;
     }
     
 #trainingLabel{
