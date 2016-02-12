@@ -1,162 +1,10 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="UTF-8" />
+{% extends 'base.html' %}
 
-<!-- ############### VIEWPORT META TAG ############### -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-<!-- ################################################# -->
-
-<title>USGS Center for Integrated Data Analytics</title>
-
-<meta name="description" content="The official website of the Center for Integrated Data Analytics."/>
-
-<meta name="keywords" content="data center, USGS, science, geospatial, applications, data warehouse, dynamic, html, java programming, Oracle, web services, science support, warehousing, database, relational, transactional, security, charting, graphing, archiving"/>
-
-<meta name="author" content="Marty Wernimont"/>
-
-<meta name="publisher" content="U.S. Geological Survey"/>
-
-<meta name="created" content="20081020"/>
-
-<meta name="revised" content="yyyymmdd"/>
-
-<meta HTTP-EQUIV="expires" CONTENT="0"/>
-
-<meta http-equiv="X-UA-Compatible" content="IE=11">
-
-
-<link href="css/cida.css" rel="stylesheet" type="text/css" />
-
-<link href="css/common.css" rel="stylesheet" type="text/css" />
-
-<link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
-
-<link rel="icon" type="image/ico" href="images/spike.ico"  />
-
-<!--[if lt IE 9]>
-<link href="css/ie_fix.css" rel="stylesheet" type="text/css">
-<div id="block">
-<h1>We apologize, but this site does not support Internet Explorer versions lower than 9.0</h1>
-<p>Other supported browsers are Firefox, Chrome, and Safari.</p>
-</div>
-<![endif]-->
-
-<script type="text/javascript" src="js/jquery.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-50382493-1', 'usgs.gov');
-  ga('send', 'pageview');
-
-</script>
-
-<script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
-
-<script type="text/javascript" src="js/resize.js"></script>
-
-<script>
-
-//<page specific script>
+{% block page_specific_script %}
 var sizeContent = makeSizeContentHandler("#tricky", '#newsfeed')
+{% endblock page_specific_script %}
 
-//Initial load of page
-$(document).ready(sizeContent);
-
-//Every resize of window
-$(window).resize(sizeContent);
-
-</script>
-
-</head>
-
-<body>
-
-
-<div id="container">
-
-<header>
-	
-    <div id="usgslogo">
-    <a href="http://www.usgs.gov/" target="_blank"><img alt="USGS Logo" src="images/usgslogo.jpg" /></a>
-    </div><!-- usgslogo -->
-    
- 	<div id="banner">
-    	<img alt="Site Banner" src="images/banner.png"/>
-    </div><!-- banner -->
-    
-    <div id="headernav">
-    
-        <ul>
-           <li><a href="http://www.usgs.gov/" target="_blank">USGS Home</a></li>
-           <li><a href="http://www.usgs.gov/ask/index.php" target="_blank">Contact USGS</a></li>
-           <li><a href="http://search.usgs.gov/" target="_blank">Search USGS</a></li>
-        </ul>
-        
-    </div><!-- headernav -->
-
-</header>
-
-<nav><!-- navstart -->
-
-	<h1>Center for Integrated Data Analytics</h1>
-	
-    <ul>
-    	<li><a href="index.html">HOME</a></li>
-        <li><a href="people.html">PEOPLE</a>
-        	<ul>
-            	<li><a href="people.html">Employees</a></li>
-                <li><a href="careers.html">Careers</a></li>
-            </ul>
-        </li>
-        <li><a href="products.html">PRODUCTS</a></li>
-        <li><a href="partners.html">PARTNERS</a></li>
-    </ul>
-
-
-</nav><!-- navend -->
-
-<!-- mobile_html_start -->
-
-<div id="mobileheader">
-
-	<a href="index.html"><img alt="Mobile Logo" id="mobilelogo" src="images/mobile_icons/mobilelogo.png"/></a>
-
-    
-<div id="mobilenav">
-	
-    
-    <div id="mobileicons">
-    <ul>
-   <li> <a href="index.html"><img src="images/mobile_icons/homeicon.png" alt="Home Icon"/></a></li>
-    
-        	
-            	<li><a href="people.html"><img src="images/mobile_icons/people_mobile_icon.png" alt="People Icon"/></a>
-                	<ul>
-                    	<li><a href="people.html">Employees</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
-                </li>
-           
-            
-          <li> <a href="products.html"><img src="images/mobile_icons/products_icon01.png" alt="Products Icon"/></a></li>
-           
-            <li><a href="partners.html"><img src="images/mobile_icons/partners_icon.png" alt="Partners Icon"/></a></li>
-            </ul> 
-            
-        </div><!-- mobileicons -->
-            
-</div><!-- mobilenav -->
-
-</div><!-- mobileheader -->
-
-<!-- mobile_html_end -->
-
-
+{% block page_content %}
 <div id="content">
 
 
@@ -164,7 +12,7 @@ $(window).resize(sizeContent);
 
 <p id="mobile_statement">The USGS Center for Integrated Data Analytics is committed to advancing USGS science and a broader understanding of our changing world by integrating disparate data across scales and domains, improving access to data and research, developing tools for analysis and visualization, and fostering collaboration with the international community.</p>
 
-<img src="images/missionstatement_large.jpg" alt="mission pic"/>
+<img src="{{ url_for('static', filename= 'images/missionstatement_large.jpg')  }}" alt="mission pic"/>
 
 </div><!--mission-->
 
@@ -415,7 +263,7 @@ $(window).resize(sizeContent);
 
 <div id="who" class="col">
 
-	<a href="people.html"><img src="images/people.jpg" alt="people pic"/></a>
+	<a href="people.html"><img src="{{ url_for('static', filename= 'images/people.jpg')  }}" alt="people pic"/></a>
     
     <a class="color" href="people.html"><h2>Who We Are</h2></a>
 
@@ -423,7 +271,7 @@ $(window).resize(sizeContent);
 
 <div class="col">
 
-	<a  href="products.html"><img src="images/products.jpg" alt="product pic"/></a>
+	<a  href="products.html"><img src="{{ url_for('static', filename= 'images/products.jpg')  }}" alt="product pic"/></a>
     
     <a class="color" href="products.html"><h2>What We Do</h2></a>
 
@@ -431,7 +279,7 @@ $(window).resize(sizeContent);
 
 <div id="cida_partners" class="col">
 
-	<a href="partners.html"><img src="images/partners.jpg" alt="partner pic"/></a>
+	<a href="partners.html"><img src="{{ url_for('static', filename= 'images/partners.jpg')  }}" alt="partner pic"/></a>
     
     <a class="color" href="partners.html"><h2>CIDA Partners</h2></a>
 
@@ -442,66 +290,6 @@ $(window).resize(sizeContent);
 
 </div><!--content-->
 
+{% endblock page_content %}
 
 
-
-<footer>
-
-<!--<div id="top">
-    <a href="http://www.usgs.gov/" target="_blank">USGS Home</a>
-    <a href="http://water.usgs.gov/" target="_blank">Water Resources</a>
-    <a href="http://biology.usgs.gov/" target="_blank">Biology</a>
-    <a href="http://www.usgs.gov/climate_landuse/" target="_blank">Geography</a>
-    <a href="http://geology.usgs.gov/index.htm" target="_blank">Geology</a>
-    <a href="http://www.usgs.gov/ngpo/" target="_blank">Geospatial</a>
-</div>-->
-    
-    
-<div id="middle">
-    <a href="http://www.usgs.gov/laws/accessibility.html" target="_blank">Accessibility</a>
-    <a href="http://www.usgs.gov/foia/" target="_blank">FOIA</a>
-    <a href="http://www.usgs.gov/laws/privacy.html" target="_blank">Privacy</a>
-    <a href="http://www.usgs.gov/laws/policies_notices.html" target="_blank">Policies and Notices</a>
-</div><!--middle-->
-    
-    
-<div id="bottom">
-    	
-    <a href="http://www.doi.gov/index.cfm" target="_blank">U.S. Department of the Interior</a> | <a href="http://www.usgs.gov/" target="_blank">U.S. Geological Survey</a>
-    
-    <p>URL: http//cida.usgs.gov/index.html</p>
-    
-    
-    
-    <p>Contact Information: <a href="mailto:cida_webmaster@usgs.gov?Subject=Hello%20again" target="_top">cida_webmaster@usgs.gov</a></p>
-    
-    <p>Page last modified: <script>
-document.write(document.lastModified);
-</script></p>
-
-<div id="usa_gov">
-
-	<a href="http://www.usa.gov/" target="_blank"><img src="images/usa_gov.png" alt="usa_gov pic"/></a>
-    
-</div>
-
-<div id="take_pride">
-    
-    <a href="http://volunteer.gov/" target="_blank"><img src="images/take_pride.png" alt="take_pride pic"/></a>
-
-</div>
-
-</div><!--bottom-->
-
-
-
-
-</footer>
-
-
-
-</div><!--container-->
-
-
-</body>
-</html>
