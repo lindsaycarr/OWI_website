@@ -1,0 +1,23 @@
+---
+-
+    name: Water Quality Portal
+    url: http://www.waterqualitydata.us
+    image: wqp.jpg
+    statement: >
+              The <em><a href="http://www.waterqualitydata.us/" target="_blank">Water Quality Portal</a></em> and web
+              services integrates publicly available water quality data from the USGS National Water Information System
+               (NWIS) and the EPA STOrage and RETrieval (STORET) Data Warehouse.
+    questionName: Jim Kreft
+    questionEmail: jkreft@usgs.gov
+
+-
+    name: Coastal Change Hazards Portal
+    url: http://marine.usgs.gov/coastalchangehazardsportal/
+    image: cmgp.jpg
+    statement: >
+           USGS coastal change hazards research produces data, knowledge, and tools about storms, shoreline change, and
+           sea-level rise. These information products are available at the <em><a href="http://marine.usgs.gov/coastalchangehazardsportal/"
+           target="_blank"> coastal change hazards web portal</a></em>. The portal can be used to increase awareness
+           and provide a basis for decision making.
+    questionName: Jordan Read
+    questionEmail: jread@usgs.gov

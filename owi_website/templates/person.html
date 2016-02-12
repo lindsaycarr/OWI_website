@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+
+{% block title_description %}
+<title>{{ person.get('name') }} - USGS Office of Water Information</title>
+
+<meta name="description" content="{{ person.get('name') }} at the USGS Office of Water Information."/>
+{% endblock title_description %}
+
+{% block page_specific_script %}
+var sizeContent = makeSizeContentHandler("#headshot", '#contact')
+{% endblock page_specific_script %}
+
+{% block page_content %}
+
+
+    <div id="content">
+	<div id="headshot">
+
+     <img id="bigpic" src="{{ url_for('static', filename='images/professional_pages/'+person.get('photo')) }}" alt="Picture of {{ person.get('name') }}"/>
+{# TODO: Sort out accounts #}
+    	<div id="mobile_professional">
+
+          <div id="mobilesocial">
+        	<a href="mailto:jlucido@usgs.gov?Subject=Hello%20again" target="_top"><img src="../images/social_icons/emailicon_mobile.png" alt="email icon"/></a>
+
+           <a href="http://www.linkedin.com/pub/jessica-m-lucido/15/337/2b0" target="_blank"><img src="../images/social_icons/linkeninicon_mobile.png" alt="linkedin icon"/></a>
+            <a href="https://twitter.com/JessicaMLucido"><img src="../images/social_icons/twittericon_mobile.png" alt="twitter icon"/></a>
+          </div><!---mobilesocial----->
+
+    	<img id="pic" src="{{ url_for('static', filename='images/professional_pages/'+person.get('photo')) }}" alt="jessicas mobile pic"/>
+
+
+        	<h1>{{ person.get('name') }}</h1>
+
+
+
+        	<h2>{{ person.get('title') }}</h2>
+
+
+
+
+        </div><!--mobile_professional-->
+
+
+
+    </div><!--headshot-->
+
+    <!--beginning of profile info-->
+
+    <div id="contact">
+
+        <div id="h1h2">
+            <h1>{{ person.get('name') }}</h1>
+
+            <h2>{{ person.get('title') }}</h2>
+        </div><!--h1h2-->
+
+        <div id="mobilecontacth1"><h1>Contact</h1></div><!--mobilecontacth1-->
+
+        <div id="info">
+            <p>{{ person.get('street1') }}</p>
+            {% if person.get('street2')|length>0 %}<p>{{ person.get('street2') }}</p>{% endif %}
+            <p>{{ person.get('city') }}, {{ person.get('state') }} {{ person.get('zip') }}</p>
+            <p>Phone: {{ person.get('phone') }}</p>
+            <p>Email: {{ person['accounts'].get('email') }}</p>
+
+        {# TODO: sort out social accounts #}
+        <div id="social">
+        	<a href="mailto:jlucido@usgs.gov?Subject=Hello%20again" target="_top"><img src="../images/social_icons/emailicon.png" alt="email icon"/></a>
+
+            <a href="http://www.linkedin.com/pub/jessica-m-lucido/15/337/2b0" target="_blank"><img src="../images/social_icons/linkeninicon.png" alt="linkedin icon"/></a>
+
+           <a href="https://twitter.com/JessicaMLucido" target="_blank"><img src="../images/social_icons/twittericon.png" alt="twitter icon"/></a>
+        </div><!--social-->
+
+        </div><!--info-->
+
+     </div><!--contact-->
+
+        <div id="education">
+
+        	<h1>Education</h1>
+
+            {% for degree in person['education'] %}
+            <p>{{ degree.get('degree')}}<a id="school">, {{ degree.get('institution')}}, {{ degree.get('year')}}{% if degree.get('note') and degree.get('note')|length >0 %} - {{ degree.get('note')}}{% endif %}</a></p>
+            {% endfor %}
+
+        </div><!--education-->
+
+        <div id="areas">
+
+        	<h1>Areas of Expertise</h1>
+                {% for area_row in person['expertise']| batch(4) %}
+           		<p>{% for area in area_row %} {{ area }}{% if not loop.last %} | {% endif %}{% endfor %} </p>
+                {% endfor %}
+        </div><!--areas-->
+
+        <div id="currentwork">
+
+        	<h1>Current Work</h1>
+            {% for project in person['currentWork'] %}
+            {% if project.get('url') and project.get('url')|length >0 %}<p><a href="{{ project['url'] }}" target="_blank">{{ project.get('project') }}</a></p>
+            {% else %}<p>{{ project.get('project') }}</p>
+                {% endif %}
+            {% endfor %}
+
+
+        </div><!--currentwork-->
+        {% if person['publications'] and person['publications']|length > 0 %}
+		        <div id="publications">
+
+		        <h1>Publications</h1>
+
+		        <br/>
+                    {% for year, publications in person['publications'] %}
+						<br>
+                        <h3>{{ year }}</h3>
+                        {% for publication in publications %}
+
+						<br/>
+
+						<p>{{ publication |safe }}</p>
+                        {% endfor %}
+                    {% endfor %}
+                </div><!--publications-->
+        {% endif %}
+        {% if person['presentations'] and person['presentations']|length > 0 %}
+		        <div id="presentations">
+
+		        <h1>Presentations</h1>
+
+		        <br/>
+                    {% for year, presentations in person['presentations'] %}
+						<br>
+                        <h3>{{ year }}</h3>
+                        {% for presentation in presentations %}
+
+						<br/>
+
+						<p>{{ presentation |safe }}</p>
+                        {% endfor %}
+                    {% endfor %}
+                </div><!--presentations-->
+        {% endif %}
+
+</div><!--contact-->
+</div><!--content-->
+{% endblock page_content %}
+{% block footer_url %}{{ url_for('person-canonical', person = person['id'] ) }}{% endblock footer_url %}

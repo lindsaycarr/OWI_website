@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+
+{% block title_description %}
+<title>OWI-R</title>
+
+<meta name="description" content="All the people who work at the USGS Office of Water Information."/>
+{% endblock title_description %}
+
+
+{% block page_css %}
+<link href="{{ url_for('static', filename ='css/usgs-r/grid.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ url_for('static', filename ='css/usgs-r/style.css') }}" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+{% endblock %}
+
+{% block page_static_scripts %}
+<script src="{{ url_for('static', filename ='js/strftime.js') }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename ='js/twitterio.js') }}" type="text/javascript"></script>
+{% endblock %}
+
+
+{% block page_specific_script %}
+var sizeContent = makeSizeContentHandler(".picture", '.quote')
+{% endblock page_specific_script %}
+
+{% block page_content %}
+
+<!-- BEGIN Main Content -->
+
+	<main>
+
+    	<article>
+
+        	<section id="usgs-r-logo">
+            	<img src="{{ url_for('static', filename ='images/usgs-r-logo.png') }}" alt="usgs-R logo"/>
+            </section>
+
+            <section id="welcome">
+
+                <h1>Welcome to USGS-R</h1>
+                <p>USGS-R is a community of support for users of the R scientific programming language.
+                    USGS-R resources include R training materials, R tools for the retrieval and analysis of USGS data, and support for a growing group of USGS-R developers.
+                    <br>
+                    <br>
+                    R is a flexible programming language that provides researchers with access to state-of-the-science analytical methods. Moreover, R
+                    is open-source and free to use for all.
+                    The USGS-R builds on the existing R community and provides resources for technical skill-building within USGS for all levels of expertise.</p>
+
+            </section>
+
+			<a class="twitter-timeline" href="https://twitter.com/USGS_R" data-widget-id="657199802296332288" data-chrome="nofooter" width="1000" height="50">Tweets by @USGS_R</a>
+
+            <section class="box" id="newtoR">
+
+            	<h4>New to R</h4>
+
+                <p class="first-p nextToLink"><a href="about.html#whyr">Why use R?</a> - Learning about a new tool is daunting. Read more about some of the benefits of R proficiency.</p>
+
+                <p class="nextToLink"><a href="resources.html#getting-started">Get started</a> - Resources for installing R and other helpful links.</p>
+
+                <p class="nextToLink"><a href="resources.html">Get help</a> - Stuck in the mud early in your R journey? Check out Getting help for quick tips and links.</p>
+
+            </section>
+
+            <section class="box" id="R-users">
+
+            	<h4>R Users</h4>
+
+                <p class="first-p nextToLink"><a href="gran.html">GRAN</a> - Find and update USGS packages from the <b>G</b>eological Survey <b>R</b> <b>A</b>rchive <b>N</b>etwork.</p>
+
+                <p class="nextToLink"><a href="resources.html#r-help">Help for intermediate users</a> - Asking and answering questions to the broader R community.</p>
+
+                <p class="nextToLink"><a href="http://usgs-r.github.io">USGS-R Github</a> - Find R tools and packages that are under active development.</p>
+
+            </section>
+
+            <section class="box" id="R-developers">
+
+            	<h4>R Developers</h4>
+
+                <p class="first-p nextToLink"><a href="resources.html#r-developers">Contributing to USGS-R</a> - How to add your USGS package to the USGS-R github organization.</p>
+
+                <p class="nextToLink"><a href="http://r-pkgs.had.co.nz/">Package Resources</a> - Documentation for getting started with R package development.</p>
+
+                <p class="nextToLink"><a href="http://adv-r.had.co.nz/Style.html">Code style guide</a> - Follow code style guidelines to make your code more readable and shareable.</p>
+
+                <p class="nextToLink"><a href="gran.html">GRAN</a> - How to add your USGS package to GRAN.</p>
+
+            </section>
+
+            <section class="box" id="featured_packages">
+
+            	<h4>Featured Packages</h4>
+
+                <div id="wrapper" class="grid clearfix">
+
+                    <div id="repoContainer">
+
+                    	<a href="https://github.com/USGS-R/dataRetrieval" target="_blank">
+                  		<div class="repos">
+                        	<h2>dataRetrieval</h2>
+                            <p class="repoDescription">This R package for downloading and importing USGS and EPA water data.</p>
+                        </div>
+                        </a>
+                        <a href="https://github.com/USGS-R/EGRET" target="_blank">
+                        <div class="repos">
+                        	<h2>EGRET</h2>
+                            <p class="repoDescription">An R-package for the analysis of long term changes in water quality and streamflow</p>
+                        </div>
+                        </a>
+                        <a href="https://github.com/USGS-R/geoknife" target="_blank">
+                        <div class="repos">
+                        	<h2>geoknife</h2>
+                            <p class="repoDescription">Tools for geo-web processing of gridded data. geoknife slices up data according to overlap with irregular features.</p>
+                        </div>
+                    	</a>
+                        <a href="https://github.com/USGS-R/EGRETci" target="_blank">
+                        <div class="repos">
+                        	<h2>EGRETci</h2>
+                            <p class="repoDescription">A bootstrap method for estimating uncertainty of water quality trends.</p>
+                        </div>
+                    	</a>
+                        <a href="https://github.com/USGS-R/EflowStats" target="_blank">
+                        <div class="repos diffColor">
+                        	<h2>EflowStats</h2>
+                            <p class="repoDescription">Calculates Hydrologic Indicator stats and fundamental properties of daily streamflow for a given set of data.</p>
+                            <p class="underDevelopment">Under Development</p>
+                        </div>
+                        </a>
+                        <a href="https://github.com/USGS-R/sbtools" target="_blank">
+                        <div class="repos diffColor">
+                        	<h2>sbtools</h2>
+                            <p class="repoDescription">Tools for interfacing R with ScienceBase data services.</p>
+                            <p class="underDevelopment">Under Development</p>
+                        </div>
+                        </a>
+                        <a href="https://github.com/USGS-R/rloadest" target="_blank">
+                        <div class="repos diffColor">
+                        	<h2>rloadest</h2>
+                            <p class="repoDescription">USGS water science R functions for LOAD ESTimation of constituents in rivers and streams.</p>
+                            <p class="underDevelopment">Under Development</p>
+                        </div>
+                        </a>
+                        <a href="https://github.com/USGS-R/smwrGraphs" target="_blank">
+                        <div class="repos diffColor">
+                        	<h2>smwrGraphs</h2>
+                            <p class="repoDescription">Graphical USGS water science R functions.</p>
+                            <p class="underDevelopment">Under Development</p>
+                        </div>
+                        </a>
+                    </div><!--repoContainer-->
+
+                 </div><!--box-->
+
+            </section>
+
+        </article>
+
+    </main>
+
+{% endblock page_content %}
+{% block footer_url %}{{ url_for('r-canonical') }}{% endblock footer_url %}

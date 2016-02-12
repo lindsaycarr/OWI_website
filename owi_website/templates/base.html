@@ -6,10 +6,7 @@
 <!-- ############### VIEWPORT META TAG ############### -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
 <!-- ################################################# -->
-
-<title>USGS Office of Water Information</title>
-
-<meta name="description" content="The official website of the USGS Office of Water Information."/>
+{% block title_description %}{% endblock title_description %}
 
 <meta name="keywords" content="data center, USGS, science, geospatial, applications, data warehouse, dynamic, html, java programming, Oracle, web services, science support, warehousing, database, relational, transactional, security, charting, graphing, archiving"/>
 
@@ -30,6 +27,9 @@
 
 <link href="{{ url_for('static', filename= 'css/common.css')  }}" rel="stylesheet" type="text/css" />
 
+{% block page_css %}{% endblock %}
+{% block page_static_scripts %}{% endblock %}
+
 <link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
 
 <link rel="icon" type="image/ico" href="{{ url_for('static', filename= 'images/spike.ico')  }}"  />
@@ -49,8 +49,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-50382493-1', 'usgs.gov');
+  {# TODO: replace GA-string with a context Variable.#}
+  ga('create', 'GA-string', 'usgs.gov');
   ga('send', 'pageview');
 
 </script>
@@ -118,6 +118,13 @@ $(window).resize(sizeContent);
         </li>
         <li><a href="{{ url_for('products-canonical') }}">PRODUCTS</a></li>
         <li><a href="{{ url_for('partners-canonical') }}">PARTNERS</a></li>
+        <li><a href="{{ url_for('datascience-canonical') }}">DATA SCIENCE</a></li>
+        <li><a href="{{ url_for('r-canonical') }}">USGS-R</a>
+        	<ul>
+            	<li><a href="{{ url_for('r-canonical') }}">HOME</a></li>
+                <li><a href="{{ url_for('r-about-canonical') }}">ABOUT</a></li>
+            </ul>
+        </li>
     </ul>
 
 
@@ -186,7 +193,8 @@ $(window).resize(sizeContent);
 
     <a href="http://www.doi.gov/index.cfm" target="_blank">U.S. Department of the Interior</a> | <a href="http://www.usgs.gov/" target="_blank">U.S. Geological Survey</a>
 
-    <p>URL: http//cida.usgs.gov/index.html</p>
+
+    <p>URL: {% block footer_url %}{% endblock footer_url %}</p>
 
 
 
@@ -222,4 +230,4 @@ document.write(document.lastModified);
 
 </body>
 </html>
-</html>
+

@@ -1,4 +1,10 @@
 {% extends 'base.html' %}
+
+{% block title_description %}
+<title>Data Science at the USGS Office of Water Information</title>
+
+<meta name="description" content="The Role of the Data Science team at the USGS Office of Water Information"/>
+{% endblock title_description %}
 {% block page_content %}
 
 <div id="dsContent">
@@ -165,7 +171,6 @@
 		   <p id="seeAll">See all publications >></p>
         
     </section>
-	
 	<section class="white-area" id="toolsarea">
     	
         <h2 class="dsLabel" id="toolsLabel">Tools</h2>
@@ -247,30 +252,30 @@
 		<br>
 		
 		<a href="http://usgs-r.github.io/introR/" target="_blank">
-			<img id="arrowImage" src="images/ds_images/training_workflow.jpg" alt="Training Workflow image"/>
+			<img id="arrowImage" src="{{ url_for('static', filename = "images/ds_images/training_workflow.jpg") }}" alt="Training Workflow image"/>
 		</a>
 		<br>
 		
 		<p>Upon request, we will tailor training to particular needs of a group (e.g., mapping, graphics, or statistics). After completing a workshop, you won’t be an R expert, but should have the foundation for getting started on your own data analysis work in R and will know where and how to get help. We can also work with groups or individuals to help get R scripts formalized using software development best practices.</p>
 			
-			<a href="images/ds_images/eread_teaching.jpg" class="swipebox" title="Emily Read teaching R">
-				<img class="smallerImage" src="images/ds_images/eread_teaching.jpg" alt="Emily Read teaching r">
+			<a href="{{ url_for('static', filename = "images/ds_images/eread_teaching.jpg") }}" class="swipebox" title="Emily Read teaching R">
+				<img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/eread_teaching.jpg") }}" alt="Emily Read teaching R">
 			</a>
 			
-			<a href="images/ds_images/datacarpentry_lesson.jpg" class="swipebox" title="Data Carpentry Lesson">
-				<img class="smallerImage" src="images/ds_images/datacarpentry_lesson.jpg" alt="Data Carpentry Lesson">
+			<a href="{{ url_for('static', filename = "images/ds_images/datacarpentry_lesson.jpg") }}" class="swipebox" title="Data Carpentry Lesson">
+				<img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/datacarpentry_lesson.jpg") }}" alt="Data Carpentry Lesson">
 			</a>
 			
-			<a href="images/ds_images/helena_1.JPG" class="swipebox" title="Andrew Yan helping student with R">
-				<img class="smallerImage" src="images/ds_images/helena_1.JPG" alt="Andrew Yan helping student with R">
+			<a href="{{ url_for('static', filename = "images/ds_images/helena_1.JPG") }}" class="swipebox" title="Andrew Yan helping student with R">
+				<img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/helena_1.JPG") }}" alt="Andrew Yan helping student with R">
 			</a>
 			
-			<a href="images/ds_images/helena_2.JPG" class="swipebox" title="Alison Appling teaching R">
-				<img class="smallerImage" src="images/ds_images/helena_2.JPG" alt="Alison Appling teaching R">
+			<a href="{{ url_for('static', filename = "images/ds_images/helena_2.JPG") }}" class="swipebox" title="Alison Appling teaching R">
+				<img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/helena_2.JPG") }}" alt="Alison Appling teaching R">
 			</a>
 			
-			<a href="images/ds_images/helena_3.JPG" class="swipebox" title="R workshop in Helena, MT">
-				<img class="smallerImage" src="images/ds_images/helena_3.JPG" alt="R workshop in Helena, MT">
+			<a href="{{ url_for('static', filename = "images/ds_images/helena_3.JPG") }}" class="swipebox" title="R workshop in Helena, MT">
+				<img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/helena_3.JPG") }}" alt="R workshop in Helena, MT">
 			</a>
         	
         	<p>Please visit our <a href="http://owi.usgs.gov/R/">R Community website</a> for more information on Introduction to R training workshops.</p>
@@ -285,19 +290,19 @@
 		<div id="packageHolder">
 		<div class="dsViz" id="dsCaliDrought">
 			<a href="http://cida.usgs.gov/ca_drought/">
-				<img src="images/ds_images/ca_drought.jpg" alt="California drought Vizzy image"/>
+				<img src="{{ url_for('static', filename = "images/ds_images/ca_drought.jpg") }}" alt="California drought Vizzy image"/>
 		
 			<p><a href="http://cida.usgs.gov/ca_drought/">California drought, visualized with open data</a></p>
 		</div>
 		<div class="dsViz" id="dsLoCoDrought">
 			<a href="http://doi.gov/water/owdi.cr.drought/">
-				<img src="images/ds_images/lc_drought.png" alt="Lower Colorado River Basin drought image"/>
+				<img src="{{ url_for('static', filename = "images/ds_images/lc_drought.png") }}" alt="Lower Colorado River Basin drought image"/>
 		
 			<p><a href="http://doi.gov/water/owdi.cr.drought/">Drought in the Colorado River Basin: Insights using open data</a></p>
 		</div>
 		<div class="dsViz" id="dsExploreEgret">
 			<a href="https://waterdatascience.shinyapps.io/exploreEGRET">
-				<img src="images/ds_images/explore_egret.png" alt="Explore EGRET thumbnail"/>
+				<img src="{{ url_for('static', filename = "images/ds_images/explore_egret.png") }}" alt="Explore EGRET thumbnail"/>
 		
 			<p><a href="https://waterdatascience.shinyapps.io/exploreEGRET">Interact with the EGRET R package on the web</a></p>
 		</div>
@@ -312,3 +317,4 @@
 </div><!--container-->
 
 {% endblock page_content%}
+{% block footer_url %}{{ url_for('datascience-canonical') }}{% endblock footer_url %}

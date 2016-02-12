@@ -1,422 +1,45 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="UTF-8">
+{% extends 'base.html' %}
 
-<!-- ############### VIEWPORT META TAG ############### -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-<!-- ################################################# -->
+{% block title_description %}
+<title>Featured projects at the USGS Office of Water Information</title>
 
-<title>USGS Center for Integrated Data Analytics</title>
+<meta name="description" content="High profile projects at the USGS Office of Water Information."/>
+{% endblock title_description %}
 
-<meta name="description" content="The official website of the Center for Integrated Data Analytics."/>
-
-<meta name="keywords" content="data center, USGS, science, geospatial, applications, data warehouse, dynamic, html, java programming, Oracle, web services, science support, warehousing, database, relational, transactional, security, charting, graphing, archiving"/>
-
-<meta name="author" content="Marty Wernimont"/>
-
-<meta name="publisher" content="U.S. Geological Survey"/>
-
-<meta name="created" content="20081020"/>
-
-<meta name="revised" content="yyyymmdd"/>
-
-<meta HTTP-EQUIV="expires" CONTENT="0"/>
-
-<link href="css/cida.css" rel="stylesheet" type="text/css">
-
-<link href="css/common.css" rel="stylesheet" type="text/css">
-
-<link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
-
-<link rel="icon" type="image/ico" href="images/spike.ico"  />
-
-<script type="text/javascript" src="js/jquery.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-50382493-1', 'usgs.gov');
-  ga('send', 'pageview');
-
-</script>
-
-<script type="application/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
-
-<script type="text/javascript" src="js/resize.js"></script>
-
-<script>
-
-//<page specific script>
+{% block page_specific_script %}
 var sizeContent = makeSizeContentHandler(".product_picture", '.product_info')
+{% endblock page_specific_script %}
 
-//Initial load of page
-$(document).ready(sizeContent);
-
-//Every resize of window
-$(window).resize(sizeContent);
-
-</script>
-
-
-
-</head>
-
-<body>
-
-<div id="container">
-
-<header>
-	
-    <div id="usgslogo">
-    <a href="http://www.usgs.gov/" target="_blank"><img src="images/usgslogo.jpg" alt="USGS logo"/></a>
-    </div>
-    
- 	<div id="banner">
-    	<img src="images/banner.png" alt="banner image"/>
-    </div>
-    
-    <div id="headernav">
-    
-        <ul>
-           <li><a href="http://www.usgs.gov/" target="_blank">USGS Home</a></li>
-           <li><a href="http://www.usgs.gov/ask/index.php" target="_blank">Contact USGS</a></li>
-           <li><a href="http://search.usgs.gov/" target="_blank">Search USGS</a></li>
-        </ul>
-        
-    </div>
-
-</header>
-
-<nav><!--navstart-->
-
-	<a href="index.html"><h1>Center for Integrated Data Analytics</h1></a>
-	
-    <ul>
-    	<li><a href="index.html">HOME</a></li>
-        <li><a href="people.html">PEOPLE</a>
-        	<ul>
-            	<li><a href="people.html">Employees</a></li>
-                <li><a href="careers.html">Careers</a></li>
-            </ul>
-        </li>
-        <li><a href="products.html">PRODUCTS</a></li>
-        <li><a href="partners.html">PARTNERS</a></li>
-    </ul>
-
-
-</nav><!--navend-->
-
-<!--mobile_html_start-->
-
-<div id="mobileheader">
-
-	<a href="index.html"><img id="mobilelogo" src="images/mobile_icons/mobilelogo.png" alt="mobile image"/></a>
-	
-<div id="mobilenav">
-	
-    
-    <div id="mobileicons">
-    <ul>
-   <li> <a href="index.html"><img src="images/mobile_icons/homeicon.png" alt="home icon"/></a></li>
-    
-        	
-            	<li><a href="#"><img src="images/mobile_icons/people_mobile_icon.png" alt="people icon"/></a>
-                	<ul>
-                    	<li><a href="people.html">Employees</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
-                </li>
-           
-            
-          <li> <a href="products.html"><img src="images/mobile_icons/products_icon01.png" alt="products icon"/></a></li>
-           
-            <li><a href="partners.html"><img src="images/mobile_icons/partners_icon.png" alt="partners icon"/></a></li>
-            </ul> 
-            
-        </div><!--mobileicons-->
-            
-</div><!--mobilenav-->
-
-</div><!--mobileheader-->
-
-<!--mobile_html_end-->
+{% block page_content %}
 
 
 <div id="content">
 
-<div id="about_cida"><p>CIDA employs Agile software development to create useful web applications and transactional information systems in support of the earth sciences.</p></div>
+<div id="about_cida"><p>OWI employs Agile software development to create useful web applications and transactional information systems in support of the earth sciences.</p></div>
 
 
-
+{% for product in products %}
 <div class="mobileholder">
 
 <div class="product_picture">
-	<a href="http://www.waterqualitydata.us/" target="_blank"><img src="images/products/wqp.jpg" alt="Water Quality image"/></a>
+	<a href="{{ product.get('url') }}" target="_blank"><img src="{{ url_for('static', filename='images/products/'+product.get('image')) }}" alt="{{ product.get('name') }}"/></a>
 </div>
 
 <div class="product_info">
 
-	<a href="http://www.waterqualitydata.us/" target="_blank"><h1>Water Quality Portal</h1></a>
+	<a href="{{ product.get('url') }}" target="_blank"><h1>{{ product.get('name') }}</h1></a>
     
-    <p>The <em><a href="http://www.waterqualitydata.us/" target="_blank">Water Quality Portal</a></em> and web services integrates publicly available water quality data from the USGS National Water Information System (NWIS) and the EPA STOrage and RETrieval (STORET) Data Warehouse.
-</p>
+    <p>{{ product.get('statement')|safe }}</p>
     
-    <p class="questions">For questions, contact Jim Kreft <a href="mailto:jkreft@usgs.gov?Subject=Water%20quality%20portal%20question" target="_top">(kreft@usgs.gov)</a>.</p>
+    <p class="questions">For questions, contact {{ product.get('questionName') }} <a href="mailto:{{ product.get('questionEmail') }}?Subject={{ product.get('name')| urlencode }}%20question" target="_top">({{ product.get('questionEmail') }})</a>.</p>
 		
-    <div class="view"><a href="http://www.waterqualitydata.us/" target="_blank">View Project</a></div>
+    <div class="view"><a href="{{ product.get('url') }}" target="_blank">View Project</a></div>
 
 </div><!--product_info-->
 
 </div><!--mobileholder-->
-
-
-
-<div class="mobileholder">
-
-<div class="product_picture">
-	<a href="http://marine.usgs.gov/coastalchangehazardsportal/" target="_blank"><img src="images/products/cmgp.jpg" alt="CMGP image"/></a>
-</div>
-
-<div class="product_info">
-
-	<a href="http://marine.usgs.gov/coastalchangehazardsportal/" target="_blank"><h1>Coastal Change Hazards Portal <i>(CCH)</i></h1></a>
-    
-    <p>USGS coastal change hazards research produces data, knowledge, and tools about storms, shoreline change, and sea-level rise. These information products are available at the <em><a href="http://marine.usgs.gov/coastalchangehazardsportal/" target="_blank"> coastal change hazards web portal</a></em>. The portal can be used to increase awareness and provide a basis for decision making.
-
-</p>
-    
-    <p class="questions">For questions, contact Jordan Read <a href="mailto:jread@usgs.gov?Subject=Hello%20again" target="_top">(jread@usgs.gov)</a></p>
-		
-    <div class="view"><a href="http://marine.usgs.gov/coastalchangehazardsportal/" target="_blank">View Project</a></div>
-
-</div><!--product_info-->
-
-</div><!--mobileholder-->
-
-
-<div class="mobileholder">
-
-<div class="product_picture">
-	<a href="http://cida.usgs.gov/sparrow/" target="_blank"><img src="images/products/sparrow.jpg" alt="SPARROW image"/></a>
-</div>
-
-<div class="product_info">
-
-	<a href="http://cida.usgs.gov/sparrow/" target="_blank"><h1>SPARROW Decision Support System <i>(SPARROW DSS)</i></h1></a>
-    
-    <p>The SPARROW Decision Support System (SPARROW DSS) provides access to national, regional, and basin-wide SPARROW models (Spatially Referenced Regressions On Watershed attributes) for water managers, researchers, and the general public.
-
-</p>
-    
-    <p class="questions">For questions, contact Meredith Warren <a href="mailto:mwarren@usgs.gov?Subject=Hello%20again" target="_top">(mwarren@usgs.gov)</a></p>
-		
-    <div class="view"><a href="http://cida.usgs.gov/sparrow/" target="_blank">View Project</a></div>
-
-</div><!--product_info-->
-
-</div><!--mobileholder-->
-
-
-<div class="mobileholder">
-
-<div class="product_picture">
-	<a href="http://cida.usgs.gov/gdp/" target="_blank"><img src="images/products/gdp.jpg" alt="GDP image"/></a>
-</div>
-
-<div class="product_info">
-
-	<a href="http://cida.usgs.gov/gdp/" target="_blank"><h1>Geo Data Portal <i>(GDP)</i></h1></a>
-    
-    <p>The Geo Data Portal (GDP) project aims to support simple, rapid development of thin user interfaces (like web portals) to commonly needed environmental modeling-related data access and manipulation tools.</p>
-    
-    <p class="questions">For questions, contact Dave Blodgett <a href="mailto:dblodgett@usgs.gov?Subject=Hello%20again" target="_top">(dblodgett@usgs.gov).</a></p>
-		
-    <div class="view"><a href="http://cida.usgs.gov/gdp/" target="_blank">View Project</a></div>
-
-</div><!--product_info-->
-
-</div><!--mobileholder-->
-
-
-
-<div class="mobileholder">
-
-<div class="product_picture">
-	<a href="http://cida.usgs.gov/ngwmn/" target="_blank"><img src="images/products/ngwmn.jpg" alt="NGWMN image"/></a>
-</div>
-
-<div class="product_info">
-
-	<a href="http://cida.usgs.gov/ngwmn/" target="_blank"><h1 class="longname">National Ground-Water Monitoring Network <i>(NGWMN) Data Portal</i></h1></a>
-    
-    <p>The NGWMN Data Portal provides access to groundwater data from multiple, dispersed databases in a web-based mapping application. The portal contains current and historical data including water levels, water quality, lithology, and well construction. The NGWMN is transitioning from a pilot phase into full implementation. In the future we will be adding additional data providers to the network.
-</p>
-
-    
-    <p class="questions">For questions, contact Jessica Lucido <a href="mailto:jlucido@usgs.gov?Subject=Hello%20again" target="_top">(jlucido@usgs.gov)</a>.</p>
-		
-    <div class="view"><a href="http://cida.usgs.gov/ngwmn/" target="_blank">View Project</a></div>
-
-</div><!--product_info-->
-
-</div><!--mobileholder-->
-
-
-
-
-
-<div class="mobileholder">
-
-<div class="product_picture">
-
-<a href="http://www.gcmrc.gov/discharge_qw_sediment/" target="_blank"><img src="images/products/gcmrc.jpg" alt="GCMRC image"/></a></div>
-
-<div class="product_info">
-
-	<a href="http://www.gcmrc.gov/discharge_qw_sediment/" target="_blank"><h1 class="longname">Grand Canyon Monitoring and Research Center</h1></a>
-    
-    <p>The U.S. Geological Survey's Grand Canyon Monitoring and Research Center (GCMRC) is the science provider for the Glen Canyon Dam Adaptive Management Program. In this role, the research center provides the public and decision makers with relevant scientific information about the status and trends of natural, cultural, and recreational resources found in those portions of Grand Canyon National Park and Glen Canyon National Recreation Area affected by Glen Canyon Dam operations.</p>
-    
-    <p class="questions">For questions, contact Megan Hines <a href="mailto:mhines@usgs.gov?Subject=GCMRC" target="_top">(mhines@usgs.gov)</a>.</p>
-		
-    <div class="view"><a href="http://www.gcmrc.gov/discharge_qw_sediment/" target="_blank">View Project</a></div>
-
-</div><!--product_info-->
-
-</div><!--mobileholder-->
-
-
-
-
-<div class="mobileholder">
-
-<div class="product_picture"><a href="http://cida.usgs.gov/enddat/" target="_blank"><img src="images/products/enddat.jpg" alt="ENdDaT image"/></a></div>
-
-<div class="product_info">
-
-	<a href="http://cida.usgs.gov/enddat/" target="_blank"><h1 class="longname">Environmental Data Discovery and Transformation</h1></a>
-    
-    <p><a href="http://cida.usgs.gov/enddat/" target="_blank">EnDDaT</a> is an online tool used to discover data from our natural environment. This tool accesses data from a variety of data sources, compiles and processes the data, and performs common transformations.</p>
-    
-    <p class="questions">For questions, about EnDDaT, please contact the EnDDaT Team Staff <a href="mailto:enddat@usgs.gov?Subject=Hello%20again" target="_top">(enddat@usgs.gov)</a>.</p>
-		
-    <div class="view"><a href="http://cida.usgs.gov/enddat/" target="_blank">View Project</a></div>
-
-</div><!--product_info-->
-
-</div><!--mobileholder-->
-
-<div class="mobileholder">
-
-<div class="product_picture"><a href="https://aquatic.biodata.usgs.gov/landing.action" target="_blank"><img src="images/products/bio_data.jpg" alt="BioData image"/></a></div>
-
-<div class="product_info">
-
-	<a href="https://aquatic.biodata.usgs.gov/landing.action" target="_blank"><h1>BioData</h1></a>
-    
-    <p>The USGS BioData project aims to provide tools for management and dispersal of USGS aquatic bioassessment data.</p>
-    
-    <p class="questions">For questions, about BioData, please contact Andrew Yan <a href="mailto:ayan@usgs.gov?Subject=Hello%20again" target="_top">(ayan@usgs.gov)</a>.</p>
-		
-    <div class="view"><a href="https://aquatic.biodata.usgs.gov/landing.action" target="_blank">View Project</a></div>
-
-</div><!--product_info-->
-
-</div><!--mobileholder-->
-
-
-<div class="mobileholder">
-
-<div class="product_picture"><a href="http://cida.usgs.gov/nwc/" target="_blank"><img src="images/products/nwc.jpg" alt="NWC image"/></a></div>
-
-<div class="product_info">
-
-	<a href="http://cida.usgs.gov/nwc/" target="_blank"><h1>National Water Census</h1></a>
-    
-    <p>A major component of the Water Census is the National Water Census Data Platform , which relies on new data management practices to enable integration and delivery of water budget information alongside other data of interest to managers, such as water use data or ecological assessment criteria. Eventually, end users of water budget data will be able to access an integrated online database in a form that will enable them to construct local and regional water budgets.</p>
-    
-    <p class="questions">For questions, about NWC, please contact David Blodgett<a href="mailto:dblodgett@usgs.gov?Subject=Hello%20again" target="_top"> (dblodgett@usgs.gov)</a>.</p>
-		
-    <div class="view"><a href="http://cida.usgs.gov/nwc/" target="_blank">View Project</a></div>
-
-</div><!--product_info-->
-
-</div><!--mobileholder-->
-
-<div class="mobileholder">
-
-<div class="product_picture"><a href="https://itunes.apple.com/us/app/iplover/id975620593" target="_blank"><img src="images/products/iplover.jpg" alt="iPlover image"/></a></div>
-
-<div class="product_info">
-
-	<a href="https://itunes.apple.com/us/app/iplover/id975620593" target="_blank"><h1>iPlover</h1></a>
-    
-    <p>Understanding and managing dynamic coastal landscapes for beach-dependent species requires biological and geological data across the range of relevant environments and habitats. It is difficult to acquire such data; iPlover is an app that addresses these difficulties, and simplifies and facilitates consistent data collection, management, and enables direct data input into research models of habitat utilization.</p>
-    
-    <p class="questions">For questions, about iPlover, please contact Megan Hines<a href="mailto:mhines@usgs.gov?Subject=Hello%20again" target="_top"> (mhines@usgs.gov)</a>.</p>
-		
-    <div class="view"><a href="https://itunes.apple.com/us/app/iplover/id975620593" target="_blank">View Project</a></div>
-
-</div><!--product_info-->
-
-</div><!--mobileholder-->
-       
-</div><!--content-->
-
-<footer>
-	<!--<div id="top">
-    <a href="http://www.usgs.gov/" target="_blank">USGS Home</a>
-    <a href="http://water.usgs.gov/" target="_blank">Water Resources</a>
-    <a href="http://biology.usgs.gov/" target="_blank">Biology</a>
-    <a href="http://www.usgs.gov/climate_landuse/" target="_blank">Geography</a>
-    <a href="http://geology.usgs.gov/index.htm" target="_blank">Geology</a>
-    <a href="http://www.usgs.gov/ngpo/" target="_blank">Geospatial</a>
-</div>-->
-    
-    
-<div id="middle">
-    <a href="http://www.usgs.gov/laws/accessibility.html" target="_blank">Accessibility</a>
-    <a href="http://www.usgs.gov/foia/" target="_blank">FOIA</a>
-    <a href="http://www.usgs.gov/laws/privacy.html" target="_blank">Privacy</a>
-    <a href="http://www.usgs.gov/laws/policies_notices.html" target="_blank">Policies and Notices</a>
-</div><!--middle-->
-    
-    
-<div id="bottom">
-    	
-    <a href="http://www.doi.gov/index.cfm" target="_blank">U.S. Department of the Interior</a> | <a href="http://www.usgs.gov/" target="_blank">U.S. Geological Survey</a>
-    
-    <p>URL: http//cida.usgs.gov/products.html</p>
-    
-     
-    
-    <p>Contact Information: <a href="mailto:cida_webmaster@usgs.gov?Subject=Hello%20again" target="_top">cida_webmaster@usgs.gov</a></p>
-    
-    <p>Page last modified: <script>
-document.write(document.lastModified);
-</script></p>
-
-<div id="usa_gov">
-
-	<a href="http://www.usa.gov/" target="_blank"><img src="images/usa_gov.png" alt="usa_gov pic"/></a>
-    
-</div>
-
-<div id="take_pride">
-    
-    <a href="http://volunteer.gov/" target="_blank"><img src="images/take_pride.png" alt="take_pride pic"/></a>
+{% endfor %}
 
 </div>
-
-
-</div><!--bottom-->
-</footer>
-
-</div><!--container-->
-
-</body>
-</html>
+{% endblock page_content %}
+{% block footer_url %}{{ url_for('products-canonical') }}{% endblock footer_url %}

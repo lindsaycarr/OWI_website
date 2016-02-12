@@ -1,5 +1,11 @@
 {% extends 'base.html' %}
 
+{% block title_description %}
+<title>USGS Office of Water Information</title>
+
+<meta name="description" content="The official website of the USGS Office of Water Information."/>
+{% endblock title_description %}
+
 {% block page_specific_script %}
 var sizeContent = makeSizeContentHandler("#tricky", '#newsfeed')
 {% endblock page_specific_script %}
@@ -292,4 +298,4 @@ var sizeContent = makeSizeContentHandler("#tricky", '#newsfeed')
 
 {% endblock page_content %}
 
-
+{% block footer_url %}{{ url_for('home-canonical') }}{% endblock footer_url %}

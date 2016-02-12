@@ -1,9 +1,12 @@
 import argparse
 from owi_website import app as application
+from flask_frozen import Freezer
 
+freezer = Freezer(application)
 
 if __name__ == '__main__':
 
+    #freezer.freeze()
     parser = argparse.ArgumentParser()
     parser.add_argument('--host', '-ht', type=str)
     args = parser.parse_args()

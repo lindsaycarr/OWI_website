@@ -1,0 +1,223 @@
+---
+-
+    id: moschnei #AD account
+    name: Morgan Schneider
+    manager: Yes
+    title: Director OWI Operations
+    street1: USGS Center for Integrated Data Analytics
+    street2: 8505 Research Way
+    city: Middleton
+    state: WI
+    zip: 53562
+    phone: 608-821-3820
+    accounts:
+        email: moschnei@usgs.gov
+        github:
+        linkedin:
+        twitter:
+        researchgate:
+    education:
+        - degree: B.S. Geology
+          institution: UW-Madison
+          year: 1995
+          note:
+
+        - degree: Environmental Studies Certificate
+          institution: UW-Madison
+          year: 1995
+          note:
+
+        - degree: M.S. Water Resources Management
+          institution: UW-Madison
+          year: 1997
+          note: 'WRM Practicuum: Atlas for the Token Creek Watershed'
+    expertise:
+        - Project management of natural resource based data management projects
+        - Database development of web-based data entry forms, reports, applications
+        - Database design, transactional and data warehouse
+        - Oracle database
+        - Informatica
+        - Oracle Designer
+        - Oracle Discoverer
+    photo: mschneider.jpg
+    mobilePhoto: mschneider_mobile.jpg
+    currentWork:
+        - project: Water Resources Division Biological Data Warehouse
+          url:
+
+        - project: WDNR Fisheries database
+          url:
+
+        - project: Database support activities for the USGS Mercury Research Laboratory
+          url:
+
+        - project: Database support activities for the Milwaukee Metropolitan Sewerage District Corridor Study
+          url:
+    publications:
+        2004:
+            - 'Schneider, M.A., Lutz, M.A., and others, 2004, Water-resources-related information for the Milwaukee Metropolitan Sewerage District planning area, Wisconsin, 1970–2002: U.S. Geological Survey Water-Resources Investigations Report 03-4240, 288 p.'
+        2000:
+            - 'Schmidt, M.A., Richards, K.D., and Scudder, B.C., 2000, Surface-water quality, Oneida Reservation and vicinity, Wisconsin, 1997-98, U.S. Geological Survey Water Resources Investigations Report 00-4179, 30 p.'
+        1999:
+            - 'Saad, D.A., and Schmidt, M.A., 1999, Water-resources related information for the Oneida Reservation and vicinity, Wisconsin: U.S. Geological Survey Water-Resources Investigations Report 98-4266, 57 p.'
+    presentations:
+
+
+
+
+-
+    id: jkreft #AD Account
+    name: James Kreft
+    manager: No
+    title: Project Lead
+    street1: USGS Center for Integrated Data Analytics
+    street2: 8505 Research Way
+    city: Middleton
+    state: WI
+    zip: 53562
+    phone: 608-821-3919
+    accounts:
+        email: jkreft@usgs.gov
+        github: jkreft-usgs
+        linkedin:
+        twitter:
+        researchgate:
+    education:
+        - degree: BA Biology
+          institution: Swarthmore College
+          year: 2006
+          note:
+
+        - degree: MA Integrative Biology
+          institution: University of California Berkeley
+          year: 2010
+          note:
+
+        - degree: MS Library and Information Science
+          institution: University of Illinois Urbana Champaign
+          year: 2013
+          note:
+    expertise:
+        - Data curation
+        - Data management
+        - Systems analysis
+        - Data analysis
+        - Programming (Python, SQL)
+    photo: jkreft.jpg
+    mobilePhoto: jkreft_mobile.jpg
+    currentWork:
+        - project: Water Quality Portal
+          url: http://wwww.waterqualitydata.us
+
+        - project: USGS Publications Warehouse
+          url: https://pubs.er.usgs.gov
+    publications:
+    presentations:
+
+-
+    id: jlucido #AD Account
+    name: Jessica Lucido
+    manager: No
+    title: Project Manager
+    street1: USGS Center for Integrated Data Analytics
+    street2: 8505 Research Way
+    city: Middleton
+    state: WI
+    zip: 53562
+    phone: 608-821-3841
+    accounts:
+        email: jlucido@usgs.gov
+        github:
+        linkedin: http://www.linkedin.com/pub/jessica-m-lucido/15/337/2b0
+        twitter: https://twitter.com/JessicaMLucido
+        researchgate:
+        googlescholar:
+    education:
+        - degree: B.S. in Mechanical Engineering 2008
+          institution: University of Illinois at Urbana - Champaign
+          year: 2008
+          note:
+
+        - degree: M.S. in Civil and Environmental Engineering
+          institution: University of Wisconsin - Madison
+          year: 2010
+          note:
+
+        - degree: Certificate of Global Health
+          institution: University of Wisconsin - Madison
+          year: 2010
+          note:
+
+        - degree: Project Management Professional (PMP) Credential
+          institution: Project Management Institute
+          year: 2015
+          note:
+    expertise:
+        - Project Management
+        - Agile
+        - Scrum Master™
+        - Business Analysis
+        - Oracle Databases
+        - Data Management
+        - Water Chemistry
+        - Water Treatment
+    photo: jlucido.jpg
+    mobilePhoto: jlucido_mobile.jpg
+    currentWork:
+        - project: National Ground-Water Monitoring Network
+          url: http://cida.usgs.gov/ngwmn/
+
+        - project: Great Lakes Restoration Initiative Data Network
+          url: http://cida.usgs.gov/glri/
+
+        - project: National Soil Moisture Network
+          url: http://cida.usgs.gov/nsmn_pilot/
+    publications:
+        2015:
+        - 'Larsen, Sara, Stuart Hamilton, <strong>Jessica Lucido</strong>, and Bradley Garner. "Supporting Diverse Data Providers in the Open Water Data Initiative: Communicating Water Data Quality and Fitness of Use." Journal of the American Water Resources Association, 2015, JAWRA-15-0089-P. (In Press)'
+        - 'Blodgett, David, Emily Read, <strong>Jessica Lucido</strong>, Tad Slawecki, and Dwane Young. "An Analysis of Water Data Systems to Inform the Open Water Data Initiative." Journal of the American Water Resources Association, 2015, JAWRA-15-0085-P. (In Press)'
+        - 'Brodaric, Boyan, Nate Booth, Eric Boisvert, and <strong>Jessica Lucido</strong>. “Groundwater Data Network Interoperability.” Journal of Hydroinformatics, October 28, 2015, jh2015242. doi:10.2166/hydro.2015.242.'
+        - 'Blodgett, David, <strong>Jessica Lucido</strong>, and James Kreft. “Progress on Water Data Integration and Distribution: A Summary of Select U.S. Geological Survey Data Systems.” Journal of Hydroinformatics, July 31, 2015, jh2015067. doi:10.2166/hydro.2015.067.'
+        - '<strong>Lucido, J.M.</strong>, and Bruce, J.L., 2015, Tools for discovering and accessing Great Lakes scientific data: U.S. Geological Survey Fact Sheet 2015–3040, 2 p., http://dx.doi.org/10.3133/fs20153040.'
+        - 'Read, EK, M Bucknell, M Hines, J Kreft, <strong>J Lucido</strong>, J Read, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, J Walker, M Wernimont, L Winslow, and A Yan. 2015. New insight into California’s drought through open data. BAAMA Journal, 8(1).'
+        2013:
+        - 'Establishing a Collaborative National Ground-Water Monitoring Network Program for the United States. 2013. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/NGWMN_InfoSheet_final.pdf.'
+        - 'A National Framework for Ground-Water Monitoring in the United States. 2009, revised 2013. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/ngwmn_framework_report_july2013.pdf.'
+        - 'U.S. Geological Survey, 2013, Tools for beach health data management, data processing, and predictive model implementation: U.S. Geological Survey Fact Sheet 2013–3068, 6 p., http://pubs.usgs.gov/fs/2013/3068/.'
+        2012:
+        - 'Blodgett, D., N. Booth, T. Kunicki, J. Walker, and J. Lucido. 2012. “Description of the U.S. Geological Survey Geo Data Portal Data Integration Framework.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 5 (6): 1687–91. doi:10.1109/JSTARS.2012.2196759.'
+        2011:
+        - 'National Ground-Water Monitoring Network -- Results of Pilot Studies. 2011. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/pubs/tr/pilot_results/NGWMN_pilot_studies.pdf.'
+        - 'Booth, Nathaniel L., Boyan Brodaric, Jessica M. Lucido, I.-Lin Kuo, Eric Boisvert, and William L. Cunningham. 2011. “Development of an Interoperable Groundwater Data Exchange Network between the United States and Canada.” In GeoHydro 2011 Conference Proceedings Paper. http://acwi.gov/sogw/pubs/tr/pilot_results/Booth_etal_GeoHydro2011.pdf.'
+        2010:
+        - 'Lucido, Jessica M. 2010. “In-Situ Chlorine Generation and Microbial Inactivation by Photoelectrocatalytic Oxidation”. University of Wisconsin–Madison.'
+    presentations:
+        2015:
+        - 'Jessica M. Lucido. 2015. “Tools for Management and Communication of GLRI Projects and Scientific Products”. presented at the 58th Annual Conference on Great Lakes Research, Burlington, VT, May 28.(Accepted)'
+        - 'Jessica M. Lucido, William L. Cunningham, Robert P. Schreiber, Daryll A. Pope. 2015. “The Next Phase of the National Ground-Water Monitoring Network Data Portal”. presented at the NGWA Groundwater Summit 2015, San Antonio, TX, March 18.'
+        2014:
+        - 'Jessica M. Lucido, Nathaniel L. Booth. 2014. “Improving Groundwater Data Interoperability: Results of the Second OGC Groundwater Interoperability Experiment”. presented at the AGU Fall Meeting, San Francisco, CA, December 17.'
+        - 'Brodaric, Boyan, Nate Booth, Eric Boisvert, Jessica M. Lucido. 2014. “LEVELS OF DATA INTEROPERABILITY IN THE EMERGING NORTH AMERICAN GROUNDWATER DATA NETWORK”. presented at the 11th International Conference on Hydroinformatics, New York, NY, August 17.'
+        - 'Cunningham, William L., Robert P. Schreiber, Jessica M. Lucido. 2014. “National Ground Water Monitoring Network and Network Portal”. presented at the 9th National Monitoring Conference, Cincinnati, OH, May 1.'
+        - 'Lucido, Jessica M., Robert P. Schreiber, Nathaniel Booth, Daryll Pope, and William L. Cunningham. 2014. “National Ground-Water Monitoring Network Data Portal: Continued Collaboration from Concept to Version 2.0.” In NGWA. https://ngwa.confex.com/ngwa/2014gws/webprogram/Paper9726.html.'
+        2013:
+        - 'Lucido, Jessica M. 2013. “Making USGS Great Lakes Scientific Data Discoverable and Accessible Through an Integrated, Standards-Based Data Network”. presented at the 56th Annual Conference on Great Lakes Research, West Lafayette, IN, June 3. http://iaglr.org/iaglr2013/.'
+        - 'Lucido, Jessica M. 2013. “Best Practices for Making Scientific Data Discoverable and Accessible through Integrated, Standards-Based Data Portals”. presented at the AGU Fall Meeting, San Francisco, CA, December 11. http://fallmeeting.agu.org/2013/.'
+        - 'Lucido, Jessica M. 2013. “The National Ground Water Monitoring Network Data Portal: From Pilot to Production”. presented at the GWPC 2013 Annual Forum, St. Louis, MO, September 24. http://www.gwpc.org/sites/default/files/event-sessions/Lucido_Jessica.pdf.'
+        - 'Lucido, Jessica M. 2013. “The National Ground Water Monitoring Network Data Portal: From Pilot to Production”. presented at the NGWA Groundwater Summit 2013, Denver, CO, April 30.'
+        - 'Lucido, Jessica M. 2013. “Monitoring Network Design, Implementation & Data Management”. Invited. Presented at the Developing a Coordinated National Soil Moisture Network Workshop, Kansas City, MO, November 13.'
+        2012:
+        - 'Lucido, Jessica M. 2012. “The National Ground Water Monitoring Network Data Portal: Innovation in Ground Water Data Exchange and Mediation”. presented at the NGWA Groundwater Summit 2012, Garden Grove, CA, May 8. https://ngwa.confex.com/ngwa/2012gws/webprogramsummit/meeting.html.'
+        2011:
+        - 'Booth, Nathaniel, Boyan Brodaric, Jessica M. Lucido, I.-Lin Kuo, and William L. CUNNINGHAM. 2011. “DEVELOPMENT OF A GROUNDWATER DATA EXCHANGE NETWORK FOR INTEROPERABLE DATA EXCHANGE AND MEDIATION BETWEEN THE U.S. AND CANADA”. presented at the GSA Annual Meeting, Minneapolis, MN, October 12. https://gsa.confex.com/gsa/2011AM/webprogram/Paper197350.html.'
+        - 'Lucido, Jessica M.. 2011. “Development of a Ground Water Data Portal for Interoperable Data Exchange and Mediation within the National Ground Water Monitoring Network”. presented at the NGWA Groundwater Summit 2011, Baltimore, MD, May 3.'
+        - 'Lucido, Jessica M.. 2011. “Development of a Ground Water Data Portal for Interoperable Data Exchange and Mediation within the NGWMN”. presented at the GWPC 2011 Annual Forum, Atlanta, GA, September 27. http://www.gwpc.org/sites/default/files/event-sessions/20d_Lucido_Jessica.pdf.'
+        - 'Booth, Nathaniel L., Boyan Brodaric, Jessica M. Lucido, I-Lin Kuo, Eric Boisvert, and William L. Cunningham. 2011. “Development of an Interoperable Groundwater Data Exchange Network between the United States and Canada”. presented at the GeoHydro 2011, Quebec, Canada, August 30.'
+        2010:
+        - 'Harrington, Gregory W., Jessica M. Lucido, 2010. “Escherichia Coli Inactivation By Photoelectrocatalytic Chlorine Production”. presented at the American Water Works Association’s (AWWA) 2010 Water Quality Technology Conference, Savannah, GA, November 14.'
+        - 'Lucido, Jessica M. 2010. “Photoelectrocatalytic Chlorine Production for Microbial Inactivation”. presented at the American Water Works Association Annual Conference and Exposition 2010, Chicago, IL, June 21.'
+        2008:
+        - 'Lucido, Jessica M., Bolutife Bambgoye, Ramesh Chandrasekharan, Nicholas Ndiege, Richard I. Masel, and Mark A. Shannon. 2008. “ENVR 42-Synthesis and Photocatalytic Activity of TaOxNy and Ta3N5.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
+        - 'Bamgboye, Bolutife, Jessica M. Lucido, Ramesh Chandrasekharan, Nicholas Ndiege, Elizabeth Moscoso, Leslie Threatt, Mark A. Shannon, and Richard I. Masel. 2008. “ENVR 245-Synthesis, Characterization and Photoactivity Studies of Nitrogen-Doped Ta2O5 Decorated onto SiO2 Nanoparticles.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
+        - 'Chandrasekharan, Ramesh, Nicholas Ndiege, Bolutife Bambgoye, William N. Harris III, Jessica M. Lucido, Adarsh Radadia, Mark A. Shannon, and Richard I. Masel. 2008. “ENVR 170-Photocatalytic Activity of Ta2O5 Photocatalysts Decorated on SiO2 Nanoparticles.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
+        - 'Ndiege, Nicholas, Ramesh Chandrasekharan, William N. Harris III, Bolutife Bambgoye, Jessica M. Lucido, Richard I. Masel, and Mark A. Shannon. 2008. “ENVR 43-Synthesis and Characterization of Ta2O5-Grafted SiO2 Nanoparticles for Photocatalytic Applications.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
