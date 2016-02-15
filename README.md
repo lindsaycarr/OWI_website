@@ -1,1 +1,5 @@
-This is the CIDA website on internal stash.
+
+
+to generate the pygments css:
+
+$ pygmentize -S default -f html > codehilite.css

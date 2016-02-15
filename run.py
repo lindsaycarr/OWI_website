@@ -15,8 +15,7 @@ if __name__ == '__main__':
     Markdown(application,
               extensions=['fenced_code', 'tables', 'codehilite'],
               extension_configs={},
-              safe_mode=True,
-              output_format='html',)
+              output_format='html5',)
     parser = argparse.ArgumentParser()
     parser.add_argument('--host', '-ht', type=str)
     args = parser.parse_args()

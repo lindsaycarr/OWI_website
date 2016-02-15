@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title_description %}
+<title>Using USGS Office of Water Information tools</title>
+
+<meta name="description" content="Examples of using Office of Water information tools"/>
+{% endblock title_description %}
+
+{% block page_specific_script %}
+var sizeContent = makeSizeContentHandler(".product_picture", '.product_info')
+{% endblock page_specific_script %}
+
+{% block page_content %}
+
+
+<div id="content">
+
+<h2>Here are some detailed examples of how to make using of OWI products and services</h2>
+
+{% for example in examples %}
+<div class="mobileholder">
+
+<div class="example_picture">
+	<a href="{{ url_for('example', folder=example['markdownFolderName']) }}" target="_blank"><img src="{{ url_for('static', filename='markdown/geoknife/images/'+example['imageFileName']) }}" alt="{{ example.get('title') }}"/></a>
+</div>
+
+<div class="product_info">
+
+	<a href="{{ url_for('example', folder=example['markdownFolderName']) }}" target="_blank"><h1>{{ example['title'] }}</h1></a>
+    
+    <p>{{ example['statement']|safe }}</p>
+    
+    <p class="questions">For questions, contact {{ example.get('authorName') }} <a href="mailto:{{ example.get('authorEmail') }}?Subject={{ example.get('title')| urlencode }}%20question" target="_top">({{ example.get('authorEmail') }})</a>.</p>
+		
+    <div class="view"><a href="{{ url_for('example', folder=example['markdownFolderName']) }}" target="_blank">View example</a></div>
+
+</div><!--product_info-->
+
+</div><!--mobileholder-->
+{% endfor %}
+
+</div>
+{% endblock page_content %}
+{% block footer_url %}{{ url_for('examples') }}{% endblock footer_url %}

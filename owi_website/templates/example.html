@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 
 {% block title_description %}
-<title>People at USGS Office of Water Information</title>
+<title>{{ post_metadata['title'] }}</title>
 
-<meta name="description" content="All the people who work at the USGS Office of Water Information."/>
+<meta name="description" content="{{ post_metadata['statement'] }}"/>
 {% endblock title_description %}
 
 {% block page_css %}
@@ -14,6 +14,8 @@
 {% endblock page_specific_script %}
 
 {% block page_content %}
+
+    {% if post_metadata['rMarkdownFileName'] %}<a href="{{ url_for('static', filename='markdown/geoknife/'+post_metadata['rMarkdownFileName'] ) }}">Download an executable R version of this page</a>{% endif %}
 
     {{ markdown_content|markdown }}
 

@@ -99,14 +99,29 @@ def r_about():
         return redirect(url_for('r-about-canonical')), 301
     return render_template('R-about.html')
 
-@app.route('/markdown/')
-def markdown():
-    markdown_file = open('data/markdown/README.md')
-    markdown_content = markdown_file.read()
-    markdown_file.close()
 
-    return render_template('markdown.html', markdown_content=markdown_content)
 
+@app.route('/using_owi_tools/')
+def examples():
+    examples_file = open('data/examples.yaml')
+    all_examples = yaml.load(examples_file.read())
+    examples_file.close()
+    return render_template('examples.html', examples=all_examples)
+
+
+@app.route('/using_owi_tools/<folder>/')
+def example(folder):
+    examples_file = open('data/examples.yaml')
+    all_examples = yaml.load(examples_file.read())
+    examples_file.close()
+    example_record = next((record for record in all_examples if record['markdownFolderName'] == folder), None)
+    if example_record:
+        markdown_file = open('owi_website/static/markdown/'+example_record['markdownFolderName']+'/'+example_record['markdownFileName'])
+        markdown_content = markdown_file.read()
+        markdown_file.close()
+        return render_template('example.html', markdown_content=markdown_content, post_metadata=example_record)
+    else:
+        return 404
 
 @app.route('/sitemap.xml')
 def sitemap_xml():
