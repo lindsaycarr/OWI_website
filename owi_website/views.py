@@ -2,7 +2,6 @@ from flask import render_template, request, make_response, redirect, url_for
 import yaml
 from . import app
 from copy import deepcopy
-from pprint import pprint
 
 @app.route('/index.html')
 @app.route('/', endpoint='home-canonical')
@@ -99,6 +98,14 @@ def r_about():
     if request.path == '/R/about.html':
         return redirect(url_for('r-about-canonical')), 301
     return render_template('R-about.html')
+
+@app.route('/markdown/')
+def markdown():
+    markdown_file = open('data/markdown/README.md')
+    markdown_content = markdown_file.read()
+    markdown_file.close()
+
+    return render_template('markdown.html', markdown_content=markdown_content)
 
 
 @app.route('/sitemap.xml')

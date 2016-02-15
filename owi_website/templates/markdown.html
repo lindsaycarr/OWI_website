@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title_description %}
+<title>People at USGS Office of Water Information</title>
+
+<meta name="description" content="All the people who work at the USGS Office of Water Information."/>
+{% endblock title_description %}
+
+{% block page_css %}
+<link href="{{ url_for('static', filename ='css/codehilite.css') }}" rel="stylesheet" type="text/css">
+<
+{% endblock %}
+{% block page_specific_script %}
+{% endblock page_specific_script %}
+
+{% block page_content %}
+
+    {{ markdown_content|markdown }}
+
+{% endblock page_content %}
+{% block footer_url %}{{ url_for('people-canonical') }}{% endblock footer_url %}

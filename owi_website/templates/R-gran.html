@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+<head>
+
+<!-- ############### VIEWPORT META TAG ############### -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<!-- ################################################# -->
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+<title>OWI-R</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+
+<link rel="icon" type="image/ico" href="img/favicon.ico"  />
+
+<script src="js/jquery-2.1.3.min.js" type="text/javascript"></script>
+
+<script>
+    //mobile menu toggle functionality
+    $(document).ready(function(){
+        $("#menu").click(function(){
+            $("#dropdown").toggle("slow", function(){
+                });    
+            });        
+    });
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53797708-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type=”application/javascript” src=”http://www.usgs.gov/scripts/analytics/usgs-analytics.js”></script>
+</head>
+
+<body>
+
+<!-- BEGIN USGS Header Template --> 
+ 
+    <div id="usgscolorband">
+    
+        <div id="usgsheader">
+        
+            <div id="usgsidentifier">
+            <a href="http://www.usgs.gov/" target="_blank"><img src="img/usgslogo.jpg" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page"/></a>
+            </div><!--usgsidentifier-->
+            
+        <img src="img/banner.png" alt="banner"/>
+        
+        <div id="usgsccsabox">
+        
+            <div id="usgsccsa">
+                <a href="http://www.usgs.gov/">USGS Home</a>
+                <br /><a href="http://answers.usgs.gov/cgi-bin/gsanswers?tmplt=2">Contact USGS</a>
+                <br /><a href="http://search.usgs.gov/">Search USGS</a>
+                <br />
+            </div><!--usgsccsa-->
+            
+        </div><!--usgsccsabox-->
+    
+    </div><!--usgsheader-->
+    </div><!--colorband-->
+    
+<!-- END USGS Header Template -->
+
+<!-- BEGIN mobile-nav --> 
+
+    <section id="mobile-nav">
+    
+        <section id="menu">
+        
+            <ul id="mobile-ul">
+            
+                <li><a href="#">Menu</a>
+                
+                    <ul id="dropdown">
+                    
+                    	<li><a href="index.html">Home</a></li>
+                    
+                        <li><a href="about.html">About</a></li>
+                        
+                        <!--<li><a href="#">Discussion Forum</a></li>-->
+                        
+                        <li><a href="resources.html">Resources</a></li>
+                        
+                        <li><a href="gran.html">GRAN</a></li>
+                        
+                        <li><a href="contact_contribute.html" target="_top">Contact</a></li>
+                    
+                    </ul>
+                
+                </li>
+            
+            </ul>
+        
+        </section>
+    
+    </section>
+
+<!-- END mobile-nav -->
+
+<!-- BEGIN nav --> 
+
+    <nav>
+    
+        <ul>
+        
+        	<li><a href="index.html">Home</a></li>
+        
+            <li><a href="about.html">About</a></li>
+            
+            <!--<li class="long"><a href="#">Discussion Forum</a></li>-->
+            
+            <li><a href="resources.html">Resources</a></li>
+            
+            <li><a href="gran.html">GRAN</a></li>
+            
+            <li><a href="contact_contribute.html" target="_top">Contact</a></li>
+        
+        </ul>
+    
+    </nav>
+
+<!-- END nav -->
+
+<!-- BEGIN Main Content -->
+
+<main>
+
+    <article>
+    
+        
+        <h1 class="page-title-h1">GRAN</h1>
+        
+		<section class="box content" id="gran_intro">
+        
+            <h3>What is GRAN?</h3>
+            
+            <p>
+                <b>G</b>eological Survey <b>R</b> <b>A</b>rchive <b>N</b>etwork <br> <br>
+				
+GRAN is a repository of curated R packages developed by USGS employees for USGS and external use. It allows a user to easily download and install an R package and, in the future, receive updates to that package code as they become available. Inclusion of packages on GRAN does not imply USGS approval; citations and disclaimers associated with package are included upon package load or in the package "CITATION" file. <br> <br>
+
+The objective of GRAN is to facilitate engagement and R tool sharing across the USGS Water Mission Area. 
+            </p>
+            
+        </section>
+		
+        <section class="box content" id="use-gran">
+        
+            <h3>How to use GRAN?</h3>
+            
+            <p>
+                There are two ways to take advantage of GRAN tools.<br><br>
+                
+                <ol class="granNumberList">
+				
+				<li><h4>Alter the Rprofile.site file</h4>
+This will tell your R environment to always look in the GRAN repository when installing packages and updating packages. This is the preferred method because of the ability to automatically get GRAN updates. The following command in R will run a script to update your Rprofile file:</li>
+
+<pre class="language-Rcode" >
+<code class="language-Rcode">
+rprofile_path = file.path(Sys.getenv(<span class="string">"HOME"</span>)<span class="punctuation">,</span> <span class="string">".Rprofile"</span>)
+write(<span class="string">'\noptions(repos=c(getOption(\'repos\'), 
+    USGS=\'http://owi.usgs.gov/R\'))\n'</span><span class="punctuation">,</span>
+      rprofile_path<span class="punctuation">,</span> 
+      append <span class="punctuation">=</span>  <span class="variable">TRUE</span>)
+
+cat(<span class="string">'Your Rprofile has been updated to include GRAN.
+    Please restart R for changes to take effect.'</span>)
+</code>
+</pre>
+It is then possible to simply install the <code class="language-Rcode">smwrData</code> package using: <br>
+
+<pre class="language-Rcode">
+<code class="language-Rcode">
+install.packages(<span class="string">"smwrData"</span>)
+</code>
+</pre>
+
+Or to update all installed packages (if needed) with: <br>
+<pre class="language-Rcode">
+<code class="language-Rcode">
+update.packages()
+</code>
+</pre>
+                                
+
+<li><h4>Use the 'repo' argument in the install.packages function</h4>
+This will tell install.packages to look at a specific url for package installation. </li>
+									
+<pre class="language-Rcode">
+<code class="language-Rcode">
+install.packages(<span class="string">"smwrData"</span>, <span class="variable">repos</span><span class="punctuation">=</span>c(<span class="string">"http://owi.usgs.gov/R"</span><span class="punctuation">,</span>getOption(<span class="string">"repos"</span>)))
+</code>
+</pre>
+				</ol>
+				
+            </p>
+            
+        </section>
+        <section class="box content" id="list-packages">
+        
+            <h3>What packages are on GRAN?</h3>
+            
+            <p>
+                GRAN includes curated packages that can be easily installed. A detailed package list will be added in the future, but one can always use the following command in R to list all packages that are currently available:
+<br><br>
+              
+                <ol class="granNumberList">
+
+<pre class="language-Rcode" >
+<code class="language-Rcode">
+GRAN_pkg <- available.packages(contrib.url(<span class="string">"http://owi.usgs.gov/R"</span>))
+names(GRAN_pkg[,1])
+</code>
+</pre>
+
+            
+        </section>
+
+        <section class="box content" id="add-packages">
+        
+            <h3>How do I add my package to GRAN?<a id="add_package"></a></h3>
+            
+            <p>
+                Developers that have an R package that would be useful to others within USGS are encouraged to use GRAN to distribute those packages. 
+                There are a minimum number of required steps before a package is GRAN-ready (see <a href="#gran_policy">guidelines</a>), 
+                which should be completed before submitting a package to GRAN. Assuming a package is compliant, follow the steps for submission below:
+                          </p>
+  
+            <ol class="granNumberList">
+                <li>Obtain, document, and address peer review of package using the <a href="https://my.usgs.gov/jira/browse/GITPILOT/">my.usgs JIRA system</a>. </li>
+                <li>Host your full package code on github.com (preferably within the USGS-R organization)</li>
+                <li><a href="https://help.github.com/articles/creating-releases/">Create a tagged release</a> of a stable version of your package on github.com</li>
+                <li>Ensure package builds and passes "as cran" checks with no warnings
+                
+<pre class="language-Rcode" >
+<code class="language-Rcode">
+R CMD check --as-cran {packagename_version}.tar.gz
+</code>
+</pre>
+</li>
+                <li><a href="https://help.github.com/articles/fork-a-repo/">Fork</a> the USGS-R <code>grantools</code> to your USGS github account.</li>
+                <li>Add your package location and name (using the format <code>repository/packagename</code>) and tagged release name to the file <code>gran_source_list.tsv</code> </li>
+                <li>Create a pull request between your fork of grantools and the USGS-R version of grantools</li>
+                <li>Packages are expect to have zero Notes or Warnings on check. If you would like an exception, explain (in the pull request comments) why each Note and Warning should be allowed.</li>
+                <li>Receive a notification once your package has been added (usually within one day).</li>
+            </ol>
+            
+        </section>
+        
+        <section class="box content">
+        
+            <h3>What are the GRAN guidelines?<a id="gran_policy"></a></h3>
+            
+            <p>
+            <ol  class="granNumberList">
+                <li>Required: Active tool maintainer with *@usgs.gov email address
+If a maintainer becomes inactive, the package will be removed.</li>
+                <li>Required: Code must be on Github USGS-R repository to facilitate the automation of tool builds, checks, and releases:</li>
+                <ul>
+                <li>Required: Each GRAN update must be a Github "release". </li>
+                <li>Recommended: Continuous integration.</li>
+                <li>Recommended: Maintainer will use Github issues system for issue/bug reporting and tracking. </li>
+                </ul>
+                <li>Required: All packages must print the OWI GRAN Software disclaimer<sup>A</sup> describing nature of preliminary code upon initial load, unless tool has an associated peer-reviewed publication and citation. </li>
+                <li>Required: All packages with a peer-reviewed publication must include proper reference in the package "CITATION" file.</li>
+                <li>Initial code import and updates are handled through pull requests to "grantools". New GRAN users should contact  <a href="mailto:gs-w_r_admin@usgs.gov">&lt;gs-w_r_admin@usgs.gov&gt;</a> for support with initial release of software.</li>
+                <li>Binary packages will be maintained for only the current release version of R.</li>
+                <li>
+                  Package maintainers are expected to understand and follow the policies of the USGS for code distribution. <a href="http://water.usgs.gov/admin/memo/policy/wrdpolicy09.01.html">Water Policy 2009.01</a>
+                </li>
+</ol>
+</p>
+<p><sup>A</sup> OWI GRAN Software disclaimer: This information is preliminary or provisional and is subject to revision. It is being provided to meet the need for timely best science. The information has not received final approval by the U.S. Geological Survey (USGS) and is provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the information. 
+    Although this software program has been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS or the U.S. Government as to the accuracy and functioning of the program and related program material nor shall the fact of distribution constitute any such warranty, and no responsibility is assumed by the USGS in connection therewith.
+  
+</p>
+
+
+            
+        </section>
+    
+    </article>
+
+</main>
+
+<!-- END Main Content -->
+
+<!-- BEGIN USGS Footer Template -->
+       
+        <div id="usgsfooter">
+        
+            <p id="usgsfooterbar">
+                <a href="http://www.usgs.gov/laws/accessibility.html" title="Accessibility Policy (Section 508)" target="_blank">Accessibility</a>
+                <a href="http://www.usgs.gov/foia/" title="Freedom of Information Act" target="_blank">FOIA</a>
+                <a href="http://www.usgs.gov/laws/privacy.html" title="Privacy policies of the U.S. Geological Survey." target="_blank">Privacy</a>
+                <a href="http://www.usgs.gov/laws/policies_notices.html" title="Policies and notices that govern information posted on USGS Web sites." target="_blank">Policies and Notices</a>
+                
+            </p><!--usgsfooterbar-->
+    
+    
+        <p id="usgsfootertext">
+        
+            <a href="http://www.usa.gov/" alt="USA.gov logo" title="USAGov: Government Made Easy" width="90" height="26" target="_blank"><img id="usa" src="img/usa_gov.png" alt="usa_gov pic"/></a>
+            
+            <a href="http://www.doi.gov/" target="_blank">U.S. Department of the Interior</a> |
+            
+            <a href="http://www.usgs.gov/" target="_blank">U.S. Geological Survey</a> |
+            
+            <a href="http://www.doioig.gov/" target="_blank">DOI Inspector General</a>
+    
+            <p style="margin: 5px 0 5px 0; padding-left: 5px;">URL: http://owi.usgs.gov/R/</p>
+            
+            <p style="margin: 5px 0 5px 0; padding-left: 5px;">Contact Information: <a href="mailto:gs-w_r_admin@usgs.gov?Subject=USGS-R%20Website" target="_top">gs-w_r_admin@usgs.gov</a></p>
+    
+            <p style="margin: 5px 0 5px 0; padding-left: 5px;">Page last modified: <script>document.write(document.lastModified);</script></p>
+    
+        </p><!--usgsfootertext-->
+
+</div><!--usgsfooter-->
+
+<!-- END USGS Footer Template -->​
+
+
+</body>
+</html>
