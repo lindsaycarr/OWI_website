@@ -11,11 +11,12 @@ freezer = Freezer(application)
 
 if __name__ == '__main__':
 
-    #freezer.freeze()
+
     Markdown(application,
               extensions=['fenced_code', 'tables', 'codehilite'],
               extension_configs={},
               output_format='html5',)
+    freezer.freeze()
     parser = argparse.ArgumentParser()
     parser.add_argument('--host', '-ht', type=str)
     args = parser.parse_args()
