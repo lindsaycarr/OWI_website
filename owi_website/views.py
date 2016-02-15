@@ -2,6 +2,7 @@ from flask import render_template, request, make_response, redirect, url_for
 import yaml
 from . import app
 from copy import deepcopy
+from utils import pull_full_feed
 
 @app.route('/index.html')
 @app.route('/', endpoint='home-canonical')
@@ -122,6 +123,13 @@ def example(folder):
         return render_template('example.html', markdown_content=markdown_content, post_metadata=example_record)
     else:
         return 404
+
+@app.route('/news/')
+def news():
+    feed_url = 'https://internal.cida.usgs.gov/wiki/createrssfeed.action?types=blogpost&spaces=PUBSWI&title=USGS+-+CIDA+RSS+Feed&labelString=owi_news&excludedSpaceKeys%3D&sort=modified&maxResults=10&timeSpan=300&showContent=true&confirm=Create+RSS+Feed'
+    posts = pull_full_feed(feed_url)
+    return render_template('news.html', posts=posts)
+
 
 @app.route('/sitemap.xml')
 def sitemap_xml():
