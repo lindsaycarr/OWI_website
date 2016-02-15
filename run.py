@@ -2,7 +2,6 @@ import argparse
 from owi_website import app as application
 from flask_frozen import Freezer
 from flaskext.markdown import Markdown
-#from flask.ext.misaka import Misaka
 
 
 
@@ -18,7 +17,6 @@ if __name__ == '__main__':
               extension_configs={},
               safe_mode=True,
               output_format='html',)
-    #Misaka(application, fenced_code=True)
     parser = argparse.ArgumentParser()
     parser.add_argument('--host', '-ht', type=str)
     args = parser.parse_args()
