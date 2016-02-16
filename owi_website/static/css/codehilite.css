@@ -1,3 +1,8 @@
+pre {
+    background: #cacac9;
+    color: #7C7C79;
+}
+
 .hll { background-color: #ffffcc }
 .c { color: #408080; font-style: italic } /* Comment */
 .err { border: 1px solid #FF0000 } /* Error */

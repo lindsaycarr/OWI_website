@@ -1,7 +1,8 @@
 
 import feedparser
 from bs4 import BeautifulSoup
-
+from requests import get
+import pprint
 
 
 
@@ -43,4 +44,10 @@ def pull_full_feed(feed_url):
 
 
     return posts
+
+
+def pull_youtube_info(youtube_url):
+    response = get('https://www.youtube.com/oembed', params= {'url': youtube_url, 'format': 'json'})
+    metadata = response.json()
+    return metadata
 

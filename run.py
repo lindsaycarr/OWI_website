@@ -16,7 +16,7 @@ if __name__ == '__main__':
               extensions=['fenced_code', 'tables', 'codehilite'],
               extension_configs={},
               output_format='html5',)
-    freezer.freeze()
+    #freezer.freeze()
     parser = argparse.ArgumentParser()
     parser.add_argument('--host', '-ht', type=str)
     args = parser.parse_args()
@@ -25,6 +25,6 @@ if __name__ == '__main__':
         host = host_val
     else:
         host = '127.0.0.1'
-    application.run(host=host, port=5050)
+    application.run(host=host, port=5050, threaded=True)
     # run from the command line as follows
     # python runserver.py -ht <ip address of your choice>

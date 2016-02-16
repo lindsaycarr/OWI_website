@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title_description %}
+<title>Videos about products USGS Office of Water Information</title>
+
+<meta name="description" content="Recent activities and announcements at the USGS Office of Water Information."/>
+{% endblock title_description %}
+
+{% block page_specific_script %}
+{% endblock page_specific_script %}
+
+{% block page_content %}
+
+<div id="content">
+
+<h1>Videos about office of water information products </h1>
+<main>
+
+{% for video in video_metadata %}
+    <h2>{{ video['title'] }}</h2>
+    {{ video['html']|safe }}
+
+    <p><a href="{{ video['url'] }}">Watch on Youtube</a></p>
+{% endfor %}
+
+</main>
+</div>
+{% endblock page_content %}
+{% block footer_url %}{{ url_for('videos') }}{% endblock footer_url %}

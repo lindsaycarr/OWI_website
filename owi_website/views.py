@@ -2,7 +2,8 @@ from flask import render_template, request, make_response, redirect, url_for
 import yaml
 from . import app
 from copy import deepcopy
-from utils import pull_full_feed
+from utils import pull_full_feed, pull_youtube_info
+
 
 
 @app.route('/', endpoint='home-canonical')
@@ -108,6 +109,17 @@ def news():
     feed_url = 'https://internal.cida.usgs.gov/wiki/createrssfeed.action?types=blogpost&spaces=PUBSWI&title=USGS+-+CIDA+RSS+Feed&labelString=owi_news&excludedSpaceKeys%3D&sort=modified&maxResults=10&timeSpan=300&showContent=true&confirm=Create+RSS+Feed'
     posts = pull_full_feed(feed_url)
     return render_template('news.html', posts=posts)
+
+
+@app.route('/videos/')
+def videos():
+    videos_file = open('data/videos.yaml')
+    videos = yaml.load(videos_file.read())
+    videos_file.close()
+    video_metadata= []
+    for video_url in videos['youtube']:
+        video_metadata.append(pull_youtube_info(video_url))
+    return render_template('videos.html', video_metadata=video_metadata)
 
 
 @app.route('/sitemap.xml')
