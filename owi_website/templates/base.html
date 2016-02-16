@@ -106,10 +106,10 @@ $(window).resize(sizeContent);
 
 <nav><!-- navstart -->
 
-	<h1><a href="{{ url_for('home-canonical') }}">Office of Water Information</a></h1>
+	<h1 id="homelink"><a href="{{ url_for('home-canonical') }}">Office of Water Information</a></h1>
 
     <ul>
-        <li><a href="{{ url_for('news') }}">NEWS</a> </li>
+        <li><a href="{{ url_for('blog') }}">BLOG</a> </li>
         <li><a href="{{ url_for('people-canonical') }}">PEOPLE</a>
         	<ul>
             	<li><a href="{{ url_for('people-canonical') }}">Employees</a></li>
@@ -118,7 +118,8 @@ $(window).resize(sizeContent);
         </li>
         <li><a href="{{ url_for('products-canonical') }}">PRODUCTS</a></li>
         <li><a href="{{ url_for('partners-canonical') }}">PARTNERS</a></li>
-        <li><a href="{{ url_for('datascience-canonical') }}">DATA SCIENCE</a></li>
+        <li><a href="{{ url_for('datascience-canonical') }}">DATA SCI</a></li>
+        <li><a href="{{ url_for('examples') }}">TRAINING</a></li>
         <li><a href="{{ url_for('videos') }}">VIDEOS</a></li>
         <li><a href="{{ url_for('r-canonical') }}">USGS-R</a>
         	<ul>

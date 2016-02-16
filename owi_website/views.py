@@ -80,7 +80,7 @@ def r_about():
     return render_template('R-about.html')
 
 
-@app.route('/using_owi_tools/')
+@app.route('/training/')
 def examples():
     examples_file = open('data/examples.yaml')
     all_examples = yaml.load(examples_file.read())
@@ -88,7 +88,7 @@ def examples():
     return render_template('examples.html', examples=all_examples)
 
 
-@app.route('/using_owi_tools/<folder>/')
+@app.route('/training/<folder>/')
 def example(folder):
     examples_file = open('data/examples.yaml')
     all_examples = yaml.load(examples_file.read())
@@ -104,11 +104,11 @@ def example(folder):
         return 404
 
 
-@app.route('/news/')
-def news():
+@app.route('/blog/')
+def blog():
     feed_url = 'https://internal.cida.usgs.gov/wiki/createrssfeed.action?types=blogpost&spaces=PUBSWI&title=USGS+-+CIDA+RSS+Feed&labelString=owi_news&excludedSpaceKeys%3D&sort=modified&maxResults=10&timeSpan=300&showContent=true&confirm=Create+RSS+Feed'
     posts = pull_full_feed(feed_url)
-    return render_template('news.html', posts=posts)
+    return render_template('blog.html', posts=posts)
 
 
 @app.route('/videos/')
