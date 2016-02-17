@@ -4,18 +4,20 @@
     name: Morgan Schneider
     manager: Yes
     title: Director OWI Operations
-    street1: USGS Center for Integrated Data Analytics
-    street2: 8505 Research Way
-    city: Middleton
-    state: WI
-    zip: 53562
+    address: &MiddletonOffice
+      street1: USGS Center for Integrated Data Analytics
+      street2: 8505 Research Way
+      city: Middleton
+      state: WI
+      zip: 53562
     phone: 608-821-3820
-    accounts:
+    accounts: #for all but email, enter a profile page url
         email: moschnei@usgs.gov
         github:
         linkedin:
         twitter:
         researchgate:
+        googlescholar:
     education:
         - degree: B.S. Geology
           institution: UW-Madison
@@ -70,15 +72,11 @@
     name: James Kreft
     manager: No
     title: Project Lead
-    street1: USGS Center for Integrated Data Analytics
-    street2: 8505 Research Way
-    city: Middleton
-    state: WI
-    zip: 53562
+    address: *MiddletonOffice
     phone: 608-821-3919
-    accounts:
+    accounts: #for all but email, enter a profile page url
         email: jkreft@usgs.gov
-        github: jkreft-usgs
+        github: https://github.com/jkreft-usgs/
         linkedin:
         twitter:
         researchgate:
@@ -119,16 +117,12 @@
     name: Jessica Lucido
     manager: No
     title: Project Manager
-    street1: USGS Center for Integrated Data Analytics
-    street2: 8505 Research Way
-    city: Middleton
-    state: WI
-    zip: 53562
+    address: *MiddletonOffice
     phone: 608-821-3841
     accounts:
         email: jlucido@usgs.gov
         github:
-        linkedin: http://www.linkedin.com/pub/jessica-m-lucido/15/337/2b0
+        linkedin: https://www.linkedin.com/pub/jessica-m-lucido/15/337/2b0
         twitter: https://twitter.com/JessicaMLucido
         researchgate:
         googlescholar:

@@ -58,9 +58,9 @@ var sizeContent = makeSizeContentHandler("#headshot", '#contact')
         <div id="mobilecontacth1"><h1>Contact</h1></div><!--mobilecontacth1-->
 
         <div id="info">
-            <p>{{ person.get('street1') }}</p>
-            {% if person.get('street2')|length>0 %}<p>{{ person.get('street2') }}</p>{% endif %}
-            <p>{{ person.get('city') }}, {{ person.get('state') }} {{ person.get('zip') }}</p>
+            <p>{{ person.get('address').get('street1') }}</p>
+            {% if person.get('address').get('street2')|length>0 %}<p>{{ person.get('address').get('street2') }}</p>{% endif %}
+            <p>{{ person.get('address').get('city') }}, {{ person.get('address').get('state') }} {{ person.get('address').get('zip') }}</p>
             <p>Phone: {{ person.get('phone') }}</p>
             <p>Email: {{ person['accounts'].get('email') }}</p>
 
@@ -132,7 +132,7 @@ var sizeContent = makeSizeContentHandler("#headshot", '#contact')
 		        <br/>
                     {% for year, presentations in person['presentations'] %}
 						<br>
-                        <h3>{{ year }}</h3>
+                        {% if year == 'unknown' %}{% else %}<h3>{{ year }}</h3>{% endif %}
                         {% for presentation in presentations %}
 
 						<br/>

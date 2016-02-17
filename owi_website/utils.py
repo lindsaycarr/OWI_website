@@ -41,8 +41,6 @@ def pull_full_feed(feed_url):
             #grab the div with the content
             post['content'] = soup.div.contents[2]
             posts.append(post)
-
-
     return posts
 
 
