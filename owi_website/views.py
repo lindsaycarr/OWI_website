@@ -33,6 +33,7 @@ def people():
     people_file = open('data/people.yaml')
     all_people = yaml.load(people_file.read())
     people_file.close()
+    del all_people[0]
     return render_template('people.html', people=all_people)
 
 

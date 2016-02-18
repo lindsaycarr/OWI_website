@@ -1,217 +1,1875 @@
 ---
--
-    id: moschnei #AD account
-    name: Morgan Schneider
-    manager: Yes
-    title: Director OWI Operations
+
+-   id: MiddletonOffice
     address: &MiddletonOffice
       street1: USGS Center for Integrated Data Analytics
       street2: 8505 Research Way
       city: Middleton
       state: WI
       zip: 53562
-    phone: 608-821-3820
+
+
+-
+    id: aappling #AD account
+    name: Alison Appling #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Data Science Postdoc #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3927 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
-        email: moschnei@usgs.gov
-        github:
-        linkedin:
-        twitter:
-        researchgate:
-        googlescholar:
+        email: aappling@usgs.gov #usgs email
+        github: https://github.com/aappling-usgs #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate: https://www.researchgate.net/profile/Alison_Appling #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
     education:
-        - degree: B.S. Geology
-          institution: UW-Madison
-          year: 1995
-          note:
+        - degree: PhD Ecology #e.g. MS Geology
+          institution: Duke University #e.g UW-Madison
+          year: 2012
+          note: ''
+        - degree: BS Symbolic Systems #e.g. MS Geology
+          institution: Stanford University #e.g UW-Madison
+          year: 2004
+          note: ''
 
-        - degree: Environmental Studies Certificate
-          institution: UW-Madison
-          year: 1995
-          note:
+    expertise: #list of expertise
+        - 'River and Floodplain Ecology'
+        - 'Carbon and Nutrient Cycling'
+        - 'Biogeochemistry'
 
-        - degree: M.S. Water Resources Management
-          institution: UW-Madison
+    mobilePhoto: aappling-mobile.jpg
+    photo: aappling.jpg
+    currentWork:
+        - project: 'Patterns and drivers of river metabolism across the continental United States'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2015:
+          - '<strong>Appling, Alison P.</strong>, Miguel C. Leon, and William H. McDowell. “Reducing Bias and Quantifying Uncertainty in Watershed Flux Estimates: The R Package Loadflex.” Ecosphere, in press.'
+          - 'Read JS, JI Walker, <strong>AP Appling</strong>, DL Blodgett, EK Read, LA Winslow. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1111/ecog.01880/abstract">geoknife: Reproducible web-processing of large gridded datasets</a>. Ecography. 38: 1-7. doi:10.1111/ecog.01880'
+          - 'Sistla, Seeta A., <strong>Alison P. Appling</strong>, Aleksandra M. Lewandowska, Benton N. Taylor, and Amelia A. Wolf. “Stoichiometric Flexibility in Response to Fertilization along Gradients of Environmental and Organismal Nutrient Richness.” Oikos 124, no. 7 (July 1, 2015): 949–59. doi:10.1111/oik.02385.'
+
+        2014:
+          - '<strong>Appling, Alison P.</strong>, and James B. Heffernan. “Nutrient Limitation and Physiology Mediate the Fine-Scale (De)coupling of Biogeochemical Cycles.” The American Naturalist 184, no. 3 (September 1, 2014): 384–406. doi:10.1086/677282.'
+          - '<strong>Appling, Alison P.</strong>, Emily S. Bernhardt, and Jack A. Stanford. “Floodplain Biogeochemical Mosaics: A Multidimensional View of Alluvial Soils.” Journal of Geophysical Research: Biogeosciences 119, no. 8 (August 1, 2014): 2013JG002543. doi:10.1002/2013JG002543.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: abramhall #AD account
+    name: Wes Bramhall #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Computer Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3889 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: abramhall@usgs.gov #usgs email
+        github:  https://github.com/instantsoup #github profile page url
+        linkedin: https://www.linkedin.com/in/wesbramhall #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BA in Computer Science #e.g. MS Geology
+          institution: Carleton College #e.g UW-Madison
+          year: 1999
+          note: ''
+
+    expertise: #list of expertise
+        - 'Java'
+        - 'Web Development'
+        - 'SQL'
+
+    mobilePhoto: wbramhall_mobile.jpg
+    photo: wbramhall.jpg
+    currentWork:
+        - project: 'Geo Data Portal'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: ajmccart #AD account
+    name: Alice McCarthy #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Physical Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3875 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: ajmccart@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS Zoology and Biological Aspects of Conservation #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2008
+          note: ''
+
+    expertise: #list of expertise
+        - 'Informatica'
+        - 'Database management'
+
+    mobilePhoto: amccarthy_mobile.jpg
+    photo: amccarthy.jpg
+    currentWork:
+        - project: 'WDNR Fisheries database'
+          url:
+          - project: 'USGS Mercury Research Lab database'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: ayan #AD account
+    name: Andrew Yan #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Chemist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3921 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: ayan@usgs.gov #usgs email
+        github: https://github.com/ayan-usgs #github profile page url
+        linkedin: https://linkedin.com/pub/andrew-yan/45/a55/770 #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS Chemistry #e.g. MS Geology
+          institution: University of California #e.g UW-Madison
+          year: Berkeley
+          note: ''
+        - degree: MS Chemistry #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2011
+          note: ''
+
+    expertise: #list of expertise
+        - 'Oracle'
+        - 'Database management'
+        - 'Django web framework'
+        - 'Oracle Application Express'
+
+    mobilePhoto: ayan_mobile.jpg
+    photo: ayan.jpg
+    currentWork:
+        - project: 'BioData - Aquatic Bioassessment Data for the Nation'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: bfeinstein #AD account
+    name: Ben Feinstein #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: IT Specialist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3815 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: bfeinstein@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin: http://www.linkedin.com/pub/ben-feinstein/43/47a/702 #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS Computer Science #e.g. MS Geology
+          institution: UW Milwaukee #e.g UW-Madison
+          year: 2009
+          note: ''
+        - degree: IT Network Specialist #e.g. MS Geology
+          institution: MATC/Madison College #e.g UW-Madison
+          year: 2012
+          note: ''
+        - degree: IT Systems Administration Specialist #e.g. MS Geology
+          institution: MATC/Madison College December #e.g UW-Madison
+          year: 2013
+          note: ''
+
+    expertise: #list of expertise
+        - 'Networking'
+        - 'Storage'
+        - 'Virtualization'
+        - 'Hardware'
+
+    mobilePhoto: bfeinstein_mobile.jpg
+    photo: bfeinstein.jpg
+    currentWork:
+        - project: 'GDP'
+          url:
+          - project: 'SPARROW'
+          url:
+          - project: 'NGWMN'
+          url:
+          - project: 'NAWQA Data Warehouse'
+          url:
+          - project: 'Sediment Mapper'
+          url:
+          - project: 'Amazon Web Services Migration'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: bheck #AD account
+    name: Barry Heck #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: IT Specialist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3826 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: bheck@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin: http://www.linkedin.com/pub/barry-heck/16/931/4b0 #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: B.S. in Computer Science and Mathematics #e.g. MS Geology
+          institution: University of Wisconsin - Madison #e.g UW-Madison
+          year: 1983
+          note: ''
+
+    expertise: #list of expertise
+        - 'Databases'
+
+    mobilePhoto: bheck_mobile.jpg
+    photo: bheck.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: cmarsh #AD account
+    name: Cris Marsh #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Scientist II #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3840 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: cmarsh@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS in Zoology #e.g. MS Geology
+          institution: University of Wisconsin - Madison #e.g UW-Madison
+          year: 1989
+
+          note: ''
+        - degree: Library and Information Studies #e.g. MS Geology
+          institution: University of Wisconsin - Madison #e.g UW-Madison
+          year: M.L.S
+          note: ''
+
+    expertise: #list of expertise
+        - 'Information management'
+        - 'Usability testing'
+        - 'Communications and Outreach'
+        - 'User Interface Design'
+
+    mobilePhoto: cmarsh_mobile.jpg
+    photo: cmarsh.jpg
+    currentWork:
+        - project: 'Great Lakes Restoration Initiative Database'
+          url:
+          - project: 'National Water-Quality Assessment: Health-Based Screening Levels Database and Website'
+          url:
+          - project: 'Watershed Regressions for Pesticides Atrazine Mapper'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: cschroedl #AD account
+    name: Carl Schroedl #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Computer Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3836 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: cschroedl@usgs.gov #usgs email
+        github: https://github.com/cschroed-usgs #github profile page url
+        linkedin: http://www.linkedin.com/pub/carl-schroedl/5a/3a8/269 #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: B.S. in Computer Science #e.g. MS Geology
+          institution: University of Wisconsin - Madison  #e.g UW-Madison
+          year: 2012
+          note: ''
+
+    expertise: #list of expertise
+        - 'Java Web Services'
+        - 'JavaScript Rich-Client Web Applications'
+        - 'Agile Software Development'
+        - 'Distributed Version Control Workflows'
+        - 'Interactive In-Browser Data Visualization'
+        - 'Continuous Integration Jobs'
+        - 'Responsive Design'
+
+    mobilePhoto: cschroedl_mobile.jpg
+    photo: cschroedl.jpg
+    currentWork:
+        - project: 'National Water Census User Interface'
+          url:
+          - project: 'SPARROW'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: dblodgett #AD account
+    name: David Blodgett #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Project Coordinator #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3899 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: dblodgett@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: B.S. in Civil Engineering #e.g. MS Geology
+          institution: University of Wisconsin - Madison #e.g UW-Madison
+          year:
+          note: ''
+        - degree: M.S. in Water Resources Engineering #e.g. MS Geology
+          institution: University of Wisconsin - Madison #e.g UW-Madison
+          year:
+          note: ''
+
+    expertise: #list of expertise
+        - 'The intersection of geospatial and climate data standards and encodings'
+        - 'Water resources modeling data'
+        - 'Geospatial web service architecture and standards'
+
+    mobilePhoto: dblodgett_mobile.jpg
+    photo: dblodgett.jpg
+    currentWork:
+        - project: 'National Water Census - Data Platform
+'
+          url:
+          - project: 'National Climate Change and Wildlife Science Center - Big Data Management'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2013:
+          - '<strong>Blodgett, David L.</strong>, 2013, New service interface for River Forecasting Center derived quantitative precipitation estimates: U.S. Geological Survey Fact Sheet 2013-3035, 2 p.,'
+          - '<strong>Blodgett, David L.</strong>, 2013, The U.S. Geological Survey Climate Geo Data Portal: an integrated broker for climate and geospatial data: U.S. Geological Survey Fact Sheet 2013-3019, 2 p.'
+
+        2012:
+          - '<strong>Blodgett, D.L.</strong>, Booth, N.L., Kunicki, T.C., Walker, J.L., Jessica, L., 2012, Description of the U.S. Geological Survey Geo Data Portal Data Integration Framework: IEEE JSTARS.'
+
+        2011:
+          - '<strong>Blodgett, D.L.</strong>, Booth, N.L., Kunicki, T.C., Walker, J.L., and Viger, R.J., 2011, Description and testing of the Geo Data Portal: Data integration framework and Web processing services for environmental science collaboration: U.S. Geological Survey Open-File Report 2011–1157, 9 p.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2012:
+            - 'AGU 2012: A Lifecycle Approach to Brokered Data Management for Hydrologic Modeling Data Using Open Standards. (Invited Poster)'
+            - 'AGU 2012: The Geo Data Portal an Example Physical and Application Architecture Demonstrating the Power of the "Cloud" Concept. (Invited Poster)'
+            - 'AGU 2012: An Automated System for Access to Derived Climate Indices in Support of Ecological Impacts Assessments and Resource Management. (Presenting Author)'
+            - 'AWRA Annual Conference 2012: An Open Architecture for the Hydrologic Modeling Decision Support Lifecycle'
+            - 'AWRA GIS Specialty 2012: Hydroclimatic Data Exchange and Processing Using Open Standards.'
+
+        2011:
+            - 'AGU 2011: Coordinate Reference Systems and Geo-Climate Data Integration: A case for better handling of coordinate reference system metadata.'
+            - 'AGU 2011: Metadata in an Integrated Geo-Climate Data Integration Framework'
+            - 'FOSS4G 2011: The Geo Data Portal: A Standards-Based Environmental Modeling Data Access and Manipulation Toolkit.'
+
+
+-
+    id: dekester #AD account
+    name: Daniel E. Kester #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Computer Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3854 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: dekester@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS in Computer Science #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2001
+          note: ''
+
+    expertise: #list of expertise
+        - 'Systems Administration'
+
+    mobilePhoto: dkester_mobile.jpg
+    photo: dkester.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: dpattermann #AD account
+    name: Dominick Pattermann #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Computer Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3890 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: dpattermann@usgs.gov #usgs email
+        github: https://github.com/dpattermann-usgs #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS in Mathematics and Computer Science #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2015
+          note: ''
+
+    expertise: #list of expertise
+        - 'Java'
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+        - project: 'AQCU'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: drsteini #AD account
+    name: David Steinich #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Sr. Advisor - Software Engineering #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3891 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: drsteini@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin: http://www.linkedin.com/in/davidsteinich #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: B.A. Computer Science/Mathematics #e.g. MS Geology
+          institution: Concordia College #e.g UW-Madison
+          year: River Forest
+          note: ''
+
+    expertise: #list of expertise
+        - 'JAVA'
+        - 'Oracle'
+        - 'SQL'
+        - 'PL/SQL'
+        - 'ETL'
+        - 'Data Architecture'
+
+    mobilePhoto: dsteinich_mobile.jpg
+    photo: dsteinich.jpg
+    currentWork:
+        - project: 'Water Quality Portal'
+          url:
+          - project: 'USGS Publications Warehouse'
+          url:
+          - project: 'NAWQA Data Warehouse'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        1993:
+            - 'CUMREC conference - “Graduate School Degree and Satisfactory Progress Tracking System.”'
+
+
+-
+    id: duselmann #AD account
+    name: David Uselmann #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Sr. Advisor of Software Engineering #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-4967 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: duselmann@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS in Astronomy and Physics #e.g. MS Geology
+          institution: University of Wisconsin - Madison #e.g UW-Madison
+          year: 1995
+          note: ''
+
+    expertise: #list of expertise
+        - 'Java application development'
+
+    mobilePhoto: duselmann_mobile.jpg
+    photo: duselmann.jpg
+    currentWork:
+        - project: 'MyPubs'
+          url:
+          - project: 'NGWMN'
+          url:
+          - project: 'PEST'
+          url:
+          - project: 'Sediment'
+          url:
+          - project: 'Sparrow'
+          url:
+          - project: 'Spike Calculator'
+          url:
+          - project: 'TANC'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: eeverman #AD account
+    name: Eric Everman #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: IT Specialist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 651-269-4735 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: eeverman@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS Mechanical Engineering #e.g. MS Geology
+          institution: Calvin College #e.g UW-Madison
+          year: 1994
+          note: ''
+
+    expertise: #list of expertise
+        - 'Model driven mapping'
+        - 'Large data sets'
+        - 'Performance optimization and Java based mapping'
+
+    mobilePhoto: eeverman_mobile.jpg
+    photo: eeverman.jpg
+    currentWork:
+        - project: 'SPARROW'
+          url:
+          - project: 'DSS'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: eread #AD account
+    name: Emily Read #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Data Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3851 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: eread@usgs.gov #usgs email
+        github: https://github.com/eread-usgs #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate: http://www.researchgate.net/profile/Emily_Read3 #researchgate profile page url
+        googlescholar: 'http://scholar.google.com/citations?user=a__kMrcAAAAJ&hl=en' #googlescholar profile page url
+    education:
+        - degree: BS Environmental Science #e.g. MS Geology
+          institution: University of Arizona #e.g UW-Madison
+          year: 2004
+          note: ''
+        - degree: MS Environmental Science #e.g. MS Geology
+          institution: Indiana University #e.g UW-Madison
+          year: 2007
+          note: ''
+        - degree: PhD Environmental Engineering #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2012
+          note: ''
+
+    expertise: #list of expertise
+        - 'Aquatic chemistry'
+        - 'Microbial Ecology'
+        - 'Water Quality Modeling'
+        - 'Science of Team Science'
+
+    mobilePhoto: eread.jpg
+    photo: eread.jpg
+    currentWork:
+        - project: 'Climate Data Initiative'
+          url:
+          - project: 'R tool development'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2015:
+          - 'Read, JS, JI Walker, A Appling, DL Blodgett, <strong>EK Read</strong>, LA Winslow. 2015. <a href="http://www.ecography.org/article/geoknife-reproducible-web-processing-large-gridded-datasets" target="_blank">geoknife: Reproducible web-processing of large gridded datasets</a>. Ecography. doi:10.1111/ecog.01880 '
+          - '<strong>Read, EK</strong>, M Bucknell, M Hines, J Kreft, J Lucido, J Read, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, J Walker, M Wernimont, L Winslow, and A Yan.  2015. <a href="http://journal.baygeo.org/new-insight-into-californias-drought-through-open-data/" target="_blank">New insight into California’s drought through open data.</a> BAAMA Journal, 8(1). '
+          - '<strong>Read EK</strong>, V Patil, S Oliver, A Hetherington, J Brentrup, J Zwart, K Winters, J Corman, E Nodine, IR Woolway, H Dugan, A Jaimes, A Santoso, G Hong, LA Winslow, PC Hanson, KC Weathers. 2015. <a href="http://www.esajournals.org/doi/abs/10.1890/14-0935.1" target="_blank">The importance of lake-specific characteristics for water quality across the continental US.</a> <i>Ecological Applications</i>,25(4), 943-955.'
+
+        2014:
+          - 'Read JS, KC Rose, LA Winslow, <strong>EK Read</strong>. 2015. A method for estimating a bulk diffuse attenuation coefficient (Kd) from paired temperature sensors. Limnology and Oceanography: Methods. 13(2): 53-61. DOI: 10.1002/lom3.10006 <a href="http://onlinelibrary.wiley.com/doi/10.1002/lom3.10006/abstract" target="_blank">Link</a> '
+          - '<strong>Read EK</strong>, M Ivancic, PC Hanson, B Cade-Menun, and KD McMahon. 2014. Phosphorus speciation in a eutrophic lake by 31P NMR spectroscopy. Water Research. DOI: 10.1016/j.watres.2014.06.005'
+          - 'Rose KC, LA Winslow, JS Read, <strong>EK Read</strong>, C Solomon, R Adrian, PC Hanson. 2014. <a href="http://www.researchgate.net/publication/262636199_Improving_the_precision_of_lake_ecosystem_metabolism_estimates_by_identifying_predictors_of_model_uncertainty" target="_blank">Improving the precision of lake ecosystem metabolism estimates by identifying predictors of model uncertainty.</a> Limnology and Oceanography: Methods. 12: 303-312. doi:10.4319/lom.2014.12.303'
+          - 'Cheruvelil KS, PA Soranno, KC Weathers, PC Hanson, SJ Goring, CT Filstrup, <strong>EK Read</strong>. 2014. <a href="http://www.esajournals.org/doi/pdf/10.1890/130001" target="_blank">Creating and maintaining high-performing collaborative research teams: the importance of diversity and interpersonal skills.</a> Frontiers in Ecology and Evolution. 12: 31-38. DOI: 10.1890/130001'
+
+        2013:
+          - 'McMahon KD and <strong>EK Read</strong>. 2013. <a href="http://www.annualreviews.org/doi/pdf/10.1146/annurev-micro-092412-155713" target="_blank">Microbial contributions to phosphorus cycling in eutrophic lakes and wastewater</a>. Annual Reviews: Microbiology. 67:199-219. DOI: 10.1146/annurev-micro-092412-155713.'
+
+        2012:
+          - '<strong>Kara EL</strong>, LA Winslow, YH Hu, PC Hanson, and KD McMahon. 2012. <a href="http://www.nature.com/ismej/journal/v7/n3/pdf/ismej2012118a.pdf" target="_blank">A decade of seasonal dynamics and co-occurrences within freshwater bacterioplankton communities from Lake Mendota, WI, USA.</a> ISME Journal 7(3): 680-684. DOI:10.1038/ismej.2012.118.
+            '
+          - '<strong>Kara EL</strong>, PC Hanson, DP Hamilton, M Hipsey, KD McMahon, JS Read, LA Winslow, J Dedrick, KC Rose, CC Carey, S Bertilsson, D Motta-Marques, L Beversdorf, T Miller, CH Wu, YF Hsieh, E Gaiser, TK Kratz. 2012. <a href="http://www.sciencedirect.com/science/article/pii/S136481521200062X" target="_blank">Time-scale dependence in numerical simulations: Assessment of physical, chemical, and biological predictions in a stratified lake from scales of hours to months.</a> Environmental Modelling and Software. 35: 104-121.'
+          - 'Carey CC, PC Hanson, DA Bruesewitz, GW Holtgrieve, <strong>EL Kara</strong>, KC Rose, RL Smyth, KC Weathers. 2012. <a href="http://www.esajournals.org/doi/pdf/10.1890/0012-9623-93.1.100" target="_blank">Organized Oral Session 43: Novel Applications of High-Frequency Sensor Data in Aquatic Ecosystems: Discoveries from GLEON, the Global Lake Ecological Observatory Network</a>. Bulletin of the Ecological Society of America, 93, 100-105. DOI: 10.1890/0012-9623-93.1.100.'
+          - '<strong>Kara, E</strong>, C. Heimerl, T. Killpack, M. Van de Bogert, H. Yoshida, and S. R. Carpenter. 2012. <a href="http://download.springer.com/static/pdf/879/art%253A10.1007%252Fs00027-011-0215-6.pdf?auth66=1405870148_eb949089a30f8160a81dfda3db637472&amp;ext=.pdf" target="_blank">Assessing a decade of phosphorus management in the Lake Mendota, Wisconsin watershed and scenarios for enhanced phosphorus management.</a> Aquatic Sciences 74(2):241-253. DOI: 10.1007/s00027-011-0215-6.'
+
+        2011:
+          - 'Hanson PC, DP Hamilton, EH Stanley, N Preston, O Langman, <strong>EL Kara</strong>. 2011. <a href="http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0021884&amp;representation=PDF" target="_blank">Nature of the Load Versus Nature of the Lake in Determining the Fate of Allochthonous Dissolved Organic Carbon.</a> PLoS ONE 6(7): e21884. DOI: 10.1371/journal.pone.0021884.'
+
+        2009:
+          - 'Shade A, CC Carey, <strong>EL Kara</strong>, S Bertilsson, KD McMahon, and M Smith. 2009. <a href="http://www.nature.com/ismej/journal/v3/n8/pdf/ismej200956a.pdf" target="_blank">Can the black box be cracked? The augmentation of microbial ecology with high-resolution, automated sensing technologies.</a>  ISME Journal.  3:881-888.'
+          - '<strong>Kara EL</strong> and A Shade. 2009. <a href="http://aem.asm.org/content/75/4/1058.full.pdf" target="_blank">Temporal dynamics of South End tidal creek bacterial communities, Sapelo Island, Georgia.</a> Applied and Environmental Microbiology. 75:1058-1064.'
+
+        2006:
+          - '<strong>Kara EL</strong>. 2006. Funneling: A Threat to Indiana’s Lakes. Water Column, Vol.18 No.1: 1-2.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2012:
+            - '<strong>Read, E</strong>. 2012. “Assessing a decade of phosphorus management in the Lake Mendota watershed and scenarios for enhancement.” North American Lake Management Society meeting, Madison, WI. Oral presentation.'
+            - '<strong>Read, E</strong>. 2012. “Scale-dependence of numerical simulation prediction accuracy for manual and high-frequency observations.” RCN FORECAST Meeting. Woods Hole, MA. Poster presentation.'
+
+        2011:
+            - '<strong>Kara, E</strong>. and K.D. McMahon. 2011. “Long-term bacterial community composition in eutrophic Lake Mendota, WI.” Global Lake Ecological Observatory Network 12. Sunnape, New Hampshire. Poster.'
+
+        2010:
+            - '<strong>Kara, E</strong>., P. Hanson, D. Hamilton, M. Hipsey, K.D. McMahon, J. Read, L. Winslow, J. Dedrick, K. Rose, C. Carey, S. Bertilsson, D. D. M. Marques, L. Beversdorf, T. Miller, C. Wu, Y. Hsieh, E. Gaiser, and T. Kratz. 2010. “Scale-dependence of numerical simulation prediction accuracy for manual and high-frequency observations.” University of Wisconsin Limnology and Marine Science Seminar. Oral presentation.'
+            - '<strong>Kara, E</strong>., P.Hanson, D. Hamilton, M. Hipsey, K.D. McMahon, J. Read, L. Winslow, J. Dedrick, K. Rose, C. Carey, S. Bertilsson, D. D. M. Marques, L. Beversdorf, T. Miller, C. Wu, Y. Hsieh, E. Gaiser, and T. Kratz. 2010. Time-scale dependence in numerical simulations: Assessment of physical, chemical, and biological predictions in a stratified lake at temporal scales of hours to months.” American Society for Limnology and Oceanography/North American Benthological Society Joint Meeting, Santa Fe, NM. Oral presentation.'
+            - 'K.C. Rose, L. Winslow, J. Read, <strong>E. Kara</strong>, and C. Solomon. 2010. “Metabolic model parameter uncertainty explained by GLEON Lake Analyzer stability indices.” Global Lake Ecological Observatory Network 11. Nanjing, China. Poster.'
+
+        2009:
+            - '<strong>Kara, E</strong>. October 2009. “Modeling Lake Mendota: GLAMMR.” Global Lake Ecological Observatory Network 9. Boulder Junction, WI. Oral presentation.'
+            - '<strong>Kara, E</strong>. October. 2009. “Spatial and Temporal Microbial Phosphorus Uptake and Heterotrophic Bacterial Dynamics in Lake Mendota, WI.” Global Lake Ecological Observatory Network 9. Boulder Junction, WI. Poster.'
+            - '<strong>Kara, E</strong>. May, 2009. “Phosphorus uptake and release by sediment and pelagic lake bacteria.” University of Wisconsin Environmental Engineering Seminar. Oral presentation.'
+            - '<strong>Kara, E</strong>. 2009. “Spatial and Temporal Microbial Phosphorus Uptake and Heterotrophic Bacterial Dynamics in Lake Mendota, WI.” Long Term Ecological Research All Scientists Meeting. Estes Park, CO. Poster.'
+
+        2008:
+            - '<strong>Kara, E</strong>., A. Shade, and R. Bohanan. 2008. “Using an online real-time database to teach about ecological scale and dynamics.” Global Lakes Ecological Observatory Network 7. Uppsala, Sweden. Poster.'
+            - '<strong>Kara, E</strong>. 2008. “Phosphorus Accumulating Bacteria in Aquatic Environments” International Microbial Community Dynamics Workshop. Stockholm, Sweden. Oral presentation.'
+
+
+-
+    id: isuftin #AD account
+    name: Ivan Suftin #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: IT Specialist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3825 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: isuftin@usgs.gov #usgs email
+        github: https://github.com/isuftin #github profile page url
+        linkedin: http://www.linkedin.com/pub/ivan-suftin/1/549/25 #linkedin profile page url
+        twitter: https://twitter.com/IvanSuftin #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: Associates in Applications Programming #e.g. MS Geology
+          institution: Madison Area Technical College #e.g UW-Madison
+          year: 2008
+          note: ''
+
+    expertise: #list of expertise
+        - 'Geospatial Web Applications Development'
+
+    mobilePhoto: isuftin_mobile.jpg
+    photo: isuftin.jpg
+    currentWork:
+        - project: 'Geo Data Portal'
+          url:
+          - project: 'Coastal Change Hazards'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jiwalker #AD account
+    name: Jordan I. Walker #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Computer Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3842 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jiwalker@usgs.gov #usgs email
+        github: https://github.com/jiwalker-usgs #github profile page url
+        linkedin: http://www.linkedin.com/in/jordaniwalker #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: 'http://scholar.google.com/citations?user=3tMKv9gAAAAJ&hl=en' #googlescholar profile page url
+    education:
+        - degree: M.S. in Computer Science #e.g. MS Geology
+          institution: Univeristy of Wisconsin-Madison #e.g UW-Madison
+          year: 2010
+          note: ''
+
+    expertise: #list of expertise
+        - 'Web Application Development'
+        - 'Distributed Systems'
+        - 'Geospatial Processing'
+
+    mobilePhoto: jwalker_mobile.jpg
+    photo: jwalker.jpg
+    currentWork:
+        - project: 'Geo Data Portal'
+          url:
+          - project: 'National Water Census'
+          url:
+          - project: 'Coastal Change Hazards'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2015:
+          - 'Read JS, <strong>JI Walker</strong>, AP Appling, DL Blodgett, EK Read, LA Winslow. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1111/ecog.01880/abstract">geoknife: Reproducible web-processing of large gridded datasets</a>. Ecography. 38: 1-7. doi:10.1111/ecog.01880'
+
+        2012:
+          - 'Blodgett, David and Booth, Nathaniel and Kunicki, Tom and <strong>Walker, Jordan</strong> and Lucido, Jessica. blodgett2012description: Description of the US Geological Survey Geo Data Portal Data Integration Framework, IEEE 2012'
+
+        2011:
+          - 'Patro, Ashish and Ma, Yadi and Panahi, Fatemeh and <strong>Walker, Jordan</strong> and Banerjee, Suman, patro2011system: A system for audio signalling based NAT traversal, Communication Systems and Networks (COMSNETS), 2011 Third International Conference on, (1--10) IEEE 2011'
+
+        2008:
+          - 'Ormont, Justin and <strong>Walker, Jordan</strong> and Banerjee, Suman, ACM SIGMETRICS Performance Evaluation Review, ormont2008continuous: Continuous monitoring of wide-area wireless networks: data collection and visualization, (87--89), ACM 2008'
+          - 'Ormont, Justin and <strong>Walker, Jordan</strong> and Banerjee, Suman and Sridharan, Ashwin and Seshadri, Mukund and Machiraju, Sridhar, ormont2008city, Proceedings of the third ACM international workshop on Wireless network testbeds, experimental evaluation and characterization, A city-wide vehicular infrastructure for wide-area wireless experimentation, (3--10), ACM 2008.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jkreft #AD account
+    name: Jim Kreft #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: IT Specialist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3919 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jkreft@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BA Biology #e.g. MS Geology
+          institution: Swarthmore College #e.g UW-Madison
+          year: 2006
+
+          note: ''
+        - degree: MA Integrative Biology #e.g. MS Geology
+          institution: University of California Berkeley #e.g UW-Madison
+          year: 2010
+
+
+          note: ''
+        - degree: MS Library and Information Science #e.g. MS Geology
+          institution: University of Illinois Urbana Champaign #e.g UW-Madison
+          year: 2013
+
+
+          note: ''
+
+    expertise: #list of expertise
+        - 'Data curation'
+        - 'Data Management'
+        - 'Systems Analysis'
+        - 'Data Analysis'
+        - 'Programming (Python, SQL)'
+
+    mobilePhoto: jkreft_mobile.jpg
+    photo: jkreft.jpg
+    currentWork:
+        - project: 'Water Quality Portal
+'
+          url:
+          - project: 'USGS Publications Warehouse'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jlucido #AD account
+    name: Jessica Lucido #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Project Manager #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3841 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jlucido@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin: http://www.linkedin.com/pub/jessica-m-lucido/15/337/2b0 #linkedin profile page url
+        twitter: https://twitter.com/JessicaMLucido #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: B.S. in Mechanical Engineering #e.g. MS Geology
+          institution: University of Illinois at Urbana - Champaign #e.g UW-Madison
+          year: 2008
+          note: ''
+        - degree: M.S. in Civil and Environmental Engineering #e.g. MS Geology
+          institution: University of Wisconsin - Madison #e.g UW-Madison
+          year: 2010
+          note: ''
+        - degree: Certificate of Global Health #e.g. MS Geology
+          institution: University of Wisconsin - Madison #e.g UW-Madison
+          year: 2010
+          note: ''
+        - degree: Project Management Professional (PMP) Credential #e.g. MS Geology
+          institution: Project Management Institute #e.g UW-Madison
+          year: 2015
+          note: ''
+
+    expertise: #list of expertise
+        - 'Project Management'
+        - 'Agile'
+        - 'Scrum Master™'
+        - 'Business Analysis'
+        - 'Oracle Databases'
+        - 'Data Management'
+        - 'Water Chemistry'
+        - 'Water Treatment'
+
+    mobilePhoto: jessicalucido_mobile.jpg
+    photo: jessicalucido.jpg
+    currentWork:
+        - project: 'National Ground-Water Monitoring Network'
+          url:
+          - project: 'Great Lakes Restoration Initiative Data Network'
+          url:
+          - project: 'National Soil Moisture Network'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2015:
+          - 'Larsen, Sara, Stuart Hamilton, <strong>Jessica Lucido</strong>, and Bradley Garner. "Supporting Diverse Data Providers in the Open Water Data Initiative: Communicating Water Data Quality and Fitness of Use." Journal of the American Water Resources Association, 2015, JAWRA-15-0089-P. (In Press)'
+          - 'Blodgett, David, Emily Read, <strong>Jessica Lucido</strong>, Tad Slawecki, and Dwane Young. "An Analysis of Water Data Systems to Inform the Open Water Data Initiative." Journal of the American Water Resources Association, 2015, JAWRA-15-0085-P. (In Press)'
+          - 'Brodaric, Boyan, Nate Booth, Eric Boisvert, and <strong>Jessica Lucido</strong>. “Groundwater Data Network Interoperability.” Journal of Hydroinformatics, October 28, 2015, jh2015242. doi:10.2166/hydro.2015.242.'
+          - 'Blodgett, David, <strong>Jessica Lucido</strong>, and James Kreft. “Progress on Water Data Integration and Distribution: A Summary of Select U.S. Geological Survey Data Systems.” Journal of Hydroinformatics, July 31, 2015, jh2015067. doi:10.2166/hydro.2015.067.'
+          - '<strong>Lucido, J.M.</strong>, and Bruce, J.L., 2015, Tools for discovering and accessing Great Lakes scientific data: U.S. Geological Survey Fact Sheet 2015–3040, 2 p., http://dx.doi.org/10.3133/fs20153040.'
+          - 'Read, EK, M Bucknell, M Hines, J Kreft, <strong>J Lucido</strong>, J Read, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, J Walker, M Wernimont, L Winslow, and A Yan. 2015. New insight into California’s drought through open data. BAAMA Journal, 8(1).'
+
+        2013:
+          - 'Establishing a Collaborative National Ground-Water Monitoring Network Program for the United States. 2013. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/NGWMN_InfoSheet_final.pdf.'
+          - 'A National Framework for Ground-Water Monitoring in the United States. 2009, revised 2013. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/ngwmn_framework_report_july2013.pdf.'
+          - 'U.S. Geological Survey, 2013, Tools for beach health data management, data processing, and predictive model implementation: U.S. Geological Survey Fact Sheet 2013–3068, 6 p., http://pubs.usgs.gov/fs/2013/3068/.'
+
+        2012:
+          - 'Blodgett, D., N. Booth, T. Kunicki, J. Walker, and <strong>J. Lucido</strong>. 2012. “Description of the U.S. Geological Survey Geo Data Portal Data Integration Framework.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 5 (6): 1687–91. doi:10.1109/JSTARS.2012.2196759.'
+
+        2011:
+          - 'National Ground-Water Monitoring Network -- Results of Pilot Studies. 2011. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/pubs/tr/pilot_results/NGWMN_pilot_studies.pdf.'
+          - 'Booth, Nathaniel L., Boyan Brodaric, <strong>Jessica M. Lucido</strong>, I.-Lin Kuo, Eric Boisvert, and William L. Cunningham. 2011. “Development of an Interoperable Groundwater Data Exchange Network between the United States and Canada.” In GeoHydro 2011 Conference Proceedings Paper. http://acwi.gov/sogw/pubs/tr/pilot_results/Booth_etal_GeoHydro2011.pdf.'
+
+        2010:
+          - '<strong>Lucido, Jessica M.</strong> 2010. “In-Situ Chlorine Generation and Microbial Inactivation by Photoelectrocatalytic Oxidation”. University of Wisconsin–Madison.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2015:
+            - '<strong>Jessica M. Lucido</strong>. 2015. “Tools for Management and Communication of GLRI Projects and Scientific Products”. presented at the 58th Annual Conference on Great Lakes Research, Burlington, VT, May 28.(Accepted)'
+            - '<strong>Jessica M. Lucido</strong>, William L. Cunningham, Robert P. Schreiber, Daryll A. Pope. 2015. “The Next Phase of the National Ground-Water Monitoring Network Data Portal”. presented at the NGWA Groundwater Summit 2015, San Antonio, TX, March 18.'
+
+        2014:
+            - '<strong>Jessica M. Lucido</strong>, Nathaniel L. Booth. 2014. “Improving Groundwater Data Interoperability: Results of the Second OGC Groundwater Interoperability Experiment”. presented at the AGU Fall Meeting, San Francisco, CA, December 17.'
+            - 'Brodaric, Boyan, Nate Booth, Eric Boisvert, <strong>Jessica M. Lucido</strong>. 2014. “LEVELS OF DATA INTEROPERABILITY IN THE EMERGING NORTH AMERICAN GROUNDWATER DATA NETWORK”. presented at the 11th International Conference on Hydroinformatics, New York, NY, August 17.'
+            - 'Cunningham, William L., Robert P. Schreiber, <strong>Jessica M. Lucido</strong>. 2014. “National Ground Water Monitoring Network and Network Portal”. presented at the 9th National Monitoring Conference, Cincinnati, OH, May 1.'
+            - '<strong>Lucido, Jessica M.</strong>, Robert P. Schreiber, Nathaniel Booth, Daryll Pope, and William L. Cunningham. 2014. “National Ground-Water Monitoring Network Data Portal: Continued Collaboration from Concept to Version 2.0.” In NGWA. https://ngwa.confex.com/ngwa/2014gws/webprogram/Paper9726.html.'
+
+        2013:
+            - '<strong>Lucido, Jessica M.</strong> 2013. “Making USGS Great Lakes Scientific Data Discoverable and Accessible Through an Integrated, Standards-Based Data Network”. presented at the 56th Annual Conference on Great Lakes Research, West Lafayette, IN, June 3. http://iaglr.org/iaglr2013/.'
+            - '<strong>Lucido, Jessica M.</strong> 2013. “Best Practices for Making Scientific Data Discoverable and Accessible through Integrated, Standards-Based Data Portals”. presented at the AGU Fall Meeting, San Francisco, CA, December 11. http://fallmeeting.agu.org/2013/.'
+            - ' <strong>Lucido, Jessica M.</strong> 2013. “The National Ground Water Monitoring Network Data Portal: From Pilot to Production”. presented at the GWPC 2013 Annual Forum, St. Louis, MO, September 24. http://www.gwpc.org/sites/default/files/event-sessions/Lucido_Jessica.pdf.'
+            - '<strong>Lucido, Jessica M.</strong> 2013. “The National Ground Water Monitoring Network Data Portal: From Pilot to Production”. presented at the NGWA Groundwater Summit 2013, Denver, CO, April 30.'
+            - '<strong>Lucido, Jessica M.</strong> 2013. “Monitoring Network Design, Implementation & Data Management”. Invited. Presented at the Developing a Coordinated National Soil Moisture Network Workshop, Kansas City, MO, November 13.'
+
+        2012:
+            - '<strong>Lucido, Jessica M.</strong> 2012. “The National Ground Water Monitoring Network Data Portal: Innovation in Ground Water Data Exchange and Mediation”. presented at the NGWA Groundwater Summit 2012, Garden Grove, CA, May 8. https://ngwa.confex.com/ngwa/2012gws/webprogramsummit/meeting.html.'
+
+        2011:
+            - 'Booth, Nathaniel, Boyan Brodaric, <strong>Jessica M. Lucido</strong>, I.-Lin Kuo, and William L. CUNNINGHAM. 2011. “DEVELOPMENT OF A GROUNDWATER DATA EXCHANGE NETWORK FOR INTEROPERABLE DATA EXCHANGE AND MEDIATION BETWEEN THE U.S. AND CANADA”. presented at the GSA Annual Meeting, Minneapolis, MN, October 12. https://gsa.confex.com/gsa/2011AM/webprogram/Paper197350.html.'
+            - '<strong>Lucido, Jessica M.</strong>. 2011. “Development of a Ground Water Data Portal for Interoperable Data Exchange and Mediation within the National Ground Water Monitoring Network”. presented at the NGWA Groundwater Summit 2011, Baltimore, MD, May 3.'
+            - '<strong>Lucido, Jessica M.</strong>. 2011. “Development of a Ground Water Data Portal for Interoperable Data Exchange and Mediation within the NGWMN”. presented at the GWPC 2011 Annual Forum, Atlanta, GA, September 27. http://www.gwpc.org/sites/default/files/event-sessions/20d_Lucido_Jessica.pdf.'
+            - 'Booth, Nathaniel L., Boyan Brodaric, <strong>Jessica M. Lucido</strong>, I-Lin Kuo, Eric Boisvert, and William L. Cunningham. 2011. “Development of an Interoperable Groundwater Data Exchange Network between the United States and Canada”. presented at the GeoHydro 2011, Quebec, Canada, August 30.'
+
+        2010:
+            - 'Harrington, Gregory W., <strong>Jessica M. Lucido</strong>, 2010. “Escherichia Coli Inactivation By Photoelectrocatalytic Chlorine Production”. presented at the American Water Works Association’s (AWWA) 2010 Water Quality Technology Conference, Savannah, GA, November 14.'
+            - '<strong>Lucido, Jessica M.</strong> 2010. “Photoelectrocatalytic Chlorine Production for Microbial Inactivation”. presented at the American Water Works Association Annual Conference and Exposition 2010, Chicago, IL, June 21.'
+
+        2008:
+            - '<strong>Lucido, Jessica M.</strong>, Bolutife Bambgoye, Ramesh Chandrasekharan, Nicholas Ndiege, Richard I. Masel, and Mark A. Shannon. 2008. “ENVR 42-Synthesis and Photocatalytic Activity of TaOxNy and Ta3N5.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
+            - 'Bamgboye, Bolutife, <strong>Jessica M. Lucido</strong>, Ramesh Chandrasekharan, Nicholas Ndiege, Elizabeth Moscoso, Leslie Threatt, Mark A. Shannon, and Richard I. Masel. 2008. “ENVR 245-Synthesis, Characterization and Photoactivity Studies of Nitrogen-Doped Ta2O5 Decorated onto SiO2 Nanoparticles.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
+            - 'Chandrasekharan, Ramesh, Nicholas Ndiege, Bolutife Bambgoye, William N. Harris III, <strong>Jessica M. Lucido</strong>, Adarsh Radadia, Mark A. Shannon, and Richard I. Masel. 2008. “ENVR 170-Photocatalytic Activity of Ta2O5 Photocatalysts Decorated on SiO2 Nanoparticles.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
+            - 'Ndiege, Nicholas, Ramesh Chandrasekharan, William N. Harris III, Bolutife Bambgoye, <strong>Jessica M. Lucido</strong>, Richard I. Masel, and Mark A. Shannon. 2008. “ENVR 43-Synthesis and Characterization of Ta2O5-Grafted SiO2 Nanoparticles for Photocatalytic Applications.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
+
+
+-
+    id: jread #AD account
+    name: Jordan Read #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Data Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3922 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jread@usgs.gov #usgs email
+        github:  https://github.com/jread-usgs #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate: https://www.researchgate.net/profile/Jordan_Read/ #researchgate profile page url
+        googlescholar: 'http://scholar.google.com/citations?hl=en&user=geFLqWAAAAAJ' #googlescholar profile page url
+    education:
+        - degree: BS Civil Engineering #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2007
+          note: ''
+        - degree: PhD Environmental Fluid Mechanics #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2012
+          note: ''
+
+    expertise: #list of expertise
+        - 'Aquatic Sensor Networks'
+        - 'Physical Limnology'
+        - 'Hydrodynamic modeling'
+
+    mobilePhoto: jread_mobile.jpg
+    photo: jread.jpg
+    currentWork:
+        - project: 'Continental-scale stream metabolism estimates'
+          url:
+          - project: 'Coastal Change Hazards'
+          url:
+          - project: 'Modeling climate change impacts on lake temperatures'
+          url:
+          - project: 'Global Lake Temperature Collaboration'
+          url:
+          - project: 'Tools for lake modeling (glmtools)'
+          url:
+          - project: 'Tools for geo-web processing of gridded data via the Geo Data Portal (geoknife)'
+          url:
+          - project: 'Automated QAQC of high-frequency water quality sensors (sensorQC)'
+          url:
+          - project: 'Gas exchange estimates from North American headwater streams (GDopp)'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2016:
+          - '<strong>Read JS</strong>, C Gries, EK Read, J Klug, PC Hanson, MR Hipsey, E Jennings, CM O’Reilly, LA Winslow, D Pierson, C McBride, DP Hamilton. <i>accepted</i>. A synergistic opportunity for environmental networks: Pairing data sharing with community-built tools. Inland Waters.'
+
+        2015:
+          - 'O''Reilly CM*, S Sharma*, DK Gray*, SE Hampton*, <strong>JS Read</strong>, RJ Rowley, P Schneider, JD Lenters, PB McIntyre, BM Kraemer, GA Weyhenmeyer, D Straile, B Dong, R Adrian, MG Allan, O Anneville, L Arvola, J Austin, JL Bailey, JS Baron, JD Brookes, E de Eyto, MT Dokulil, DP Hamilton, K Havens, AL Hetherington, SN Higgins, Simon Hook, LR Izmest''eva, KD Johnk, K Kangur, P Kasprzak, M Kumagai, E Kuusisto, G Leshkevich, DM Livingstone, S MacIntyre, L May, JM Melack, DC Muller-Navarra, M Naumenko, P Noges, T Noges, RP North, PD Plisnier, A Rigosi, A Rimmer, M Rogora, LG Rudstam, JA Rusak, N Salmaso, NR Samal, DE Schindler, SG Schladow, M Schmid, SR Schmidt, E Silow, ME Soylu, K Teubner, P Verburg, A Voutilainen, A Watkinson, CE Williamson, G Zhang. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2015GL066235/full">Rapid and highly variable warming of lake surface waters around the globe</a>. Geophysical Research Letters. 42, doi:10.1002/2015GL066235. *<i>joint first authors</i>'
+          - '<strong>Read JS</strong>, JI Walker, AP Appling, DL Blodgett, EK Read, LA Winslow. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1111/ecog.01880/abstract">geoknife: Reproducible web-processing of large gridded datasets</a>. Ecography. 38: 1-7. doi:10.1111/ecog.01880'
+          - 'Hipsey MR, DP Hamilton, PC Hanson, CC Carey, JZ Coletti, <strong>JS Read</strong>, SW Ibelings, F Valesini, JD Brookes. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2015WR017175/full" target="_blank">Predicting the resilience and recovery of aquatic systems: A framework for model evolution within environmental observatories</a>. Water Resources Research. 51. doi:10.1002/2015WR017175'
+          - 'Read, EK, M Bucknell, M Hines, J Kreft, J Lucido, <strong>JS Read</strong>, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, J Walker, M Wernimont, L Winslow, and A Yan.  2015. <a href="http://journal.baygeo.org/new-insight-into-californias-drought-through-open-data/">New insight into Californias drought through open data.</a> BAAMA Journal, 8(1). '
+          - 'Gil T, F Michel, V Ratnakar, <strong>JS Read</strong>, M Hauder, C Duffy, PC Hanson, H Dugan. 2015. <a href="http://www.isi.edu/~gil/papers/gil-etal-eswc15.pdf" target="_blank">Supporting Open Collaboration in Science through Explicit and Linked Semantic Description of Processes</a>. Proceedings of the Twelfth European Semantic Web Conference (ESWC), Portoroz, Slovenia, May 31-June 4 2015.'
+          - 'Woolway RI, ID Jones, DP Hamilton, SC Maberly, K Muraoka, <strong>JS Read</strong>, RL Smyth, LA Winslow. 2015. <a href="http://www.sciencedirect.com/science/article/pii/S136481521500122X" target="_blank">Automated calculation of surface energy fluxes with high-frequency lake buoy data</a>. Environmental Modelling and Software.  70: 191-198. doi:10.1016/j.envsoft.2015.04.013'
+          - 'Sharma S*, DK Gray*, <b>JS Read</b>*, CM O''Reilly*, P Schneider, A Qudrat, C Gries, S Stefanoff, SE Hampton, S Hook, JD Lenters, DM Livingstone, PB McIntyre, R Adrian, MG Allan, O Anneville, L Arvola, J Austin, J Bailey, JS Baron, J Brookes, Y Chen, R Daly, K Ewing, E de Eyto, M Dokulil, DP Hamilton, K Havens, S Haydon, H Hetzenauer, J Heneberry, AL Hetherington, SN Higgins, E Hixson, LR Izmest''eva, BM Jones, K Kangur, P Kasprzak, BM Kraemer, M Kumagai, E Kuusisto, G Leshkevich, L May, S MacIntyre, D Muller-Navarra, M Naumenko, P Noges, T Noges, RP North, A Paterson, PD Plisnier, A Rigosi, A Rimmer, M Rogora, L Rudstam, JA Rusak, N Salmaso, NR Samal, DE Schindler, G Schladow, SR Schmidt, T Schultz, EA Silow, D Straile, K Teubner, P Verburg, A Voutilainen, A Watkinson, GA Weyhenmeyer, CE Williamson, KH Woo. 2015. <a href="http://www.nature.com/articles/sdata20158" target="_blank">A global database of lake surface temperatures collected by in situ and satellite methods from 1985-2009</a>. Nature: Scientific Data. 2:150008. doi: 10.1038/sdata.2015.8. *<i>joint first authors</i>
+'
+          - 'Solomon CT, SE Jones, BC Weidel, I Buffam, ML Fork, J Karlsson, S Larsen, JT Lennon, <strong>JS Read</strong>, S Sadro, JE Saros. 2015. <a href="http://link.springer.com/article/10.1007/s10021-015-9848-y" target="_blank">Ecosystem consequences of changing inputs of terrestrial dissolved organic matter to lakes: current knowledge and future challenges</a>. Ecosystems.  18: 376-389. doi:10.1007/s10021-015-9848-y'
+          - '<strong>Read JS</strong>, EK Read, KC Rose, LA Winslow. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1002/lom3.10006/abstract" target="_blank">A method for estimating the diffuse attenuation coefficient (KdPAR) from paired temperature sensors</a>. Limnology and Oceanography: Methods. 12: 53-61. doi:10.1002/lom3.2014.12.10006'
+          - 'Winslow LA, <b>JS Read</b>, GA Hansen, PC Hanson. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2014GL062325/abstract" target="_blank">Small lakes show muted climate change signal in deep-water temperatures</a>. Geophysical Research Letters. doi:10.1002/2014GL062325'
+          - 'Van Den Hoek J, <b>JS Read</b>, LA Winslow, P Montesano, CD Markfort. 2015. <a href="http://www.sciencedirect.com/science/article/pii/S0034425714004349" target="_blank">Examining the utility of satellite-based wind sheltering estimates for lake hydrodynamic modeling</a>. Remote Sensing of Environment. 156: 551-560. doi:10.1016/j.rse.2014.10.024'
+
+        2014:
+          - 'Hamilton DP, CC Carey, L Arvola, P Arzberger, C Brewer, JJ Cole, E Gaiser, PC Hanson, BW Ibelings, E Jennings, TK Kratz, FP Lin, CG McBride, D de Motta Marques, K Muraoka, A Nishri, B Qin, <strong>JS Read</strong>, KC Rose, E Ryder, KC Weathers, G Zhu, D Trolle, JD Brookes. 2014. <a href="https://www.fba.org.uk/journals/index.php/IW/article/view/566/441" target="_blank">A Global Lake Ecological Observatory Network (GLEON) for synthesising high-frequency sensor data for validation of deterministic ecological models</a>. Inland Waters. 5: 49-56. doi:10.5268/IW-5.1.566'
+          - 'Winslow LA, <b>JS Read</b>, PC Hanson, EH Stanley. 2014. <a href="https://www.fba.org.uk/journals/index.php/IW/article/viewFile/740/438" target="_blank">Does lake size matter? Combining morphology and process modeling to examine the contribution of lake classes to population-scale processes</a>. Inland Waters. 5: 7-14. doi:10.5268/IW-5.1.740'
+          - '<strong>Read JS</strong>, LA Winslow, GA Hansen, J Van Den Hoek, PC Hanson, LC Bruce, CD Markfort. 2014. <a href="http://www.sciencedirect.com/science/article/pii/S0304380014003664" target="_blank">Simulating 2,368 temperate lakes reveals weak coherence in stratification phenology</a>. Ecological Modelling. 291C: 142-150. doi:10.1016/j.ecolmodel.2014.07.029'
+          - 'Rose KC, LA Winslow, <strong>JS Read</strong>, EK Read, C Solomon, R Adrian, PC Hanson. 2014. <a href="http://www.researchgate.net/publication/262636199_Improving_the_precision_of_lake_ecosystem_metabolism_estimates_by_identifying_predictors_of_model_uncertainty" target="_blank">Improving the precision of lake ecosystem metabolism estimates by identifying predictors of model uncertainty.</a> Limnology and Oceanography: Methods. 12: 303-312. doi:10.4319/lom.2014.12.303'
+          - 'Watras CJ, <strong>JS Read</strong>, K Holman, Z Liu, Y Song, A Watras, S Morgan, EH Stanley. 2014. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2013GL058679/pdf" target="_blank">Decadal oscillation of lakes and aquifers in the upper Great Lakes region of North America: Hydroclimatic implications.</a> Geophysical Research Letters. doi:10.1002/2013GL058679'
+          - 'Winslow LA, <strong>JS Read</strong>, PC Hanson, EH Stanley. 2014. <a href="http://onlinelibrary.wiley.com/doi/10.1111/fwb.12258/pdf" target="_blank">Lake shoreline in the contiguous United States: Quantity, distribution and sensitivity to observation resolution.</a> Freshwater Biology. 59: 213-223. doi:10.1111/fwb.12258'
+
+        2013:
+          - 'Watras CJ, M Morrow, K Morrison, S Scannell, S Yaziciaglu, <strong>JS Read</strong>, YH Hu, PC Hanson, TK Kratz. 2013. <a href="http://link.springer.com/article/10.1007/s10661-013-3424-8" target="_blank">Evaluation of wireless sensor networks (WSNs) for remote wetland monitoring: Design and initial results.</a> Environmental Monitoring and Assessment. doi:10.1007/s10661-013-3424-8'
+          - '<strong>Read JS</strong>, KC Rose. 2013. <a href="http://aslo.org/lo/toc/vol_58/issue_3/0921.pdf" target="_blank">Physical responses of small temperate lakes to variation in dissolved organic carbon concentrations.</a> Limnology and Oceanography. 58: 921-931. doi:10.4319/lo.2013.58.3.0921'
+          - 'Youngblut ND, A Shade, <strong>JS Read</strong>, KD McMahon, RJ Whitaker. 2013. <a href="http://aem.asm.org/content/79/1/39.full" target="_blank">Lineage-specific responses to environmental change in microbial communities.</a> Applied and Environmental Microbiology. 79: 39-47. doi:10.1128/AEM.02226-12'
+
+        2012:
+          - '<strong>Read JS</strong>. <a href="http://gradworks.umi.com/35/27/3527673.html" target="_blank">Physical processes in small temperate lakes.</a> 2012. PhD Dissertation, University of Wisconsin-Madison.'
+          - 'Samal NR, DC Pierson, E Schneiderman, Y Huang, <strong>JS Read</strong>, A Anandhi, EM Owens. 2012. <a href="https://www.researchgate.net/profile/Nihar_Samal2/publication/235339900_Impact_of_climate_change_on_reservoir_thermal_structure/file/d912f5110fc0beb2fc.pdf" target="_blank">Impact of climate change on Cannonsville reservoir thermal structure in the New York City Water Supply.</a> Water Quality Research Journal of Canada. 47: 389-405.'
+          - 'Staehr PA, JPA Christensen, RD Batt, <strong>JS Read</strong>. 2012. <a href="http://aslo.org/lo/toc/vol_57/issue_5/1317.html" target="_blank">Ecosystem metabolism in a stratified lake.</a> Limnology and Oceanography. 57: 1317-1330.'
+          - 'Shade A, <strong>JS Read</strong>, ND Youngblut, N Fierer, R Knight, TK Kratz, NR Lottig, EE Roden, EH Stanley, J Stombaugh, RJ Whitaker, CH Wu, KD McMahon. 2012. <a href="http://www.nature.com/ismej/journal/v6/n12/full/ismej201256a.html" target="_blank">Microbial communities are resilient after a whole-ecosystem disturbance.</a> The ISME Journal. 6: 2153-2167. doi:10.1038/ismej.2012.66'
+          - '<strong>Read JS</strong>, DP Hamilton, AR Desai, KC Rose, S MacIntyre, JD Lenters, R Smyth, PC Hanson, JJ Cole, PA, Staehr, JA Rusak, DC Pierson, JD Brookes, A Laas, CH Wu. 2012. <a href="http://onlinelibrary.wiley.com/doi/10.1029/2012GL051886/abstract" target="_blank">Lake-size dependency of wind shear and convection as controls on gas exchange.</a> Geophysical Research Letters. 39: L09405. doi:10.1029/2012GL051886'
+          - 'Gaeta JW, <strong>JS Read</strong>, JF Kitchell, SR Carpenter. 2012. <a href="http://www.esajournals.org/doi/abs/10.1890/11-1227.1" target="_blank">Eradication via destratification: Whole-lake mixing to selectively remove rainbow smelt, a cold-water invasive species.</a> Ecological Applications. 22: 817-827.'
+          - 'Kara EL, PC Hanson, DP Hamilton, M Hipsey, KD McMahon, <strong>JS Read</strong>, LA Winslow, J Dedrick, KC Rose, CC Carey, S Bertilsson, D Motta-Marques, L Beversdorf, T Miller, CH Wu, YF Hsieh, E Gaiser, TK Kratz. 2012. <a href="http://www.sciencedirect.com/science/article/pii/S136481521200062X" target="_blank">Time-scale dependence in numerical simulations: Assessment of physical, chemical, and biological predictions in a stratified lake from scales of hours to months.</a> Environmental Modelling and Software. 35: 104-121.'
+
+        2011:
+          - '<strong>Read JS</strong>, DP Hamilton, ID Jones, K Muraoka, LA Winslow, R Kroiss, CH Wu, E Gaiser. 2011. <a href="http://www.sciencedirect.com/science/article/pii/S136481521100123X" target="_blank">Derivation of lake mixing and stratification indices from high-resolution lake buoy data.</a> Environmental Modelling and Software. 26: 1325-1336.'
+          - 'Shade A, <strong>JS Read</strong>, D Welkie, TK Kratz, CH Wu, KD McMahon. 2011. <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1462-2920.2011.02546.x/suppinfo" target="_blank">Resistance, resilience, and recovery: Aquatic bacterial dynamics after water column disturbance.</a> Environmental Microbiology. 13: 2752-2767.'
+          - '<strong>Read JS</strong>, A Shade, CH Wu, A Gorzalski, KD McMahon. 2011. <a href="http://www.aslo.org/lomethods/free/2011/0014.html" target="_blank">"Gradual Entrainment Lake Inverter" (GELI): A novel device for experimental lake mixing.</a> Limnology and Oceanography: Methods. 9:14-25.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2014:
+            - '<strong>Read JS</strong>, LA Winslow, D Nust, L DeCicco, JI Walker. A suite of R packages for web-enabled modeling and analysis of surface waters. oral presentation. American Geophysical Union Fall Meeting, San Francisco, California December 2014.'
+            - '<strong>Read JS</strong>, LA Winslow, GA Hansen, J Van Den Hoek, PC Hanson, L Bruce, CD Markfort. Simulating 2,368 Wisconsin lakes reveals weak coherence in stratification phenology. oral presentation. Science in the Northwoods Meeting, Boulder Junction, Wisconsin October 2014.'
+            - '<strong>Read JS*</strong>, LA Winslow, GA Hansen, J Van Den Hoek, PC Hanson, L Bruce, CD Markfort. Simulating lakes in the landscape. oral presentation. Joint Aquatic Sciences Meeting, Portland, Oregon May 2014.'
+
+        2013:
+            - '<strong>Read JS</strong>, LA Winslow, GA Hansen, J Van Den Hoek, CD Markfort, PC Hanson, N Booth. Upscaling aquatic ecology: Pairing modern analytics with Big Data to simulate 2500 U.S. lakes. poster presentation. American Geophysical Union Fall Meeting, San Francisco, California December 2013.'
+            - '<strong>Read JS*</strong>, LA Winslow. Open sharing and maintenance of scientific code. oral presentation. GLEON graduate fellowship program workshop. August 2013.'
+            - '<strong>Read JS*</strong>, N Booth. USGS partnerships and innovations in modern hydroinformatics. oral presentation. CUAHSI Conference on Hydroinformatics and Modeling. July 2013.'
+            - 'Booth N, <strong>JS Read</strong> (presenter). A World of Water Data. oral presentation. National Council for Air and Stream Improvement meeting. May 2013.'
+            - '<strong>Read JS</strong>, LA Winslow, GA Hansen, J Van Den Hoek, CD Markfort, N Booth. Upscaling aquatic ecology: Linking continental data products to distributed lake models. poster presentation. EarthCube Inland Waters meeting. April 2013.'
+            - '<strong>Read JS*</strong>. Big data a la carte: Web service subsetting of gridded climate data to simulate Wisconsin''s 2,500 managed lakes. oral presentation. Cary Institute of Ecosystem Studies. February 2013.'
+
+        2012:
+            - '<strong>Read JS</strong>, Z Lawson, E Brown, C Smith, JW Gaeta, TK Kratz T Hrabik, SR Carpenter, KD McMahon, E Stanley, J Vander Zanden. Selective Removal of a Cold-Water Invasive Fish Using Destratification. oral presentation. North American Lake Management Society, Madison, Wisconsin November 2012.'
+            - '<strong>Read JS*</strong>, KC Rose. Physical responses of small temperate lakes to variation in dissolved organic carbon concentrations. oral presentation. Ecological Society of America, Portland, Oregon August 2012.'
+            - '<strong>Read JS*</strong>, PC Hanson, TK Kratz, EK Read, K Weathers. Integrating Global Water Quality Buoys into Ecological Science: Insights from GLEON (Global Lake Ecological Observatory Network). oral presentation. American Fisheries Society 142 Annual meeting, St Paul, Minnesota August 2012.'
+            - '<strong>Read JS*</strong>, PC Hanson, TK Kratz, EK Read, K Weathers. Integrating Global Water Quality Buoys into Ecological Science: Insights from GLEON (Global Lake Ecological Observatory Network). oral presentation. American Fisheries Society 142 Annual meeting, St Paul, Minnesota August 2012.'
+
+        2011:
+            - '<strong>Read JS*</strong>, DP Hamilton, AR Desai, KC Rose, PC Hanson, LA Winslow, ID Jones, J Lenters, CH Wu. Wind and convective mixing in 40 lakes: Implications for gas flux. oral presentation. American Geophysical Union Fall Meeting, San Francisco, California December 2011.'
+            - '<strong>Read JS</strong>, DP Hamilton, AR Desai, KC Rose, PC Hanson, LA Winslow, ID Jones, J Lenters, CH Wu. Drivers of the surface mixed layer in temperate lakes: Partitioning the energetic contributions of wind and convection for 42 lakes. poster presentation. Global Lake Ecological Observatory Network 13, Sunapee, New Hampshire October 2011.'
+            - '<strong>Read JS*</strong>. Case study: North temperate lakes, WI. oral presentation. Freshwater Advanced Aquatic Sensor Workshop, Pellston Michigan September 2011.'
+            - '<strong>Read JS</strong>, DP Hamilton, ID Jones, W Eckert, K Muraoka, A Rimmer, N Kimura, CH Wu, P Verburg, J Lenters, J Brookes, P Staehr, F Peeters, D Pierson, KC Rose, E Gaiser, E de Eypto, J Klug, R Adrian, G Koch, G Zhu, M Gibbs. Physical variability in temperate lakes: A global analysis of highfrequency instrumented buoy data from 25 lakes. poster presentation. Global Lake Ecological Observatory Network 12, Ramot, Israel April 2011.'
+
+        2010:
+            - '<strong>Read JS</strong>, CH Wu. Trends in open-water evaporation from Trout Bog; a Long-Term Ecological Research (LTER) study lake. poster presentation. Global Lake Ecological Observatory Network 11, Nanjing, China October 2010.'
+            - '<strong>Read JS</strong>, LA Winslow, EL Kara, KC Rose. Estimating the diffuse light attenuation coefficient (Kd) from paired high-frequency thermistors. oral presentation. Global Lake Ecological Observatory Network 11, Nanjing, China October 2010.'
+            - '<strong>Read JS</strong>, DP Hamilton, ID Jones, K Muraoka, R Kroiss, E Gaiser. "Lake Analyzer": An automated program suite for the rapid analysis of high-resolution instrumented lake buoy data. poster presentation. Global Lake Ecological Observatory Network 10, Torres, Brazil May 2010.'
+
+        2009:
+            - '<strong>Read JS</strong>, A Gorzalski, LA Winslow, A Shade, KD McMahon, CH Wu. Generating continuous dissolved oxygen profiles from a moored buoy. poster presentation. Global Lake Ecological Observatory Network 9, Boulder Junction, WI, USA October 2009.'
+            - '<strong>Read JS</strong>, J Gaeta, CH Wu, SR Carpenter, TK Kratz, A Shade, KD McMahon, J Vander Zanden. poster presentation. Thermal manipulation to trigger stresses in cold water invasive fish. Long-Term Ecological Research ASM, Estes Park, Colorado, USA September 2009.'
+            - 'Shade A, <strong>JS Read</strong>, NR Lottig, TK Kratz, E Roden, EH Stanley, CH Wu, KD McMahon. Bacterial community response to a whole-lake mixing manipulation. oral presentation. Association for the Sciences of Limnology and Oceanography, Nice, France January 2009.'
+            - '<strong>Read JS</strong>, A Shade, CH Wu, KD McMahon. The physical response of a small bog lake to an artificial mixing manipulation. poster presentation. Global Lake Ecological Observatory Network 8, Hamilton, New Zealand February 2009.'
+
+
+-
+    id: kmschoep #AD account
+    name: Kathryn M. Schoephoester #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: IT Specialist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3892 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: kmschoep@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BBA Real Estate and Urban Economics #e.g. MS Geology
+          institution: UW-Madison #e.g UW-Madison
+          year: 1995
+          note: ''
+        - degree: M.S. Water Resources Management #e.g. MS Geology
+          institution: UW-Madison #e.g UW-Madison
           year: 1997
           note: 'WRM Practicuum: Atlas for the Token Creek Watershed'
-    expertise:
-        - Project management of natural resource based data management projects
-        - Database development of web-based data entry forms, reports, applications
-        - Database design, transactional and data warehouse
-        - Oracle database
-        - Informatica
-        - Oracle Designer
-        - Oracle Discoverer
-    photo: mschneider.jpg
-    mobilePhoto: mschneider_mobile.jpg
+
+    expertise: #list of expertise
+        - 'Oracle Database Design and Management'
+        - 'Oracle Application Express Development'
+        - 'Data Modeling'
+        - 'Project Management'
+
+    mobilePhoto: kschoephoester_mobile.jpg
+    photo: kschoephoester.jpg
     currentWork:
-        - project: Water Resources Division Biological Data Warehouse
+        - project: 'National Environmental Methods Index (NEMI)'
+          url:
+          - project: 'USDA-ARS Laboratory Information Management System'
+          url:
+          - project: 'Grand Canyon Monitoring Research Center, Sandbar Analysis'
+          url:
+          - project: 'Wisconsin Department of Natural Resources Fisheries Database'
           url:
 
-        - project: WDNR Fisheries database
-          url:
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
-        - project: Database support activities for the USGS Mercury Research Laboratory
-          url:
-
-        - project: Database support activities for the Milwaukee Metropolitan Sewerage District Corridor Study
-          url:
-    publications:
-        2004:
-            - 'Schneider, M.A., Lutz, M.A., and others, 2004, Water-resources-related information for the Milwaukee Metropolitan Sewerage District planning area, Wisconsin, 1970–2002: U.S. Geological Survey Water-Resources Investigations Report 03-4240, 288 p.'
-        2000:
-            - 'Schmidt, M.A., Richards, K.D., and Scudder, B.C., 2000, Surface-water quality, Oneida Reservation and vicinity, Wisconsin, 1997-98, U.S. Geological Survey Water Resources Investigations Report 00-4179, 30 p.'
-        1999:
-            - 'Saad, D.A., and Schmidt, M.A., 1999, Water-resources related information for the Oneida Reservation and vicinity, Wisconsin: U.S. Geological Survey Water-Resources Investigations Report 98-4266, 57 p.'
-    presentations:
-
-
-
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
 -
-    id: jkreft #AD Account
-    name: James Kreft
-    manager: No
-    title: Project Lead
-    address: *MiddletonOffice
-    phone: 608-821-3919
+    id: lcarr #AD account
+    name: Lindsay Carr #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Data Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3837 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
-        email: jkreft@usgs.gov
-        github: https://github.com/jkreft-usgs/
-        linkedin:
-        twitter:
-        researchgate:
+        email: lcarr@usgs.gov #usgs email
+        github: https://github.com/lindsaycarr #github profile page url
+        linkedin: https://www.linkedin.com/pub/lindsay-carr/67/818/83b #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
     education:
-        - degree: BA Biology
-          institution: Swarthmore College
-          year: 2006
-          note:
+        - degree: BS Biological Systems Engineering #e.g. MS Geology
+          institution: Virginia Tech #e.g UW-Madison
+          year: 2015
+          note: ''
 
-        - degree: MA Integrative Biology
-          institution: University of California Berkeley
-          year: 2010
-          note:
+    expertise: #list of expertise
+        - 'R Programming Language'
+        - 'Watershed Management'
 
-        - degree: MS Library and Information Science
-          institution: University of Illinois Urbana Champaign
-          year: 2013
-          note:
-    expertise:
-        - Data curation
-        - Data management
-        - Systems analysis
-        - Data analysis
-        - Programming (Python, SQL)
-    photo: jkreft.jpg
-    mobilePhoto: jkreft_mobile.jpg
+    mobilePhoto: lcarr-mobile.jpg
+    photo: lcarr.jpg
     currentWork:
-        - project: Water Quality Portal
-          url: http://wwww.waterqualitydata.us
+        - project: 'R Package Development'
+          url:
 
-        - project: USGS Publications Warehouse
-          url: https://pubs.er.usgs.gov
-    publications:
-    presentations:
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
 -
-    id: jlucido #AD Account
-    name: Jessica Lucido
-    manager: No
-    title: Project Manager
-    address: *MiddletonOffice
-    phone: 608-821-3841
-    accounts:
-        email: jlucido@usgs.gov
-        github:
-        linkedin: https://www.linkedin.com/pub/jessica-m-lucido/15/337/2b0
-        twitter: https://twitter.com/JessicaMLucido
-        researchgate:
-        googlescholar:
+    id: ldecicco #AD account
+    name: Laura DeCicco #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Civil Engineer #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3857 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: ldecicco@usgs.gov #usgs email
+        github: https://github.com/ldecicco-USGS #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate: https://www.researchgate.net/profile/Laura_De_Cicco #researchgate profile page url
+        googlescholar: 'http://scholar.google.com/citations?hl=en&user=jXd0feEAAAAJ' #googlescholar profile page url
     education:
-        - degree: B.S. in Mechanical Engineering 2008
-          institution: University of Illinois at Urbana - Champaign
-          year: 2008
-          note:
+        - degree: BS Mechanical Engineering #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 1999
+          note: ''
+        - degree: MS Biomedical Engineering #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2001
+          note: ''
+        - degree: PhD Mechanical Engineering #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2006
+          note: ''
+        - degree: P.E. Professional Engineer License  #e.g. MS Geology
+          institution: (WI) #e.g UW-Madison
+          year: 2011
+          note: ''
 
-        - degree: M.S. in Civil and Environmental Engineering
-          institution: University of Wisconsin - Madison
-          year: 2010
-          note:
+    expertise: #list of expertise
+        - 'R package development'
 
-        - degree: Certificate of Global Health
-          institution: University of Wisconsin - Madison
-          year: 2010
-          note:
-
-        - degree: Project Management Professional (PMP) Credential
-          institution: Project Management Institute
-          year: 2015
-          note:
-    expertise:
-        - Project Management
-        - Agile
-        - Scrum Master™
-        - Business Analysis
-        - Oracle Databases
-        - Data Management
-        - Water Chemistry
-        - Water Treatment
-    photo: jlucido.jpg
-    mobilePhoto: jlucido_mobile.jpg
+    mobilePhoto: ldecicco_mobile.jpg
+    photo: ldecicco.jpg
     currentWork:
-        - project: National Ground-Water Monitoring Network
-          url: http://cida.usgs.gov/ngwmn/
+        - project: 'Exploration and Graphics for River Trends'
+          url:
+          - project: 'Environmental Data Discovery and Transformation'
+          url:
 
-        - project: Great Lakes Restoration Initiative Data Network
-          url: http://cida.usgs.gov/glri/
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
-        - project: National Soil Moisture Network
-          url: http://cida.usgs.gov/nsmn_pilot/
-    publications:
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: lwinslow #AD account
+    name: Luke Winslow #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Data Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3914 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: lwinslow@usgs.gov #usgs email
+        github:  https://github.com/lawinslow #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: 'http://scholar.google.com/citations?user=WENGCtYAAAAJ&hl=en' #googlescholar profile page url
+    education:
+        - degree: PhD #e.g. MS Geology
+          institution: Freshwater and Marine Sciences #e.g UW-Madison
+          year: University of Wisconsin - Madison
+          note: ''
+        - degree: Masters #e.g. MS Geology
+          institution: Limnology and Marine Science #e.g UW-Madison
+          year: University of Wisconsin - Madison
+          note: ''
+        - degree: BS #e.g. MS Geology
+          institution: Materials Science & Engineering #e.g UW-Madison
+          year: University of Wisconsin - Madison
+          note: ''
+
+    expertise: #list of expertise
+        - 'Big Data Analysis'
+        - 'Global Limnology'
+        - 'Aquatic Sensor Networks'
+
+    mobilePhoto: lwinslow_mobile.jpg
+    photo: lwinslow.jpg
+    currentWork:
+        - project: 'iPlover'
+          url:
+          - project: 'Wisconsin Lake Temperature Modeling Project'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
         2015:
-        - 'Larsen, Sara, Stuart Hamilton, <strong>Jessica Lucido</strong>, and Bradley Garner. "Supporting Diverse Data Providers in the Open Water Data Initiative: Communicating Water Data Quality and Fitness of Use." Journal of the American Water Resources Association, 2015, JAWRA-15-0089-P. (In Press)'
-        - 'Blodgett, David, Emily Read, <strong>Jessica Lucido</strong>, Tad Slawecki, and Dwane Young. "An Analysis of Water Data Systems to Inform the Open Water Data Initiative." Journal of the American Water Resources Association, 2015, JAWRA-15-0085-P. (In Press)'
-        - 'Brodaric, Boyan, Nate Booth, Eric Boisvert, and <strong>Jessica Lucido</strong>. “Groundwater Data Network Interoperability.” Journal of Hydroinformatics, October 28, 2015, jh2015242. doi:10.2166/hydro.2015.242.'
-        - 'Blodgett, David, <strong>Jessica Lucido</strong>, and James Kreft. “Progress on Water Data Integration and Distribution: A Summary of Select U.S. Geological Survey Data Systems.” Journal of Hydroinformatics, July 31, 2015, jh2015067. doi:10.2166/hydro.2015.067.'
-        - '<strong>Lucido, J.M.</strong>, and Bruce, J.L., 2015, Tools for discovering and accessing Great Lakes scientific data: U.S. Geological Survey Fact Sheet 2015–3040, 2 p., http://dx.doi.org/10.3133/fs20153040.'
-        - 'Read, EK, M Bucknell, M Hines, J Kreft, <strong>J Lucido</strong>, J Read, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, J Walker, M Wernimont, L Winslow, and A Yan. 2015. New insight into California’s drought through open data. BAAMA Journal, 8(1).'
-        2013:
-        - 'Establishing a Collaborative National Ground-Water Monitoring Network Program for the United States. 2013. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/NGWMN_InfoSheet_final.pdf.'
-        - 'A National Framework for Ground-Water Monitoring in the United States. 2009, revised 2013. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/ngwmn_framework_report_july2013.pdf.'
-        - 'U.S. Geological Survey, 2013, Tools for beach health data management, data processing, and predictive model implementation: U.S. Geological Survey Fact Sheet 2013–3068, 6 p., http://pubs.usgs.gov/fs/2013/3068/.'
-        2012:
-        - 'Blodgett, D., N. Booth, T. Kunicki, J. Walker, and J. Lucido. 2012. “Description of the U.S. Geological Survey Geo Data Portal Data Integration Framework.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 5 (6): 1687–91. doi:10.1109/JSTARS.2012.2196759.'
-        2011:
-        - 'National Ground-Water Monitoring Network -- Results of Pilot Studies. 2011. Advisory Committee on Water Information’s Subcommittee on Ground Water. http://acwi.gov/sogw/pubs/tr/pilot_results/NGWMN_pilot_studies.pdf.'
-        - 'Booth, Nathaniel L., Boyan Brodaric, Jessica M. Lucido, I.-Lin Kuo, Eric Boisvert, and William L. Cunningham. 2011. “Development of an Interoperable Groundwater Data Exchange Network between the United States and Canada.” In GeoHydro 2011 Conference Proceedings Paper. http://acwi.gov/sogw/pubs/tr/pilot_results/Booth_etal_GeoHydro2011.pdf.'
-        2010:
-        - 'Lucido, Jessica M. 2010. “In-Situ Chlorine Generation and Microbial Inactivation by Photoelectrocatalytic Oxidation”. University of Wisconsin–Madison.'
-    presentations:
-        2015:
-        - 'Jessica M. Lucido. 2015. “Tools for Management and Communication of GLRI Projects and Scientific Products”. presented at the 58th Annual Conference on Great Lakes Research, Burlington, VT, May 28.(Accepted)'
-        - 'Jessica M. Lucido, William L. Cunningham, Robert P. Schreiber, Daryll A. Pope. 2015. “The Next Phase of the National Ground-Water Monitoring Network Data Portal”. presented at the NGWA Groundwater Summit 2015, San Antonio, TX, March 18.'
+          - 'Woolway RI, ID Jones, DP Hamilton, SC Maberly, K Muraoka, JS Read, RL Smyth, <strong>LA Winslow</strong>. 2015. <a href="http://www.sciencedirect.com/science/article/pii/S136481521500122X">Automated calculation of surface energy fluxes with high-frequency lake buoy data</a>. Environmental Modelling and Software.  70: 191-198. doi:10.1016/j.envsoft.2015.04.013'
+          - '<strong>Winslow LA</strong>, JS Read, GA Hansen, PC Hanson. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2014GL062325/abstract" target="_blank">Small lakes show muted climate change signal in deep-water temperatures</a>. Geophysical Research Letters. doi:10.1002/2014GL062325'
+
         2014:
-        - 'Jessica M. Lucido, Nathaniel L. Booth. 2014. “Improving Groundwater Data Interoperability: Results of the Second OGC Groundwater Interoperability Experiment”. presented at the AGU Fall Meeting, San Francisco, CA, December 17.'
-        - 'Brodaric, Boyan, Nate Booth, Eric Boisvert, Jessica M. Lucido. 2014. “LEVELS OF DATA INTEROPERABILITY IN THE EMERGING NORTH AMERICAN GROUNDWATER DATA NETWORK”. presented at the 11th International Conference on Hydroinformatics, New York, NY, August 17.'
-        - 'Cunningham, William L., Robert P. Schreiber, Jessica M. Lucido. 2014. “National Ground Water Monitoring Network and Network Portal”. presented at the 9th National Monitoring Conference, Cincinnati, OH, May 1.'
-        - 'Lucido, Jessica M., Robert P. Schreiber, Nathaniel Booth, Daryll Pope, and William L. Cunningham. 2014. “National Ground-Water Monitoring Network Data Portal: Continued Collaboration from Concept to Version 2.0.” In NGWA. https://ngwa.confex.com/ngwa/2014gws/webprogram/Paper9726.html.'
-        2013:
-        - 'Lucido, Jessica M. 2013. “Making USGS Great Lakes Scientific Data Discoverable and Accessible Through an Integrated, Standards-Based Data Network”. presented at the 56th Annual Conference on Great Lakes Research, West Lafayette, IN, June 3. http://iaglr.org/iaglr2013/.'
-        - 'Lucido, Jessica M. 2013. “Best Practices for Making Scientific Data Discoverable and Accessible through Integrated, Standards-Based Data Portals”. presented at the AGU Fall Meeting, San Francisco, CA, December 11. http://fallmeeting.agu.org/2013/.'
-        - 'Lucido, Jessica M. 2013. “The National Ground Water Monitoring Network Data Portal: From Pilot to Production”. presented at the GWPC 2013 Annual Forum, St. Louis, MO, September 24. http://www.gwpc.org/sites/default/files/event-sessions/Lucido_Jessica.pdf.'
-        - 'Lucido, Jessica M. 2013. “The National Ground Water Monitoring Network Data Portal: From Pilot to Production”. presented at the NGWA Groundwater Summit 2013, Denver, CO, April 30.'
-        - 'Lucido, Jessica M. 2013. “Monitoring Network Design, Implementation & Data Management”. Invited. Presented at the Developing a Coordinated National Soil Moisture Network Workshop, Kansas City, MO, November 13.'
+          - 'Read JS, EK Read, KC Rose, <strong>LA Winslow</strong>. <i>in press</i>. A method for estimating the diffuse attenuation coefficient (KdPAR) from paired temperature sensors. Limnology and Oceanography: Methods. doi:10.1002/lom3.2014.12.10006'
+          - '<strong>Winslow LA</strong>, HA Dugan, HN Buelow, KD Cronin, JC Priscu, C Vesbach, and PT Doran (2014), Autonomous Year-Round Sampling and Sensing to Explore the Physical and Biological Habitability of Permanently Ice-Covered Antarctic Lakes, Marine Technology Society Journal 48(5), 8-17'
+          - 'Van Den Hoek J, JS Read, <strong>LA Winslow</strong>, P Montesano, CD Markfort. 2014. <a href="http://www.sciencedirect.com/science/article/pii/S0034425714004349" target="_blank">Examining the utility of satellite-based wind sheltering estimates for lake hydrodynamic modeling</a>. Remote Sensing of Environment. doi:10.1016/j.rse.2014.10.024'
+          - '<strong>Winslow LA</strong>, JS Read, PC Hanson, EH Stanley. 2014. <a href="https://www.fba.org.uk/journals/index.php/IW/article/viewFile/740/438" target="_blank">A framework for combining lake population morphology and process to build lake population-scale models</a>. Inland Waters. 5: 7-14. doi:10.5268/IW-5.1.740'
+          - 'Read JS, <strong>Winslow LA</strong>, Hansen GJA, Van Den Hoek J, Hanson PC, Bruce LC, & Markfort CD (2014). Simulating 2,368 temperate lakes reveals weak coherence in stratification phenology. Ecological Modelling, In Press, 1–27. doi:10.1016/j.ecolmodel.2014.07.029 '
+          - 'Rose, KC, <strong>Winslow, LA</strong>, Read, JS, Read, EK, Solomon, CT, Adrian, R, & Hanson, PC (2014). Improving the precision of lake ecosystem metabolism estimates by identifying predictors of model uncertainty. Limnology and Oceanography: Methods, 12, 303–312. doi:10.4319/lom.2014.12.303'
+          - '<strong>Winslow LA</strong>, Read JS, Hanson PC, Stanley EH (2014) Lake shoreline in the contiguous United States: quantity, distribution and sensitivity to observation resolution. Freshw Biol 1: 1. doi:10.1111/fwb.12258.'
+          - 'Rose, KC, <strong>Winslow, LA</strong>, Read, JS, Read, EK, Solomon, CT, Adrian, R, & Hanson, PC (2014). Improving the precision of lake ecosystem metabolism estimates by identifying predictors of model uncertainty. Limnology and Oceanography: Methods, 12, 303–312. doi:10.4319/lom.2014.12.303'
+
         2012:
-        - 'Lucido, Jessica M. 2012. “The National Ground Water Monitoring Network Data Portal: Innovation in Ground Water Data Exchange and Mediation”. presented at the NGWA Groundwater Summit 2012, Garden Grove, CA, May 8. https://ngwa.confex.com/ngwa/2012gws/webprogramsummit/meeting.html.'
+          - 'Kara EL, Hanson PC, Hu YH, <strong>Winslow LA</strong>, McMahon KD (2012) A decade of seasonal dynamics and co-occurrences within freshwater bacterioplankton communities from eutrophic Lake Mendota, WI, USA. The ISME journal: 1–5. Available: http://www.ncbi.nlm.nih.gov/pubmed/23051691. '
+          - 'Kara EL, PC Hanson, DP Hamilton, M Hipsey, KD McMahon, JS Read, <strong>LA Winslow</strong>, J Dedrick, KC Rose, CC Carey, S Bertilsson, D Motta-Marques, L Beversdorf, T Miller, CH Wu, YF Hsieh, E Gaiser, TK Kratz. (2012) Timescale dependence in numerical simulations: Assessment of physical, chemical, and biological predictions in a stratified lake from scales of hours to months. Environmental Modelling & Software. '
+
         2011:
-        - 'Booth, Nathaniel, Boyan Brodaric, Jessica M. Lucido, I.-Lin Kuo, and William L. CUNNINGHAM. 2011. “DEVELOPMENT OF A GROUNDWATER DATA EXCHANGE NETWORK FOR INTEROPERABLE DATA EXCHANGE AND MEDIATION BETWEEN THE U.S. AND CANADA”. presented at the GSA Annual Meeting, Minneapolis, MN, October 12. https://gsa.confex.com/gsa/2011AM/webprogram/Paper197350.html.'
-        - 'Lucido, Jessica M.. 2011. “Development of a Ground Water Data Portal for Interoperable Data Exchange and Mediation within the National Ground Water Monitoring Network”. presented at the NGWA Groundwater Summit 2011, Baltimore, MD, May 3.'
-        - 'Lucido, Jessica M.. 2011. “Development of a Ground Water Data Portal for Interoperable Data Exchange and Mediation within the NGWMN”. presented at the GWPC 2011 Annual Forum, Atlanta, GA, September 27. http://www.gwpc.org/sites/default/files/event-sessions/20d_Lucido_Jessica.pdf.'
-        - 'Booth, Nathaniel L., Boyan Brodaric, Jessica M. Lucido, I-Lin Kuo, Eric Boisvert, and William L. Cunningham. 2011. “Development of an Interoperable Groundwater Data Exchange Network between the United States and Canada”. presented at the GeoHydro 2011, Quebec, Canada, August 30.'
-        2010:
-        - 'Harrington, Gregory W., Jessica M. Lucido, 2010. “Escherichia Coli Inactivation By Photoelectrocatalytic Chlorine Production”. presented at the American Water Works Association’s (AWWA) 2010 Water Quality Technology Conference, Savannah, GA, November 14.'
-        - 'Lucido, Jessica M. 2010. “Photoelectrocatalytic Chlorine Production for Microbial Inactivation”. presented at the American Water Works Association Annual Conference and Exposition 2010, Chicago, IL, June 21.'
+          - 'Read, JS, DP Hamilton, ID Jones, K Muraoka, <strong>LA Winslow</strong>, R Kroiss, CH Wu, E Gaiser (2011), Derivation of lake mixing and stratification indices from high-resolution lake buoy data, Environmental Modeling and Software, doi:10.1016/j.envsoft.2011.05.006.'
+
         2008:
-        - 'Lucido, Jessica M., Bolutife Bambgoye, Ramesh Chandrasekharan, Nicholas Ndiege, Richard I. Masel, and Mark A. Shannon. 2008. “ENVR 42-Synthesis and Photocatalytic Activity of TaOxNy and Ta3N5.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
-        - 'Bamgboye, Bolutife, Jessica M. Lucido, Ramesh Chandrasekharan, Nicholas Ndiege, Elizabeth Moscoso, Leslie Threatt, Mark A. Shannon, and Richard I. Masel. 2008. “ENVR 245-Synthesis, Characterization and Photoactivity Studies of Nitrogen-Doped Ta2O5 Decorated onto SiO2 Nanoparticles.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
-        - 'Chandrasekharan, Ramesh, Nicholas Ndiege, Bolutife Bambgoye, William N. Harris III, Jessica M. Lucido, Adarsh Radadia, Mark A. Shannon, and Richard I. Masel. 2008. “ENVR 170-Photocatalytic Activity of Ta2O5 Photocatalysts Decorated on SiO2 Nanoparticles.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
-        - 'Ndiege, Nicholas, Ramesh Chandrasekharan, William N. Harris III, Bolutife Bambgoye, Jessica M. Lucido, Richard I. Masel, and Mark A. Shannon. 2008. “ENVR 43-Synthesis and Characterization of Ta2O5-Grafted SiO2 Nanoparticles for Photocatalytic Applications.” In ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY. Vol. 235. AMER CHEMICAL SOC 1155 16TH ST, NW, WASHINGTON, DC 20036 USA.'
+          - 'Benson BJ, <strong>Winslow LA</strong>, PW Arzberger, CC Carey, T Fountain, PC Hanson, TK Kratz, S Tilak (2008). Meeting the challenges of an international grassroots organization of sites deploying sensor networks: the Global Lake Ecological Observatory Network (GLEON). Proceedings of the Environmental Information Management Conference (33-38).'
+          - '<strong>Winslow LA</strong>, BJ Benson, KE Chiu, PC Hanson, TK Kratz (2008). Vega: A Flexible Data Model for Environmental Time Series Data. Ecological Information Management Conference (166-171).'
+
+        2007:
+          - 'Tilak S, PW Arzberger, BJ Benson, R Bhalerao, K Chiu, T Fountain, DP Hamilton, PC Hanson, TK Kratz, FP Lin, <strong>LA Winslow</strong> (2007). Conceptual Challenges and Practical Issues in Building The Global Lake Ecological Observatory Network. ISSNIP07 conference proceedings.'
+          - 'Hanson PC, SR Carpenter, JA Cardille, MT Cole, <strong>LA Winslow</strong> (2007). Small lakes dominate a random sample of regional lake characteristics. Freshwater Biology, 52(5), 814-822. '
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2013:
+            - '<strong>Winslow LA</strong>, JS Read, J Van Den Hoek, C Markfort. “If sunlight hits a lake and no one is around to measure it, does it have a temperature?” Center for Limnology Seminar Series, Madison, Wisconsin, October 2013 '
+            - '<strong>Winslow, LA</strong> "Lakes, income, and asteroids. When fat-tailed distributions attack!" Science Happens in Taverns, Madison, Wisconsin, April 2013'
+            - '<strong>Winslow LA</strong>, JS Read, PC Hanson, EH Stanley. “Estimating U.S. Terrestrial-Aquatic Organic Carbon Flux” ASLO 2013, New Orleans, LA, USA February 2013'
+
+        2012:
+            - '<strong>Winslow LA</strong>, JS Read, PC Hanson, EH Stanley. “Modeling lakes as a population: Parsimonious power-law based models of lake size-distribution morphology and process” Talk at NALMS 2012, Madison, WI, USA 2012'
+            - '<strong>Winslow LA</strong> “Everylake USA: If every lake in the United States were combined into a single lake, how would it look?” Poster at GLEON14, Mulranny Ireland, 2012'
+            - '<strong>Winslow LA</strong> "Lakes on this World" Expeditionary Science Presentation Series, Science Expeditions 2012, Madison Wisconsin, April 2012'
+            - '<strong>Winslow LA</strong> "Global Limnology: Understanding the role lakes play on our Earth" PLATO (Participatory Learning and Teaching Organization) UW Continuing Studies, Madison, WI, April 2012'
+
+        2011:
+            - '<strong>Winslow LA</strong> "Lessons from History: How understanding technical and social history of the internet and software can help lead us to a new golden age of data sharing" 14th World Lake Conference, Austin Texas, November 2011'
+            - '<strong>Winslow LA</strong>, PC Hanson, D Pierson. "Workshop on Automated Monitoring and High-Frequency Data Analysis" Erken Laboratory, Sweden, July 2011'
+            - '<strong>Winslow LA</strong>, JS Read "Size Distribution of Lakes in the United States" Center for Limnology Seminar Series, Madison, Wisconsin, April 2011'
+            - '<strong>Winslow LA</strong>, JS Read, EL Kara. "Introduction to GLEON Databases. Graduate student training session" GLEON 12, Ramot, Israel, April 2011'
+
+        2010:
+            - '<strong>Winslow, LA</strong> “Spectrophotometric look at DOC: Down the Rabbit Hole” Center for Limnology Seminar Series, Madison, Wisconsin, March 2010'
+
+        2009:
+            - '<strong>Winslow, LA</strong> “GLEON: A Model for Grassroots Data Management” Pan-American Sensors for Environmental Observatories Workshop, Bahia Blanca, Argentina, March, 2009 '
+            - '<strong>Winslow, LA</strong> “Grassroots Software for a Grassroots Network” GLEON 8 Conference, Hamilton, New Zealand, February 2009'
+
+        2008:
+            - '<strong>Winslow, LA</strong> “New Developments in Data Access for GLEON” Environmental Information Management Conference, Albuquerque, New Mexico, September 2008'
+            - '<strong>Winslow, LA</strong> “Accessing GLEON Network Data” GLEON 7 Student Workshop, Norrtälje, Sweden, Sept 2008'
+
+
+-
+    id: mbucknell #AD account
+    name: Mary Bucknell #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Electrical Engineer #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3920 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: mbucknell@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin: http://www.linkedin.com/pub/mary-bucknell/2a/903/96b #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: B.S in Electrical Engineering #e.g. MS Geology
+          institution: University of Illinois at Urbana-Champaign #e.g UW-Madison
+          year: 1985
+          note: ''
+        - degree: M.S. in Electrical Engineering #e.g. MS Geology
+          institution: University of Illinois at Urbana-Champaign #e.g UW-Madison
+          year: 1987
+          note: ''
+
+    expertise: #list of expertise
+        - 'Python'
+        - 'Django'
+        - 'Javascript'
+        - 'jQuery'
+        - 'OpenLayers'
+        - 'Leaflet'
+        - 'Jasmine'
+        - 'HTML5/CSS3'
+        - 'Sass'
+        - 'Jenkins'
+        - 'Geoserver'
+
+    mobilePhoto: mbucknell_mobile.jpg
+    photo: mbucknell.jpg
+    currentWork:
+        - project: 'Water Quality Portal'
+          url:
+          - project: 'National Environmental Methods Index'
+          url:
+          - project: 'WDNR Fish Mapper'
+          url:
+          - project: 'GCMRC Sandbar'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: mccullou #AD account
+    name: Carolyn Emmanuelli #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Physical Scientist, IT Specialist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3859 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: mccullou@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: MS Soil Science #e.g. MS Geology
+          institution: University of Minnesota-Twin Cities #e.g UW-Madison
+          year: 2002
+          note: ''
+        - degree: BS Natural Resources and Environmental Studies #e.g. MS Geology
+          institution: University of Minnesota #e.g UW-Madison
+          year: 1997
+          note: ''
+
+    expertise: #list of expertise
+        - 'Oracle Technology'
+        - 'Data Management Systems'
+
+    mobilePhoto: cemanuelli_mobile.jpg
+    photo: cemanuelli.jpg
+    currentWork:
+        - project: 'Publications Warehouse'
+          url:
+          - project: 'Wisconsin Beach Health'
+          url:
+          - project: 'Great Lakes Beach Health'
+          url:
+          - project: 'Billable Hours Tracking System for USGS'
+          url:
+          - project: 'Mercury Research Laboratory database management'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        unknown:
+          - 'Brigham, Mark E.; McCullough, Carolyn J.; Wilkinson, P., 2001, Analysis of suspended-sediment concentrations and radioisotope levels in the Wild Rice River basin, northwestern Minnesota, 1973-98: U.S. Geological Survey <a href="http://pubs.er.usgs.gov/publication/wri014192" target="_blank">Water-Resources Investigations Report 2001-4192</a>, 21 p.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: mhines #AD account
+    name: Megan Hines #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Scientist III #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3917 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: mhines@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: Studied Landscape Architecture and Natural Resources Management #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2003
+          note: ''
+
+    expertise: #list of expertise
+        - 'Research Data Management'
+        - 'Geographic Information Systems'
+        - 'Web Mapping'
+        - 'Database Management'
+        - 'Community Organizing'
+
+    mobilePhoto: mhines_mobile.jpg
+    photo: mhines.jpg
+    currentWork:
+        - project: 'WDNR Mobile'
+          url:
+          - project: 'iPlover'
+          url:
+          - project: 'Grand Canyon Monitoring '
+          url:
+          - project: 'Groundwater Monitoring Network Data Portal'
+          url:
+          - project: 'Water Quality Portal'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2014:
+          - 'M. D. Jankowski, R. E. Russell, J. C. Franson, R. J. Dusek, <strong>M. K. Hines</strong>, M. Gregg, and E. K. Hofmeister (2014) Corticosterone Metabolite Concentrations in Greater Sage-Grouse Are Positively Associated With the Presence of Cattle Grazing. Rangeland Ecology & Management: May 2014, Vol. 67, No. 3, pp. 237-246. '
+
+        2013:
+          - '<strong>Hines, Megan</strong>, Benson, Abigail, Govoni, David, Masaki, Derek, Poore, Barbara, Simpson, Annie, and Tessler, Steven, 2013, Partnering for Science; Proceedings of the USGS Workshop on Citizen Science: U.S. Geological Survey Open-File Report 2013–1234, 51 p., available online at <a href="http://pubs.usgs.gov/of/2013/1234/" target="_blank">http://pubs.usgs.gov/of/2013/1234/</a>'
+
+        2012:
+          - 'Green, D.E., <strong>Hines, M.K.</strong>, Russell, R.E., and Sleeman, J.M., 2012, U.S. Geological Survey, National Wildlife Health Center, 2011 report of selected wildlife diseases: U.S. Geological Survey Scientific Investigations Report 2012–5271, 32 p. plus 1 app., available only at <a href="http://pubs.usgs.gov/sir/2012/5271" target="_blank">http://pubs.usgs.gov/sir/2012/5271</a>'
+
+        2011:
+          - 'Xiaojin Zhu, Jun-Ming Xu, Christine M. Marsh, <strong>Megan K. Hines</strong>, F. Joshua Dein, Machine Learning for Zoonotic Emerging Disease Detection, ICML 2011 Workshop on Machine Learning for Global Challenges, Bellevue,WA, USA, 2011.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2013:
+            - 'Digital Disease Detection 2013. <a href="http://healthmap.org/ddd/schedule/#rf_mh" target="_blank">"Cutting through the noise: Opening access to data from multiple channels for data-driven research, surveillance, and communication across disciplines"</a> (invited rapid fire talk)'
+            - 'UW Madison Global Health Symposium 2013. <a href="http://videos.med.wisc.edu/videos/46753" target="_blank">"Emerging Disease Detection through Novel Wildlife Health Information Channels"</a> (invited presentation)'
+            - 'UW Madison Global Health Seminar Seires 2013. <a href="http://videos.med.wisc.edu/videos/45007" target="_blank">"Discovering Novel Wildlife Health Information"</a> (invited presentation)'
+
+        2012:
+            - 'Bring Your Own Data: Opportunities and Challenges in Using Citizen-Generated Data, Health and Human Services, Office of the Assistant Secretary for Preparedness and Response. <a href="http://www.phe.gov/about/oem/fusion/forum/Documents/BYODMeetingSummary.pdf" target="_blank">"Enhancing Wildlife Health Event Awareness: active and passive approaches with citizen generated data"</a> (invited presentation)'
+
+        2011:
+            - 'National Map 2011, GIS and Health Lecture Series. <a href="http://nationalmap.gov/uc/2011/index.html" target="_blank">"Open source news and citizen science tools aim to fill the gaps on wildlife health information"</a> (invited presentation)'
+
+
+-
+    id: moschnei #AD account
+    name: Morgan Schneider #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: CIDA Director #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3820 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: moschnei@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: B.S. Geology #e.g. MS Geology
+          institution: UW-Madison #e.g UW-Madison
+          year: 1995
+          note: ''
+        - degree: Environmental Studies Certificate #e.g. MS Geology
+          institution: UW-Madison #e.g UW-Madison
+          year: 1995
+          note: ''
+        - degree: M.S. Water Resources Management #e.g. MS Geology
+          institution: UW-Madison #e.g UW-Madison
+          year: 1997
+          note: 'WRM Practicuum: Atlas for the Token Creek Watershed'
+
+    expertise: #list of expertise
+        - 'Project management of natural resource based data management projects'
+        - 'Database development of web-based data entry forms, reports, applications'
+        - 'Database design, transactional and data warehouse'
+        - 'Oracle database'
+        - 'Informatica'
+        - 'Oracle Designer'
+        - 'Oracle Discoverer'
+
+    mobilePhoto: mschneider_mobile.jpg
+    photo: mschneider.jpg
+    currentWork:
+        - project: 'Water Resources Division Biological Data Warehouse'
+          url:
+          - project: 'WDNR Fisheries database'
+          url:
+          - project: 'Database support activities for the USGS Mercury Research Laboratory'
+          url:
+          - project: 'Database support activities for the Milwaukee Metropolitan Sewerage District Corridor Study'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        unknown:
+          - 'Schneider, M.A., Lutz, M.A., and others, 2004, Water-resources-related information for the Milwaukee Metropolitan Sewerage District planning area, Wisconsin, 1970–2002: U.S. Geological Survey Water-Resources Investigations Report 03-4240, 288 p.'
+          - 'Schmidt, M.A., Richards, K.D., and Scudder, B.C., 2000, Surface-water quality, Oneida Reservation and vicinity, Wisconsin, 1997-98, U.S. Geological Survey Water Resources Investigations Report 00-4179, 30 p.'
+          - 'Saad, D.A., and Schmidt, M.A., 1999, Water-resources related information for the Oneida Reservation and vicinity, Wisconsin: U.S. Geological Survey Water-Resources Investigations Report 98-4266, 57 p.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: mwarren #AD account
+    name: Meredith Warren #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Project Coordinator #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3878 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: mwarren@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin: http://www.linkedin.com/in/meredithpavlickwarren #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: Master of Urban and Region Planning #e.g. MS Geology
+          institution: Virginia Polytechnic Institute and State University #e.g UW-Madison
+          year: 2009
+          note: ''
+        - degree: Bachelor of Science in Agriculture #e.g. MS Geology
+          institution: West Virginia University #e.g UW-Madison
+          year: 2004
+          note: ''
+
+    expertise: #list of expertise
+        - 'Project management'
+        - 'ScrumMaster'
+        - 'Water and land use policy'
+        - 'Climate and land use change impact assessments'
+        - 'Watershed management'
+        - 'Environmental education'
+
+    mobilePhoto: mwarren_mobile.jpg
+    photo: mwarren.jpg
+    currentWork:
+        - project: 'NWIS Reporting Application'
+          url:
+          - project: 'NWIS Modernization '
+          url:
+          - project: 'USGS Sediment Data Portal'
+          url:
+          - project: 'NAWQA Program''s Tracking Water Quality'
+          url:
+          - project: 'NAWQA Data Warehouse'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2015:
+          - 'Johnson, T., J. Butcher, D. Deb, M. Faizullabhoy, P. Hummel, J. Kittle, S. McGinnis, L.O. Mearns, D. Nover, A. Parker, S. Sarkar, R. Srinivasan, P. Tuppad, M. Warren, C. Weaver, and J. Witt. 2015. Modeling Streamflow and Water Quality Sensitivity to Climate Change and Urban Development in 20 U.S. Watersheds. Journal of the American Water Resources Association (JAWRA) 1–21.'
+
+        2013:
+          - 'U.S. EPA. 2013. Watershed Modeling to Assess the Sensitivity of Streamflow, Nutrient, and Sediment Loads to Potential Climate Change and Urban Development in 20 U.S. Watersheds (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-12/058F.'
+
+        2012:
+          - 'U.S. EPA. 2012. BASINS and WEPP Climate Assessment Tools (CAT): Case Study Guide to Potential Applications (Final Report). U.S. Environmental Protection Agency, Washington, DC, EPA/600/R-11/123F. *EPA Bronze Award winner'
+
+        2011:
+          - 'Pyke, C, <b>Warren, MP</b>, Johnson, T, LaGro Jr., J, Scharfenberg, J, Groth, P, Freed, R, Schroeer, W, and Main, E. 2011. Assessment of Low Impact Development for Managing Stormwater with Changing Precipitation Due to Climate Change. Landscape and Urban Planning, 103(2):166-173.'
+
+        2009:
+          - '<b>Warren, MP</b>, Younos, T, Randolph, J. 2009. Implementing Watershed-Based Green Infrastructure for Stormwater Management: Case Study in Blacksburg, VA. Virginia Water Resources Research Center.'
+
+        2008:
+          - '<b>Warren, MP</b>, Younos, T. 2008. Analysis of Nutrient-Response Characteristics to Support Criteria Development for Constructed Reservoirs. Virginia Water Resources Research Center.'
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2011:
+            - 'Philadelphia Low Impact Development Symposium. "Effectiveness of Using Low Impact Development for Managing Stormwater Under a Changing Climate". September 2011.'
+
+        2010:
+            - 'Guest lecturer on low impact development for Watershed Management special topics course. Virginia Polytechnic Institute and State University. March 2010.'
+
+        2009:
+            - 'Idaho Environmental Health Association Annual Conference. "Paving the Way for Progressive Water Policy". March 2009.'
+            - 'Universities Council on Water Resources Annual Conference. "Implementing Watershed-Based Green Infrastructure for Stormwater Management". July 2009.'
+
+        2008:
+            - 'National Water Quality Monitoring Conference. "Analysis of Nutrient Response Characteristics to Support Criteria Development for Constructed Reservoirs". May 2008.'
+
+
+-
+    id: mwernimont #AD account
+    name: Marty Wernimont #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Web/Graphic Designer #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3839 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: mwernimont@usgs.gov #usgs email
+        github: https://github.com/mwernimont #github profile page url
+        linkedin: http://www.linkedin.com/profile/view?id=257208617&trk=nav_responsive_tab_profile #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: Associates in Applied Sciences #e.g. MS Geology
+          institution: Madison Media Institute #e.g UW-Madison
+          year: 2013
+          note: ''
+
+    expertise: #list of expertise
+        - 'Adobe Dreamweaver'
+        - 'Adobe Illustrator'
+        - 'Adobe Photoshop'
+        - 'Adobe InDesign'
+
+    mobilePhoto: mwernimont_mobile.jpg
+    photo: mwernimont.jpg
+    currentWork:
+        - project: 'CIDA Website'
+          url:
+          - project: 'Coastal Change Hazards Portal'
+          url:
+          - project: 'Science in the Northwoods Conference'
+          url:
+          - project: 'Water Quality Portal'
+          url:
+          - project: 'NAWQA Annual Reporting'
+          url:
+          - project: 'Health-Based Screening Levels'
+          url:
+          - project: 'WARP Mapper'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2015:
+          - 'Read, EK, M Bucknell, M Hines, J Kreft, J Lucido, J Read, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, J Walker, <strong>M Wernimont</strong>, L Winslow, and A Yan.  2015. <a href="http://journal.baygeo.org/new-insight-into-californias-drought-through-open-data/" target="_blank">New insight into California’s drought through open data.</a> BAAMA Journal, 8(1). '
+
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: nquinn #AD account
+    name: Nicholas Quinn #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Scrum Master #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3887 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: nquinn@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS in Economics #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 2012
+          note: ''
+
+    expertise: #list of expertise
+        - 'ScrumMaster'
+        - 'Project Management'
+        - 'Agile'
+        - 'Business Analysis'
+        - 'Product Management'
+        - 'Project Implementation'
+        - 'Consulting'
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+        - project: 'Developing and implementing Agile software development practices within the USGS Office of Water Information'
+          url:
+          - project: 'NWISWeb'
+          url:
+          - project: 'NAWQA Data Checks'
+          url:
+          - project: 'NWIS Time Series Reporting'
+          url:
+          - project: 'NWIS Modernization'
+          url:
+          - project: 'Grand Canyon Monitoring and Research Center'
+          url:
+          - project: 'iPlover'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: pjanda #AD account
+    name: Paul Janda #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Database Administrator #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3909 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: pjanda@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin: http://www.linkedin.com/pub/paul-janda/10/28a/341 #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS in Computer Science #e.g. MS Geology
+          institution: University of Wisconsin - La Crosse #e.g UW-Madison
+          year: None
+          note: ''
+
+    expertise: #list of expertise
+        - ''
+
+    mobilePhoto: pjanda_mobile.jpg
+    photo: pjanda.jpg
+    currentWork:
+        - project: ''
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: srlewein #AD account
+    name: Scott Lewein #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Project Manager, Software Architect #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3862 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: srlewein@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin: http://www.linkedin.com/pub/scott-lewein/4/97/520 #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: B.S. Social Change and Development and Journalism #e.g. MS Geology
+          institution: University of Wisconsin-Green Bay #e.g UW-Madison
+          year: 1980
+          note: ''
+        - degree: MSC Econ Strategic Studies #e.g. MS Geology
+          institution: University College of Wales - Aberystwyth #e.g UW-Madison
+          year: 1982
+          note: ''
+        - degree:  #e.g. MS Geology
+          institution: Defense Language Institute - 1983 #e.g UW-Madison
+          year: None
+          note: ''
+
+    expertise: #list of expertise
+        - 'Project Management'
+        - 'Organizational Process Development'
+        - 'Enterprise Architecture'
+        - 'Lean and Agile Software Development Methodology'
+
+    mobilePhoto: slewein_mobile.jpg
+    photo: slewein.jpg
+    currentWork:
+        - project: 'IT Transformation - IT Consolidation, Shared Infrastructure, Enterprise Architecture'
+          url:
+          - project: 'Developing Agile software development practices within the USGS Water Mission Area'
+          url:
+          - project: 'Help staff and manage a variety of CIDA projects'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: sstephan #AD account
+    name: Shirley Stephan #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Computer Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3918 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: sstephan@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: BS Computer Science #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 1985
+          note: ''
+        - degree: MA Linguistics #e.g. MS Geology
+          institution: University of Wisconsin-Madison #e.g UW-Madison
+          year: 1987
+          note: ''
+
+    expertise: #list of expertise
+        - 'Linux Systems Adminstration'
+
+    mobilePhoto: sstephan_mobile.jpg
+    photo: sstephan.jpg
+    currentWork:
+        - project: 'Infrastructure Team Member'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: thongsav #AD account
+    name: Phethala Thongsavanh #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Computer Scientist #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3881 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: thongsav@usgs.gov #usgs email
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    education:
+        - degree: B.S. in Computer Science #e.g. MS Geology
+          institution: University of Wisconsin - Madison  #e.g UW-Madison
+          year: 2005
+          note: ''
+
+    expertise: #list of expertise
+        - 'Web Application Development'
+
+    mobilePhoto: pt_mobile.jpg
+    photo: pt.jpg
+    currentWork:
+        - project: 'USGS BioData'
+          url:
+          - project: 'NWIS Vision'
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day

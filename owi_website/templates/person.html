@@ -86,7 +86,7 @@ var sizeContent = makeSizeContentHandler("#headshot", '#contact')
             {% endfor %}
 
         </div><!--education-->
-
+        {% if person['expertise'] and person['expertise']|length > 0 %}
         <div id="areas">
 
         	<h1>Areas of Expertise</h1>
@@ -94,7 +94,9 @@ var sizeContent = makeSizeContentHandler("#headshot", '#contact')
            		<p>{% for area in area_row %} {{ area }}{% if not loop.last %} | {% endif %}{% endfor %} </p>
                 {% endfor %}
         </div><!--areas-->
+       {% endif %}
 
+        {% if person['currentWork'] and person['currentWork']|length > 0 %}
         <div id="currentwork">
 
         	<h1>Current Work</h1>
@@ -103,7 +105,7 @@ var sizeContent = makeSizeContentHandler("#headshot", '#contact')
             {% else %}<p>{{ project.get('project') }}</p>
                 {% endif %}
             {% endfor %}
-
+        {% endif %}
 
         </div><!--currentwork-->
         {% if person['publications'] and person['publications']|length > 0 %}
