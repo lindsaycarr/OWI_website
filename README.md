@@ -20,6 +20,8 @@ To run this application locally, you will need to do the following:
 	#constantly rebuild the static version of the page 
 	FREEZE = False
 	
+	GOOGLE_ANALYTICS_CODE = '' #this only needs to be set on production
+	
 	```
 
 Now you can run the application within the virtualenv by executing:

@@ -1,22 +1,19 @@
 import argparse
-from owi_website import app as application
+from owi_website import app
 from flask_frozen import Freezer
 from flaskext.markdown import Markdown
 
 
-
-freezer = Freezer(application)
-
-
+freezer = Freezer(app)
 
 if __name__ == '__main__':
 
 
-    Markdown(application,
+    Markdown(app,
               extensions=['fenced_code', 'tables', 'codehilite'],
               extension_configs={},
               output_format='html5',)
-    if application.config('FREEZE'):
+    if app.config['FREEZE']:
         freezer.freeze()
     parser = argparse.ArgumentParser()
     parser.add_argument('--host', '-ht', type=str)
@@ -26,6 +23,6 @@ if __name__ == '__main__':
         host = host_val
     else:
         host = '127.0.0.1'
-    application.run(host=host, port=5050, threaded=True)
+    app.run(host=host, port=5050, threaded=True)
     # run from the command line as follows
     # python runserver.py -ht <ip address of your choice>
