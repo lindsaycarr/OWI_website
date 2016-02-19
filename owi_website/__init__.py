@@ -7,6 +7,7 @@ app = Flask(__name__.split()[0], instance_relative_config=True)
 app.config.from_object('config')  # load configuration before passing the app object to other things
 app.config.from_pyfile('config.py')
 
+app.jinja_env.globals.update(GOOGLE_ANALYTICS_CODE=app.config['GOOGLE_ANALYTICS_CODE'])
 
 import views
 

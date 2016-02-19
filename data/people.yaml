@@ -18,11 +18,14 @@
     phone: 608-821-3927 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: aappling@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/aappling-usgs #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate: https://www.researchgate.net/profile/Alison_Appling #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: PhD Ecology #e.g. MS Geology
           institution: Duke University #e.g UW-Madison
@@ -66,11 +69,14 @@
     phone: 608-821-3889 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: abramhall@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  https://github.com/instantsoup #github profile page url
         linkedin: https://www.linkedin.com/in/wesbramhall #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BA in Computer Science #e.g. MS Geology
           institution: Carleton College #e.g UW-Madison
@@ -101,11 +107,14 @@
     phone: 608-821-3875 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: ajmccart@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS Zoology and Biological Aspects of Conservation #e.g. MS Geology
           institution: University of Wisconsin-Madison #e.g UW-Madison
@@ -137,11 +146,14 @@
     phone: 608-821-3921 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: ayan@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/ayan-usgs #github profile page url
         linkedin: https://linkedin.com/pub/andrew-yan/45/a55/770 #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS Chemistry #e.g. MS Geology
           institution: University of California #e.g UW-Madison
@@ -177,11 +189,14 @@
     phone: 608-821-3815 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: bfeinstein@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin: http://www.linkedin.com/pub/ben-feinstein/43/47a/702 #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS Computer Science #e.g. MS Geology
           institution: UW Milwaukee #e.g UW-Madison
@@ -231,11 +246,14 @@
     phone: 608-821-3826 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: bheck@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin: http://www.linkedin.com/pub/barry-heck/16/931/4b0 #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: B.S. in Computer Science and Mathematics #e.g. MS Geology
           institution: University of Wisconsin - Madison #e.g UW-Madison
@@ -262,11 +280,14 @@
     phone: 608-821-3840 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: cmarsh@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS in Zoology #e.g. MS Geology
           institution: University of Wisconsin - Madison #e.g UW-Madison
@@ -307,11 +328,14 @@
     phone: 608-821-3836 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: cschroedl@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/cschroed-usgs #github profile page url
         linkedin: http://www.linkedin.com/pub/carl-schroedl/5a/3a8/269 #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: B.S. in Computer Science #e.g. MS Geology
           institution: University of Wisconsin - Madison  #e.g UW-Madison
@@ -348,11 +372,14 @@
     phone: 608-821-3899 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: dblodgett@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: B.S. in Civil Engineering #e.g. MS Geology
           institution: University of Wisconsin - Madison #e.g UW-Madison
@@ -412,11 +439,14 @@
     phone: 608-821-3854 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: dekester@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS in Computer Science #e.g. MS Geology
           institution: University of Wisconsin-Madison #e.g UW-Madison
@@ -443,11 +473,14 @@
     phone: 608-821-3890 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: dpattermann@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/dpattermann-usgs #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS in Mathematics and Computer Science #e.g. MS Geology
           institution: University of Wisconsin-Madison #e.g UW-Madison
@@ -476,11 +509,14 @@
     phone: 608-821-3891 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: drsteini@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin: http://www.linkedin.com/in/davidsteinich #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: B.A. Computer Science/Mathematics #e.g. MS Geology
           institution: Concordia College #e.g UW-Madison
@@ -521,11 +557,14 @@
     phone: 608-821-4967 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: duselmann@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS in Astronomy and Physics #e.g. MS Geology
           institution: University of Wisconsin - Madison #e.g UW-Madison
@@ -566,11 +605,14 @@
     phone: 651-269-4735 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: eeverman@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS Mechanical Engineering #e.g. MS Geology
           institution: Calvin College #e.g UW-Madison
@@ -603,11 +645,14 @@
     phone: 608-821-3851 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: eread@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/eread-usgs #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate: http://www.researchgate.net/profile/Emily_Read3 #researchgate profile page url
         googlescholar: 'http://scholar.google.com/citations?user=a__kMrcAAAAJ&hl=en' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS Environmental Science #e.g. MS Geology
           institution: University of Arizona #e.g UW-Madison
@@ -702,11 +747,14 @@
     phone: 608-821-3825 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: isuftin@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/isuftin #github profile page url
         linkedin: http://www.linkedin.com/pub/ivan-suftin/1/549/25 #linkedin profile page url
         twitter: https://twitter.com/IvanSuftin #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: Associates in Applications Programming #e.g. MS Geology
           institution: Madison Area Technical College #e.g UW-Madison
@@ -737,11 +785,14 @@
     phone: 608-821-3842 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: jiwalker@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/jiwalker-usgs #github profile page url
         linkedin: http://www.linkedin.com/in/jordaniwalker #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: 'http://scholar.google.com/citations?user=3tMKv9gAAAAJ&hl=en' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: M.S. in Computer Science #e.g. MS Geology
           institution: Univeristy of Wisconsin-Madison #e.g UW-Madison
@@ -789,11 +840,14 @@
     phone: 608-821-3919 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: jkreft@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BA Biology #e.g. MS Geology
           institution: Swarthmore College #e.g UW-Madison
@@ -842,11 +896,14 @@
     phone: 608-821-3841 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: jlucido@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin: http://www.linkedin.com/pub/jessica-m-lucido/15/337/2b0 #linkedin profile page url
         twitter: https://twitter.com/JessicaMLucido #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: B.S. in Mechanical Engineering #e.g. MS Geology
           institution: University of Illinois at Urbana - Champaign #e.g UW-Madison
@@ -957,11 +1014,14 @@
     phone: 608-821-3922 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: jread@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  https://github.com/jread-usgs #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate: https://www.researchgate.net/profile/Jordan_Read/ #researchgate profile page url
         googlescholar: 'http://scholar.google.com/citations?hl=en&user=geFLqWAAAAAJ' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS Civil Engineering #e.g. MS Geology
           institution: University of Wisconsin-Madison #e.g UW-Madison
@@ -1090,11 +1150,14 @@
     phone: 608-821-3892 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: kmschoep@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BBA Real Estate and Urban Economics #e.g. MS Geology
           institution: UW-Madison #e.g UW-Madison
@@ -1136,11 +1199,14 @@
     phone: 608-821-3837 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: lcarr@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/lindsaycarr #github profile page url
         linkedin: https://www.linkedin.com/pub/lindsay-carr/67/818/83b #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS Biological Systems Engineering #e.g. MS Geology
           institution: Virginia Tech #e.g UW-Madison
@@ -1170,11 +1236,14 @@
     phone: 608-821-3857 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: ldecicco@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/ldecicco-USGS #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate: https://www.researchgate.net/profile/Laura_De_Cicco #researchgate profile page url
         googlescholar: 'http://scholar.google.com/citations?hl=en&user=jXd0feEAAAAJ' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS Mechanical Engineering #e.g. MS Geology
           institution: University of Wisconsin-Madison #e.g UW-Madison
@@ -1217,11 +1286,14 @@
     phone: 608-821-3914 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: lwinslow@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  https://github.com/lawinslow #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: 'http://scholar.google.com/citations?user=WENGCtYAAAAJ&hl=en' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: PhD #e.g. MS Geology
           institution: Freshwater and Marine Sciences #e.g UW-Madison
@@ -1319,11 +1391,14 @@
     phone: 608-821-3920 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: mbucknell@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin: http://www.linkedin.com/pub/mary-bucknell/2a/903/96b #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: B.S in Electrical Engineering #e.g. MS Geology
           institution: University of Illinois at Urbana-Champaign #e.g UW-Madison
@@ -1372,11 +1447,14 @@
     phone: 608-821-3859 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: mccullou@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: MS Soil Science #e.g. MS Geology
           institution: University of Minnesota-Twin Cities #e.g UW-Madison
@@ -1421,11 +1499,14 @@
     phone: 608-821-3917 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: mhines@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: Studied Landscape Architecture and Natural Resources Management #e.g. MS Geology
           institution: University of Wisconsin-Madison #e.g UW-Madison
@@ -1489,11 +1570,14 @@
     phone: 608-821-3820 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: moschnei@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: B.S. Geology #e.g. MS Geology
           institution: UW-Madison #e.g UW-Madison
@@ -1547,11 +1631,14 @@
     phone: 608-821-3878 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: mwarren@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin: http://www.linkedin.com/in/meredithpavlickwarren #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: Master of Urban and Region Planning #e.g. MS Geology
           institution: Virginia Polytechnic Institute and State University #e.g UW-Madison
@@ -1628,11 +1715,14 @@
     phone: 608-821-3839 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: mwernimont@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/mwernimont #github profile page url
         linkedin: http://www.linkedin.com/profile/view?id=257208617&trk=nav_responsive_tab_profile #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: Associates in Applied Sciences #e.g. MS Geology
           institution: Madison Media Institute #e.g UW-Madison
@@ -1679,11 +1769,14 @@
     phone: 608-821-3887 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: nquinn@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS in Economics #e.g. MS Geology
           institution: University of Wisconsin-Madison #e.g UW-Madison
@@ -1730,11 +1823,14 @@
     phone: 608-821-3909 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: pjanda@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin: http://www.linkedin.com/pub/paul-janda/10/28a/341 #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS in Computer Science #e.g. MS Geology
           institution: University of Wisconsin - La Crosse #e.g UW-Madison
@@ -1763,11 +1859,14 @@
     phone: 608-821-3862 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: srlewein@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin: http://www.linkedin.com/pub/scott-lewein/4/97/520 #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: B.S. Social Change and Development and Journalism #e.g. MS Geology
           institution: University of Wisconsin-Green Bay #e.g UW-Madison
@@ -1811,11 +1910,14 @@
     phone: 608-821-3918 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: sstephan@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: BS Computer Science #e.g. MS Geology
           institution: University of Wisconsin-Madison #e.g UW-Madison
@@ -1848,11 +1950,14 @@
     phone: 608-821-3881 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: thongsav@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
         github:  #github profile page url
         linkedin:  #linkedin profile page url
         twitter:  #twitter profile page url
         researchgate:  #researchgate profile page url
         googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
     education:
         - degree: B.S. in Computer Science #e.g. MS Geology
           institution: University of Wisconsin - Madison  #e.g UW-Madison
