@@ -12,38 +12,24 @@ var sizeContent = makeSizeContentHandler(".picture", '.quote')
 
 {% block page_content %}
 
-<div id="content">
+    <div class="flexContainer">
 
-<div id="cida_contact"><p id="emp">OWI Contact:</p> <p>8505 Research Way Middleton, WI 53562 | 608-821-3820 | <a href="mailto:moschnei@usgs.gov?Subject=Question%20about%20CIDA" target="_top">moschnei@usgs.gov</a></p></div>
-
-<div id="cida_contact_mobile"><p id="emp">OWI Contact:</p> <p>8505 Research Way Middleton, WI 53562</p> <p>608-821-3820</p> <p><a href="mailto:moschnei@usgs.gov?Subject=Question%20about%20CIDA" target="_top">moschnei@usgs.gov</a></p></div>
-
-<main>
-
-	<article>
-    
-    	<section id="peopleContainer">
-    
-            {% for person in people %}
+        {% for person in people %}
             <section class="person">
-                
+
                 <a href="{{ url_for('person-canonical', person=person.get('id') ) }}"><img src="{{ url_for('static', filename='images/professional_pages/'+person.get('photo')) }}"/></a>
                     
-                <h3 {% if person.get('manager') == True  %}class="manager"{% endif %}>{{ person.get('name') }}</h3>
+                <h4 {% if person.get('manager') == True  %}class="manager"{% endif %}>{{ person.get('name') }}</h4>
                 
-                <h4>{{ person.get('title') }}</h4>
+                <h5>{{ person.get('title') }}</h5>
                 
                  <a href="{{ url_for('person-canonical', person=person.get('id') ) }}"><button>View Profile</button></a>
 
             </section>
-            {% endfor %}
+        {% endfor %}
 
-        
-        </section><!--container-->
-    
-    </article>
+    </div>
 
-</main>
-</div>
+
 {% endblock page_content %}
 {% block footer_url %}{{ url_for('people-canonical') }}{% endblock footer_url %}

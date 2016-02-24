@@ -11,290 +11,33 @@ var sizeContent = makeSizeContentHandler("#tricky", '#newsfeed')
 {% endblock page_specific_script %}
 
 {% block page_content %}
-<div id="content">
+<style>nav{display:none;}</style>
 
+    <div class="container">
+        <img src="static/images/large-blue.png" id="owiLogo" alt="OWI logo"/>
+        <h1>Welcome to the Office of Water Information</h1>
+        <p>
+            We are committed to advancing USGS science by integrating data across scales and domains,
+            improving access to data and research, and developing tools for analysis and visualization,
+            fostering collaboration with the international community.
+        </p>
+        <div class="option">
+            <a href="{{ url_for('people-canonical') }}"><p>People</p></a>
+        </div>
 
-<div id="mission">
+        <div class="option">
+            <a href="{{ url_for('products-canonical') }}"><p>Products</p></a>
+        </div>
 
-<p id="mobile_statement">The USGS Center for Integrated Data Analytics is committed to advancing USGS science and a broader understanding of our changing world by integrating disparate data across scales and domains, improving access to data and research, developing tools for analysis and visualization, and fostering collaboration with the international community.</p>
+        <div class="option">
+            <a href="{{ url_for('partners-canonical') }}"><p>Partners</p></a>
+        </div>
 
-<img src="{{ url_for('static', filename= 'images/missionstatement_large.jpg')  }}" alt="mission pic"/>
+        <div class="option">
+            <a href="{{ url_for('careers-canonical') }}"><p>Careers</p></a>
+        </div>
+    </div>
 
-</div><!--mission-->
-
-<div id="newsfeed">
-
-	<div id="news"><p>News</p></div>
-
-	<div id="scroll">
-	
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 7 Oct</div>
-            
-            <p>CIDA data scientists publish the geoknife R package, to assist with the geoprocessing of large gridded datasets for irregular landscape features.
-  				<a href="http://onlinelibrary.wiley.com/doi/10.1111/ecog.01880/abstract;jsessionid=C0F0E3E04CA75A79BDCC2CE10D3D67B3.f03t03#.VgwAE8wSe00.twitter" target="_blank">Read Story Here</a>
-            </p>
-</div>
-	
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 31 Aug</div>
-            
-            <p>A new <a href="http://cida.usgs.gov/quality/rivers/home" target="_blank">online </a>graphical data tool that provides annual summaries of nutrient and sediment concentrations and loads and streamflow information is now available.
-  				<a href="http://www.usgs.gov/newsroom/article.asp?ID=4285#.VeRln9NVhBd" target="_blank">Read Story Here</a>
-            </p>
-</div>
-
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 28 Aug</div>
-            
-            <p>A bootstrap method for estimating uncertainty of water quality trends is published:
-  				<a href="http://www.sciencedirect.com/science/article/pii/S1364815215300220" target="_blank">Read Story Here</a>
-            </p>
-</div>
-
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 15 June</div>
-            
-            <p>CIDA's California Drought visualization featured in "New Insight Into California's Drought Through Open Data" article in BAAMA journal.
-  				<a href="http://journal.baygeo.org/new-insight-into-californias-drought-through-open-data/" target="_blank">Read Story Here</a>
-            </p>
-</div>
-
-
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 4 May</div>
-            
-            <p>A new online, interactive tool for estimating atrazine concentrations in streams and rivers is now available. Read the USGS Press Release for more about the Watershed Regression for Pesticides (or “WARP”) tool.
-  				<a href="http://www.usgs.gov/newsroom/article.asp?ID=4175#.VXCJD_lVhBc)" target="_blank">Read Story Here</a>
-            </p>
-</div>
-    
-    
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 4 May</div>
-            
-            <p>USGS Release: Shorebird Science? iPlover is the App for That.
-  				<a href="http://www.usgs.gov/newsroom/article.asp?ID=4208#.VUd6JSG6e9J" target="_blank">Read Story Here</a>
-            </p>
-</div>
-    
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 26 Mar</div>
-            
-            <p>The USGS Water Mission Area announced the public release of R packages <a href="http://cran.r-project.org/web/packages/dataRetrieval/index.html" target="_blank">dataRetrieval</a> and <a href="http://cran.r-project.org/web/packages/EGRET/index.html" target="_blank">EGRET</a>, as well as the <a href="http://owi.usgs.gov/R/" target="_blank">owi.usgs.gov/R</a> website
-</p>
-</div>
-		
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 18 Mar</div>
-            
-            <p>CIDA project coordinator Jessica Lucido gave a presentation entitled 'The Next Phase of the National Ground-Water Monitoring Network Data Portal' at the NGWA Groundwater Summit in San Antonio, TX. <a href="http://cida.usgs.gov/ngwmn/" target="_blank">Read More</a>
-</p>
-</div>
-    
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 17 Mar</div>
-            
-            <p>In collaboration with the USGS Woods Hole Coastal and Marine Science Center, CIDA released an iOS mobile application called iPlover on March 17. <a href="https://itunes.apple.com/us/app/iplover/id975620593" target="_blank">Read More</a>
-</p>
-</div>
-    
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 9 Dec</div><!--date-->
-            
-            <p>A redesigned version of the USGS Great Lakes Restoration Initiative (GLRI) website was released. The site allows users to find information about USGS GLRI science projects, including publications and data sets. <a href="http://cida.usgs.gov/glri/" target="_blank">http://cida.usgs.gov/glri/</a></p>
-        </div><!--news_story-->
-      
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 16 Sept</div><!--date-->
-            
-            <p>Jessica Lucido attended a meeting of ACWI's Subcommittee on Ground Water in at USGS headquarters on September 16-17 to discuss the future direction and expansion of the NGWMN and Data Portal.</p>
-        </div><!--news_story-->
-    
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 31 Aug</div><!--date-->
-            
-            <p>New tool was developed to explore and find information about GLRI science. Check out the GLRI Science Explorer: <a href="http://cida.usgs.gov/glri/glri-catalog" target="_blank">http://cida.usgs.gov/glri/glri-catalog</a></p>
-        </div><!--news_story-->
-      
-<!--============================story=======================-->
-    
-    <div class="news_story">
-        
-        	<div class="date"> 25 Jul</div><!--date-->
-            
-            <p>The Coastal Change Hazards Portal was featured on the DOI's "This week in the Interior" video</p>
-        </div><!--news_story-->
-      
-<!--============================story=======================-->
-
-<div class="news_story">
-        
-        	<div class="date"> 18 Jul</div><!--date-->
-            
-            <p>A new Health-Based Screening Level (HBSL) website has been published with updated benchmark values and redesigned website.</p>
-        </div><!--news_story-->
-      
-<!--============================story=======================-->
-   
-    	<div class="news_story">
-        
-        	<div class="date"> 5 May</div><!--date-->
-            
-            <p>Jessica Lucido participated in a meeting in Vienna on May 5th to continue work on the second version of the GWML data model. This model seeks to harmonize the GWML with the EU's INSPIRE models related to geology and hydrogeology.</p>
-        
-        </div><!--news_story-->
-           
-<!--============================story=======================-->
-   
-    	<div class="news_story">
-        
-        	<div class="date"> 30 Apr</div><!--date-->
-            
-            <p>Coastal Change Hazards Portal v1.1.7 released to the public.</p>
-        
-        </div><!--news_story-->
-       
-<!--============================story=======================-->
-  
-	   	<div class="news_story">
-        
-        	<div class="date"> 29 Apr</div><!--date-->
-            
-            <p>USGS Electrical Engineer Mary Bucknell demonstrated the latest updates to the National Environmental Methods Index web site (http://www.nemi.gov) at the NWQMC Conference in Cincinnati, OH.</p>
-        
-        </div><!--news_story-->
-    
-<!--============================story=======================-->
-   
-    	<div class="news_story">
-        
-        	<div class="date"> 28 Mar</div><!--date-->
-            
-            <p> NEMI users can now download WQP records collected using a specific URL directly from NEMI summary pages.</p>
-        
-        </div><!--news_story-->
-    
-<!--============================story=======================-->
-    
-    	<div class="news_story">
-        
-        	<div class="date"> 24 Mar</div><!--date-->
-            
-            <p>CIDA in cooperation with the NASA/USGS Land Processes Distributed Active Archive Center, the NASA Langley Reasearch Center, and the Unidata programming office has been awarded a cooperative agreement grant.</p>
-        
-        </div><!--news_story-->
-       
-<!--============================story=======================-->
-
-    	<div class="news_story">
-        
-        	<div class="date"> 4 Mar</div><!--date-->
-            
-            <p>CIDA announces availability of the North American and Global Land Data Assimilation System datasets through the Geo Data Portal.</p>
-        
-        </div><!--news_story-->
-      
-<!--============================story=======================-->
-
-		<div class="news_story">
-        
-        	<div class="date"> 3 Mar</div><!--date-->
-            
-            <p>The technical implementation of assigning DOIs was designed and completed by the Publications Warehouse Team at CIDA.</p>
-        
-        </div><!--news_story-->
-      
-<!--============================story=======================-->
-
-		<div class="news_story">
-        
-        	<div class="date"> 6 Feb</div><!--date-->
-            
-            <p>Sediment mapper released to the public at cida.usgs.gov/sediment.</p>
-        
-        </div><!--news_story-->
-      
-<!--============================story=======================-->
-
-		<div class="news_story">
-        
-        	<div class="date"> 28 Jan</div><!--date-->
-            
-            <p>Jordan Read presented "Establishing a physical template for national-scale lake research" to the USGS Water Mission senior staff.</p>
-        
-        </div><!--news_story-->
-      
-    
-    </div><!--scroll-->
-
-</div><!--newsfeed-->
-
-
-<div id="who" class="col">
-
-	<a href="people.html"><img src="{{ url_for('static', filename= 'images/people.jpg')  }}" alt="people pic"/></a>
-    
-    <a class="color" href="people.html"><h2>Who We Are</h2></a>
-
-</div><!--col-->
-
-<div class="col">
-
-	<a  href="products.html"><img src="{{ url_for('static', filename= 'images/products.jpg')  }}" alt="product pic"/></a>
-    
-    <a class="color" href="products.html"><h2>What We Do</h2></a>
-
-</div><!--col-->
-
-<div id="cida_partners" class="col">
-
-	<a href="partners.html"><img src="{{ url_for('static', filename= 'images/partners.jpg')  }}" alt="partner pic"/></a>
-    
-    <a class="color" href="partners.html"><h2>CIDA Partners</h2></a>
-
-</div><!--col-->
-
-<div id="tricky"></div>
-    
-
-</div><!--content-->
 
 {% endblock page_content %}
 
