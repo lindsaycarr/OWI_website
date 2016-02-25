@@ -61,3 +61,5 @@ target/
 .project
 .pydevproject
 /static/
+
+.idea/
