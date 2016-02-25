@@ -30,9 +30,9 @@
 {% block page_css %}{% endblock %}
 {% block page_static_scripts %}{% endblock %}
 
-<link href='//fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
-<link rel="icon" type="image/ico" href="{{ url_for('static', filename= 'images/spike.ico')  }}"  />
+<link rel="icon" type="image/ico" href="{{ url_for('static', filename= 'images/small-blue.ico')  }}"  />
 
 <!--[if lt IE 9]>
 <link href="css/ie_fix.css" rel="stylesheet" type="text/css">
@@ -78,155 +78,106 @@ $(window).resize(sizeContent);
 
 <body>
 
+<!-- BEGIN USGS Header Template -->
 
-<div id="container">
+			<div id="usgscolorband">
 
-<header>
+				<div id="usgsheader">
 
-    <div id="usgslogo">
-    <a href="http://www.usgs.gov/" target="_blank"><img alt="USGS Logo" src="{{ url_for('static', filename= 'images/usgslogo.jpg')  }}" /></a>
-    </div><!-- usgslogo -->
+					<div id="usgsidentifier">
+						<a href="http://www.usgs.gov/" target="_blank"><img src="{{ url_for('static', filename="images/usgslogo.jpg") }}" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page"/></a>
+					</div><!--usgsidentifier-->
 
- 	<div id="banner">
-    	<img alt="Site Banner" src="{{ url_for('static', filename= 'images/banner.png')  }}"/>
-    </div><!-- banner -->
+					<img src="{{ url_for('static', filename="images/banner.png") }}" alt="banner"/>
 
-    <div id="headernav">
+					<div id="usgsccsabox">
 
-        <ul>
-           <li><a href="http://www.usgs.gov/" target="_blank">USGS Home</a></li>
-           <li><a href="http://www.usgs.gov/ask/index.php" target="_blank">Contact USGS</a></li>
-           <li><a href="http://search.usgs.gov/" target="_blank">Search USGS</a></li>
-        </ul>
+						<div id="usgsccsa">
+							<a href="http://www.usgs.gov/">USGS Home</a>
+							<br /><a href="http://answers.usgs.gov/cgi-bin/gsanswers?tmplt=2">Contact USGS</a>
+							<br /><a href="http://search.usgs.gov/">Search USGS</a>
+							<br />
+						</div><!--usgsccsa-->
 
-    </div><!-- headernav -->
+					</div><!--usgsccsabox-->
 
-</header>
+				</div><!--usgsheader-->
+			</div><!--colorband-->
+
+			<!-- END USGS Header Template -->
 
 <nav><!-- navstart -->
 
-	<h1 id="homelink"><a href="{{ url_for('home-canonical') }}">Office of Water Information</a></h1>
+    <div id="desktopNav">
 
-    <ul>
-        <li><a href="{{ url_for('blog') }}">BLOG</a> </li>
-        <li><a href="{{ url_for('people-canonical') }}">PEOPLE</a>
-        	<ul>
-            	<li><a href="{{ url_for('people-canonical') }}">Employees</a></li>
-                <li><a href="{{ url_for('careers-canonical') }}">Careers</a></li>
-            </ul>
-        </li>
-        <li><a href="{{ url_for('products-canonical') }}">PRODUCTS</a></li>
-        <li><a href="{{ url_for('partners-canonical') }}">PARTNERS</a></li>
-        <li><a href="{{ url_for('datascience-canonical') }}">DATA SCI</a></li>
-        <li><a href="{{ url_for('examples') }}">TRAINING</a></li>
-        <li><a href="{{ url_for('videos') }}">VIDEOS</a></li>
-        <li><a href="{{ url_for('r-canonical') }}">USGS-R</a>
-        	<ul>
-            	<li><a href="{{ url_for('r-canonical') }}">HOME</a></li>
-                <li><a href="{{ url_for('r-about-canonical') }}">ABOUT</a></li>
-            </ul>
-        </li>
-    </ul>
+        <img id="mobileBurger" src="{{ url_for('static', filename="images/mobileburger.png") }}" alt="mobile nav menu"/>
 
+        <a href="{{ url_for('home-canonical') }}">
+            <img id="owiLogoSmall" src="{{ url_for('static', filename="images/small-blue.png") }}" alt="OWI logo"/>
+        </a>
+
+        <ul id="navigation">
+            <a id="people" href="{{ url_for('people-canonical') }}"><li>People</li></a>
+            <a href="{{ url_for('products-canonical') }}"><li>Products</li></a>
+            <a href="{{ url_for('partners-canonical') }}"><li>Partners</li></a>
+            <a href="{{ url_for('careers-canonical') }}"><li>Careers</li></a>
+        </ul>
+
+    </div>
 
 </nav><!-- navend -->
 
-<!-- mobile_html_start -->
-
-<div id="mobileheader">
-
-	<a href="index.html"><img alt="Mobile Logo" id="mobilelogo" src="{{ url_for('static', filename= 'images/mobile_icons/mobilelogo.png')  }}"/></a>
-
-
-<div id="mobilenav">
-
-
-    <div id="mobileicons">
-    <ul>
-   <li> <a href="index.html"><img src="{{ url_for('static', filename= 'images/mobile_icons/homeicon.png')  }}" alt="Home Icon"/></a></li>
-
-
-            	<li><a href="people.html"><img src="{{ url_for('static', filename= 'images/mobile_icons/people_mobile_icon.png')  }}" alt="People Icon"/></a>
-                	<ul>
-                    	<li><a href="people.html">Employees</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
-                </li>
-
-
-          <li> <a href="products.html"><img src="{{ url_for('static', filename= 'images/mobile_icons/products_icon01.png')  }}" alt="Products Icon"/></a></li>
-
-            <li><a href="partners.html"><img src="{{ url_for('static', filename= 'images/mobile_icons/partners_icon.png')  }}" alt="Partners Icon"/></a></li>
-            </ul>
-
-        </div><!-- mobileicons -->
-
-</div><!-- mobilenav -->
-
-</div><!-- mobileheader -->
-
-<!-- mobile_html_end -->
 
    {% block page_content %}{% endblock page_content%}
 
 
-<footer>
+<!-- BEGIN USGS Footer Template -->
 
-<!--<div id="top">
-    <a href="http://www.usgs.gov/" target="_blank">USGS Home</a>
-    <a href="http://water.usgs.gov/" target="_blank">Water Resources</a>
-    <a href="http://biology.usgs.gov/" target="_blank">Biology</a>
-    <a href="http://www.usgs.gov/climate_landuse/" target="_blank">Geography</a>
-    <a href="http://geology.usgs.gov/index.htm" target="_blank">Geology</a>
-    <a href="http://www.usgs.gov/ngpo/" target="_blank">Geospatial</a>
-</div>-->
+        <div id="usgsfooter">
 
+        	<p id="usgsfooterbar">
+                <a href="http://www.usgs.gov/laws/accessibility.html" title="Accessibility Policy (Section 508)" target="_blank">Accessibility</a>
+                <a href="http://www.usgs.gov/foia/" title="Freedom of Information Act" target="_blank">FOIA</a>
+                <a href="http://www.usgs.gov/laws/privacy.html" title="Privacy policies of the U.S. Geological Survey." target="_blank">Privacy</a>
+                <a href="http://www.usgs.gov/laws/policies_notices.html" title="Policies and notices that govern information posted on USGS Web sites." target="_blank">Policies and Notices</a>
 
-<div id="middle">
-    <a href="http://www.usgs.gov/laws/accessibility.html" target="_blank">Accessibility</a>
-    <a href="http://www.usgs.gov/foia/" target="_blank">FOIA</a>
-    <a href="http://www.usgs.gov/laws/privacy.html" target="_blank">Privacy</a>
-    <a href="http://www.usgs.gov/laws/policies_notices.html" target="_blank">Policies and Notices</a>
-</div><!--middle-->
+			</p><!--usgsfooterbar-->
 
 
-<div id="bottom">
+		<p id="usgsfootertext">
 
-    <a href="http://www.doi.gov/index.cfm" target="_blank">U.S. Department of the Interior</a> | <a href="http://www.usgs.gov/" target="_blank">U.S. Geological Survey</a>
+    		<a href="http://www.usa.gov/" alt="USA.gov logo" title="USAGov: Government Made Easy" width="90" height="26" target="_blank"><img id="usa" src="{{ url_for('static', filename="images/usa_gov.png") }}" alt="usa_gov pic"/></a>
 
+    		<a href="http://www.doi.gov/" target="_blank">U.S. Department of the Interior</a> |
 
-    <p>URL: {% block footer_url %}{% endblock footer_url %}</p>
+			<a href="http://www.usgs.gov/" target="_blank">U.S. Geological Survey</a> |
 
+			<a href="http://www.doioig.gov/" target="_blank">DOI Inspector General</a>
 
+    		<p style="margin: 5px 0 5px 0; padding-left: 5px;">URL: http://owi.usgs.gov/R/</p>
 
-    <p>Contact Information: <a href="mailto:cida_webmaster@usgs.gov?Subject=Hello%20again" target="_top">cida_webmaster@usgs.gov</a></p>
+            <p style="margin: 5px 0 5px 0; padding-left: 5px;">Contact Information: <a href="mailto:gs-w_r_admin@usgs.gov?Subject=USGS-R%20Website" target="_top">gs-w_r_admin@usgs.gov</a></p>
 
-    <p>Page last modified: <script>
-document.write(document.lastModified);
-</script></p>
+    		<p style="margin: 5px 0 5px 0; padding-left: 5px;">Page last modified: 02/17/2016</p>
 
-<div id="usa_gov">
+    	</p><!--usgsfootertext-->
 
-	<a href="http://www.usa.gov/" target="_blank"><img src="{{ url_for('static', filename= 'images/usa_gov.png')  }}" alt="usa_gov pic"/></a>
+</div><!--usgsfooter-->
 
-</div>
+<!-- END USGS Footer Template -->​
 
-<div id="take_pride">
+<script type="text/javascript">
+    $('#mobileBurger').on('click', function(){
+       $('#navigation').toggle('slow');
+    });
 
-    <a href="http://volunteer.gov/" target="_blank"><img src="{{ url_for('static', filename= 'images/take_pride.png')  }}" alt="take_pride pic"/></a>
+    $(function() {
+        $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('current');
+    });
 
-</div>
-
-</div><!--bottom-->
-
-
-
-
-</footer>
-
+</script>
 
 
-</div><!--container-->
 
 
 </body>

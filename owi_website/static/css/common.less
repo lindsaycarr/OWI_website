@@ -1,7 +1,5 @@
-@primaryColor:rgb(15,65,111);;
-@divColor:#fff;
-@fontFamily:Scada;
-@linkColor:#fff;
+@primaryColor:rgb(0,51,102);
+@border:1px solid rgb(190,190,190);
 
 
 *{padding:0; margin:0;}
@@ -13,205 +11,228 @@ em {font-style:normal;
 	font-weight:normal;} 
 .clearfix {clear:both;}
 
-#container{background:none;
-            width:100%;
-            min-height:400px;}
-            
-header,
-nav{display:none;}
+#usgscolorband,
+#usgsfooter{
+  display:none;
+}
 
-header{background:#000;
-            width:100%;
-            height:72px;}
-            
-#usgslogo{float:left;
-              }
-    
-#banner{float:left;}
-     
-#usgslogo,
-#banner{ height:72px;}
+nav{
+  background:@primaryColor;
+  height:40px;
+  position:relative;
+  z-index:10000;
 
-#headernav{float:right;
-                margin-top:5px;}
-    
-#headernav a{color:@linkColor;
-                font-family:@fontFamily;
-                padding-right:10px;}
-                
-#headernav a:hover{text-decoration:underline;}
+  ul{
+    display:none;
+    list-style:none;
+    position:absolute;
+    top:40px;
+    background:#fff;
+    width:100%;
+    box-shadow:0 2px 5px rgba(0,0,0,.2);
 
-/*==========mobilenav===========*/
-
-#mobileheader{background:@primaryColor;
-                width:100%;
-                height:50px;
-                position:relative;
-                }
-                
-#mobilelogo{padding:3px 0 0 10px;
-            float:left;}
-
-#mobileicons{float:right;}
-
-#mobileicons ul{list-style:none;
-                margin:12px 0 0 0;
-                }
-                
-#mobileicons ul li{float:left;
-                    margin-right:10px;
-                    cursor:pointer;
-                    height:38px;
-                    padding:0 5px;
-                    }
-
-#mobileicons ul li ul{display:none;
-                        position:absolute;
-                        right:110px;
-                        top:38px;
-                        min-height:40px;
-                        width:100px;
-                        z-index:2000;
-                        }
-
-#mobileicons ul li:hover ul{display:block;
-                            clear:both;
-                            background:rgba(50,50,50,.9);
-                            }
-                            
-#mobileicons ul li:hover ul li{float:none;
-                                background:none;
-                                width:100px;
-                                height:30px;
-                                padding:0;
-                                }
-                                
-#mobileicons ul li:hover ul li a{color:@linkColor;
-                                display:inline-block;
-                                height:20px;
-                                width:90px;
-                                padding:5px;
-                                font-family:@fontFamily;}
-                                
-#mobileicons ul li:hover ul li a:hover{background:@primaryColor;}
-
-/*==========mobilenav_end===========*/
-
-/*==========footer===========*/
-
-footer{background:@divColor;
-        width:100%;
-        min-height:100px;
-        margin-top:10px;
-        clear:both;}
-        
-#middle{width:100%; 
-        height:20px;
-        background:rgb(102,102,102);}
-        
-#middle a{color:@linkColor;
-            font-family:@fontFamily;
-            font-size:.8em;
-            margin-right:15px;}
-            
-#middle a:first-child{margin-left:5px;}
-
-#bottom{font-family:@fontFamily;
-        font-size:.9em;
-        padding:5px 0 0 5px;
-        position:relative;}
-
-#bottom a{color:@primaryColor;
-            }
-
-#bottom img{display:none;}
-
-/*==========footer_end===========*/
-
-@media screen and (min-width:768px){
-    
-/*==========header===========*/
-    
-#mobileheader{display:none;}
-    
-header,
-nav{display:block;}
-     
-/*==========header_end===========*/
-
-/*==========nav===========*/
-     
-nav{background:@primaryColor;
-        width:100%;
-        height:50px;
-        margin-top:1px;
-        font-family:@fontFamily;
-        position:relative;}
-        
-nav h1 {float:left;
-        color:@linkColor;
+    a{
+        color:@primaryColor;
         display:inline-block;
+        height:40px;
+        width:100%;
+      &:focus{
+        background:@primaryColor;
+        color:#fff;
+      }
 
-        padding:12px 0 0 10px;
-        font-size:1.3em;}
+        li{
+          border-bottom:@border;
+          height:20px;
+          padding:10px;
+      }
+      }
 
-nav h1 a:visited{color:#fff;}
-    
-nav ul{float:right;
-        list-style:none;
-            }
-    
-nav ul li{float:left;
-            margin-right:30px;
-            text-align:center;}
-            
-nav ul li a{color:@linkColor;
-            display:inline-block;
-            height:34px;
-            width:130%;
-            padding-top:16px;}
-                
-nav ul li a:hover{background:#fff;
-                    color:@primaryColor;}
-    
-nav ul li ul{display:none;
-            background:rgba(50,50,50,.9);}
-                    
-nav ul li:hover ul{display:block;
-                    position:absolute;
-                    right:183px;
-                    width:100px;
-                    min-height:60px;
-                    z-index:2000;
-                    }
-                    
-nav ul li:hover ul li{float:none;
-                        padding:0;
-                        text-align:left;}
-                        
-nav ul li:hover ul li a{padding:5px 0 0 5px;
-                        height:25px;
-                        width:95px;}
-                        
-/*==========footer===========*/
+  }
+}
 
-#bottom img{display:block;}
+#desktopNav{
+  width:100%;
+}
 
-#usa_gov{position:absolute;
-        right:75px;
-        top:7px;}
-        
-#take_pride{position:absolute;
-        right:0px;
-        top:7px;}
-    
-    }/*media_query*/
+#owiLogoSmall{
+  display:none;
+}
 
-@media screen and (min-width:1030px){
-    
-    #container{width:980px;
-                margin:0 auto;}
-                
-    
-    
-    }/*media_query*/
+#mobileBurger{
+  position:absolute;
+  left:5px;
+  top:7px;
+}
+
+
+
+@media screen and (min-width:768px) {
+  /*========usgs-header========*/
+  #usgscolorband {
+    display:block;
+    font: 14px Verdana, Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 5.14em;
+    min-height: 72px;
+    background: #000;
+    position: relative;
+    z-index: 20002;
+    display: block;
+  }
+
+  #usgsbanner {
+    width: 100%;
+    height: 72px;
+  }
+
+  #usgsidentifier {
+    background-color: black;
+    width: 178px;
+    height: 5.14em;
+    float: left;
+  }
+
+  #usgsidentifier img {
+    border: none;
+  }
+
+  #usgsccsabox {
+    float: right;
+    background-color: #000000;
+    min-height: 72px;
+    width: 120px;
+  }
+
+  #usgsccsa {
+    font: 1em/.5em Verdana, Arial, Helvetica, sans-serif;
+    height: 63px;
+    padding-top: 9px;
+  }
+
+  #usgsccsa a:link, #usgsccsa a:visited {
+    font: bold 1em/1.3em Verdana, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-left: 4px;
+    text-decoration: none;
+  }
+
+  #usgsccsa a:hover {
+    font: bold 1em/1.3em Verdana, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: underline;
+    margin-left: 4px;
+  }
+
+  #usgsccsa a:active {
+    font: bold 1em/1.3em Verdana, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-left: 4px;
+    text-decoration: none;
+  }
+
+  /*========nav========*/
+  nav{
+    background:none;
+    border-bottom:@border;
+    margin-bottom:10px;
+
+    ul{
+      display:block !important;
+      position:static;
+      width:420px;
+      height:40px;
+      float:right;
+      box-shadow:none;
+
+      a{
+        width:105px;
+        text-align:center;
+        display:block;
+        float:left;
+        font-weight:300;
+        &:hover{
+          background:@primaryColor;
+          color:#fff;
+        }
+        li{
+          border-bottom:none;
+          padding:8px 0 0 0;
+      }
+      }
+    }
+
+  }
+
+  #desktopNav{
+    position:relative;
+    width:768px;
+    height:40px;
+    margin:0 auto;
+  }
+
+  #owiLogoSmall{
+    display:block;
+    width:47px;
+    position:absolute;
+    top:3px;
+  }
+
+  #mobileBurger{
+    display:none;
+  }
+
+  /*========usgs-footer========*/
+  #usgsfooter {
+    display:block;
+    background: #fff;
+    padding-bottom: 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: small;
+    clear: both;
+    margin: 0;
+    display: block;
+  }
+
+  #usgsfooterbar {
+    background-color: #666666;
+    padding: 4px;
+    margin: 0;
+  }
+
+  #usgsfooterbar a:link, #usgsfooterbar a:visited {
+    margin-right: 40px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  #usgsfooterbar a:hover {
+    margin-right: 40px;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+  #usgsfooterbar a:active {
+    margin-right: 40px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  #usgsfootertext {
+    padding: 4px;
+    margin: 0;
+  }
+
+  #usgsfootertext img {
+    border: none;
+    float: right;
+    margin-right: 5px;
+  }
+
+}/*Media query*/
+
+@media screen and (min-width:1025px){
+  #desktopNav{
+    width:960px;
+  }
+}
