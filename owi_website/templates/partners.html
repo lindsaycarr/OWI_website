@@ -6,46 +6,31 @@ var sizeContent = makeSizeContentHandler(".partner_logo", '.description')
 
 {% block page_content %}
 
-<div id="content">
+<div class="container">
 
-<div class="mobile_partner">
+    <div class="partner">
 
-    <div class="partner_logo">
-    <a href="http://acwi.gov/" target="_blank"><img src="{{ url_for('static', filename ="images/partners/acwi.png") }}" alt="ACWI logo"/></a>
-    </div><!--partner_logo-->
+        <div class="partnerLogo">
+            <a href="http://acwi.gov/" target="_blank"><img src="{{ url_for('static', filename ="images/partners/acwi.png") }}" alt="ACWI logo"/></a>
+        </div><!--partner_logo-->
 
-	<div class="description">
+        <div class="partnerInfo">
 
-		<a href="http://acwi.gov/" target="_blank"><h1>Advisory Committee on Water Information</h1></a>
+            <a href="http://acwi.gov/" target="_blank"><h3>Advisory Committee on Water Information</h3></a>
 
-    	<h1 class="mobile">ACWI</h1>
+            <p>The ACWI represents the interests of water-information users and professionals in advising the Federal Government on Federal water-information programs and their effectiveness in meeting the Nation's water-information needs.</p>
 
+            <h4>CIDA Collaborations with ACWI</h4>
 
+            <a href="http://cida.usgs.gov/ngwmn/" target="_blank"><p>National Ground-Water Monitoring Network Data Portal</p></a>
 
-    	<p>The ACWI represents the interests of water-information users and professionals in advising the Federal Government on Federal water-information programs and their effectiveness in meeting the Nation's water-information needs.</p>
+            <a href="http://acwi.gov/" target="_blank">
+                <button>View Partner</button>
+            </a>
 
-    	<div class="view">
-    		<a href="http://acwi.gov/" target="_blank">View Partner</a>
-    	</div><!--view-->
+        </div><!--partnerInfo-->
 
-    </div><!--description-->
-
-    <div class="projects_worked">
-
-    	<h2>CIDA Collaborations with ACWI</h2>
-
-    	<a href="http://cida.usgs.gov/ngwmn/" target="_blank"><p>National Ground-Water Monitoring Network Data Portal</p></a>
-
-    </div><!--projects_worked-->
-
-
-
-</div><!--mobile_partner-->
-
-
-
-
-
+    </div><!--partner-->
 
 
 <div class="mobile_partner">
@@ -746,7 +731,7 @@ var sizeContent = makeSizeContentHandler(".partner_logo", '.description')
 
 
 
-</div><!--content-->
+</div><!--container-->
 
 {% endblock page_content %}
 {% block footer_url %}{{ url_for('partners-canonical') }}{% endblock footer_url %}

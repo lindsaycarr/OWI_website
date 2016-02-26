@@ -185,6 +185,51 @@ button:focus {
   margin: 0;
   color: #003366;
 }
+/*Products LESS*/
+.product {
+  margin-bottom: 20px;
+  min-height: 100%;
+  border-bottom: 1px solid #bebebe;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.product:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.productPic img {
+  width: 250px;
+}
+.productInfo {
+  text-align: left;
+}
+.productInfo p {
+  margin-bottom: 10px;
+}
+/*Partners LESS*/
+.partner {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #bebebe;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.partner:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.partnerLogo img {
+  width: 250px;
+}
+.partnerInfo {
+  text-align: left;
+}
+.partnerInfo p {
+  margin-bottom: 10px;
+}
 /*Careers LESS*/
 #benefits h2,
 #finding_jobs h2,
@@ -251,7 +296,35 @@ button:focus {
   #mobileContact {
     display: none;
   }
+  /*Products LESS*/
+  .productPic {
+    width: 26%;
+    float: left;
+    clear: left;
+    border-right: 1px solid #bebebe;
+  }
+  .productPic img {
+    width: 100%;
+  }
+  .productInfo {
+    width: 73%;
+    float: right;
+  }
+  /*Partners LESS*/
+  .partnerLogo {
+    width: 26%;
+    border-right: 1px solid #bebebe;
+    float: left;
+  }
+  .partnerLogo img {
+    width: 100%;
+  }
+  .partnerInfo {
+    width: 73%;
+    float: right;
+  }
 }
+/*media query*/
 @media screen and (min-width: 1025px) {
   .container,
   .flexContainer {

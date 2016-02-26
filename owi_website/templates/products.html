@@ -12,34 +12,39 @@ var sizeContent = makeSizeContentHandler(".product_picture", '.product_info')
 
 {% block page_content %}
 
-
-<div id="content">
-
-<div id="about_cida"><p>OWI employs Agile software development to create useful web applications and transactional information systems in support of the earth sciences.</p></div>
-
+    <div class="container">
 
 {% for product in products %}
-<div class="mobileholder">
 
-<div class="product_picture">
-	<a href="{{ product.get('url') }}" target="_blank"><img src="{{ url_for('static', filename='images/products/'+product.get('image')) }}" alt="{{ product.get('name') }}"/></a>
-</div>
 
-<div class="product_info">
+    <div class="product">
 
-	<a href="{{ product.get('url') }}" target="_blank"><h1>{{ product.get('name') }}</h1></a>
+        <div class="productPic">
+
+            <a href="{{ product.get('url') }}" target="_blank"><img src="{{ url_for('static', filename='images/products/'+product.get('image')) }}" alt="{{ product.get('name') }}"/></a>
+
+        </div>
+
+        <div class="productInfo">
+
+            <a href="{{ product.get('url') }}" target="_blank"><h2>{{ product.get('name') }}</h2></a>
     
-    <p>{{ product.get('statement')|safe }}</p>
-    
-    <p class="questions">For questions, contact {{ product.get('questionName') }} <a href="mailto:{{ product.get('questionEmail') }}?Subject={{ product.get('name')| urlencode }}%20question" target="_top">({{ product.get('questionEmail') }})</a>.</p>
-		
-    <div class="view"><a href="{{ product.get('url') }}" target="_blank">View Project</a></div>
+            <p>{{ product.get('statement')|safe }}</p>
 
-</div><!--product_info-->
+            <p>For questions, contact {{ product.get('questionName') }} <a href="mailto:{{ product.get('questionEmail') }}?Subject={{ product.get('name')| urlencode }}%20question" target="_top">({{ product.get('questionEmail') }})</a>.</p>
 
-</div><!--mobileholder-->
+
+            <a href="{{ product.get('url') }}" target="_blank"><button>View Project</button></a>
+
+        </div>
+
+    </div>
+
+
+
 {% endfor %}
 
-</div>
+</div><!--container-->
+
 {% endblock page_content %}
 {% block footer_url %}{{ url_for('products-canonical') }}{% endblock footer_url %}
