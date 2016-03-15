@@ -1,0 +1,31 @@
+---
+-
+    name: Advisory Committee on Water Information
+    abbreviation: ACWI
+    url: http://www.acwi.gov
+    image: acwi.png
+    statement: >
+              The ACWI represents the interests of water-information users and professionals in advising the Federal
+              Government on Federal water-information programs and their effectiveness in meeting the Nation's
+              water-information needs.
+    collaborations:
+        - project: National Ground-Water Monitoring Network Data Portal
+          url: http://cida.usgs.gov/ngwmn/
+        - project: Water Quality Portal
+          url: http://www.waterqualitydata.us
+
+-
+    name: National Water Quality Monitoring Council
+    abbreviation: NWQMC
+    url: http://www.acwi.gov/monitoring
+    image: nqmc.jpg
+    statement: >
+              NWQMC provides a national forum for coordination of comparable and scientifically defensible methods and
+              strategies to improve water quality monitoring, assessment and reporting, and promotes partnerships to
+              foster collaboration, advance the science, and improve management within all elements of the water
+              quality monitoring community.
+    collaborations:
+        - project: National Environmental Methods Index (NEMI)
+          url: http://www.nemi.gov
+        - project: Water Quality Portal
+          url: http://www.waterqualitydata.us
