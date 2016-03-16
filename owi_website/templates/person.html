@@ -47,7 +47,7 @@ var sizeContent = makeSizeContentHandler("#headshot", '#contact')
         	    <h3>Education</h3>
 
                 {% for degree in person['education'] %}
-                <p>{{ degree.get('degree')}}<a id="school">, {{ degree.get('institution')}}, {{ degree.get('year')}}{% if degree.get('note') and degree.get('note')|length >0 %} - {{ degree.get('note')}}{% endif %}</a></p>
+                <p>{{ degree.get('degree')}}, {{ degree.get('institution')}}, {{ degree.get('year')}}{% if degree.get('note') and degree.get('note')|length >0 %} - {{ degree.get('note')}}{% endif %}</p>
                 {% endfor %}
 
             </div><!--education-->
