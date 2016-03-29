@@ -3719,3 +3719,32 @@
     publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
     presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: nlbooth #AD account
+    name: Nate Booth #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: nlbooth@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
