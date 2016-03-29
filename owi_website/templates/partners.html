@@ -16,7 +16,7 @@ var sizeContent = makeSizeContentHandler(".partner_logo", '.description')
     <div class="partner">
 
         <div class="partnerLogo">
-            <a href="{{ partner['url'] }}" target="_blank"><img src="{{ url_for('static', filename ='images/partners/'+partner.get('image')) }}" alt="{{ partner['abbreviation'] }} logo"/></a>
+            {% if partner['image'] %}<a href="{{ partner['url'] }}" target="_blank"><img src="{{ url_for('static', filename ='images/partners/'+partner.get('image')) }}" alt="{{ partner['abbreviation'] }} logo"/></a>{% endif %}
         </div><!--partner_logo-->
 
         <div class="partnerInfo">

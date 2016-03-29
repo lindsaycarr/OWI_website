@@ -21,7 +21,7 @@ var sizeContent = makeSizeContentHandler(".product_picture", '.product_info')
 
         <div class="productPic">
 
-            <a href="{{ product.get('url') }}" target="_blank"><img src="{{ url_for('static', filename='images/products/'+product.get('image')) }}" alt="{{ product.get('name') }}"/></a>
+           {% if product['image'] %} <a href="{{ product.get('url') }}" target="_blank"><img src="{{ url_for('static', filename='images/products/'+product.get('image')) }}" alt="{{ product.get('name') }}"/></a>{% endif %}
 
         </div>
 
