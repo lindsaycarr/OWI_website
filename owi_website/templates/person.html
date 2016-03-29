@@ -29,29 +29,33 @@ var sizeContent = makeSizeContentHandler("#headshot", '#contact')
 
             <h3>{{ person.get('name') }}</h3>
 
-            <h4>{{ person.get('title') }}</h4>
+            <h4>{{ person['title'] if person['title'] != None }}</h4>
 
             <h3 id="mobileContact">Contact</h3>
 
-            {% if person.get('address').get('street2')|length>0 %}<p>{{ person.get('address').get('street2') }}</p>{% endif %}
+            {% if person['address'] and person['address']|length>0  %}
+            {% if person.get('address').get('street2') %}<p>{{ person.get('address').get('street2') }}</p>{% endif %}
             <p>{{ person.get('address').get('city') }}, {{ person.get('address').get('state') }} {{ person.get('address').get('zip') }}</p>
-            <p>Phone: {{ person.get('phone') }}</p>
+            {% endif %}
+            {% if person['phone'] != None %}<p>Phone: {{ person['phone'] }}</p>{% endif %}
             <p>Email: {{ person['accounts'].get('email') }}</p>
 
         </div><!--contactSide-->
 
         <div class="infoSide">
-
+            {% if person['address'] and person['address']|length>0  %}
             <div id="education">
 
         	    <h3>Education</h3>
+
 
                 {% for degree in person['education'] %}
                 <p>{{ degree.get('degree')}}, {{ degree.get('institution')}}, {{ degree.get('year')}}{% if degree.get('note') and degree.get('note')|length >0 %} - {{ degree.get('note')}}{% endif %}</p>
                 {% endfor %}
 
-            </div><!--education-->
 
+            </div><!--education-->
+            {% endif %}
             {% if person['expertise'] and person['expertise']|length > 0 %}
             <div id="areas">
 

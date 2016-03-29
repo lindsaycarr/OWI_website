@@ -1978,3 +1978,1744 @@
     publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
     presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+
+-
+    id: apedraza #AD account
+    name: Al Pedraza #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: apedraza@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: ashalper #AD account
+    name: Andy Halper #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: ashalper@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: bhoopes #AD account
+    name: Barbara Hoopes #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: bhoopes@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: blecrone #AD account
+    name: BJ Lecrone #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: blecrone@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: bavery #AD account
+    name: Bob Avery #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: bavery@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: bdgarner #AD account
+    name: Brad Garner #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: bdgarner@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: brossett #AD account
+    name: Bubba Brossett #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: brossett@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: bbgoree #AD account
+    name: Burl Goree #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: bbgoree@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: chopkins #AD account
+    name: Candice Hopkins #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: chopkins@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: cmbostwi #AD account
+    name: Candy Bostwick #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: cmbostwi@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: crbaxter #AD account
+    name: Carmen Baxter #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: crbaxter@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: cilewis #AD account
+    name: Carol Lewis #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: cilewis@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: cmryan #AD account
+    name: Chris Ryan #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: cmryan@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: ccopeland #AD account
+    name: Chyrette Copeland #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: ccopeland@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: ddschwit #AD account
+    name: Dan Schwitalla #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: ddschwit@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: djohe #AD account
+    name: Dane Ohe #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: djohe@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: drespini #AD account
+    name: Darius Respini-Irwin #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: drespini@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: dbriar #AD account
+    name: David Briar #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: dbriar@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: dlcoyle #AD account
+    name: David Coyle #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: dlcoyle@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: dhdupre #AD account
+    name: David Dupre #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: dhdupre@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: dkyancey #AD account
+    name: David Yancey #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: dkyancey@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: dterry #AD account
+    name: Deanna Terry #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: dterry@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: dbush #AD account
+    name: Diane Bush #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: dbush@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: glshank #AD account
+    name: Greg Shank #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: glshank@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: hpadbury #AD account
+    name: Harry Padbury #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: hpadbury@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jmorris #AD account
+    name: Jim Morris #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jmorris@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jcorn #AD account
+    name: Jim Cornwall #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jcorn@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: janell_fry #AD account
+    name: Janell Fry #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: janell_fry@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jdchrist #AD account
+    name: Jeff Christman #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jdchrist@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jpernsteiner #AD account
+    name: Jessica Pernsteiner #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jpernsteiner@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jnawyn #AD account
+    name: John Nawyn #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jnawyn@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: kalfsbek #AD account
+    name: Joe Kalfsbeek #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: kalfsbek@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jnielsen #AD account
+    name: Joe Nielsen #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jnielsen@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: jmdudley #AD account
+    name: Joel Dudley #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jmdudley@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: kshousel #AD account
+    name: Kevin Housel #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: kshousel@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: kmlong #AD account
+    name: Kathy Long #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: kmlong@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: krogers #AD account
+    name: Kim Rogers #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: krogers@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: kimmartz #AD account
+    name: Kim Martz #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: kimmartz@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: kdlund #AD account
+    name: Kris Lund #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: kdlund@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: lflight #AD account
+    name: Laura Flight #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: lflight@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: llorzol #AD account
+    name: Lenny Orzol #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: llorzol@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: rltaylor #AD account
+    name: Robert "Lynn" Taylor #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: rltaylor@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: mamcderm #AD account
+    name: Mark McDermond #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: mamcderm@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: marsmith #AD account
+    name: Martyn Smith #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: marsmith@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: mierardi #AD account
+    name: Mike Ierardi #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: mierardi@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: sbarthol #AD account
+    name: Scott Bartholoma #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: sbarthol@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: simcfarl #AD account
+    name: Scott McFarlane #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: simcfarl@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: salcalde #AD account
+    name: Sharon Alcalde #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: salcalde@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: stzehl #AD account
+    name: Steve Zehl #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: stzehl@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: sbrady #AD account
+    name: Steve Brady #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: sbrady@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: spredmor #AD account
+    name: Steve Predmore #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: spredmor@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: tejmoore #AD account
+    name: Terri Moore #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: tejmoore@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: tortel #AD account
+    name: Terry Ortel #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: tortel@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: twaugens #AD account
+    name: Todd Augenstein #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: twaugens@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: wenorton #AD account
+    name: Wendy Norton #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: wenorton@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: ygsaunde #AD account
+    name: Yvonne Jenkins #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: ygsaunde@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: walker #AD account
+    name: Wade Walker #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: walker@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: scnoble #AD account
+    name: Shawn Noble #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: scnoble@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: slvasque #AD account
+    name: Sonya Vasquez #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: slvasque@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+-
+    id: smlarson #AD account
+    name: Suzanne Larson #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title:  #what you want your title to be
+    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: smlarson@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+
+    expertise: #list of expertise
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day

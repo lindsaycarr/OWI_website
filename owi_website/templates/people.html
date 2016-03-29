@@ -21,7 +21,7 @@ var sizeContent = makeSizeContentHandler(".picture", '.quote')
                     
                 <h4 {% if person.get('manager') == True  %}class="manager"{% endif %}>{{ person.get('name') }}</h4>
                 
-                <h5>{{ person.get('title') }}</h5>
+                <h5>{{ person['title'] if person['title'] != None }}</h5>
                 
                  <a href="{{ url_for('person-canonical', person=person.get('id') ) }}"><button>View Profile</button></a>
 
