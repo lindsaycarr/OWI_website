@@ -29,3 +29,15 @@
           url: http://www.nemi.gov
         - project: Water Quality Portal
           url: http://www.waterqualitydata.us
+
+-
+    name: USGS Libraries
+    abbreviation: 
+    url: http://library.usgs.gov/
+    image: usgsl.jpg
+    statement: >
+              The USGS Library system hosts the largest earth science library in the world. Established in 1879, the 
+              library continues to evolve and provide services to an ever wider population via electronic media.
+    collaborations:
+        - project: USGS Publications Warehouse
+          url: https://pubs.er.usgs.gov
