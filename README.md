@@ -29,12 +29,31 @@ Now you can run the application within the virtualenv by executing:
 
 The application can be accessed at 127.0.0.1:5050/
 
-To generate the pygments css (learn more about pygments here: http://pygments.org/:
+## How to submit more content for the OWI website
 
-1. set the current directory in the shell to the css directory in the static folder
-2. activeate the project virtualenv
-3. enter the following shell command:
-```shell
-$ pygmentize -S default -f html > codehilite.css
+1. Within the data directory at https://github.com/USGS-CIDA/OWI_website/tree/master/data there are three YAML files, one for project, people, and partners
+2. If you have an update, you can either fork the code and edit locally, and then submit a pull request, or you can even edit the content directly on the github webapp and pubmit the pull request from there.
+
+
+## How to build the static content
+
+1. in your instance directory change the freeze line to `FREEZE = True`
+2. run the application within the virtualenv by executing `python run.py` while in the project directory
+3. A `build` directory will appear under the `owi_website` directory that has the contents of the static version of the page, generated using the flask-freezer extension
+
+## Optional: deployment to Amazon S3
+(stolen from here: http://www.bernhardwenzel.com/blog/2013/07/01/jinja-with-yaml)
+
+While I’m at it here’s how you could deploy to Amazon s3. Setting up an Amazon S3 container to serve as a host for static websites is a matter of a few steps (and it’s reasonably priced). Instructions can be found on Amazon (basically, create container, enable static hosting, make container public and setup routing if you want to use your own domain).
+
+As a deployment tool I use is `s3cmd` (install with `sudo apt-get install s3cmd` and configure `s3cmd --configure`).
+
+To update my contents the `sync` command can be used. Let’s say the static files are under `<project>/owi_website/build` and I have a S3 bucket named `<BUCKET-NAME>`. To deploy, I do following:
+
+```
+cd <project>
+s3cmd sync -r owi_website/build/ s3://<BUCKET-NAME>
+
 ```
 
+Note: the trailing slash of `owi_website/build/` is crucial. Without it, the command copies the folder including the `build` directory, but to copy only the contents into the root folder of my S3 bucket the slash has to be added.
