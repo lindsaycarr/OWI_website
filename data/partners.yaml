@@ -41,3 +41,18 @@
     collaborations:
         - project: USGS Publications Warehouse
           url: https://pubs.er.usgs.gov
+
+-
+    name: Natural Resources Canada
+    abbreviation: NRCAN
+    url: http://www.nrcan.gc.ca/
+    image: nrcan.jpg
+    statement: >
+              Natural Resources Canada (NRCan) seeks to enhance the responsible development and use of Canada's 
+              natural resources and the competitiveness of Canada's natural resources products. They are an 
+              established leader in science and technology in the fields of energy, forests, and minerals 
+              and metals and use our expertise in earth sciences to build and maintain an up-to-date knowledge 
+              base of Canada's landmass.
+    collaborations:
+        - project: National Ground-Water Monitoring Network Data Portal
+          url: http://cida.usgs.gov/ngwmn/
