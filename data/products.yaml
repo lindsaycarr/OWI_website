@@ -33,3 +33,21 @@
            and provide a basis for decision making.
     questionName: Jordan Read
     questionEmail: jread@usgs.gov
+
+-
+    name: National Soil Moisture Network Pilot
+    url: http://cida.usgs.gov/nsmn_pilot/
+    image: nsmn.png
+    statement: >
+              Recognizing the need for integrated soil moisture data, the President’s Climate Action Plan called for 
+              the creation of a coordinated national soil moisture network. In response, a team led by NOAA’s 
+              National Integrated Drought Information System completed a proof-of-concept pilot project. The 
+              <em><a href="http://cida.usgs.gov/nsmn_pilot/" target="_blank">NSMN Pilot</a></em>, developed 
+              collaboratively by Texas A&M and the U.S. Geological Survey, focuses on providing real-time in situ 
+              soil moisture data, aggregated from a number of state and federal sources, to feed a map-based 
+              visualization and a standard web service. The pilot was developed in order to meet the following 
+              use cases: operational drought monitoring, experimental land surface modeling, and operational 
+              hydrological modeling. The result of this pilot is a reference architecture that will inform the 
+              implementation of an operational national soil moisture network.
+    questionName: Jessica Lucido
+    questionEmail: jlucido@usgs.gov
