@@ -1,7 +1,7 @@
 import argparse
 from owi_website import app
 from flask_frozen import Freezer
-from flaskext.markdown import Markdown
+
 
 
 freezer = Freezer(app)
@@ -9,10 +9,6 @@ freezer = Freezer(app)
 if __name__ == '__main__':
 
 
-    Markdown(app,
-              extensions=['fenced_code', 'tables', 'codehilite'],
-              extension_configs={},
-              output_format='html5',)
     if app.config['FREEZE']:
         freezer.freeze()
     parser = argparse.ArgumentParser()

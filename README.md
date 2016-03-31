@@ -8,11 +8,13 @@
 
 To run this application locally, you will need to do the following:
 
-1. Create a virtualenv using python 2.7 and install the requirements in requirements.txt. This can be done as follows while in the project directory:
-  1. Run `virtualenv --python=python2.7 env`
-  2. Activate your virtualenv (depends on whether linux or windows)
-  3. Run `pip install -r requirements.txt`
+1. Create a virtualenv using python 2.7 and install the requirements in requirements.txt. 
+**This can be done as follows while in the project directory(steps 1 and 2 are different on windows.  If you need to get python and virtualenv running on windows, [start with this useful blog post](http://www.tylerbutler.com/2012/05/how-to-install-python-pip-and-virtualenv-on-windows-with-powershell/):
+    1. Run `virtualenv --python=python2.7 env`
+    2. Activate your virtualenv (depends on whether linux or windows.  For Windows, check out getting 
+    3. Run `pip install -r requirements.txt`
 2. Change to the `instance` directory and create config.py. It should contain the following:
+	
 	```python
 	DEBUG = True
 	
@@ -37,9 +39,16 @@ The application can be accessed at 127.0.0.1:5050/
 
 ## How to build the static content
 
-1. in your instance directory change the freeze line to `FREEZE = True`
-2. run the application within the virtualenv by executing `python run.py` while in the project directory
-3. A `build` directory will appear under the `owi_website` directory that has the contents of the static version of the page, generated using the flask-freezer extension
+  * If you just want to build the static files
+    1. fire up your terminal of choice
+    2. navigate to the project directory and activate the virtualenv for the project
+    3. execute `python build_static_.py`
+
+  * If you want to see a live version of the site while also building static files
+    1. in your instance directory change the freeze line to `FREEZE = True`
+    2. run the application within the virtualenv by executing `python run.py` while in the project directory
+    3. A `build` directory will appear under the `owi_website` directory that has the contents of the static version of the page, generated using the flask-freezer extension.  At the same time, the same site will be available as a flask app.
+
 
 ## Optional: deployment to Amazon S3
 (stolen from here: http://www.bernhardwenzel.com/blog/2013/07/01/jinja-with-yaml)

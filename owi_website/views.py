@@ -1,8 +1,7 @@
-from flask import render_template, request, make_response, redirect, url_for
+from flask import render_template
 import yaml
 from . import app
 from copy import deepcopy
-from utils import pull_full_feed, pull_youtube_info
 
 
 
@@ -18,14 +17,14 @@ def careers():
 @app.route('/partners/', endpoint='partners-canonical')
 def partners():
     partners_file = open('data/partners.yaml')
-    all_partners = yaml.load(partners_file.read())
+    all_partners = yaml.safe_load(partners_file.read())
     return render_template('partners.html', partners=all_partners)
 
 
 @app.route('/people/', endpoint='people-canonical')
 def people():
     people_file = open('data/people.yaml')
-    all_people = yaml.load(people_file.read())
+    all_people = yaml.safe_load(people_file.read())
     people_file.close()
     del all_people[0]
     return render_template('people.html', people=all_people)
@@ -34,7 +33,7 @@ def people():
 @app.route('/people/<person>/', endpoint='person-canonical')
 def person(person):
     people_file = open('data/people.yaml')
-    all_people = yaml.load(people_file.read())
+    all_people = yaml.safe_load(people_file.read())
     people_file.close()
     person_record = next((record for record in all_people if record['id'] == person), None)
     if person_record:
@@ -60,7 +59,7 @@ def person(person):
 @app.route('/products/', endpoint='products-canonical')
 def products():
     products_file = open('data/products.yaml')
-    all_products = yaml.load(products_file.read())
+    all_products = yaml.safe_load(products_file.read())
     products_file.close()
     return render_template('products.html', products=all_products)
 
