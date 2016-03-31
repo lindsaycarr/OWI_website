@@ -42,7 +42,7 @@ The application can be accessed at 127.0.0.1:5050/
   * If you just want to build the static files
     1. fire up your terminal of choice
     2. navigate to the project directory and activate the virtualenv for the project
-    3. execute `python build_static_.py`
+    3. execute `python build_static.py`
 
   * If you want to see a live version of the site while also building static files
     1. in your instance directory change the freeze line to `FREEZE = True`
