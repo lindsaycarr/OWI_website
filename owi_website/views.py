@@ -18,6 +18,7 @@ def careers():
 def partners():
     partners_file = open('data/partners.yaml')
     all_partners = yaml.safe_load(partners_file.read())
+    partners_file.close()
     return render_template('partners.html', partners=all_partners)
 
 
