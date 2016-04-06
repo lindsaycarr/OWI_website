@@ -49,6 +49,46 @@ The application can be accessed at 127.0.0.1:5050/
     2. run the application within the virtualenv by executing `python run.py` while in the project directory
     3. A `build` directory will appear under the `owi_website` directory that has the contents of the static version of the page, generated using the flask-freezer extension.  At the same time, the same site will be available as a flask app.
 
+## Windows notes:
+
+###First time:
+1. Install python
+2. Add to PATH:
+```
+C:\Python27;C:\Python27\Scripts
+```
+3. Open Windows PowerShell 
+4. Navigate to the local OWI_website and run the following:
+
+```
+python get-pip.py
+pip install virtualenv
+pip install virtualenvwrapper-powershell
+mkdir '~\.virtualenvs'
+New-VirtualEnvironment OWI_website
+```
+5.Restart PowerShell
+6. Run the following:
+```
+New-Item -Path $Profile.CurrentUserAllHosts -Type file -Force
+$profile | Format-List * -Force
+```
+7. Navigate to the path listed in CurrentUserAllHosts
+8. Add to file profile.ps1 in a text editor:
+```
+Import-Module virtualenvwrapper
+```
+9. Restart PowerShell
+
+###Subsequent times:
+1. Open PowerShell
+2. Navigate to project
+3. Run:
+```
+Set-VirtualEnvironment OWI_website
+python build_static.py
+```
+
 
 ## Optional: deployment to Amazon S3
 (stolen from here: http://www.bernhardwenzel.com/blog/2013/07/01/jinja-with-yaml)
