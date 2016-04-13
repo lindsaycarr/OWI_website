@@ -1794,8 +1794,8 @@
         - 'Project Implementation'
         - 'Consulting'
 
-    mobilePhoto: missing_mobile.jpg
-    photo: missing.jpg
+    mobilePhoto: nquinn.jpg
+    photo: nquinn.jpg
     currentWork:
         - project: 'Developing and implementing Agile software development practices within the USGS Office of Water Information'
           url:
@@ -2844,8 +2844,8 @@
 
     expertise: #list of expertise
 
-    mobilePhoto: missing_mobile.jpg
-    photo: missing.jpg
+    mobilePhoto: jpernsteiner.jpg
+    photo: jpernsteiner.jpg
     currentWork:
 
     publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
