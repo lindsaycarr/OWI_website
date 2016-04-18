@@ -1291,7 +1291,7 @@
         usgsProfPage:  #USGS Professional Page URL
         github:  https://github.com/lawinslow #github profile page url
         linkedin:  #linkedin profile page url
-        twitter:  #twitter profile page url
+        twitter:  https://twitter.com/lawinslow
         researchgate:  #researchgate profile page url
         googlescholar: 'http://scholar.google.com/citations?user=WENGCtYAAAAJ&hl=en' #googlescholar profile page url
     owiGroups: #e.g Data Science, Application Development, etc
