@@ -3324,6 +3324,39 @@
 
     presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
+    id: ssoper #AD account
+    name: Sam Soper #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Developer #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 608-821-3833 #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: ssoper@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github:  #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: #e.g Data Science, Application Development, etc
+
+    education:
+        - degree: B.S. in Geography, #e.g. MS Geology
+          institution: University of Minnesota - Twin Cities  #e.g UW-Madison
+          year: 2011
+          note: ''
+
+    expertise: #list of expertise
+        - 'Web Development'
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
 -
     id: sbarthol #AD account
     name: Scott Bartholoma #Name that you want to appear on your profile page and elsewhere
