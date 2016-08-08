@@ -8,23 +8,30 @@
       state: WI
       zip: 53562
 
+-   id: TusconOffice
+    address: &TusconOffice
+      street1: Arizona Water Science Center
+      street2: 520 N. Park Avenue
+      city: Tucson
+      state: AZ
+      zip: 85719
 
 -
     id: aappling #AD account
     name: Alison Appling #Name that you want to appear on your profile page and elsewhere
     manager: No #Yes or No
-    title: Data Science Postdoc #what you want your title to be
-    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
-    phone: 608-821-3927 #preferred phone for contact
+    title: Data Scientist #what you want your title to be
+    address: *TusconOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 520-670-6671 x271 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: aappling@usgs.gov #usgs email
-        usgsProfPage:  #USGS Professional Page URL
+        usgsProfPage: https://profile.usgs.gov/aappling #USGS Professional Page URL
         github: https://github.com/aappling-usgs #github profile page url
-        linkedin:  #linkedin profile page url
-        twitter:  #twitter profile page url
+        linkedin: https://www.linkedin.com/in/alisonappling #linkedin profile page url
+        twitter: https://twitter.com/alisonappling #twitter profile page url
         researchgate: https://www.researchgate.net/profile/Alison_Appling #researchgate profile page url
-        googlescholar: '' #googlescholar profile page url
-    owiGroups: #e.g Data Science, Application Development, etc
+        googlescholar: https://scholar.google.com/citations?user=E0YZuSgAAAAJ #googlescholar profile page url
+    owiGroups: Data Science #e.g Data Science, Application Development, etc
 
     education:
         - degree: PhD Ecology #e.g. MS Geology
@@ -49,14 +56,13 @@
 
     publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
         2015:
-          - '<strong>Appling, Alison P.</strong>, Miguel C. Leon, and William H. McDowell. “Reducing Bias and Quantifying Uncertainty in Watershed Flux Estimates: The R Package Loadflex.” Ecosphere, in press.'
+          - '<strong>Appling, Alison P.</strong>, Miguel C. Leon, and William H. McDowell. <a href="http://onlinelibrary.wiley.com/doi/10.1890/ES14-00517.1/full">Reducing Bias and Quantifying Uncertainty in Watershed Flux Estimates: The R Package Loadflex.</a> Ecosphere 6(12):269. doi:10.1890/ES14-00517.1.'
           - 'Read JS, JI Walker, <strong>AP Appling</strong>, DL Blodgett, EK Read, LA Winslow. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1111/ecog.01880/abstract">geoknife: Reproducible web-processing of large gridded datasets</a>. Ecography. 38: 1-7. doi:10.1111/ecog.01880'
-          - 'Sistla, Seeta A., <strong>Alison P. Appling</strong>, Aleksandra M. Lewandowska, Benton N. Taylor, and Amelia A. Wolf. “Stoichiometric Flexibility in Response to Fertilization along Gradients of Environmental and Organismal Nutrient Richness.” Oikos 124, no. 7 (July 1, 2015): 949–59. doi:10.1111/oik.02385.'
+          - 'Sistla, Seeta A., <strong>Alison P. Appling</strong>, Aleksandra M. Lewandowska, Benton N. Taylor, and Amelia A. Wolf. <a href="http://onlinelibrary.wiley.com/doi/10.1111/oik.02385/abstract">Stoichiometric Flexibility in Response to Fertilization along Gradients of Environmental and Organismal Nutrient Richness.</a> Oikos 124, no. 7 (July 1, 2015): 949–59. doi:10.1111/oik.02385.'
 
         2014:
-          - '<strong>Appling, Alison P.</strong>, and James B. Heffernan. “Nutrient Limitation and Physiology Mediate the Fine-Scale (De)coupling of Biogeochemical Cycles.” The American Naturalist 184, no. 3 (September 1, 2014): 384–406. doi:10.1086/677282.'
-          - '<strong>Appling, Alison P.</strong>, Emily S. Bernhardt, and Jack A. Stanford. “Floodplain Biogeochemical Mosaics: A Multidimensional View of Alluvial Soils.” Journal of Geophysical Research: Biogeosciences 119, no. 8 (August 1, 2014): 2013JG002543. doi:10.1002/2013JG002543.'
-
+          - '<strong>Appling, Alison P.</strong>, and James B. Heffernan. <a href="http://www.jstor.org/stable/info/10.1086/677282">Nutrient Limitation and Physiology Mediate the Fine-Scale (De)coupling of Biogeochemical Cycles.</a> The American Naturalist 184, no. 3 (September 1, 2014): 384–406. doi:10.1086/677282.'
+          - '<strong>Appling, Alison P.</strong>, Emily S. Bernhardt, and Jack A. Stanford. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2013JG002543/abstract">Floodplain Biogeochemical Mosaics: A Multidimensional View of Alluvial Soils.</a> Journal of Geophysical Research: Biogeosciences 119, no. 8 (August 1, 2014): 2013JG002543. doi:10.1002/2013JG002543.'
 
     presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
@@ -2016,8 +2022,8 @@
     name: Andy Halper #Name that you want to appear on your profile page and elsewhere
     manager: No #Yes or No
     title:  #what you want your title to be
-    address:  #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
-    phone:  #preferred phone for contact
+    address: *TusconOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone: 520-670-6671 x229 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: ashalper@usgs.gov #usgs email
         usgsProfPage:  #USGS Professional Page URL
