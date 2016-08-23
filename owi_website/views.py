@@ -2,7 +2,6 @@ from flask import render_template
 import yaml
 from . import app
 from copy import deepcopy
-from pprint import pprint
 
 
 
@@ -29,9 +28,9 @@ def people():
     all_people = yaml.safe_load(people_file.read())
     people_file.close()
     just_people = []
-    for person in all_people:
-        if 'Office' not in person['id']:
-            just_people.append(person)
+    for item in all_people:
+        if item.get('type') != 'office':
+            just_people.append(item)
     return render_template('people.html', people=just_people)
 
 
