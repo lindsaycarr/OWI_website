@@ -2,6 +2,7 @@ from flask import render_template
 import yaml
 from . import app
 from copy import deepcopy
+from pprint import pprint
 
 
 
@@ -27,8 +28,11 @@ def people():
     people_file = open('data/people.yaml')
     all_people = yaml.safe_load(people_file.read())
     people_file.close()
-    del all_people[0]
-    return render_template('people.html', people=all_people)
+    just_people = []
+    for person in all_people:
+        if 'Office' not in person['id']:
+            just_people.append(person)
+    return render_template('people.html', people=just_people)
 
 
 @app.route('/people/<person>/', endpoint='person-canonical')
