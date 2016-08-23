@@ -8,8 +8,8 @@
       state: WI
       zip: 53562
 
--   id: TusconOffice
-    address: &TusconOffice
+-   id: TucsonOffice
+    address: &TucsonOffice
       street1: Arizona Water Science Center
       street2: 520 N. Park Avenue
       city: Tucson
@@ -21,7 +21,7 @@
     name: Alison Appling #Name that you want to appear on your profile page and elsewhere
     manager: No #Yes or No
     title: Data Scientist #what you want your title to be
-    address: *TusconOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    address: *TucsonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
     phone: 520-670-6671 x271 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: aappling@usgs.gov #usgs email
@@ -2022,7 +2022,7 @@
     name: Andy Halper #Name that you want to appear on your profile page and elsewhere
     manager: No #Yes or No
     title:  #what you want your title to be
-    address: *TusconOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    address: *TucsonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
     phone: 520-670-6671 x229 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: ashalper@usgs.gov #usgs email
