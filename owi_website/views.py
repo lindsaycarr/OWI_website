@@ -32,7 +32,6 @@ def people():
     for person in all_people:
         if 'Office' not in person['id']:
             just_people.append(person)
-    pprint(just_people)
     return render_template('people.html', people=just_people)
 
 
