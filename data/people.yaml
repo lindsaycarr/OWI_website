@@ -1,6 +1,7 @@
 ---
 
 -   id: MiddletonOffice
+    type: office
     address: &MiddletonOffice
       street1: USGS Center for Integrated Data Analytics
       street2: 8505 Research Way
@@ -9,6 +10,7 @@
       zip: 53562
 
 -   id: TucsonOffice
+    type: office
     address: &TucsonOffice
       street1: Arizona Water Science Center
       street2: 520 N. Park Avenue
