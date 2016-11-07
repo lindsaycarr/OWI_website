@@ -60,8 +60,8 @@ var sizeContent = makeSizeContentHandler("#headshot", '#contact')
             <div id="areas">
 
         	    <h3>Areas of Expertise</h3>
-                {% for area_row in person['expertise']| batch(4) %}
-           		<p>{% for area in area_row %} {{ area }}{% if not loop.last %} | {% endif %}{% endfor %} </p>
+                {% for area_row in person['expertise'] %}
+           		    <p>{{ area_row }}</p>
                 {% endfor %}
             </div><!--areas-->
             {% endif %}

@@ -1638,11 +1638,11 @@
     currentWork:
         - project: 'Modernization of the National Water Information System (NWIS)'
           url:
-          - project: 'National Water Information Systems (NWIS) Reporting Application'
+        - project: 'National Water Information Systems (NWIS) Reporting Application'
           url:
-          - project: 'USGS BioData - Aquatic Bioassessment Data for the Nation'
+        - project: 'USGS BioData - Aquatic Bioassessment Data for the Nation'
           url:
-          - project: 'USGS Sediment Data Portal'
+        - project: 'USGS Sediment Data Portal'
           url:
 
     publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
