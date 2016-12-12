@@ -1,0 +1,408 @@
+{% extends 'base.html' %}
+
+{% block title_description %}
+    <title>Data Science at the USGS Office of Water Information</title>
+
+    <meta name="description" content="The Role of the Data Science team at the USGS Office of Water Information"/>
+{% endblock title_description %}
+{% block page_content %}
+
+    <div id="dsContent" class="container">
+
+
+        <section class="segment">
+
+            <h1>Data Science Team</h1>
+
+            <p>
+                To address the event-driven, rapidly changing needs of 21st- century society,
+                water science must be open and data-driven, use the best available scientific
+                methods, and rapidly communicate findings to the public using multiple platforms,
+                including print, web, and social media. To support these needs, the USGS Office of
+                Water Information (OWI) Data Science team has developed a foundation for rigorous and
+                efficient data-driven scientific analysis, quick assembly of thematic teams and dissemination
+                of contemporary science, and advancement of scientific computing best practices across the USGS and partners.
+            </p>
+
+            <div class="topFaceHolder">
+
+                <div id="noMarginLeft" class="dataScienceFace">
+                    <a href="{{ url_for('person-canonical', person='jread')}}">
+                        <img src="{{ url_for('static', filename='images/professional_pages/jread.jpg') }}"/>
+                    </a>
+                    <p>Jordan Read</p>
+                    <p><a class="contactScience" href="mailto:jread@usgs.gov">jread@usgs.gov</a></p>
+                </div>
+                <div class="dataScienceFace">
+                    <a href="{{ url_for('person-canonical', person='lcarr')}}">
+                        <img src="{{ url_for('static', filename='images/professional_pages/lcarr.jpg') }}"/>
+                    </a>
+                    <p>Lindsay Carr</p>
+                    <p><a class="contactScience" href="mailto:lcarr@usgs.gov">lcarr@usgs.gov</a></p>
+                </div>
+                <div class="dataScienceFace">
+                    <a href="{{ url_for('person-canonical', person='jiwalker')}}">
+                        <img src="{{ url_for('static', filename='images/professional_pages/jwalker.jpg') }}"/>
+                    </a>
+                    <p>Jordan Walker</p>
+                    <p><a class="contactScience" href="mailto:jiwalker@usgs.gov">jiwalker@usgs.gov</a></p>
+                </div>
+                <div class="dataScienceFace">
+                    <a href="{{ url_for('person-canonical', person='eread')}}">
+                        <img src="{{ url_for('static', filename='images/professional_pages/eread.jpg') }}"/>
+                    </a>
+                    <p>Emily Read</p>
+                    <p><a class="contactScience" href="mailto:eread@usgs.gov">eread@usgs.gov</a></p>
+                </div>
+
+            </div>
+            <div class="bottomFaceHolder">
+
+                <div class="dataScienceFace">
+                    <a href="{{ url_for('person-canonical', person='ldecicco')}}">
+                        <img src="{{ url_for('static', filename='images/professional_pages/ldecicco.jpg') }}"/>
+                    </a>
+                    <p>Laura DeCicco</p>
+                    <p><a class="contactScience" href="mailto:ldecicco@usgs.gov">ldecicco@usgs.gov</a></p>
+                </div>
+                <div class="dataScienceFace">
+                    <a href="{{ url_for('person-canonical', person='aappling')}}">
+                        <img src="{{ url_for('static', filename='images/professional_pages/aappling.jpg') }}"/>
+                    </a>
+                    <p>Alsion Appling</p>
+                    <p><a class="contactScience" href="mailto:aappling@usgs.gov">aappling@usgs.gov</a></p>
+                </div>
+                <div class="dataScienceFace">
+                    <a href="{{ url_for('person-canonical', person='wwatkins')}}">
+                        <img src="{{ url_for('static', filename='images/professional_pages/wwatkins.jpg') }}"/>
+                    </a>
+                    <p>David Watkins</p>
+                    <p><a class="contactScience" href="mailto:wwatkins@usgs.gov">wwatkins@usgs.gov</a></p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="segment space">
+
+            <p>
+                The OWI Data Science team, which is a cross-functional team of earth scientists, data analysts,
+                and computer scientists, has four objective functions that are designed to increase the efficiency
+                of USGS science and more effectively communicate its value to the Nation:
+            </p>
+
+            <div id="colorHolder">
+
+                <a class="DScolor" id="dsTools" href="#toolsarea">Tools</a>
+
+                <a class="DScolor" id="dsTraining" href="#trainingarea">Training</a>
+
+                <a class="DScolor" id="dsViz" href="#vizarea">Visualizations</a>
+
+                <a class="DScolor" id="dsResearch" href="#pubsarea">Research</a>
+            </div>
+        </section>
+
+        <section class="segment space" id="toolsarea">
+
+            <h2>Tools</h2>
+
+            <p>
+                We build tools and software that enable reproducible data & modeling pipelines.
+                The development of these tools is aligned with the architectural recommendations
+                of the software development lifecycle best practices. We work with scientists to
+                design, implement, and communicate reproducible workflows for earth science
+                (primarily water science) that will satisfy USGS requirements for data access.
+                Many of these tools take advantage of High-Throughput Computing (HTC) resources,
+                and we often publish papers that describe novel analytical techniques, methods,
+                and research applications.
+            </p>
+
+            <div class="packageHolder">
+                <a href="https://github.com/USGS-R/dataRetrieval" target="_blank">
+                    <div class="package">
+                        <p>dataRetrieval</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/USGS-R/geoknife" target="_blank">
+                    <div class="package">
+                        <p>geoknife</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/USGS-R/sbtools" target="_blank">
+                    <div class="package">
+                        <p>sbtools</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/USGS-R/streamMetabolizer" target="_blank">
+                    <div class="package">
+                        <p>streamMetabolizer</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/USGS-R/EGRET" target="_blank">
+                    <div class="package">
+                        <p>EGRET</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/USGS-R/toxEval" target="_blank">
+                    <div class="package">
+                        <p>toxEval</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/USGS-R/netcdf.dsg" target="_blank">
+                    <div class="package">
+                        <p>netcdf.dsg</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/USGS-R/sensorQC" target="_blank">
+                    <div class="package">
+                        <p>sensorQC</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/USGS-R/glmtools" target="_blank">
+                    <div class="package">
+                        <p>glmtools</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/USGS-R/EGRETci" target="_blank">
+                    <div class="package">
+                        <p>EGRETci</p>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="segment" id="trainingarea">
+
+            <h2>Training</h2>
+
+            <p>
+                To promote and enable more scientists to conduct efficient, data-driven analyses,
+                we offer training in scientific computing workshops. We currently have three different
+                workshops: Introduction to R, USGS OWI R Tools, and Advising in Scientific Computing.
+                The Introduction to R workshops are typically 2-3 days long, are hands-on, and cover basic
+                skills for using R for a reproducible, scalable, and transparent scientific workflow. The
+                curriculum takes students through common data analysis workflow steps:
+            </p>
+
+            <a href="http://usgs-r.github.io/introR/" target="_blank">
+                <img id="arrowImage" src="{{ url_for('static', filename = "images/ds_images/training_workflow.jpg") }}" alt="Training Workflow image"/>
+            </a>
+
+            <p>
+                The USGS OWI R Tools workshop focuses on specific applications of R for earth science analyses,
+                and teaches the basics of using OWI R packages. This course expects participants to have an intermediate
+                level of R experience. Advising in Scientific Computing is an informal workshop where a group interested
+                in developing their own R package can work with some of our experienced R package developers. The workshop
+                covers version control (Git/GitHub), and package development best practices. By the end of the week, participants
+                should have functioning package that they can continue to develop and maintain without the OWI team.
+            </p>
+            <div class="photoGalery">
+                <a href="{{ url_for('static', filename = "images/ds_images/eread_teaching.jpg") }}" class="swipebox" title="Emily Read teaching R">
+                    <img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/eread_teaching.jpg") }}" alt="Emily Read teaching R">
+                </a>
+
+                <a href="{{ url_for('static', filename = "images/ds_images/datacarpentry_lesson.jpg") }}" class="swipebox" title="Data Carpentry Lesson">
+                    <img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/datacarpentry_lesson.jpg") }}" alt="Data Carpentry Lesson">
+                </a>
+
+                <a href="{{ url_for('static', filename = "images/ds_images/helena_1.JPG") }}" class="swipebox" title="Andrew Yan helping student with R">
+                    <img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/helena_1.JPG") }}" alt="Andrew Yan helping student with R">
+                </a>
+
+                <a href="{{ url_for('static', filename = "images/ds_images/helena_2.JPG") }}" class="swipebox" title="Alison Appling teaching R">
+                    <img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/helena_2.JPG") }}" alt="Alison Appling teaching R">
+                </a>
+
+                <a href="{{ url_for('static', filename = "images/ds_images/helena_3.JPG") }}" class="swipebox" title="R workshop in Helena, MT">
+                    <img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/helena_3.JPG") }}" alt="R workshop in Helena, MT">
+                </a>
+
+                <a href="{{ url_for('static', filename = "images/ds_images/ftcollins_apr2016_1.jpg") }}" class="swipebox" title="R workshop in Ft Collins, CO">
+                    <img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/ftcollins_apr2016_1.jpg") }}" alt="R workshop in Ft Collins, CO">
+                </a>
+
+                <a href="{{ url_for('static', filename = "images/ds_images/helena_4.jpg") }}" class="swipebox" title="R workshop in Helena, MT back of room">
+                    <img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/helena_4.jpg") }}" alt="R workshop in Helena, MT back of room">
+                </a>
+
+                <a href="{{ url_for('static', filename = "images/ds_images/alacarte_mar2016_1.jpg") }}" class="swipebox" title="OWI Tools Middleton, WI">
+                    <img class="smallerImage" src="{{ url_for('static', filename = "images/ds_images/alacarte_mar2016_1.jpg") }}" alt="OWI Tools Middleton, WI">
+                </a>
+            </div>
+
+            <p>
+                Please visit our <a href="http://owi.usgs.gov/R/">R Community website</a> for more information on Introduction to R training workshops.
+                To learn more about USGS OWI R Tools or Advising in Scientific Computing contact <a href="mailto:gs-w_r_admin@usgs.gov">&lt;gs-w_r_admin@usgs.gov&gt;</a>
+            </p>
+
+        </section>
+
+        <section class="segment" id="vizarea">
+
+            <h2>Visualization Portfolio</h2>
+
+            <p>
+                We rapidly develop and deploy visualizations on current water issues as part of the USGS
+                Visualization Lab (VIZLAB). These visualizations involve working with USGS scientists and
+                partners to highlight timely science in accessible and appealing visual stories.
+            </p>
+
+            <div class="packageHolder">
+                <div class="dsViz" id="dsCaliDrought">
+                    <a href="http://cida.usgs.gov/ca_drought/">
+                        <img src="{{ url_for('static', filename = "images/ds_images/ca_drought.jpg") }}" alt="California drought Vizzy image"/>
+
+                        <p><a href="http://cida.usgs.gov/ca_drought/">California drought, visualized with open data</a></p>
+                </div>
+                <div class="dsViz" id="dsLoCoDrought">
+                    <a href="http://doi.gov/water/owdi.cr.drought/">
+                        <img src="{{ url_for('static', filename = "images/ds_images/lc_drought.png") }}" alt="Lower Colorado River Basin drought image"/>
+
+                        <p><a href="http://doi.gov/water/owdi.cr.drought/">Drought in the Colorado River Basin: Insights using open data</a></p>
+                </div>
+                <div class="dsViz" id="dsMicroplastics">
+                    <a href="https://owi.usgs.gov/vizlab/microplastics/">
+                        <img src="{{ url_for('static', filename = "images/ds_images/microplast_thumb.jpg") }}" alt="microplastics thumbnail"/>
+                    </a>
+                    <p><a>Microplastics in our waterways</a></p>
+                </div>
+                <div class="dsViz" id="dsWalleyeBass">
+                    <a href="https://owi.usgs.gov/vizlab/climate-change-walleye-bass/">
+                        <img src="{{ url_for('static', filename = "images/ds_images/walleyeBass.png") }}" alt="Walleye-bass graphic"/>
+                    </a>
+                    <p><a>Walleye and bass response to climate change</a></p>
+                </div>
+                <div class="dsViz" id="dsMatthew">
+                    <a href="https://owi.usgs.gov/vizlab/hurricane-matthew/">
+                        <img src="{{ url_for('static', filename = 'images/ds_images/matthew_water2.png') }}" alt="Hurricane Matthew graphic"/>
+                        <p><a>Map of Hurricane Matthew's water footprint</a></p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="pubsarea">
+            <h2>Recent publications</h2>
+
+            <p>
+                We collaborate with water science practitioners to tackle water resources questions
+                that are analytically complex and computationally challenging, broad or highly resolved
+                in space and time, and diverse in the type or structure of supporting data. This research
+                portfolio demonstrates the value of a data-driven scientific approach through application
+                of data science best practices, and is accomplished using transparent, scalable, and efficient
+                data science approaches. Our group continues to identify, expand on, and share skills in the application
+                of modeling approaches, machine learning, algorithm development, and remote sensing image processing to water science.
+            </p>
+            <br/>
+
+            <h3>2017</h3>
+
+            <p>Snortheim CA, PC Hanson, KD McMahon, <strong>JS Read</strong>, CC Carey, HA Dugan. 2017. <a href="http://www.sciencedirect.com/science/article/pii/S030438001630583X">Meteorological drivers of hypolimnetic anoxia in a eutrophic, north temperate lake</a>. Ecological Modelling. 343: 39-53. doi: 10.1016/j.ecolmodel.2016.10.014</p>
+            <br/>
+
+            <br/>
+            <h3>2016</h3>
+
+            <p><strong>Read JS</strong>, C Gries, <strong>EK Read</strong>, J Klug, PC Hanson, MR Hipsey, E Jennings, CM O’Reilly, <strong>LA Winslow</strong>, D Pierson, C McBride, DP Hamilton. <i>accepted</i>. A synergistic opportunity for environmental networks: Pairing data sharing with community-built tools. Inland Waters.</p>
+            <br/>
+
+            <h3>2015</h3>
+
+            <p>O'Reilly CM*, S Sharma*, DK Gray*, SE Hampton*, <strong>JS Read</strong>, RJ Rowley, P Schneider, JD Lenters, and others.
+                2015. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2015GL066235/full">Rapid and highly variable warming of lake surface waters around the globe</a>. Geophysical Research Letters. 42, doi:10.1002/2015GL066235. *<i>joint first authors</i></p>
+            <br/>
+
+            <p><strong>Read JS</strong>, <strong>JI Walker</strong>, <strong>AP Appling</strong>, DL Blodgett, <strong>EK Read</strong>, <strong>LA Winslow</strong>. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1111/ecog.01880/abstract">geoknife: Reproducible web-processing of large gridded datasets</a>. Ecography. 38: 1-7. doi:10.1111/ecog.01880</p>
+            <br/>
+
+            <p>Hirsch RM, SA Archfield, <strong>LA De Cicco</strong>. 2015. <a href="http://www.sciencedirect.com/science/article/pii/S1364815215300220">A bootstrap method for estimating uncertainty of water quality trends. Environmental Modelling & Software</a>. 73: 148-66.</p>
+            <br/>
+
+            <p><strong>Read EK</strong>, V Patil, S Oliver, A Hetherington, J Brentrup, J Zwart, K Winters, J Corman, E Nodine, IR Woolway, H Dugan, A Jaimes, A Santoso, G Hong, <strong>LA Winslow</strong>, PC Hanson, KC Weathers. 2015. <a href="http://www.esajournals.org/doi/abs/10.1890/14-0935.1">The importance of lake-specific characteristics for water quality across the continental US.</a> Ecological Applications. 25: 943-955.</p>
+            <br/>
+
+            <p>Hipsey MR, DP Hamilton, PC Hanson, CC Carey, JZ Coletti, <strong>JS Read</strong>, SW Ibelings, F Valesini, JD Brookes. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2015WR017175/full">Predicting the resilience and recovery of aquatic systems: A framework for model evolution within environmental observatories</a>. Water Resources Research. 51. doi:10.1002/2015WR017175</p>
+            <br/>
+
+            <p><strong>Read EK</strong>, M Bucknell, M Hines, J Kreft, J Lucido, <strong>JS Read</strong>, C Schroedl, D Sibley, S Stephan, I Suftin, P Thongsavanh, J Van Den Hoek, <strong>J Walker</strong>, M Wernimont, <strong>LA Winslow</strong>, and A Yan.  2015. <a href="http://journal.baygeo.org/new-insight-into-californias-drought-through-open-data/">New insight into California's drought through open data.</a> BAAMA Journal, 8(1). </p>
+            <br/>
+
+            <p>Hirsch, RM and <strong>LA De Cicco</strong>. 2015. <a href="http://pubs.usgs.gov/tm/04/a10/">User guide to Exploration and Graphics for RivEr Trends (EGRET) and dataRetrieval: R packages for hydrologic data</a>. No. 4-A10. US Geological Survey.</p>
+            <br/>
+
+            <p>Gil T, F Michel, V Ratnakar, <strong>JS Read</strong>, M Hauder, C Duffy, PC Hanson, H Dugan. 2015. <a href="http://www.isi.edu/~gil/papers/gil-etal-eswc15.pdf">Supporting Open Collaboration in Science through Explicit and Linked Semantic Description of Processes</a>. Proceedings of the Twelfth European Semantic Web Conference (ESWC), Portoroz, Slovenia, May 31-June 4 2015.</p>
+            <br/>
+
+            <p>Corsi SR, <strong>LA DeCicco</strong>, MA Lutz, RM Hirsch. 2015. <a href="http://www.sciencedirect.com/science/article/pii/S0048969714017148">River chloride trends in snow-affected urban watersheds: increasing concentrations outpace urban growth rate and are common among all seasons</a>. Science of the Total Environment. 508: 488-497. doi:10.1016/j.scitotenv.2014.12.012</p>
+            <br/>
+
+
+            <p>Woolway RI, ID Jones, DP Hamilton, SC Maberly, K Muraoka, <strong>JS Read</strong>, RL Smyth, <strong>LA Winslow</strong>. 2015. <a href="http://www.sciencedirect.com/science/article/pii/S136481521500122X">Automated calculation of surface energy fluxes with high-frequency lake buoy data</a>. Environmental Modelling and Software.  70: 191-198. doi:10.1016/j.envsoft.2015.04.013</p>
+            <br/>
+
+            <p>Sharma S*, DK Gray*, <strong>JS Read</strong>*, CM O'Reilly*, P Schneider, A Qudrat, C Gries, S Stefanoff, SE Hampton, S Hook, JD Lenters, and others. 2015. <a href="http://www.nature.com/articles/sdata20158">A global database of lake surface temperatures collected by in situ and satellite methods from 1985-2009</a>. Nature: Scientific Data. 2:150008. doi: 10.1038/sdata.2015.8. *<i>joint first authors</i></p>
+            <br/>
+
+            <p>Solomon CT, SE Jones, BC Weidel, I Buffam, ML Fork, J Karlsson, S Larsen, JT Lennon, <strong>JS Read</strong>, S Sadro, JE Saros. 2015. <a href="http://link.springer.com/article/10.1007/s10021-015-9848-y">Ecosystem consequences of changing inputs of terrestrial dissolved organic matter to lakes: current knowledge and future challenges</a>. Ecosystems.  18: 376-389. doi:10.1007/s10021-015-9848-y</p>
+            <br/>
+
+            <p><strong>Read JS</strong>, <strong>EK Read</strong>, KC Rose, <strong>LA Winslow</strong>. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1002/lom3.10006/abstract">A method for estimating the diffuse attenuation coefficient (KdPAR) from paired temperature sensors</a>. Limnology and Oceanography: Methods. 12: 53-61. doi:10.1002/lom3.2014.12.10006</p>
+            <br/>
+
+            <p><strong>Winslow LA</strong>, <strong>JS Read</strong>, GA Hansen, PC Hanson. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2014GL062325/abstract">Small lakes show muted climate change signal in deep-water temperatures</a>. Geophysical Research Letters. doi:10.1002/2014GL062325</p>
+            <br/>
+
+            <p>Van Den Hoek J, <strong>JS Read</strong>, <strong>LA Winslow</strong>, P Montesano, CD Markfort. 2015. <a href="http://www.sciencedirect.com/science/article/pii/S0034425714004349">Examining the utility of satellite-based wind sheltering estimates for lake hydrodynamic modeling</a>. Remote Sensing of Environment. 156: 551-560. doi:10.1016/j.rse.2014.10.024</p>
+            <br/>
+
+            <div id="hiddenPubs">
+                <h3>2014</h3>
+
+                <p>Hamilton DP, CC Carey, L Arvola, P Arzberger, C Brewer, JJ Cole, E Gaiser, PC Hanson, BW Ibelings, E Jennings, TK Kratz, FP Lin, CG McBride, D de Motta Marques, K Muraoka, A Nishri, B Qin, <strong>JS Read</strong>, KC Rose, E Ryder, KC Weathers, G Zhu, D Trolle, JD Brookes. 2014. <a href="https://www.fba.org.uk/journals/index.php/IW/article/view/566/441">A Global Lake Ecological Observatory Network (GLEON) for synthesising high-frequency sensor data for validation of deterministic ecological models</a>. Inland Waters. 5: 49-56. doi:10.5268/IW-5.1.566</p>
+                <br/>
+
+
+                <p><strong>Winslow LA</strong>, <strong>JS Read</strong>, PC Hanson, EH Stanley. 2014. <a href="https://www.fba.org.uk/journals/index.php/IW/article/viewFile/740/438">Does lake size matter? Combining morphology and process modeling to examine the contribution of lake classes to population-scale processes</a>. Inland Waters. 5: 7-14. doi:10.5268/IW-5.1.740</p>
+                <br/>
+
+                <p><strong>Read JS</strong>, <strong>LA Winslow</strong>, GA Hansen, J Van Den Hoek, PC Hanson, LC Bruce, CD Markfort. 2014. <a href="http://www.sciencedirect.com/science/article/pii/S0304380014003664">Simulating 2,368 temperate lakes reveals weak coherence in stratification phenology</a>. Ecological Modelling. 291C: 142-150. doi:10.1016/j.ecolmodel.2014.07.029</p>
+                <br/>
+
+                <p>Rose KC, <strong>LA Winslow</strong>, <strong>JS Read</strong>, <strong>EK Read</strong>, C Solomon, R Adrian, PC Hanson. 2014. <a href="http://www.researchgate.net/publication/262636199_Improving_the_precision_of_lake_ecosystem_metabolism_estimates_by_identifying_predictors_of_model_uncertainty">Improving the precision of lake ecosystem metabolism estimates by identifying predictors of model uncertainty.</a> Limnology and Oceanography: Methods. 12: 303-312. doi:10.4319/lom.2014.12.303</p>
+                <br/>
+
+                <p><strong>Read EK</strong>, M Ivancic, PC Hanson, B Cade-Menun, and KD McMahon. 2014. Phosphorus speciation in a eutrophic lake by 31P NMR spectroscopy. Water Research. DOI: 10.1016/j.watres.2014.06.005</p>
+                <br/>
+
+                <p>Watras CJ, <strong>JS Read</strong>, K Holman, Z Liu, Y Song, A Watras, S Morgan, EH Stanley. 2014. <a href="http://onlinelibrary.wiley.com/doi/10.1002/2013GL058679/pdf">Decadal oscillation of lakes and aquifers in the upper Great Lakes region of North America: Hydroclimatic implications.</a> Geophysical Research Letters. doi:10.1002/2013GL058679</p>
+                <br/>
+
+                <p><strong>Winslow LA</strong>, <strong>JS Read</strong>, PC Hanson, EH Stanley. 2014. <a href="http://onlinelibrary.wiley.com/doi/10.1111/fwb.12258/pdf">Lake shoreline in the contiguous United States: Quantity, distribution and sensitivity to observation resolution.</a> Freshwater Biology. 59: 213-223. doi:10.1111/fwb.12258</p>
+                <br/>
+
+                <p>Cheruvelil KS, PA Soranno, KC Weathers, PC Hanson, SJ Goring, CT Filstrup, <strong>EK Read</strong>. 2014. <a href="http://www.esajournals.org/doi/pdf/10.1890/130001">Creating and maintaining high-performing collaborative research teams: the importance of diversity and interpersonal skills.</a> Frontiers in Ecology and Evolution. 12: 31-38. DOI: 10.1890/130001</p>
+                <br/>
+
+            </div>
+
+            <p id="seeAll">See all publications >></p>
+        </section>
+
+    </div><!--container-->
+
+{% endblock page_content%}
+{% block footer_url %}{{ url_for('datascience-canonical') }}{% endblock footer_url %}

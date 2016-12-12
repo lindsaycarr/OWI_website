@@ -294,6 +294,159 @@ button{
   margin-bottom:20px;
 }
 
+/*Data Science LESS*/
+
+.segment{
+  border-bottom:@borderDark;
+  
+  h1{
+    margin:0;
+    }
+}
+
+.space{
+    padding-top:10px;    
+}
+
+.topFaceHolder{
+    padding-top:10px;    
+}
+
+.topFaceHolder,
+.bottomFaceHolder,
+.packageHolder{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+    .dataScienceFace{
+        width:125px;
+        margin:0 10px 10px 0;
+        text-align:center;
+        
+        img{
+            width:100%;
+            height:125px;
+            border-radius:5px;  
+        }
+        
+        p{
+            font-size:.9em;
+        }
+        
+        a{
+            font-size:.8em;    
+        }
+    }
+}
+
+#colorHolder{
+    
+    .DScolor{
+        padding: 10px;
+        width: 130px;
+        color: #fff !important;
+        font-weight: normal !important;
+        text-align: center;
+        border-radius: 5px;
+        display: block;
+        border: none;
+        font-size: 1.1em;
+        margin:10px auto;   
+    }
+    
+    #dsTools{
+        background:#39b2eb;
+        &:hover{
+            background: #2b92c2;   
+        }
+    }
+    
+    #dsTraining{
+        background:#f47464;
+        &:hover{
+             background: #cd5e50;
+        }
+    }
+    
+    #dsViz{
+        background:#003366;
+        &:hover{
+            background: #001a33;
+        }
+    }
+    
+    #dsResearch{
+        background:#67ba2f; 
+        
+        &:hover{
+            background: #4d8d22;
+        }
+    }
+}
+
+.packageHolder{
+    margin-top:10px;    
+}
+
+.package{
+    width: 195px;
+    border: 1px solid #0f416f;
+    padding: 15px;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+    
+    &:hover{
+        background:@primaryColor;
+        color:#fff;
+    }
+}
+
+#hiddenPubs{
+    display:none;
+}
+
+#pubsarea,
+#trainingarea,
+#vizarea{
+    padding:10px 0;    
+}
+
+#arrowImage {
+  width: 100%;
+  margin: 5px 0 0 0;
+}
+
+.photoGalery{
+    margin:10px 0; 
+    text-align:center;
+}
+
+.smallerImage {
+  width: 200px;
+  margin: 5px 5px 0 0;
+}
+
+.dsViz{
+    width: 195px;
+    padding: 10px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    margin: 0 auto 10px auto;
+    position: relative;
+    
+    img{
+        width: 100%;
+    }
+}
+
+#seeAll{
+    color:@primaryColor;
+    font-weight:bold;
+    cursor:pointer;
+}
 
 @media screen and (min-width: 768px){
 
@@ -384,6 +537,23 @@ button{
     width:73%;
     float:right;
   }
+  
+  /*Data Science LESS*/
+  
+  #colorHolder{
+      text-align: center;
+        .DScolor{
+            display:inline-block;
+        }
+    }
+    
+    .packageHolder{
+        justify-content:flex-start;
+    }
+    
+    .dsViz {
+        margin: 0 15px 10px 0;
+    }
 
 }/*media query*/
 
