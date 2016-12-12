@@ -14,6 +14,10 @@ def home():
 def careers():
     return render_template('careers.html')
 
+@app.route('/datascience/', endpoint='datascience-canonical')
+def datascience():
+    return render_template('datascience.html')
+
 @app.route('/partners/', endpoint='partners-canonical')
 def partners():
     partners_file = open('data/partners.yaml')

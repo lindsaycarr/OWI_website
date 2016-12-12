@@ -2563,8 +2563,8 @@
     expertise: #list of expertise
         - 'R Programming'
 
-    mobilePhoto: missing_mobile.jpg
-    photo: missing.jpg
+    mobilePhoto: wwatkins.jpg
+    photo: wwatkins.jpg
     currentWork:
 
     publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
