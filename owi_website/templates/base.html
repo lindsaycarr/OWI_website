@@ -113,23 +113,22 @@ $(window).resize(sizeContent);
 
 <nav><!-- navstart -->
 
-    <div id="desktopNav">
-
-        <img id="mobileBurger" src="{{ url_for('static', filename="images/mobileburger.png") }}" alt="mobile nav menu"/>
-
+   <div class="navContent">
+        <div id="menu">
+            Menu
+        </div>
+       <ul id="navigation">
+           <a id="people" href="{{ url_for('people-canonical') }}"><li>People</li></a>
+           <a href="{{ url_for('products-canonical') }}"><li>Products</li></a>
+           <a href="{{ url_for('partners-canonical') }}"><li>Partners</li></a>
+           <a href="{{ url_for('datascience-canonical') }}"><li>Data Science</li></a>
+           <a href="{{ url_for('careers-canonical') }}"><li>Careers</li></a>
+           <a href="https://owi.usgs.gov/blog"><li>Blog</li></a>
+       </ul>
         <a href="{{ url_for('home-canonical') }}">
             <img id="owiLogoSmall" src="{{ url_for('static', filename="images/small-blue.png") }}" alt="OWI logo"/>
         </a>
-
-        <ul id="navigation">
-            <a id="people" href="{{ url_for('people-canonical') }}"><li>People</li></a>
-            <a href="{{ url_for('products-canonical') }}"><li>Products</li></a>
-            <a href="{{ url_for('partners-canonical') }}"><li>Partners</li></a>
-            <a href="{{ url_for('careers-canonical') }}"><li>Careers</li></a>
-            <a href="https://owi.usgs.gov/blog"><li>Blog</li></a>
-        </ul>
-
-    </div>
+   </div>
 
 </nav><!-- navend -->
 
@@ -173,8 +172,12 @@ $(window).resize(sizeContent);
 <!-- END USGS Footer Template -->​
 
 <script type="text/javascript">
-    $('#mobileBurger').on('click', function(){
-       $('#navigation').toggle('slow');
+    $(document).on('click', function(){
+       $('#navigation').hide();
+    });
+    $('#menu').on('click', function(e){
+        e.stopPropagation();
+       $('#navigation').toggle();
     });
 
     $(function() {

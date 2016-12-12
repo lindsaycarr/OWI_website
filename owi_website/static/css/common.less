@@ -17,7 +17,7 @@ em {font-style:normal;
 }
 
 nav{
-  background:@primaryColor;
+  border-bottom:@border;
   height:40px;
   position:relative;
   z-index:10000;
@@ -26,7 +26,7 @@ nav{
     display:none;
     list-style:none;
     position:absolute;
-    top:40px;
+    top:41px;
     background:#fff;
     width:100%;
     box-shadow:0 2px 5px rgba(0,0,0,.2);
@@ -51,18 +51,30 @@ nav{
   }
 }
 
-#desktopNav{
-  width:100%;
+.navContent{
+  height:40px;
+  position:relative;
 }
 
 #owiLogoSmall{
-  display:none;
+    position:absolute;
+    left:10px;
+    top:3px;
+    display:block;
+    width:47px;
 }
 
-#mobileBurger{
-  position:absolute;
-  left:5px;
-  top:7px;
+#menu{
+    background:@primaryColor;
+    width:80px;
+    padding:4px 0;
+    text-align:center;
+    position:absolute;
+    right:10px;
+    top:5px;
+    border-radius:4px;
+    color:#fff;
+    cursor:pointer;
 }
 
 
@@ -133,53 +145,12 @@ nav{
 
   /*========nav========*/
   nav{
-    background:none;
-    border-bottom:@border;
     margin-bottom:10px;
-
-    ul{
-      display:block !important;
-      position:static;
-      width:525px;
-      height:40px;
-      float:right;
-      box-shadow:none;
-
-      a{
-        width:105px;
-        text-align:center;
-        display:block;
-        float:left;
-        font-weight:300;
-        &:hover{
-          background:@primaryColor;
-          color:#fff;
-        }
-        li{
-          border-bottom:none;
-          padding:8px 0 0 0;
-      }
-      }
+    
+    li:hover{
+        background:@primaryColor;
+        color:#fff;
     }
-
-  }
-
-  #desktopNav{
-    position:relative;
-    width:768px;
-    height:40px;
-    margin:0 auto;
-  }
-
-  #owiLogoSmall{
-    display:block;
-    width:47px;
-    position:absolute;
-    top:3px;
-  }
-
-  #mobileBurger{
-    display:none;
   }
 
   /*========usgs-footer========*/
@@ -232,7 +203,12 @@ nav{
 }/*Media query*/
 
 @media screen and (min-width:1025px){
-  #desktopNav{
+  .navContent{
     width:960px;
+    margin:0 auto;
   }
+  
+  #owiLogoSmall{
+    left:0;  
+    }
 }
