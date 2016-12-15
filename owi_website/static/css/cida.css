@@ -34,6 +34,9 @@ body {
 #dsIntro {
   margin-top: 10px;
 }
+.headerSpace {
+  margin-bottom: 5px;
+}
 /*Universal LESS*/
 .current {
   background: #003366;
@@ -263,7 +266,7 @@ button:focus {
   border-bottom: 1px solid #bebebe;
 }
 .segment h1 {
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 .space {
   padding-top: 10px;
