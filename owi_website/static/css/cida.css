@@ -88,7 +88,7 @@ button:focus {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#003366, #001733);
   /* Standard syntax */
-  height: 120px;
+  height: 80px;
   border-radius: 10px;
   margin-top: 10px;
   text-align: center;
@@ -105,7 +105,7 @@ button:focus {
   color: #003366;
 }
 .option p {
-  padding-top: 50px;
+  padding-top: 30px;
   font-weight: 300;
 }
 /*People LESS*/
