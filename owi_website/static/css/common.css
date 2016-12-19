@@ -48,6 +48,7 @@ nav ul a {
   display: inline-block;
   height: 40px;
   width: 100%;
+  font-weight: 300;
 }
 nav ul a:focus {
   background: #003366;
