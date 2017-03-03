@@ -442,7 +442,7 @@ button:focus {
     border-right: 1px solid #bebebe;
   }
   .productPic img {
-    width: 100%;
+    width: 95%;
   }
   .productInfo {
     width: 73%;
@@ -455,7 +455,7 @@ button:focus {
     float: left;
   }
   .partnerLogo img {
-    width: 100%;
+    width: 95%;
   }
   .partnerInfo {
     width: 73%;
