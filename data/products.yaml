@@ -1,4 +1,17 @@
----
+-
+    name: Water Data for the Nation
+    url: https://waterdata.usgs.gov/
+    image: wdn.jpg
+    statement: >
+              This is the public web interface to the USGS National Water Information System.  It provides access to water-resources
+              data collected at approximately 1.5 million sites in all 50 States, the District of Columbia, Puerto Rico, the Virgin Islands,
+              Guam, American Samoa and the Commonwealth of the Northern Mariana Islands.  It has been nationally operational since 2001 and
+              is the third most popular website in the U.S. Department of the Interior.
+              Data served here also are available in open-standard formats at <a href="https://waterservices.usgs.gov/">https://waterservices.usgs.gov/</a>.  These formats encourage
+              easy interchange of water data and greater use of them in software applications.
+
+    questionName: Brad Garner
+    questionEmail: bdgarner@usgs.gov,
 -
     name: Water Quality Portal
     url: http://www.waterqualitydata.us
@@ -31,8 +44,8 @@
            sea-level rise. These information products are available at the <em><a href="http://marine.usgs.gov/coastalchangehazardsportal/"
            target="_blank"> coastal change hazards web portal</a></em>. The portal can be used to increase awareness
            and provide a basis for decision making.
-    questionName: Jordan Read
-    questionEmail: jread@usgs.gov
+    questionName: Megan Hines
+    questionEmail: mhines@usgs.gov
 
 -
     name: National Soil Moisture Network Pilot
@@ -105,21 +118,6 @@
     questionEmail: kalfsbek@usgs.gov
 
 -
-    name: Water Data for the Nation
-    url: https://waterdata.usgs.gov/
-    image: wdn.jpg
-    statement: >
-              This is the public web interface to the USGS National Water Information System.  It provides access to water-resources
-              data collected at approximately 1.5 million sites in all 50 States, the District of Columbia, Puerto Rico, the Virgin Islands,
-              Guam, American Samoa and the Commonwealth of the Northern Mariana Islands.  It has been nationally operational since 2001 and
-              is the third most popular website in the U.S. Department of the Interior.
-              Data served here also are available in open-standard formats at <a href="https://waterservices.usgs.gov/">https://waterservices.usgs.gov/</a>.  These formats encourage
-              easy interchange of water data and greater use of them in software applications.
-
-    questionName: Brad Garner
-    questionEmail: bdgarner@usgs.gov
-
--
     name: Grand Canyon Monitoring and Research Center
     url: https://www.gcmrc.gov/discharge_qw_sediment/
     image: gcmrc.jpg
@@ -131,5 +129,3 @@
 
     questionName: Megan Hines
     questionEmail: mhines@usgs.gov
-
-
