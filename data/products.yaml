@@ -60,7 +60,7 @@
               The Geo Data Portal (GDP) project aims to support simple, rapid development of thin user interfaces
               (like web portals) to commonly needed environmental modeling-related data access and manipulation tools.
     questionName: Jordan Read
-    questionEmail: jread.gov
+    questionEmail: jread@usgs.gov
 
 -
     name: Environmental Data Discovery and Transformation
@@ -73,7 +73,7 @@
               sources is sorted into a single table that aids model development and similar tasks. See the user guide for
               step-by-step instructions on obtaining data, specifying transforms, and processing data.
     questionName: Jessica Lucido
-    questionEmail: jlucido.gov
+    questionEmail: jlucido@usgs.gov
 
 -
     name: Wateralert
