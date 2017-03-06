@@ -117,5 +117,19 @@
               easy interchange of water data and greater use of them in software applications.
 
     questionName: Brad Garner
-    questionEmail: bdgarner@usgs.gov,
+    questionEmail: bdgarner@usgs.gov
+
+-
+    name: Grand Canyon Monitoring and Research Center
+    url: https://www.gcmrc.gov/discharge_qw_sediment/
+    image: gcmrc.jpg
+    statement: >
+              The U.S. Geological Survey's Grand Canyon Monitoring and Research Center (GCMRC) is the science provider for the Glen Canyon Dam
+              Adaptive Management Program. In this role, the research center provides the public and decision makers with relevant scientific
+              information about the status and trends of natural, cultural, and recreational resources found in those portions of Grand Canyon
+              National Park and Glen Canyon National Recreation Area affected by Glen Canyon Dam operations.
+
+    questionName: Megan Hines
+    questionEmail: mhines@usgs.gov
+
 
