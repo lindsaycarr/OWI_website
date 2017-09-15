@@ -737,8 +737,8 @@
     expertise: #list of expertise
         - ''
 
-    mobilePhoto: missing_mobile.jpg
-    photo: missing.jpg
+    mobilePhoto: gmoede_mobile.jpg
+    photo: gmoede.jpg
     currentWork:
         - project: ''
           url:
@@ -1178,8 +1178,8 @@
     expertise: #list of expertise
         - ''
 
-    mobilePhoto: missing_mobile.jpg
-    photo: missing.jpg
+    mobilePhoto: jzwart_mobile.jpg
+    photo: jzwart.jpg
     currentWork:
         - project: ''
           url:
