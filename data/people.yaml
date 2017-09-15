@@ -711,6 +711,42 @@
             - '<strong>Kara, E</strong>., A. Shade, and R. Bohanan. 2008. “Using an online real-time database to teach about ecological scale and dynamics.” Global Lakes Ecological Observatory Network 7. Uppsala, Sweden. Poster.'
             - '<strong>Kara, E</strong>. 2008. “Phosphorus Accumulating Bacteria in Aquatic Environments” International Microbial Community Dynamics Workshop. Stockholm, Sweden. Oral presentation.'
 
+-
+    id: gmoede #AD account
+    name: Garritt Moede #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Data Science Intern #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: gmoede@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github: https://github.com/ede0m #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: Data Science #e.g Data Science, Application Development, etc
+
+    education:
+        - degree:  #e.g. MS Geology
+          institution:  #e.g UW-Madison
+          year: 
+          note: ''
+
+    expertise: #list of expertise
+        - ''
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+        - project: ''
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
 
 -
     id: isuftin #AD account
@@ -1115,6 +1151,42 @@
             - '<strong>Read JS</strong>, J Gaeta, CH Wu, SR Carpenter, TK Kratz, A Shade, KD McMahon, J Vander Zanden. poster presentation. Thermal manipulation to trigger stresses in cold water invasive fish. Long-Term Ecological Research ASM, Estes Park, Colorado, USA September 2009.'
             - 'Shade A, <strong>JS Read</strong>, NR Lottig, TK Kratz, E Roden, EH Stanley, CH Wu, KD McMahon. Bacterial community response to a whole-lake mixing manipulation. oral presentation. Association for the Sciences of Limnology and Oceanography, Nice, France January 2009.'
             - '<strong>Read JS</strong>, A Shade, CH Wu, KD McMahon. The physical response of a small bog lake to an artificial mixing manipulation. poster presentation. Global Lake Ecological Observatory Network 8, Hamilton, New Zealand February 2009.'
+
+-
+    id: jzwart #AD account
+    name: Jacob Zwart #Name that you want to appear on your profile page and elsewhere
+    manager: No #Yes or No
+    title: Data Science Postdoc #what you want your title to be
+    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
+    phone:  #preferred phone for contact
+    accounts: #for all but email, enter a profile page url
+        email: jzwart@usgs.gov #usgs email
+        usgsProfPage:  #USGS Professional Page URL
+        github: https://github.com/jzwart #github profile page url
+        linkedin:  #linkedin profile page url
+        twitter:  #twitter profile page url
+        researchgate:  #researchgate profile page url
+        googlescholar: '' #googlescholar profile page url
+    owiGroups: Data Science #e.g Data Science, Application Development, etc
+
+    education:
+        - degree:  #e.g. MS Geology
+          institution:  #e.g UW-Madison
+          year: 
+          note: ''
+
+    expertise: #list of expertise
+        - ''
+
+    mobilePhoto: missing_mobile.jpg
+    photo: missing.jpg
+    currentWork:
+        - project: ''
+          url:
+
+    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+
+    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
 
 -
