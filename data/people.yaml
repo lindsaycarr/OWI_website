@@ -1158,25 +1158,31 @@
     manager: No #Yes or No
     title: Data Science Postdoc #what you want your title to be
     address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
-    phone:  #preferred phone for contact
+    phone: 608-821-3897 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: jzwart@usgs.gov #usgs email
         usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/jzwart #github profile page url
         linkedin:  #linkedin profile page url
-        twitter:  #twitter profile page url
+        twitter:  https://twitter.com/JayZ_Limno #twitter profile page url
         researchgate:  #researchgate profile page url
-        googlescholar: '' #googlescholar profile page url
+        googlescholar: 'https://scholar.google.com/citations?user=C0F1fvoAAAAJ&hl=en' #googlescholar profile page url
     owiGroups: Data Science #e.g Data Science, Application Development, etc
 
     education:
-        - degree:  #e.g. MS Geology
-          institution:  #e.g UW-Madison
-          year: 
+        - degree: PhD Biological Sciences #e.g. MS Geology
+          institution: University of Notre Dame #e.g UW-Madison
+          year: 2017
+          note: ''
+        - degree: BS Biology #e.g. MS Geology
+          institution: Calvin College #e.g UW-Madison
+          year: 2012
           note: ''
 
     expertise: #list of expertise
-        - ''
+        - 'Aquatic Biogeochemistry'
+        - 'Limnology'
+        - 'Ecosystem Modeling'
 
     mobilePhoto: jzwart_mobile.jpg
     photo: jzwart.jpg
