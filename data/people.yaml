@@ -1187,10 +1187,31 @@
     mobilePhoto: jzwart_mobile.jpg
     photo: jzwart.jpg
     currentWork:
-        - project: ''
+        - project: 'Regional-scale modeling of lake biogeochemical fluxes'
+          url:
+        - project: 'Regulators of lake carbon cycling'
+          url:
+        - project: 'Trait-based ecosystem ecology'
           url:
 
     publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2017:
+          - 'Vizza, C, <strong>JA Zwart</strong>, SE Jones, SD Tiegs, GA Lamberti. 2017. In Press. <a href="http://onlinelibrary.wiley.com/doi/10.1002/lno.10575/full" target="_blank">Landscape patterns shape wetland pond ecosystem function from glacial headwaters to ocean</a>. Limnology and Oceanography. DOI: 10.1002/lno.10575'
+          - 'Giling, DP, PA Staehr, HP Grossart, MR Andersen, B Boehrer, C Escot, F Evrendilek, L Gómez-Gener, M Honti, ID Jones, N Karakaya, A Laas, E Moreno-Ostos, K Rinke, U Scharfenberger, SR Schmidt, M Weber, RI Woolway, <strong>JA Zwart</strong>, B Obrador. 2017. <a href="http://onlinelibrary.wiley.com/doi/10.1002/lno.10504/full" target="_blank">Delving Deeper: Metabolic processes in the metalimnion of stratified lakes</a>. Limnology and Oceanography 62: 1288-1306'
+          
+          # fix rest
+          - 'Weidel, B.C., *Baglini, K., Jones, S.E., Kelly, P.T., Solomon, C.T., and Zwart, J.A. 2017. Differences in light climate due to dissolved organic carbon concentration drive species-specific changes in fish zooplanktivory. Inland Waters 7: 210-217'
+          - 'Zwart, J.A., S.D. Sebestyen, C.T. Solomon, and S.E. Jones. 2017. In Press. The influence of hydrologic residence time on lake carbon cycling dynamics following extreme precipitation events. Ecosystems 20: 1000-1014.'
+        
+        2016:
+          - 'Kelly, P.T., N Craig, C.T. Solomon, B.C. Weidel, J.A. Zwart, and S.E. Jones. 2016. Experimental whole-lake increase of dissolved organic carbon concentration produces unexpected increase in crustacean zooplankton density. Global Change Biology 22: 2766-2775'
+          - 'Dugan, HA, RI Woolway, AB Santoso, JR Corman, A Jaimes, ER Nodie, VP Patil, JA Zwart, JA Bentrup, AL Hetherington, SK Oliver, JS Read, KM Winters, PC Hanson, EK Read, LA Winslow, KC Weathers. 2016. Consequences of gas flux model choice on the interpretation of metabolic balance across 15 lakes. Inland Waters 6: 581-592'
+          - 'Zwart, J.A., N Craig, P.T. Kelly, S.D. Sebestyen, C.T. Solomon, B.C. Weidel, and S.E. Jones. 2016. Metabolic and physiochemical responses to a whole-lake experimental increase in dissolved organic carbon in a north-temperate lake. Limnology & Oceanography 61(2): 723-734'
+          - 'Winslow L.A., J.A. Zwart, R.D. Batt, H.A. Dugan, R.I. Woolway, J. Corman, P.C. Hanson, and J.S. Read. 2016. LakeMetabolizer: An R package for estimating lake metabolism from free-water oxygen using diverse statistical models. Inland Waters 6: 622-636'
+          
+        2015:
+          - 'Read, E., V. Patil, S. Oliver, A. Hetherington, J. Brentrup, J.A. Zwart, K. Winters, J. Corman, E. Nodine, R.I. Woolway, H. Dugan, A. Jaimes, A. Santoso, G. Hong, P. Hanson, L. Winslow, K. Weathers. 2015. The importance of lake-specific characteristics for water quality across the continental United States. Ecological Applications 25(4):943-955'
+          - 'Zwart, J.A., C.T. Solomon, and S.E. Jones. 2015. Phytoplankton traits predict ecosystem function in a global set of lakes. Ecology 96(8): 2257-2264'
 
     presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
