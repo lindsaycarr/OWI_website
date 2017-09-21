@@ -1158,37 +1158,86 @@
     manager: No #Yes or No
     title: Data Science Postdoc #what you want your title to be
     address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
-    phone:  #preferred phone for contact
+    phone: 608-821-3897 #preferred phone for contact
     accounts: #for all but email, enter a profile page url
         email: jzwart@usgs.gov #usgs email
         usgsProfPage:  #USGS Professional Page URL
         github: https://github.com/jzwart #github profile page url
         linkedin:  #linkedin profile page url
-        twitter:  #twitter profile page url
+        twitter:  https://twitter.com/JayZ_Limno #twitter profile page url
         researchgate:  #researchgate profile page url
-        googlescholar: '' #googlescholar profile page url
+        googlescholar: 'https://scholar.google.com/citations?user=C0F1fvoAAAAJ&hl=en' #googlescholar profile page url
     owiGroups: Data Science #e.g Data Science, Application Development, etc
 
     education:
-        - degree:  #e.g. MS Geology
-          institution:  #e.g UW-Madison
-          year: 
+        - degree: PhD Biological Sciences #e.g. MS Geology
+          institution: University of Notre Dame #e.g UW-Madison
+          year: 2017
+          note: ''
+        - degree: BS Biology #e.g. MS Geology
+          institution: Calvin College #e.g UW-Madison
+          year: 2012
           note: ''
 
     expertise: #list of expertise
-        - ''
+        - 'Aquatic Biogeochemistry'
+        - 'Limnology'
+        - 'Ecosystem Modeling'
 
     mobilePhoto: jzwart_mobile.jpg
     photo: jzwart.jpg
     currentWork:
-        - project: ''
+        - project: 'Regional-scale modeling of lake biogeochemical fluxes'
+          url:
+        - project: 'Regulators of lake carbon cycling'
+          url:
+        - project: 'Trait-based ecosystem ecology'
           url:
 
     publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
+        2017:
+          - 'Vizza, C, <strong>JA Zwart</strong>, SE Jones, SD Tiegs, GA Lamberti. 2017. In Press. <a href="http://onlinelibrary.wiley.com/doi/10.1002/lno.10575/full" target="_blank">Landscape patterns shape wetland pond ecosystem function from glacial headwaters to ocean</a>. Limnology and Oceanography. DOI: 10.1002/lno.10575'
+          - 'Giling, DP, PA Staehr, HP Grossart, MR Andersen, B Boehrer, C Escot, F Evrendilek, L Gómez-Gener, M Honti, ID Jones, N Karakaya, A Laas, E Moreno-Ostos, K Rinke, U Scharfenberger, SR Schmidt, M Weber, RI Woolway, <strong>JA Zwart</strong>, B Obrador. 2017. <a href="http://onlinelibrary.wiley.com/doi/10.1002/lno.10504/full" target="_blank">Delving Deeper: Metabolic processes in the metalimnion of stratified lakes</a>. Limnology and Oceanography 62: 1288-1306'
+          - 'Weidel, BC, K Baglini, SE Jones, PT Kelly, CT Solomon, <strong>JA Zwart</strong>. 2017. <a href="http://www.tandfonline.com/doi/abs/10.1080/20442041.2017.1329121" target="_blank">Differences in light climate due to dissolved organic carbon concentration drive species-specific changes in fish zooplanktivory</a>. Inland Waters 7: 210-217'
+          - '<strong>Zwart, JA</strong>, SD Sebestyen, CT Solomon, SE Jones. 2017. <a href="https://link.springer.com/article/10.1007/s10021-016-0088-6" target="_blank">The influence of hydrologic residence time on lake carbon cycling dynamics following extreme precipitation events</a>. Ecosystems 20: 1000-1014.'
+          - 'Wilkinson, GM, C Gaynus, T Moore, S Rosengard, H Schiebel, <strong>JA Zwart</strong>. 2017. <a href="http://onlinelibrary.wiley.com/doi/10.1002/lob.10168/full" target="_blank">Innovations and solutions for ASLO student travel grants. Limnology and Oceanography Bulletin 26: 54-55'
+        
+        2016:
+          - 'Kelly, PT, N Craig, CT Solomon, BC Weidel, <strong>JA Zwart</strong>, SE Jones. 2016. <a href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.13260/full" target="_blank">Experimental whole-lake increase of dissolved organic carbon concentration produces unexpected increase in crustacean zooplankton density</a>. Global Change Biology 22: 2766-2775'
+          - 'Dugan, HA, RI Woolway, AB Santoso, JR Corman, A Jaimes, ER Nodie, VP Patil, <strong>JA Zwart</strong>, JA Bentrup, AL Hetherington, SK Oliver, JS Read, KM Winters, PC Hanson, EK Read, LA Winslow, KC Weathers. 2016. <a href="http://www.tandfonline.com/doi/abs/10.5268/IW-6.4.836" target="_blank">Consequences of gas flux model choice on the interpretation of metabolic balance across 15 lakes</a>. Inland Waters 6: 581-592'
+          - '<strong>Zwart, JA</strong>, N Craig, PT Kelly, SD Sebestyen, CT Solomon, BC Weidel, SE Jones. 2016. <a href="http://onlinelibrary.wiley.com/doi/10.1002/lno.10248/full" target="_blank">Metabolic and physiochemical responses to a whole-lake experimental increase in dissolved organic carbon in a north-temperate lake</a>. Limnology & Oceanography 61: 723-734'
+          - 'Winslow LA, <strong>JA Zwart</strong>, RD Batt, HA Dugan, RI Woolway, J Corman, PC Hanson, JS Read. 2016. <a href="http://www.tandfonline.com/doi/abs/10.5268/IW-6.4.883" target="_blank">LakeMetabolizer: An R package for estimating lake metabolism from free-water oxygen using diverse statistical models</a>. Inland Waters 6: 622-636'
+          
+        2015:
+          - 'Read, E, V Patil, S Oliver, A Hetherington, J Brentrup, <strong>JA Zwart</strong>, K Winters, J Corman, E Nodine, RI Woolway, H Dugan, A Jaimes, A Santoso, G Hong, P Hanson, L Winslow, K Weathers. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1890/14-0935.1/full" target="_blank">The importance of lake-specific characteristics for water quality across the continental United States</a>. Ecological Applications 25:943-955'
+          - '<strong>Zwart, JA</strong>, CT Solomon, SE Jones. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1890/14-2102.1/full" target="_blank">Phytoplankton traits predict ecosystem function in a global set of lakes</a>. Ecology 96: 2257-2264'
 
     presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
-
-
+        2016:
+          - '<strong>Zwart, JA</strong>, SE Jones, CT Solomon, Y Li, ME Pfrender. Scaling from phytoplankton traits to lake ecosystem function. oral presentation. Unifying Ecology Across Scales, Gordon Research Seminar. Biddeford, Maine. July 2016'
+          - '<strong>Zwart, JA</strong>, SE Jones, CT Solomon, Y Li, ME Pfrender. Phytoplankton traits predict ecosystem function in a global set of lakes. oral presentation. Association for Sciences of Limnology and Oceanography. Sante Fe, New Mexico. June 2016.'
+          - '<strong>Zwart, JA</strong>, SE Jones, CT Solomon, Y Li, ME Pfrender. Scaling from phytoplankton traits to lake ecosystem function. poster presentation. Unifying Ecology Across Scales, Gordon Research Conference. Biddeford, Maine. July 2016.'
+        
+        2015: 
+          - '<strong>Zwart, JA</strong>, Z Hanson, D Bolster, C Chiu, A Hamlet, SE Jones. Spatially explicit scaling of lake carbon cycling: coupling climatic, hydrologic, and biological processes. oral presentation. Catchment Science: Interactions of Hydrology, Biology & Geochemistry Gordon Research Seminar. June 2015.'
+          - '<strong>Zwart, JA</strong>, S Sebestyen, CT Solomon, BC Weidel, SE Jones. Incorporating catchment processes in lake carbon cycling. poster presentation. Catchment Science: Interactions of Hydrology, Biology & Geochemistry Gordon Research Conference. June 2015'
+          - '<strong>Zwart, JA</strong>, SE Jones. Phytoplankton traits predict ecosystem function in a global set of lakes. 100th Annual Ecological Society of America Meeting. August 2015. (Jones as presenter) ' 
+        
+        2014:
+          - '<strong>Zwart, JA</strong>, CT Solomon, BC Weidel, SE Jones. Spatiotemporal controls of lake heterotrophy: Insights from coupling high frequency carbon loads and lake metabolism estimates. oral presentation. Science in the Northwoods. October 2014'
+          - '<strong>Zwart, JA</strong>, CT Solomon, BC Weidel, SE Jones. Spatiotemporal controls of lake heterotrophy: Insights from coupling high frequency carbon loads and lake metabolism estimates. poster presentation. Global Lake Ecological Observatory Network. October 2014.'
+          - '<strong>Zwart, JA</strong>, CT Solomon, BC Weidel, SE Jones. Lake heterotrophy supported by labile terrestrial carbon: coupling high frequency carbon loads and lake metabolism estimates. oral presentation. Joint Aquatic Sciences Meeting. May 2014.'
+        
+        2013:
+          - '<strong>Zwart, JA</strong>, CT Solomon, SE Jones. Ecological applications of sensor technology: phytoplankton traits detected at the ecosystem scale. poster presentation. Global Lake Ecological Observatory Network: 15. Bahia Blanca, Argentina. Nov. 6, 2013'
+          - '<strong>Zwart, JA</strong>, CT Solomon, SE Jones. Environmental drivers of phytoplankton light use efficiency in 25 globally distributed lakes. oral presentation. Midwest Ecology and Evolution Conference. March 2013.'
+          - '<strong>Zwart, JA</strong>, S Godwin, CT Solomon, BC Weidel, SD Sebestyen, JJ Coloso, SE Jones. Magnitude and composition of basal carbon supplies in lake ecosystems across a dissolved organic carbon gradient. oral presentation. Association for Sciences of Limnology and Oceanography. February 2013'
+          - '<strong>Zwart, JA</strong>, N Craig, PT Kelly. The effects of terrestrial carbon on aquatic consumers: potential implications from global browning of inland waters. oral presentation. University of Notre Dame Environmental Research Center. July 2013'
+        
+        2012:
+          - '<strong>Zwart, JA</strong>, CT Solomon, BC Weidel, SD Sebestyen, JJ Coloso, SE Jones. Lake hydrology determines organic carbon sources and retention in a small northern seepage lake. poster presentation. Global Lake Ecological Observatory Network. October 2012'
+  
+          
 -
     id: kmschoep #AD account
     name: Kathryn M. Schoephoester #Name that you want to appear on your profile page and elsewhere
