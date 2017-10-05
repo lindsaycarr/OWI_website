@@ -787,61 +787,6 @@
     presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
 -
-    id: jiwalker #AD account
-    name: Jordan I. Walker #Name that you want to appear on your profile page and elsewhere
-    manager: No #Yes or No
-    title: Computer Scientist #what you want your title to be
-    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
-    phone: 608-821-3842 #preferred phone for contact
-    accounts: #for all but email, enter a profile page url
-        email: jiwalker@usgs.gov #usgs email
-        usgsProfPage:  #USGS Professional Page URL
-        github: https://github.com/jiwalker-usgs #github profile page url
-        linkedin: http://www.linkedin.com/in/jordaniwalker #linkedin profile page url
-        twitter:  #twitter profile page url
-        researchgate:  #researchgate profile page url
-        googlescholar: 'http://scholar.google.com/citations?user=3tMKv9gAAAAJ&hl=en' #googlescholar profile page url
-    owiGroups: #e.g Data Science, Application Development, etc
-
-    education:
-        - degree: M.S. in Computer Science #e.g. MS Geology
-          institution: Univeristy of Wisconsin-Madison #e.g UW-Madison
-          year: 2010
-          note: ''
-
-    expertise: #list of expertise
-        - 'Web Application Development'
-        - 'Distributed Systems'
-        - 'Geospatial Processing'
-
-    mobilePhoto: jwalker_mobile.jpg
-    photo: jwalker.jpg
-    currentWork:
-        - project: 'Geo Data Portal'
-          url:
-          - project: 'National Water Census'
-          url:
-          - project: 'Coastal Change Hazards'
-          url:
-
-    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
-        2015:
-          - 'Read JS, <strong>JI Walker</strong>, AP Appling, DL Blodgett, EK Read, LA Winslow. 2015. <a href="http://onlinelibrary.wiley.com/doi/10.1111/ecog.01880/abstract">geoknife: Reproducible web-processing of large gridded datasets</a>. Ecography. 38: 1-7. doi:10.1111/ecog.01880'
-
-        2012:
-          - 'Blodgett, David and Booth, Nathaniel and Kunicki, Tom and <strong>Walker, Jordan</strong> and Lucido, Jessica. blodgett2012description: Description of the US Geological Survey Geo Data Portal Data Integration Framework, IEEE 2012'
-
-        2011:
-          - 'Patro, Ashish and Ma, Yadi and Panahi, Fatemeh and <strong>Walker, Jordan</strong> and Banerjee, Suman, patro2011system: A system for audio signalling based NAT traversal, Communication Systems and Networks (COMSNETS), 2011 Third International Conference on, (1--10) IEEE 2011'
-
-        2008:
-          - 'Ormont, Justin and <strong>Walker, Jordan</strong> and Banerjee, Suman, ACM SIGMETRICS Performance Evaluation Review, ormont2008continuous: Continuous monitoring of wide-area wireless networks: data collection and visualization, (87--89), ACM 2008'
-          - 'Ormont, Justin and <strong>Walker, Jordan</strong> and Banerjee, Suman and Sridharan, Ashwin and Seshadri, Mukund and Machiraju, Sridhar, ormont2008city, Proceedings of the third ACM international workshop on Wireless network testbeds, experimental evaluation and characterization, A city-wide vehicular infrastructure for wide-area wireless experimentation, (3--10), ACM 2008.'
-
-
-    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
-
--
     id: jkreft #AD account
     name: Jim Kreft #Name that you want to appear on your profile page and elsewhere
     manager: No #Yes or No
@@ -1930,45 +1875,6 @@
     publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
 
     presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
-
--
-    id: thongsav #AD account
-    name: Phethala Thongsavanh #Name that you want to appear on your profile page and elsewhere
-    manager: No #Yes or No
-    title: Computer Scientist #what you want your title to be
-    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
-    phone: 608-821-3881 #preferred phone for contact
-    accounts: #for all but email, enter a profile page url
-        email: thongsav@usgs.gov #usgs email
-        usgsProfPage:  #USGS Professional Page URL
-        github:  #github profile page url
-        linkedin:  #linkedin profile page url
-        twitter:  #twitter profile page url
-        researchgate:  #researchgate profile page url
-        googlescholar: '' #googlescholar profile page url
-    owiGroups: #e.g Data Science, Application Development, etc
-
-    education:
-        - degree: B.S. in Computer Science #e.g. MS Geology
-          institution: University of Wisconsin - Madison  #e.g UW-Madison
-          year: 2005
-          note: ''
-
-    expertise: #list of expertise
-        - 'Web Application Development'
-
-    mobilePhoto: pt_mobile.jpg
-    photo: pt.jpg
-    currentWork:
-        - project: 'USGS BioData'
-          url:
-          - project: 'NWIS Vision'
-          url:
-
-    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
-
-    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
-
 
 -
     id: apedraza #AD account
