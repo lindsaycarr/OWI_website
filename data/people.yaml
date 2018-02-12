@@ -712,43 +712,6 @@
             - '<strong>Kara, E</strong>. 2008. “Phosphorus Accumulating Bacteria in Aquatic Environments” International Microbial Community Dynamics Workshop. Stockholm, Sweden. Oral presentation.'
 
 -
-    id: gmoede #AD account
-    name: Garritt Moede #Name that you want to appear on your profile page and elsewhere
-    manager: No #Yes or No
-    title: Data Science Intern #what you want your title to be
-    address: *MiddletonOffice #matching one of the office locations above, with a * before the ID e.g. *MiddletonOffice
-    phone:  #preferred phone for contact
-    accounts: #for all but email, enter a profile page url
-        email: gmoede@usgs.gov #usgs email
-        usgsProfPage:  #USGS Professional Page URL
-        github: https://github.com/ede0m #github profile page url
-        linkedin:  #linkedin profile page url
-        twitter:  #twitter profile page url
-        researchgate:  #researchgate profile page url
-        googlescholar: '' #googlescholar profile page url
-    owiGroups: Data Science #e.g Data Science, Application Development, etc
-
-    education:
-        - degree:  #e.g. MS Geology
-          institution:  #e.g UW-Madison
-          year: 
-          note: ''
-
-    expertise: #list of expertise
-        - ''
-
-    mobilePhoto: gmoede_mobile.jpg
-    photo: gmoede.jpg
-    currentWork:
-        - project: ''
-          url:
-
-    publications: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
-
-    presentations: # list of citations, wrap in ' Escape single quotes with a second one O'Day --> O''Day
-
-
--
     id: isuftin #AD account
     name: Ivan Suftin #Name that you want to appear on your profile page and elsewhere
     manager: No #Yes or No
